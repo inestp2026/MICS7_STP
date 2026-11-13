@@ -10,6 +10,7 @@ DecimalChar=No
 SecurityOptions=30689587F3BCFE26B4A8DC9D17E997B63769B4B6CF9A72536A02033F3E3F8501
 
 [Languages]
+PT=Portugues
 ENG=English
 
 [Level]
@@ -19,7 +20,7 @@ Name=MN
 [IdItems]
 
 [Item]
-Label=Cluster number
+Label=Número do conglomerado|Cluster number
 Name=MWM1
 Start=1
 Len=5
@@ -27,7 +28,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Household number
+Label=Número do agregado familiar|Household number
 Name=MWM2
 Start=6
 Len=2
@@ -35,7 +36,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Interviewer number
+Label=Número do entrevistador|Interviewer number
 Name=MWMINT
 Start=8
 Len=3
@@ -43,7 +44,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Man's line number
+Label=Número de linha do homem|Man's line number
 Name=MWM3
 Start=14
 Len=2
@@ -51,25 +52,25 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Man's line number
+Label=Número de linha do homem
 Name=MWM3_VST
 Value=1:50
 
 [Record]
-Label=Man's Information Panel
+Label=Painel de informações do homem|Man's Information Panel
 Name=MODMWM
 RecordTypeValue='MWM'
 RecordLen=74
 
 [Item]
-Label=Man's name
+Label=Nome do homem|Man's name
 Name=MWM3A
 Start=16
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Supervisor number
+Label=Número do supervisor|Supervisor number
 Name=MWM4
 Start=36
 Len=3
@@ -77,7 +78,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Interviewer number
+Label=Número do entrevistador|Interviewer number
 Name=MWM5
 Start=39
 Len=3
@@ -85,7 +86,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Date of interview
+Label=Data da entrevista|Date of interview
 Name=MWM6
 Start=42
 Len=8
@@ -93,7 +94,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Day of interview
+Label=Dia da entrevista|Day of interview
 Name=MWM6D
 Start=42
 Len=2
@@ -102,12 +103,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Day of interview
+Label=Dia da entrevista
 Name=MWM6D_VST
 Value=1:31
 
 [Item]
-Label=Month of interview
+Label=Mês da entrevista|Month of interview
 Name=MWM6M
 Start=44
 Len=2
@@ -116,7 +117,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Month of interview
+Label=Mês da entrevista
 Name=MWM6M_VST
 Value=1;JANUARY
 Value=2;FEBRUARY
@@ -132,7 +133,7 @@ Value=11;NOVEMBER
 Value=12;DECEMBER
 
 [Item]
-Label=Year of interview
+Label=Ano da entrevista|Year of interview
 Name=MWM6Y
 Start=46
 Len=4
@@ -141,12 +142,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Year of interview
+Label=Ano da entrevista
 Name=MWM6Y_VST
 Value=2025:2028
 
 [Item]
-Label=Respondent to another questionnaire
+Label=Respondente de outro questionário|Respondent to another questionnaire
 Name=MWM8
 Start=50
 Len=1
@@ -154,13 +155,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Respondent to another questionnaire
+Label=Respondente de outro questionário
 Name=MWM8_VST
 Value=1;YES, INTERVIEWED ALREADY
 Value=2;NO, FIRST INTERVIEW
 
 [Item]
-Label=Consent
+Label=Consentimento|Consent
 Name=MWM9
 Start=51
 Len=1
@@ -168,13 +169,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent
+Label=Consentimento
 Name=MWM9_VST
 Value=1;YES
 Value=2;NO / NOT ASKED
 
 [Item]
-Label=Result of man's interview
+Label=Resultado da entrevista ao homem|Result of man's interview
 Name=MWM17
 Start=52
 Len=2
@@ -182,7 +183,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Result of man's interview
+Label=Resultado da entrevista ao homem
 Name=MWM17_VST
 Value=1;COMPLETED
 Value=2;NOT AT HOME
@@ -193,7 +194,7 @@ Value=6;NO ADULT CONSENT FOR RESPONDENT AGE 15-17
 Value=96;OTHER
 
 [Item]
-Label=Time of start of interview
+Label=Hora de início da entrevista|Time of start of interview
 Name=MWM7
 Start=54
 Len=4
@@ -201,7 +202,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Start of interview - Hour
+Label=Início da entrevista - Horas|Start of interview - Hour
 Name=MWM7H
 Start=54
 Len=2
@@ -210,12 +211,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Start of interview - Hour
+Label=Início da entrevista - Horas
 Name=MWM7H_VST
 Value=6:23
 
 [Item]
-Label=Start of interview - Minutes
+Label=Início da entrevista - Minutos|Start of interview - Minutes
 Name=MWM7M
 Start=56
 Len=2
@@ -224,12 +225,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Start of interview - Minutes
+Label=Início da entrevista - Minutos
 Name=MWM7M_VST
 Value=0:59
 
 [Item]
-Label=Time of end of interview
+Label=Hora de fim da entrevista|Time of end of interview
 Name=MWM10
 Start=58
 Len=4
@@ -237,7 +238,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=End of interview - Hour
+Label=Fim da entrevista - Horas|End of interview - Hour
 Name=MWM10H
 Start=58
 Len=2
@@ -246,12 +247,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=End of interview - Hour
+Label=Fim da entrevista - Horas
 Name=MWM10H_VST
 Value=6:23
 
 [Item]
-Label=End of interview - Minutes
+Label=Fim da entrevista - Minutos|End of interview - Minutes
 Name=MWM10M
 Start=60
 Len=2
@@ -260,12 +261,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=End of interview - Minutes
+Label=Fim da entrevista - Minutos
 Name=MWM10M_VST
 Value=0:59
 
 [Item]
-Label=Interview completed in private
+Label=Entrevista realizada em privado|Interview completed in private
 Name=MWM11
 Start=62
 Len=1
@@ -273,14 +274,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Interview completed in private
+Label=Entrevista realizada em privado
 Name=MWM11_VST
 Value=1;YES, THE ENTIRE INTERVIEW WAS COMPLETED IN PRIVATE
 Value=2;NO, OTHERS WERE PRESENT DURING THE ENTIRE INTERVIEW
 Value=3;NO, OTHERS WERE PRESENT DURING PART OF THE INTERVIEW
 
 [Item]
-Label=Language of the questionnaire
+Label=Idioma do questionário|Language of the questionnaire
 Name=MWM12
 Start=63
 Len=1
@@ -288,14 +289,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Language of the questionnaire
+Label=Idioma do questionário
 Name=MWM12_VST
 Value=1;ENGLISH
 Value=2;LANGUAGE 2
 Value=3;LANGUAGE 3
 
 [Item]
-Label=Language of the interview
+Label=Idioma da entrevista|Language of the interview
 Name=MWM13
 Start=64
 Len=1
@@ -303,7 +304,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Language of the interview
+Label=Idioma da entrevista
 Name=MWM13_VST
 Value=1;ENGLISH
 Value=2;LANGUAGE 2
@@ -311,7 +312,7 @@ Value=3;LANGUAGE 3
 Value=6;OTHER LANGUAGE
 
 [Item]
-Label=Native language of the respondent
+Label=Língua materna do respondente|Native language of the respondent
 Name=MWM14
 Start=65
 Len=1
@@ -319,7 +320,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Native language of the respondent
+Label=Língua materna do respondente
 Name=MWM14_VST
 Value=1;ENGLISH
 Value=2;LANGUAGE 2
@@ -327,7 +328,7 @@ Value=3;LANGUAGE 3
 Value=6;OTHER LANGUAGE
 
 [Item]
-Label=Translator used
+Label=Utilização de tradutor|Translator used
 Name=MWM15
 Start=66
 Len=1
@@ -335,14 +336,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Translator used
+Label=Utilização de tradutor
 Name=MWM15_VST
 Value=1;YES, THE ENTIRE QUESTIONNAIRE
 Value=2;YES, PARTS OF THE QUESTIONNAIRE
 Value=3;NO, NOT USED
 
 [Item]
-Label=Has been interviewed for any individual questionnaires
+Label=Foi entrevistado para algum questionário individual|Has been interviewed for any individual questionnaires
 Name=MWM15C
 Start=67
 Len=1
@@ -350,13 +351,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Has been interviewed for any individual questionnaires
+Label=Foi entrevistado para algum questionário individual
 Name=MWM15C_VS1
 Value=1;YES, ALREADY INTERVIEWED
 Value=2;NO, NOT ALREADY INTERVIEWED
 
 [Item]
-Label=Consent for phone survey
+Label=Consentimento para inquérito telefónico|Consent for phone survey
 Name=MWM15EF
 Start=68
 Len=1
@@ -364,13 +365,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent for phone survey
+Label=Consentimento para inquérito telefónico
 Name=MWM15EF_VS1
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Have personal phone number or phone number for the household
+Label=Tem número de telefone pessoal ou do agregado familiar|Have personal phone number or phone number for the household
 Name=MWM15GH
 Start=69
 Len=1
@@ -378,13 +379,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Have personal phone number or phone number for the household
+Label=Tem número de telefone pessoal ou do agregado familiar
 Name=MWM15GH_VS1
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Note on sharing phone number for the household
+Label=Nota sobre a partilha do número de telefone do agregado familiar|Note on sharing phone number for the household
 Name=MWM15I
 Start=70
 Len=1
@@ -392,12 +393,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Note on sharing phone number for the household
+Label=Nota sobre a partilha do número de telefone do agregado familiar
 Name=MWM15I_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Household interviewer
+Label=Entrevistador do agregado familiar|Household interviewer
 Name=MWMHINT
 Start=71
 Len=3
@@ -405,7 +406,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Finish
+Label=Concluir|Finish
 Name=MWMFIN
 Start=74
 Len=1
@@ -413,21 +414,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Finish
+Label=Concluir
 Name=MWMFIN_VST
 Value=1;REVIEW QUESTIONNAIRE
 Value=2;ADD NOTES
 Value=3;SAVE QUESTIONNAIRE AND FINISH
 
 [Record]
-Label=Man's Background
+Label=Características do homem|Man's Background
 Name=MODMWB
 RecordTypeValue='MWB'
 Required=No
 RecordLen=52
 
 [Item]
-Label=Date of birth of man
+Label=Data de nascimento do homem|Date of birth of man
 Name=MWB3
 Start=16
 Len=6
@@ -435,7 +436,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Month of birth of man
+Label=Mês de nascimento do homem|Month of birth of man
 Name=MWB3M
 Start=16
 Len=2
@@ -444,7 +445,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Month of birth of man
+Label=Mês de nascimento do homem
 Name=MWB3M_VST
 Value=1;JANUARY
 Value=2;FEBRUARY
@@ -462,7 +463,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Year of birth of man
+Label=Ano de nascimento do homem|Year of birth of man
 Name=MWB3Y
 Start=18
 Len=4
@@ -471,14 +472,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Year of birth of man
+Label=Ano de nascimento do homem
 Name=MWB3Y_VST
 Value=1975:2010
 Value=9998;DK
 Value=9999;NO RESPONSE
 
 [Item]
-Label=Age of man
+Label=Idade do homem|Age of man
 Name=MWB4
 Start=22
 Len=2
@@ -486,12 +487,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Age of man
+Label=Idade do homem
 Name=MWB4_VST
 Value=15:49
 
 [Item]
-Label=Born in this country or another one
+Label=Nasceu neste país ou noutro país|Born in this country or another one
 Name=MWB5
 Start=24
 Len=1
@@ -499,7 +500,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Born in this country or another one
+Label=Nasceu neste país ou noutro país
 Name=MWB5_VS1
 Value=1;THIS COUNTRY
 Value=2;OTHER COUNTRY
@@ -507,7 +508,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Region of birth
+Label=Região de nascimento|Region of birth
 Name=MWB5A
 Start=25
 Len=2
@@ -515,7 +516,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Region of birth
+Label=Região de nascimento
 Name=MWB5A_VS1
 Value=1;REGION 1
 Value=2;REGION 2
@@ -526,7 +527,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Country of birth
+Label=País de nascimento|Country of birth
 Name=MWB6
 Start=27
 Len=3
@@ -534,7 +535,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Country of birth
+Label=País de nascimento
 Name=MWB6_VS1
 Value=4;Afghanistan
 Value=8;Albania
@@ -790,7 +791,7 @@ Value=998;DK
 Value=999;NO RESPONSE
 
 [Item]
-Label=Have citizenship of this country
+Label=Tem nacionalidade deste país|Have citizenship of this country
 Name=MWB7
 Start=30
 Len=1
@@ -798,7 +799,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Have citizenship of this country
+Label=Tem nacionalidade deste país
 Name=MWB7_VS1
 Value=1;YES, CITIZEN OF THIS COUNTRY
 Value=2;NO, ANOTHER COUNTRY
@@ -806,7 +807,7 @@ Value=3;NO, NO CITIZENSHIP
 Value=9;NO RESPONSE
 
 [Item]
-Label=Have citizenship from another country
+Label=Tem nacionalidade de outro país|Have citizenship from another country
 Name=MWB7A
 Start=31
 Len=1
@@ -814,14 +815,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Have citizenship from another country
+Label=Tem nacionalidade de outro país
 Name=MWB7A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Another country of citizenship 1
+Label=Outro país de nacionalidade 1|Another country of citizenship 1
 Name=MWB7B1
 Start=32
 Len=3
@@ -829,7 +830,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Another country of citizenship 1
+Label=Outro país de nacionalidade 1
 Name=MWB7B1_VS1
 Value=4;Afghanistan
 Value=8;Albania
@@ -1084,7 +1085,7 @@ Value=976;UNABLE TO DETERMINE
 Value=999;NO RESPONSE
 
 [Item]
-Label=Another country of citizenship 2
+Label=Outro país de nacionalidade 2|Another country of citizenship 2
 Name=MWB7B2
 Start=35
 Len=3
@@ -1092,7 +1093,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Another country of citizenship 2
+Label=Outro país de nacionalidade 2
 Name=MWB7B2_VS1
 Value=0;NO MORE COUNTRY OF CITIZENSHIP
 Value=4;Afghanistan
@@ -1348,7 +1349,7 @@ Value=976;UNABLE TO DETERMINE
 Value=999;NO RESPONSE
 
 [Item]
-Label=Another country of citizenship 3
+Label=Outro país de nacionalidade 3|Another country of citizenship 3
 Name=MWB7B3
 Start=38
 Len=3
@@ -1356,7 +1357,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Another country of citizenship 3
+Label=Outro país de nacionalidade 3
 Name=MWB7B3_VS1
 Value=0;NO MORE COUNTRY OF CITIZENSHIP
 Value=4;Afghanistan
@@ -1612,7 +1613,7 @@ Value=976;UNABLE TO DETERMINE
 Value=999;NO RESPONSE
 
 [Item]
-Label=Date of interview man (CMC)
+Label=Data da entrevista ao homem (CMC)|Date of interview man (CMC)
 Name=MWDOI
 Start=41
 Len=4
@@ -1620,7 +1621,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Date of birth of man (CMC)
+Label=Data de nascimento do homem (CMC)|Date of birth of man (CMC)
 Name=MWB3C
 Start=45
 Len=4
@@ -1628,7 +1629,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Date flag for MWB3
+Label=Indicador de data para MWB3|Date flag for MWB3
 Name=MWB3F
 Start=49
 Len=1
@@ -1636,7 +1637,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Date flag for MWB3
+Label=Indicador de data para MWB3
 Name=MWB3F_VST
 Value=1;Month and year
 Value=2;Month and âge -y imp
@@ -1650,7 +1651,7 @@ Value=' ';Not applicable
 Name=NOTAPPL,Special
 
 [Item]
-Label=Age of respondent (calculated)
+Label=Idade do respondente (calculada)|Age of respondent (calculated)
 Name=MWB4C
 Start=50
 Len=2
@@ -1658,7 +1659,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Age
+Label=Idade|Age
 Name=MWAGE
 Start=52
 Len=1
@@ -1666,7 +1667,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Age
+Label=Idade
 Name=MWAGE_VST
 Value=1;15-19
 Value=2;20-24
@@ -1677,14 +1678,14 @@ Value=6;40-44
 Value=7;45-49
 
 [Record]
-Label=Migration
+Label=Migração|Migration
 Name=MODMMG
 RecordTypeValue='MMG'
 Required=No
 RecordLen=20
 
 [Item]
-Label=Time lived in current city/town/village
+Label=Tempo de residência na cidade, vila ou aldeia atual|Time lived in current city/town/village
 Name=MWB8
 Start=16
 Len=2
@@ -1692,14 +1693,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time lived in current city/town/village
+Label=Tempo de residência na cidade, vila ou aldeia atual
 Name=MWB8_VS1
 Value=0:48;YEARS
 Value=95;ALWAYS / SINCE BIRTH
 Value=99;NO RESPONSE
 
 [Item]
-Label=Type of place before move
+Label=Tipo de local de residência antes da mudança|Type of place before move
 Name=MWB9
 Start=18
 Len=1
@@ -1707,7 +1708,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Type of place before move
+Label=Tipo de local de residência antes da mudança
 Name=MWB9_VS1
 Value=1;CITY
 Value=2;TOWN
@@ -1717,7 +1718,7 @@ Value=8;DK/ DON'T REMEMBER
 Value=9;NO RESPONSE
 
 [Item]
-Label=Region lived before move
+Label=Região de residência antes da mudança|Region lived before move
 Name=MWB10
 Start=19
 Len=2
@@ -1725,7 +1726,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Region lived before move
+Label=Região de residência antes da mudança
 Name=MWB10_VS1
 Value=1;REGION 1
 Value=2;REGION 2
@@ -1736,14 +1737,14 @@ Value=96;OUTSIDE OF COUNTRY
 Value=99;NO RESPONSE
 
 [Record]
-Label=Health Insurance
+Label=Seguro de saúde|Health Insurance
 Name=MODMIN
 RecordTypeValue='MIN'
 Required=No
 RecordLen=22
 
 [Item]
-Label=Covered by any health insurance
+Label=Está abrangido por algum seguro de saúde|Covered by any health insurance
 Name=MIN1
 Start=16
 Len=1
@@ -1751,21 +1752,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Covered by any health insurance
+Label=Está abrangido por algum seguro de saúde
 Name=MIN1_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Type of health insurance
+Label=Tipo de seguro de saúde|Type of health insurance
 Name=MIN2
 Start=17
 Len=6
 DataType=Alpha
 
 [ValueSet]
-Label=Type of health insurance
+Label=Tipo de seguro de saúde
 Name=MIN2_VS1
 Value='A     ';MUTUAL HEALTH ORGANIZATION / COMMUNITY-BASED HEALTH INSURANCE
 Value='B     ';HEALTH INSURANCE THROUGH EMPLOYER
@@ -1775,7 +1776,7 @@ Value='X     ';OTHER
 Value='?     ';NO RESPONSE
 
 [Item]
-Label=Type of health insurance - Mutual-health organization / Community-based health insurance
+Label=Tipo de seguro de saúde - Mutualidade de saúde / Seguro de saúde comunitário|Type of health insurance - Mutual-health organization / Community-based health insurance
 Name=MIN2A
 Start=17
 Len=1
@@ -1783,14 +1784,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Type of health insurance - Mutual-health organization / Community-based health insurance
+Label=Tipo de seguro de saúde - Mutualidade de saúde / Seguro de saúde comunitário
 Name=MIN2A_VS1
 Value='A';MUTUAL HEALTH ORGANIZATION / COMMUNITY-BASED HEALTH INSURANCE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Type of health insurance - Health insurance through employer
+Label=Tipo de seguro de saúde - Seguro de saúde através do empregador|Type of health insurance - Health insurance through employer
 Name=MIN2B
 Start=18
 Len=1
@@ -1798,14 +1799,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Type of health insurance - Health insurance through employer
+Label=Tipo de seguro de saúde - Seguro de saúde através do empregador
 Name=MIN2B_VS1
 Value='B';HEALTH INSURANCE THROUGH EMPLOYER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Type of health insurance - Social security
+Label=Tipo de seguro de saúde - Segurança social|Type of health insurance - Social security
 Name=MIN2C
 Start=19
 Len=1
@@ -1813,14 +1814,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Type of health insurance - Social security
+Label=Tipo de seguro de saúde - Segurança social
 Name=MIN2C_VS1
 Value='C';SOCIAL SECURITY
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Type of health insurance - Other privately purchased commercial health insurance
+Label=Tipo de seguro de saúde - Outro seguro de saúde comercial adquirido individualmente|Type of health insurance - Other privately purchased commercial health insurance
 Name=MIN2D
 Start=20
 Len=1
@@ -1828,14 +1829,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Type of health insurance - Other privately purchased commercial health insurance
+Label=Tipo de seguro de saúde - Outro seguro de saúde comercial adquirido individualmente
 Name=MIN2D_VS1
 Value='D';OTHER PRIVATELY PURCHASED COMMERCIAL HEALTH INSURANCE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Type of health insurance - Other
+Label=Tipo de seguro de saúde - Outro|Type of health insurance - Other
 Name=MIN2X
 Start=21
 Len=1
@@ -1843,14 +1844,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Type of health insurance - Other
+Label=Tipo de seguro de saúde - Outro
 Name=MIN2X_VS1
 Value='X';OTHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Type of health insurance - No response
+Label=Tipo de seguro de saúde - Sem resposta|Type of health insurance - No response
 Name=MIN2NR
 Start=22
 Len=1
@@ -1858,20 +1859,20 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Type of health insurance - No response
+Label=Tipo de seguro de saúde - Sem resposta
 Name=MIN2NR_VS1
 Value='?';NO RESPONSE
 Value=' '
 
 [Record]
-Label=Employment and Training
+Label=Emprego e formação|Employment and Training
 Name=MODMNE
 RecordTypeValue='MNE'
 Required=No
 RecordLen=40
 
 [Item]
-Label=In the past 4 weeks: Attended school
+Label=Nas últimas 4 semanas: Frequentou a escola|In the past 4 weeks: Attended school
 Name=MNE3
 Start=16
 Len=1
@@ -1879,7 +1880,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 4 weeks: Attended school
+Label=Nas últimas 4 semanas: Frequentou a escola
 Name=MNE3_VS1
 Value=1;YES
 Value=2;NO
@@ -1887,7 +1888,7 @@ Value=3;NO, FULL-TIME STUDENT ON SCHOOL BREAK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 4 weeks: Participated in any unpaid activity in a workplace
+Label=Nas últimas 4 semanas: Participou numa atividade não remunerada num local de trabalho|In the past 4 weeks: Participated in any unpaid activity in a workplace
 Name=MNE4
 Start=17
 Len=1
@@ -1895,14 +1896,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 4 weeks: Participated in any unpaid activity in a workplace
+Label=Nas últimas 4 semanas: Participou numa atividade não remunerada num local de trabalho
 Name=MNE4_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Within last one year: Participated in any unpaid activity in a workplace
+Label=No último ano: Participou numa atividade não remunerada num local de trabalho|Within last one year: Participated in any unpaid activity in a workplace
 Name=MNE5
 Start=18
 Len=1
@@ -1910,14 +1911,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Within last one year: Participated in any unpaid activity in a workplace
+Label=No último ano: Participou numa atividade não remunerada num local de trabalho
 Name=MNE5_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 4 weeks: Attended courses, seminars or training
+Label=Nas últimas 4 semanas: Frequentou cursos, seminários ou formações|In the past 4 weeks: Attended courses, seminars or training
 Name=MNE6
 Start=19
 Len=1
@@ -1925,14 +1926,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 4 weeks: Attended courses, seminars or training
+Label=Nas últimas 4 semanas: Frequentou cursos, seminários ou formações
 Name=MNE6_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Within last one year: Attended courses, seminars or training
+Label=No último ano: Frequentou cursos, seminários ou formações|Within last one year: Attended courses, seminars or training
 Name=MNE7
 Start=20
 Len=1
@@ -1940,14 +1941,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Within last one year: Attended courses, seminars or training
+Label=No último ano: Frequentou cursos, seminários ou formações
 Name=MNE7_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week: Did paid work
+Label=Na semana passada: Realizou trabalho remunerado|Last week: Did paid work
 Name=MNE8
 Start=21
 Len=1
@@ -1955,14 +1956,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week: Did paid work
+Label=Na semana passada: Realizou trabalho remunerado
 Name=MNE8_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week: Ran or did kind of business, farming or other activity
+Label=Na semana passada: Exerceu atividade empresarial, agrícola ou outra atividade|Last week: Ran or did kind of business, farming or other activity
 Name=MNE9
 Start=22
 Len=1
@@ -1970,14 +1971,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week: Ran or did kind of business, farming or other activity
+Label=Na semana passada: Exerceu atividade empresarial, agrícola ou outra atividade
 Name=MNE9_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week: Helped in a family business or farm
+Label=Na semana passada: Ajudou numa empresa ou exploração agrícola familiar|Last week: Helped in a family business or farm
 Name=MNE10
 Start=23
 Len=1
@@ -1985,14 +1986,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week: Helped in a family business or farm
+Label=Na semana passada: Ajudou numa empresa ou exploração agrícola familiar
 Name=MNE10_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week: Had an absence to the paid job
+Label=Na semana passada: Esteve ausente do trabalho remunerado|Last week: Had an absence to the paid job
 Name=MNE11
 Start=24
 Len=1
@@ -2000,14 +2001,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week: Had an absence to the paid job
+Label=Na semana passada: Esteve ausente do trabalho remunerado
 Name=MNE11_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week reason for absence: Due to a shift work, flexi time
+Label=Motivo da ausência na semana passada: Trabalho por turnos ou horário flexível|Last week reason for absence: Due to a shift work, flexi time
 Name=MNE12A
 Start=25
 Len=1
@@ -2015,14 +2016,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week reason for absence: Due to a shift work, flexi time
+Label=Motivo da ausência na semana passada: Trabalho por turnos ou horário flexível
 Name=MNE12A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week reason for absence: Were on vacation
+Label=Motivo da ausência na semana passada: Estava de férias|Last week reason for absence: Were on vacation
 Name=MNE12B
 Start=26
 Len=1
@@ -2030,14 +2031,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week reason for absence: Were on vacation
+Label=Motivo da ausência na semana passada: Estava de férias
 Name=MNE12B_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week reason for absence: Sick, ill, suffered an ancident
+Label=Motivo da ausência na semana passada: Doença ou acidente|Last week reason for absence: Sick, ill, suffered an ancident
 Name=MNE12C
 Start=27
 Len=1
@@ -2045,14 +2046,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week reason for absence: Sick, ill, suffered an ancident
+Label=Motivo da ausência na semana passada: Doença ou acidente
 Name=MNE12C_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week reason for absence: On paternal leave
+Label=Motivo da ausência na semana passada: Licença de paternidade|Last week reason for absence: On paternal leave
 Name=MNE12D
 Start=28
 Len=1
@@ -2060,14 +2061,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week reason for absence: On paternal leave
+Label=Motivo da ausência na semana passada: Licença de paternidade
 Name=MNE12D_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week reason for absence: Waiting to start new job or business
+Label=Motivo da ausência na semana passada: À espera de iniciar novo emprego ou negócio|Last week reason for absence: Waiting to start new job or business
 Name=MNE13
 Start=29
 Len=1
@@ -2075,14 +2076,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week reason for absence: Waiting to start new job or business
+Label=Motivo da ausência na semana passada: À espera de iniciar novo emprego ou negócio
 Name=MNE13_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week reason for absence: Job/Business was in low or off-season
+Label=Motivo da ausência na semana passada: Atividade profissional ou negócio em época baixa|Last week reason for absence: Job/Business was in low or off-season
 Name=MNE14
 Start=30
 Len=1
@@ -2090,14 +2091,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week reason for absence: Job/Business was in low or off-season
+Label=Motivo da ausência na semana passada: Atividade profissional ou negócio em época baixa
 Name=MNE14_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the low or off-season contines to do some work for that job / business
+Label=Durante a época baixa continua a realizar algum trabalho nessa atividade ou negócio|During the low or off-season contines to do some work for that job / business
 Name=MNE15
 Start=31
 Len=1
@@ -2105,14 +2106,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the low or off-season contines to do some work for that job / business
+Label=Durante a época baixa continua a realizar algum trabalho nessa atividade ou negócio
 Name=MNE15_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Will return to same job / business in 3 months or less
+Label=Regressará ao mesmo emprego ou negócio dentro de 3 meses ou menos|Will return to same job / business in 3 months or less
 Name=MNE16
 Start=32
 Len=1
@@ -2120,7 +2121,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Will return to same job / business in 3 months or less
+Label=Regressará ao mesmo emprego ou negócio dentro de 3 meses ou menos
 Name=MNE16_VS1
 Value=1;YES
 Value=2;NO
@@ -2128,7 +2129,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Continue to receive an income from the job / business during this absence
+Label=Continua a receber rendimentos do emprego ou negócio durante esta ausência|Continue to receive an income from the job / business during this absence
 Name=MNE17
 Start=33
 Len=1
@@ -2136,7 +2137,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Continue to receive an income from the job / business during this absence
+Label=Continua a receber rendimentos do emprego ou negócio durante esta ausência
 Name=MNE17_VS1
 Value=1;YES
 Value=2;NO
@@ -2144,7 +2145,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Work: Farming or rearing farm animals
+Label=Trabalho: Agricultura ou criação de animais|Work: Farming or rearing farm animals
 Name=MNE18A
 Start=34
 Len=1
@@ -2152,14 +2153,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Work: Farming or rearing farm animals
+Label=Trabalho: Agricultura ou criação de animais
 Name=MNE18A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Work: Fishing or fishing farming
+Label=Trabalho: Pesca ou aquicultura|Work: Fishing or fishing farming
 Name=MNE18B
 Start=35
 Len=1
@@ -2167,14 +2168,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Work: Fishing or fishing farming
+Label=Trabalho: Pesca ou aquicultura
 Name=MNE18B_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Work: Another type of business
+Label=Trabalho: Outro tipo de negócio|Work: Another type of business
 Name=MNE18X
 Start=36
 Len=1
@@ -2182,14 +2183,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Work: Another type of business
+Label=Trabalho: Outro tipo de negócio
 Name=MNE18X_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Last week: Did farming, raring animals, fishing or fish farming
+Label=Na semana passada: Praticou agricultura, criação de animais, pesca ou aquicultura|Last week: Did farming, raring animals, fishing or fish farming
 Name=MNE20
 Start=37
 Len=1
@@ -2197,14 +2198,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last week: Did farming, raring animals, fishing or fish farming
+Label=Na semana passada: Praticou agricultura, criação de animais, pesca ou aquicultura
 Name=MNE20_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Products from work: Intention for sale
+Label=Produtos do trabalho: Intenção de venda|Products from work: Intention for sale
 Name=MNE21
 Start=38
 Len=1
@@ -2212,7 +2213,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Products from work: Intention for sale
+Label=Produtos do trabalho: Intenção de venda
 Name=MNE21_VS1
 Value=1;ONLY FOR SALE
 Value=2;MAINLY FOR SALE
@@ -2222,7 +2223,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Products from work: Type of sale
+Label=Produtos do trabalho: Tipo de venda|Products from work: Type of sale
 Name=MNE22
 Start=39
 Len=1
@@ -2230,7 +2231,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Products from work: Type of sale
+Label=Produtos do trabalho: Tipo de venda
 Name=MNE22_VS1
 Value=1;ONLY SOLD
 Value=2;MAINLY SOLD
@@ -2239,7 +2240,7 @@ Value=4;ONLY KEPT FOR FAMILY USE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Hired by someone else to do this work
+Label=Foi contratado por outra pessoa para realizar este trabalho|Hired by someone else to do this work
 Name=MNE23
 Start=40
 Len=1
@@ -2247,21 +2248,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Hired by someone else to do this work
+Label=Foi contratado por outra pessoa para realizar este trabalho
 Name=MNE23_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Record]
-Label=ICT Use
+Label=Utilização das TIC|ICT Use
 Name=MODMIC
 RecordTypeValue='MIC'
 Required=No
 RecordLen=33
 
 [Item]
-Label=Own a mobile phone
+Label=Possui um telemóvel|Own a mobile phone
 Name=MIC1
 Start=16
 Len=1
@@ -2269,14 +2270,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Own a mobile phone
+Label=Possui um telemóvel
 Name=MIC1_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Own a smartphone
+Label=Possui um smartphone|Own a smartphone
 Name=MIC2
 Start=17
 Len=1
@@ -2284,14 +2285,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Own a smartphone
+Label=Possui um smartphone
 Name=MIC2_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Mobile phone usage in the last 3 months
+Label=Utilização de telemóvel nos últimos 3 meses|Mobile phone usage in the last 3 months
 Name=MIC3
 Start=18
 Len=1
@@ -2299,7 +2300,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Mobile phone usage in the last 3 months
+Label=Utilização de telemóvel nos últimos 3 meses
 Name=MIC3_VS1
 Value=0;NOT AT ALL
 Value=1;LESS THAN ONCE A WEEK
@@ -2308,7 +2309,7 @@ Value=3;ALMOST EVERY DAY
 Value=9;NO RESPONSE
 
 [Item]
-Label=Ever used a computer or a tablet
+Label=Alguma vez utilizou um computador ou tablet|Ever used a computer or a tablet
 Name=MIC4
 Start=19
 Len=1
@@ -2316,14 +2317,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ever used a computer or a tablet
+Label=Alguma vez utilizou um computador ou tablet
 Name=MIC4_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Computer / tablet usage in the last 3 months
+Label=Utilização de computador ou tablet nos últimos 3 meses|Computer / tablet usage in the last 3 months
 Name=MIC5
 Start=20
 Len=1
@@ -2331,7 +2332,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Computer / tablet usage in the last 3 months
+Label=Utilização de computador ou tablet nos últimos 3 meses
 Name=MIC5_VS1
 Value=0;NOT AT ALL
 Value=1;LESS THAN ONCE A WEEK
@@ -2340,7 +2341,7 @@ Value=3;ALMOST EVERY DAY
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Use a copy / paste in document
+Label=Nos últimos 3 meses: Copiou e colou conteúdo num documento|During the last 3 months: Use a copy / paste in document
 Name=MIC7B
 Start=21
 Len=1
@@ -2348,14 +2349,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Use a copy / paste in document
+Label=Nos últimos 3 meses: Copiou e colou conteúdo num documento
 Name=MIC7B_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Send an e-mail with attached file
+Label=Nos últimos 3 meses: Enviou um e-mail com ficheiro anexo|During the last 3 months: Send an e-mail with attached file
 Name=MIC7C
 Start=22
 Len=1
@@ -2363,14 +2364,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Send an e-mail with attached file
+Label=Nos últimos 3 meses: Enviou um e-mail com ficheiro anexo
 Name=MIC7C_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Use a basic arithmetic formula in a spreadsheet
+Label=Nos últimos 3 meses: Utilizou uma fórmula aritmética básica numa folha de cálculo|During the last 3 months: Use a basic arithmetic formula in a spreadsheet
 Name=MIC7D
 Start=23
 Len=1
@@ -2378,14 +2379,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Use a basic arithmetic formula in a spreadsheet
+Label=Nos últimos 3 meses: Utilizou uma fórmula aritmética básica numa folha de cálculo
 Name=MIC7D_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Connect and install a new device
+Label=Nos últimos 3 meses: Ligou e instalou um novo dispositivo|During the last 3 months: Connect and install a new device
 Name=MIC7E
 Start=24
 Len=1
@@ -2393,14 +2394,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Connect and install a new device
+Label=Nos últimos 3 meses: Ligou e instalou um novo dispositivo
 Name=MIC7E_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Find, download, install and configure software
+Label=Nos últimos 3 meses: Procurou, descarregou, instalou e configurou software|During the last 3 months: Find, download, install and configure software
 Name=MIC7F
 Start=25
 Len=1
@@ -2408,14 +2409,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Find, download, install and configure software
+Label=Nos últimos 3 meses: Procurou, descarregou, instalou e configurou software
 Name=MIC7F_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Create an electronic presentation
+Label=Nos últimos 3 meses: Criou uma apresentação eletrónica|During the last 3 months: Create an electronic presentation
 Name=MIC7G
 Start=26
 Len=1
@@ -2423,14 +2424,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Create an electronic presentation
+Label=Nos últimos 3 meses: Criou uma apresentação eletrónica
 Name=MIC7G_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Transfer a file
+Label=Nos últimos 3 meses: Transferiu um ficheiro|During the last 3 months: Transfer a file
 Name=MIC7H
 Start=27
 Len=1
@@ -2438,14 +2439,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Transfer a file
+Label=Nos últimos 3 meses: Transferiu um ficheiro
 Name=MIC7H_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Set up effective security measures
+Label=Nos últimos 3 meses: Configurou medidas de segurança eficazes|During the last 3 months: Set up effective security measures
 Name=MIC7I
 Start=28
 Len=1
@@ -2453,14 +2454,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Set up effective security measures
+Label=Nos últimos 3 meses: Configurou medidas de segurança eficazes
 Name=MIC7I_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Change privacy settings
+Label=Nos últimos 3 meses: Alterou definições de privacidade|During the last 3 months: Change privacy settings
 Name=MIC7J
 Start=29
 Len=1
@@ -2468,14 +2469,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Change privacy settings
+Label=Nos últimos 3 meses: Alterou definições de privacidade
 Name=MIC7J_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Verify the reliability of information found online
+Label=Nos últimos 3 meses: Verificou a fiabilidade de informações encontradas na Internet|During the last 3 months: Verify the reliability of information found online
 Name=MIC7K
 Start=30
 Len=1
@@ -2483,14 +2484,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Verify the reliability of information found online
+Label=Nos últimos 3 meses: Verificou a fiabilidade de informações encontradas na Internet
 Name=MIC7K_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the last 3 months: Write a computer program
+Label=Nos últimos 3 meses: Escreveu um programa informático|During the last 3 months: Write a computer program
 Name=MIC7L
 Start=31
 Len=1
@@ -2498,14 +2499,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the last 3 months: Write a computer program
+Label=Nos últimos 3 meses: Escreveu um programa informático
 Name=MIC7L_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Ever used internet
+Label=Alguma vez utilizou a Internet|Ever used internet
 Name=MIC10
 Start=32
 Len=1
@@ -2513,14 +2514,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ever used internet
+Label=Alguma vez utilizou a Internet
 Name=MIC10_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Internet usage in the last 3 months
+Label=Utilização da Internet nos últimos 3 meses|Internet usage in the last 3 months
 Name=MIC11
 Start=33
 Len=1
@@ -2528,7 +2529,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Internet usage in the last 3 months
+Label=Utilização da Internet nos últimos 3 meses
 Name=MIC11_VS1
 Value=0;NOT AT ALL
 Value=1;LESS THAN ONCE A WEEK
@@ -2537,14 +2538,14 @@ Value=3;ALMOST EVERY DAY
 Value=9;NO RESPONSE
 
 [Record]
-Label=Time Use
+Label=Utilização do tempo|Time Use
 Name=MODMTU1
 RecordTypeValue='MTX'
 Required=No
 RecordLen=27
 
 [Item]
-Label=Introduction
+Label=Introdução|Introduction
 Name=MTU3
 Start=16
 Len=1
@@ -2552,12 +2553,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Introduction
+Label=Introdução
 Name=MTU3_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Time woke up yesterday
+Label=Hora a que acordou ontem|Time woke up yesterday
 Name=MTU4
 Start=17
 Len=5
@@ -2567,7 +2568,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Time woke up yesterday - Hour
+Label=Hora a que acordou ontem - Horas|Time woke up yesterday - Hour
 Name=MTU4H
 Start=17
 Len=2
@@ -2576,14 +2577,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time woke up yesterday - Hour
+Label=Hora a que acordou ontem - Horas
 Name=MTU4H_VS1
 Value=0:23
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Time woke up yesterday - Decimal
+Label=Hora a que acordou ontem - Decimal|Time woke up yesterday - Decimal
 Name=MTU4DEC
 Start=19
 Len=1
@@ -2591,7 +2592,7 @@ ItemType=SubItem
 DataType=Alpha
 
 [Item]
-Label=Time woke up yesterday - Minutes
+Label=Hora a que acordou ontem - Minutos|Time woke up yesterday - Minutes
 Name=MTU4M
 Start=20
 Len=2
@@ -2600,14 +2601,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time woke up yesterday - Minutes
+Label=Hora a que acordou ontem - Minutos
 Name=MTU4M_VS1
 Value=0:59
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Time went to sleep yesterday
+Label=Hora a que se deitou ontem|Time went to sleep yesterday
 Name=MTU5
 Start=22
 Len=5
@@ -2617,7 +2618,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Time went to sleep yesterday - Hour
+Label=Hora a que se deitou ontem - Horas|Time went to sleep yesterday - Hour
 Name=MTU5H
 Start=22
 Len=2
@@ -2626,14 +2627,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time went to sleep yesterday - Hour
+Label=Hora a que se deitou ontem - Horas
 Name=MTU5H_VS1
 Value=0:23
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Time went to sleep yesterday - Decimal
+Label=Hora a que se deitou ontem - Decimal|Time went to sleep yesterday - Decimal
 Name=MTU5DEC
 Start=24
 Len=1
@@ -2641,7 +2642,7 @@ ItemType=SubItem
 DataType=Alpha
 
 [Item]
-Label=Time went to sleep yesterday - Minutes
+Label=Hora a que se deitou ontem - Minutos|Time went to sleep yesterday - Minutes
 Name=MTU5M
 Start=25
 Len=2
@@ -2650,14 +2651,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time went to sleep yesterday - Minutes
+Label=Hora a que se deitou ontem - Minutos
 Name=MTU5M_VS1
 Value=0:59
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Did anything else other than mentioned
+Label=Fez alguma outra atividade além das mencionadas|Did anything else other than mentioned
 Name=MTU18
 Start=27
 Len=1
@@ -2665,14 +2666,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Did anything else other than mentioned
+Label=Fez alguma outra atividade além das mencionadas
 Name=MTU18_VS1
 Value=0;Show list of activities to read them
 Value=1;YES
 Value=2;NO
 
 [Record]
-Label=Time Use Activities
+Label=Atividades de utilização do tempo|Time Use Activities
 Name=MODMTU2
 RecordTypeValue='MTU'
 Required=No
@@ -2680,7 +2681,7 @@ MaxRecords=100
 RecordLen=83
 
 [Item]
-Label=Activity order
+Label=Ordem da atividade|Activity order
 Name=MTU6
 Start=16
 Len=3
@@ -2688,7 +2689,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Activity code
+Label=Código da atividade|Activity code
 Name=MTU7
 Start=19
 Len=3
@@ -2696,7 +2697,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Activity code
+Label=Código da atividade
 Name=MTU7_VS1
 Value=10;SLEEPING
 Value=20;EATING AND DRINKING
@@ -2720,14 +2721,14 @@ Value=150;READING FOR LEISURE
 Value=996;OTHER  ACTIVITIES NOT CAPTURED ELSEWHERE
 
 [Item]
-Label=Activity label
+Label=Descrição da atividade|Activity label
 Name=MTU7A
 Start=22
 Len=30
 DataType=Alpha
 
 [Item]
-Label=Activity start time
+Label=Hora de início da atividade|Activity start time
 Name=MTU8
 Start=52
 Len=5
@@ -2737,14 +2738,14 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [ValueSet]
-Label=Activity start time
+Label=Hora de início da atividade
 Name=MTU8_VS1
-Value=0.00:23.59
+Value=0,00:23,59
 Value='     '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Activity start time - Hour
+Label=Hora de início da atividade - Horas|Activity start time - Hour
 Name=MTU8H
 Start=52
 Len=2
@@ -2753,14 +2754,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Activity start time - Hour
+Label=Hora de início da atividade - Horas
 Name=MTU8H_VS1
 Value=0:23
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Activity start time - Decimal
+Label=Hora de início da atividade - Decimal|Activity start time - Decimal
 Name=MTU8DEC
 Start=54
 Len=1
@@ -2768,7 +2769,7 @@ ItemType=SubItem
 DataType=Alpha
 
 [Item]
-Label=Activity start time - Minutes
+Label=Hora de início da atividade - Minutos|Activity start time - Minutes
 Name=MTU8M
 Start=55
 Len=2
@@ -2777,14 +2778,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Activity start time - Minutes
+Label=Hora de início da atividade - Minutos
 Name=MTU8M_VS1
 Value=0:59
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Duration and End Time
+Label=Duração e hora de fim|Duration and End Time
 Name=MTU9X
 Start=57
 Len=1
@@ -2792,13 +2793,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Duration and End Time
+Label=Duração e hora de fim
 Name=MTU9X_VS1
 Value=1;DURATION
 Value=2;END TIME
 
 [Item]
-Label=Duration of activity
+Label=Duração da atividade|Duration of activity
 Name=MTU9
 Start=58
 Len=5
@@ -2808,7 +2809,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Duration of activity - Hour
+Label=Duração da atividade - Horas|Duration of activity - Hour
 Name=MTU9H
 Start=58
 Len=2
@@ -2817,14 +2818,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Duration of activity - Hour
+Label=Duração da atividade - Horas
 Name=MTU9H_VS1
 Value=0:23
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Duration of activity - Decimal
+Label=Duração da atividade - Decimal|Duration of activity - Decimal
 Name=MTU9DEC
 Start=60
 Len=1
@@ -2832,7 +2833,7 @@ ItemType=SubItem
 DataType=Alpha
 
 [Item]
-Label=Duration of activity - Minutes
+Label=Duração da atividade - Minutos|Duration of activity - Minutes
 Name=MTU9M
 Start=61
 Len=2
@@ -2841,14 +2842,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Duration of activity - Minutes
+Label=Duração da atividade - Minutos
 Name=MTU9M_VS1
 Value=0:59
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Activity end time
+Label=Hora de fim da atividade|Activity end time
 Name=MTU10
 Start=63
 Len=5
@@ -2858,7 +2859,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Activity end time - Hour
+Label=Hora de fim da atividade - Horas|Activity end time - Hour
 Name=MTU10H
 Start=63
 Len=2
@@ -2867,14 +2868,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Activity end time - Hour
+Label=Hora de fim da atividade - Horas
 Name=MTU10H_VS1
 Value=0:23
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Activity end time - Decimal
+Label=Hora de fim da atividade - Decimal|Activity end time - Decimal
 Name=MTU10DEC
 Start=65
 Len=1
@@ -2882,7 +2883,7 @@ ItemType=SubItem
 DataType=Alpha
 
 [Item]
-Label=Activity end time - Minutes
+Label=Hora de fim da atividade - Minutos|Activity end time - Minutes
 Name=MTU10M
 Start=66
 Len=2
@@ -2891,14 +2892,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Activity end time - Minutes
+Label=Hora de fim da atividade - Minutos
 Name=MTU10M_VS1
 Value=0:59
 Value='  '
 Name=NOTAPPL,Special
 
 [Item]
-Label=Played online
+Label=Jogou online|Played online
 Name=MTU12
 Start=68
 Len=1
@@ -2906,21 +2907,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Played online
+Label=Jogou online
 Name=MTU12_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Played with whom
+Label=Com quem jogou|Played with whom
 Name=MTU13
 Start=69
 Len=5
 DataType=Alpha
 
 [ValueSet]
-Label=Played with whom
+Label=Com quem jogou
 Name=MTU13_VS1
 Value='A    ';ALONE (ONLINE / OFFLINE)
 Value='B    ';WITH FRIENDS IN PERSON (ONLINE / OFFLINE)
@@ -2929,7 +2930,7 @@ Value='D    ';WITH OTHERS ONLINE
 Value='?    ';NO RESPONSE
 
 [Item]
-Label=Played with whom - Alone
+Label=Com quem jogou - Sozinho|Played with whom - Alone
 Name=MTU13A
 Start=69
 Len=1
@@ -2937,14 +2938,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Played with whom - Alone
+Label=Com quem jogou - Sozinho
 Name=MTU13A_VS1
 Value='A';ALONE (ONLINE / OFFLINE)
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Played with whom - With friends in person
+Label=Com quem jogou - Presencialmente com amigos|Played with whom - With friends in person
 Name=MTU13B
 Start=70
 Len=1
@@ -2952,14 +2953,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Played with whom - With friends in person
+Label=Com quem jogou - Presencialmente com amigos
 Name=MTU13B_VS1
 Value='B';WITH FRIENDS IN PERSON (ONLINE / OFFLINE)
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Played with whom - With friends online
+Label=Com quem jogou - Online com amigos|Played with whom - With friends online
 Name=MTU13C
 Start=71
 Len=1
@@ -2967,14 +2968,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Played with whom - With friends online
+Label=Com quem jogou - Online com amigos
 Name=MTU13C_VS1
 Value='C';WITH FRIENDS ONLINE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Played with whom - With others online
+Label=Com quem jogou - Online com outras pessoas|Played with whom - With others online
 Name=MTU13D
 Start=72
 Len=1
@@ -2982,14 +2983,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Played with whom - With others online
+Label=Com quem jogou - Online com outras pessoas
 Name=MTU13D_VS1
 Value='D';WITH OTHERS ONLINE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Played with whom - No response
+Label=Com quem jogou - Sem resposta|Played with whom - No response
 Name=MTU13NR
 Start=73
 Len=1
@@ -2997,13 +2998,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Played with whom - No response
+Label=Com quem jogou - Sem resposta
 Name=MTU13NR_VS1
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Watched online
+Label=Viu conteúdos online|Watched online
 Name=MTU14
 Start=74
 Len=1
@@ -3011,14 +3012,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Watched online
+Label=Viu conteúdos online
 Name=MTU14_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Got the news online
+Label=Consultou notícias online|Got the news online
 Name=MTU15
 Start=75
 Len=1
@@ -3026,14 +3027,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Got the news online
+Label=Consultou notícias online
 Name=MTU15_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Engaged in the civic activities online
+Label=Participou em atividades cívicas online|Engaged in the civic activities online
 Name=MTU16
 Start=76
 Len=1
@@ -3041,21 +3042,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Engaged in the civic activities online
+Label=Participou em atividades cívicas online
 Name=MTU16_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=How lessons delivered
+Label=Como foram ministradas as aulas|How lessons delivered
 Name=MTU17
 Start=77
 Len=7
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered
+Label=Como foram ministradas as aulas
 Name=MTU17_VS1
 Value='A      ';SELF-STUDY WITH MATERIALS PROVIDED BY SCHOOL / TEACHERS
 Value='B      ';RADIO-BASED LESSON
@@ -3066,7 +3067,7 @@ Value='X      ';OTHER
 Value='?      ';NO RESPONSE
 
 [Item]
-Label=How lessons delivered - Self study
+Label=Como foram ministradas as aulas - Estudo autónomo|How lessons delivered - Self study
 Name=MTU17A
 Start=77
 Len=1
@@ -3074,14 +3075,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered - Self study
+Label=Como foram ministradas as aulas - Estudo autónomo
 Name=MTU17A_VS1
 Value='A';SELF-STUDY WITH MATERIALS PROVIDED BY SCHOOL / TEACHERS
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=How lessons delivered - Radio-based lesson
+Label=Como foram ministradas as aulas - Aulas pela rádio|How lessons delivered - Radio-based lesson
 Name=MTU17B
 Start=78
 Len=1
@@ -3089,14 +3090,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered - Radio-based lesson
+Label=Como foram ministradas as aulas - Aulas pela rádio
 Name=MTU17B_VS1
 Value='B';RADIO-BASED LESSON
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=How lessons delivered - TV-based lesson
+Label=Como foram ministradas as aulas - Aulas pela televisão|How lessons delivered - TV-based lesson
 Name=MTU17C
 Start=79
 Len=1
@@ -3104,14 +3105,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered - TV-based lesson
+Label=Como foram ministradas as aulas - Aulas pela televisão
 Name=MTU17C_VS1
 Value='C';TV-BASED LESSON
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=How lessons delivered - Internet-based lesson
+Label=Como foram ministradas as aulas - Aulas pela Internet|How lessons delivered - Internet-based lesson
 Name=MTU17D
 Start=80
 Len=1
@@ -3119,14 +3120,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered - Internet-based lesson
+Label=Como foram ministradas as aulas - Aulas pela Internet
 Name=MTU17D_VS1
 Value='D';INTERNET-BASED LESSON
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=How lessons delivered - Face-to-face lesson
+Label=Como foram ministradas as aulas - Aulas presenciais|How lessons delivered - Face-to-face lesson
 Name=MTU17E
 Start=81
 Len=1
@@ -3134,14 +3135,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered - Face-to-face lesson
+Label=Como foram ministradas as aulas - Aulas presenciais
 Name=MTU17E_VS1
 Value='E';FACE-TO-FACE LESSON (AT CHILD’S HOME OR OUTSIDE SCHOOL)
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=How lessons delivered - Other
+Label=Como foram ministradas as aulas - Outro|How lessons delivered - Other
 Name=MTU17X
 Start=82
 Len=1
@@ -3149,14 +3150,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered - Other
+Label=Como foram ministradas as aulas - Outro
 Name=MTU17X_VS1
 Value='X';OTHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=How lessons delivered - No response
+Label=Como foram ministradas as aulas - Sem resposta|How lessons delivered - No response
 Name=MTU17NR
 Start=83
 Len=1
@@ -3164,20 +3165,20 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=How lessons delivered - No response
+Label=Como foram ministradas as aulas - Sem resposta
 Name=MTU17NR_VS1
 Value=' '
 Value='?';NO RESPONSE
 
 [Record]
-Label=Attitudes Toward Domestic Violence
+Label=Atitudes face à violência doméstica|Attitudes Toward Domestic Violence
 Name=MODMDV
 RecordTypeValue='MDV'
 Required=No
 RecordLen=20
 
 [Item]
-Label=If she goes out with out telling husband: wife beating justified
+Label=Se a mulher sair sem informar o marido: justifica-se bater-lhe|If she goes out with out telling husband: wife beating justified
 Name=MDV1A
 Start=16
 Len=1
@@ -3185,7 +3186,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=If she goes out with out telling husband: wife beating justified
+Label=Se a mulher sair sem informar o marido: justifica-se bater-lhe
 Name=MDV1A_VST
 Value=1;YES
 Value=2;NO
@@ -3193,7 +3194,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=If she neglects the children: wife beating justified
+Label=Se a mulher negligenciar os filhos: justifica-se bater-lhe|If she neglects the children: wife beating justified
 Name=MDV1B
 Start=17
 Len=1
@@ -3201,7 +3202,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=If she neglects the children: wife beating justified
+Label=Se a mulher negligenciar os filhos: justifica-se bater-lhe
 Name=MDV1B_VST
 Value=1;YES
 Value=2;NO
@@ -3209,7 +3210,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=If she argues with husband: wife beating justified
+Label=Se a mulher discutir com o marido: justifica-se bater-lhe|If she argues with husband: wife beating justified
 Name=MDV1C
 Start=18
 Len=1
@@ -3217,7 +3218,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=If she argues with husband: wife beating justified
+Label=Se a mulher discutir com o marido: justifica-se bater-lhe
 Name=MDV1C_VST
 Value=1;YES
 Value=2;NO
@@ -3225,7 +3226,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=If she refuses sex with husband: wife beating justified
+Label=Se a mulher recusar ter relações sexuais com o marido: justifica-se bater-lhe|If she refuses sex with husband: wife beating justified
 Name=MDV1D
 Start=19
 Len=1
@@ -3233,7 +3234,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=If she refuses sex with husband: wife beating justified
+Label=Se a mulher recusar ter relações sexuais com o marido: justifica-se bater-lhe
 Name=MDV1D_VST
 Value=1;YES
 Value=2;NO
@@ -3241,7 +3242,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=If she burns the food: wife beating justified
+Label=Se a mulher deixar queimar a comida: justifica-se bater-lhe|If she burns the food: wife beating justified
 Name=MDV1E
 Start=20
 Len=1
@@ -3249,7 +3250,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=If she burns the food: wife beating justified
+Label=Se a mulher deixar queimar a comida: justifica-se bater-lhe
 Name=MDV1E_VST
 Value=1;YES
 Value=2;NO
@@ -3257,14 +3258,14 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Record]
-Label=Safety / Discrimination
+Label=Segurança / Discriminação|Safety / Discrimination
 Name=MODMVT
 RecordTypeValue='MVT'
 Required=No
 RecordLen=41
 
 [Item]
-Label=Feeling safe walking alone in neighbourhood after dark
+Label=Sente-se seguro ao caminhar sozinho no bairro depois de escurecer|Feeling safe walking alone in neighbourhood after dark
 Name=MVT20
 Start=16
 Len=1
@@ -3272,7 +3273,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Feeling safe walking alone in neighbourhood after dark
+Label=Sente-se seguro ao caminhar sozinho no bairro depois de escurecer
 Name=MVT20_VST
 Value=1;VERY SAFE
 Value=2;SAFE
@@ -3282,7 +3283,7 @@ Value=7;NEVER WALK ALONE AFTER DARK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Feeling safe at home alone after dark
+Label=Sente-se seguro em casa sozinho depois de escurecer|Feeling safe at home alone after dark
 Name=MVT21
 Start=17
 Len=1
@@ -3290,7 +3291,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Feeling safe at home alone after dark
+Label=Sente-se seguro em casa sozinho depois de escurecer
 Name=MVT21_VST
 Value=1;VERY SAFE
 Value=2;SAFE
@@ -3300,7 +3301,7 @@ Value=7;NEVER ALONE AFTER DARK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Sex
+Label=Nos últimos 3 anos, sentiu-se discriminado: Sexo|In the past 3 years, felt discriminated: Sex
 Name=MVT23A
 Start=18
 Len=1
@@ -3308,7 +3309,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Sex
+Label=Nos últimos 3 anos, sentiu-se discriminado: Sexo
 Name=MVT23A_VS1
 Value=1;YES
 Value=2;NO
@@ -3316,7 +3317,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Sex
+Label=No último ano, sentiu-se discriminado: Sexo|In the past 1 year, felt discriminated: Sex
 Name=MVT23A1
 Start=19
 Len=1
@@ -3324,7 +3325,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Sex
+Label=No último ano, sentiu-se discriminado: Sexo
 Name=MVT23A1_VS1
 Value=1;YES
 Value=2;NO
@@ -3332,7 +3333,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Age
+Label=Nos últimos 3 anos, sentiu-se discriminado: Idade|In the past 3 years, felt discriminated: Age
 Name=MVT23B
 Start=20
 Len=1
@@ -3340,7 +3341,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Age
+Label=Nos últimos 3 anos, sentiu-se discriminado: Idade
 Name=MVT23B_VS1
 Value=1;YES
 Value=2;NO
@@ -3348,7 +3349,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Age
+Label=No último ano, sentiu-se discriminado: Idade|In the past 1 year, felt discriminated: Age
 Name=MVT23B1
 Start=21
 Len=1
@@ -3356,7 +3357,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Age
+Label=No último ano, sentiu-se discriminado: Idade
 Name=MVT23B1_VS1
 Value=1;YES
 Value=2;NO
@@ -3364,7 +3365,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Disability
+Label=Nos últimos 3 anos, sentiu-se discriminado: Deficiência|In the past 3 years, felt discriminated: Disability
 Name=MVT23C
 Start=22
 Len=1
@@ -3372,7 +3373,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Disability
+Label=Nos últimos 3 anos, sentiu-se discriminado: Deficiência
 Name=MVT23C_VS1
 Value=1;YES
 Value=2;NO
@@ -3380,7 +3381,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Disability
+Label=No último ano, sentiu-se discriminado: Deficiência|In the past 1 year, felt discriminated: Disability
 Name=MVT23C1
 Start=23
 Len=1
@@ -3388,7 +3389,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Disability
+Label=No último ano, sentiu-se discriminado: Deficiência
 Name=MVT23C1_VS1
 Value=1;YES
 Value=2;NO
@@ -3396,7 +3397,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Ethnicity, Race
+Label=Nos últimos 3 anos, sentiu-se discriminado: Etnia ou raça|In the past 3 years, felt discriminated: Ethnicity, Race
 Name=MVT23D
 Start=24
 Len=1
@@ -3404,7 +3405,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Ethnicity, Race
+Label=Nos últimos 3 anos, sentiu-se discriminado: Etnia ou raça
 Name=MVT23D_VS1
 Value=1;YES
 Value=2;NO
@@ -3412,7 +3413,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Ethnicity, Race
+Label=No último ano, sentiu-se discriminado: Etnia ou raça|In the past 1 year, felt discriminated: Ethnicity, Race
 Name=MVT23D1
 Start=25
 Len=1
@@ -3420,7 +3421,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Ethnicity, Race
+Label=No último ano, sentiu-se discriminado: Etnia ou raça
 Name=MVT23D1_VS1
 Value=1;YES
 Value=2;NO
@@ -3428,7 +3429,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Migration status
+Label=Nos últimos 3 anos, sentiu-se discriminado: Estatuto migratório|In the past 3 years, felt discriminated: Migration status
 Name=MVT23E
 Start=26
 Len=1
@@ -3436,7 +3437,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Migration status
+Label=Nos últimos 3 anos, sentiu-se discriminado: Estatuto migratório
 Name=MVT23E_VS1
 Value=1;YES
 Value=2;NO
@@ -3444,7 +3445,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Migration status
+Label=No último ano, sentiu-se discriminado: Estatuto migratório|In the past 1 year, felt discriminated: Migration status
 Name=MVT23E1
 Start=27
 Len=1
@@ -3452,7 +3453,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Migration status
+Label=No último ano, sentiu-se discriminado: Estatuto migratório
 Name=MVT23E1_VS1
 Value=1;YES
 Value=2;NO
@@ -3460,7 +3461,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Socio-Economic status
+Label=Nos últimos 3 anos, sentiu-se discriminado: Condição socioeconómica|In the past 3 years, felt discriminated: Socio-Economic status
 Name=MVT23F
 Start=28
 Len=1
@@ -3468,7 +3469,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Socio-Economic status
+Label=Nos últimos 3 anos, sentiu-se discriminado: Condição socioeconómica
 Name=MVT23F_VS1
 Value=1;YES
 Value=2;NO
@@ -3476,7 +3477,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Socio-Economic status
+Label=No último ano, sentiu-se discriminado: Condição socioeconómica|In the past 1 year, felt discriminated: Socio-Economic status
 Name=MVT23F1
 Start=29
 Len=1
@@ -3484,7 +3485,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Socio-Economic status
+Label=No último ano, sentiu-se discriminado: Condição socioeconómica
 Name=MVT23F1_VS1
 Value=1;YES
 Value=2;NO
@@ -3492,7 +3493,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Geographic location
+Label=Nos últimos 3 anos, sentiu-se discriminado: Localização geográfica|In the past 3 years, felt discriminated: Geographic location
 Name=MVT23G
 Start=30
 Len=1
@@ -3500,7 +3501,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Geographic location
+Label=Nos últimos 3 anos, sentiu-se discriminado: Localização geográfica
 Name=MVT23G_VS1
 Value=1;YES
 Value=2;NO
@@ -3508,7 +3509,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Geographic location
+Label=No último ano, sentiu-se discriminado: Localização geográfica|In the past 1 year, felt discriminated: Geographic location
 Name=MVT23G1
 Start=31
 Len=1
@@ -3516,7 +3517,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Geographic location
+Label=No último ano, sentiu-se discriminado: Localização geográfica
 Name=MVT23G1_VS1
 Value=1;YES
 Value=2;NO
@@ -3524,7 +3525,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Religion
+Label=Nos últimos 3 anos, sentiu-se discriminado: Religião|In the past 3 years, felt discriminated: Religion
 Name=MVT23H
 Start=32
 Len=1
@@ -3532,7 +3533,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Religion
+Label=Nos últimos 3 anos, sentiu-se discriminado: Religião
 Name=MVT23H_VS1
 Value=1;YES
 Value=2;NO
@@ -3540,7 +3541,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Religion
+Label=No último ano, sentiu-se discriminado: Religião|In the past 1 year, felt discriminated: Religion
 Name=MVT23H1
 Start=33
 Len=1
@@ -3548,7 +3549,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Religion
+Label=No último ano, sentiu-se discriminado: Religião
 Name=MVT23H1_VS1
 Value=1;YES
 Value=2;NO
@@ -3556,7 +3557,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Marital status
+Label=Nos últimos 3 anos, sentiu-se discriminado: Estado civil|In the past 3 years, felt discriminated: Marital status
 Name=MVT23I
 Start=34
 Len=1
@@ -3564,7 +3565,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Marital status
+Label=Nos últimos 3 anos, sentiu-se discriminado: Estado civil
 Name=MVT23I_VS1
 Value=1;YES
 Value=2;NO
@@ -3572,7 +3573,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Marital status
+Label=No último ano, sentiu-se discriminado: Estado civil|In the past 1 year, felt discriminated: Marital status
 Name=MVT23I1
 Start=35
 Len=1
@@ -3580,7 +3581,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Marital status
+Label=No último ano, sentiu-se discriminado: Estado civil
 Name=MVT23I1_VS1
 Value=1;YES
 Value=2;NO
@@ -3588,7 +3589,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Sexual orientation, Gender
+Label=Nos últimos 3 anos, sentiu-se discriminado: Orientação sexual ou género|In the past 3 years, felt discriminated: Sexual orientation, Gender
 Name=MVT23J
 Start=36
 Len=1
@@ -3596,7 +3597,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Sexual orientation, Gender
+Label=Nos últimos 3 anos, sentiu-se discriminado: Orientação sexual ou género
 Name=MVT23J_VS1
 Value=1;YES
 Value=2;NO
@@ -3604,7 +3605,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Sexual orientation, Gender
+Label=No último ano, sentiu-se discriminado: Orientação sexual ou género|In the past 1 year, felt discriminated: Sexual orientation, Gender
 Name=MVT23J1
 Start=37
 Len=1
@@ -3612,7 +3613,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Sexual orientation, Gender
+Label=No último ano, sentiu-se discriminado: Orientação sexual ou género
 Name=MVT23J1_VS1
 Value=1;YES
 Value=2;NO
@@ -3620,7 +3621,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Political opinion
+Label=Nos últimos 3 anos, sentiu-se discriminado: Opinião política|In the past 3 years, felt discriminated: Political opinion
 Name=MVT23K
 Start=38
 Len=1
@@ -3628,7 +3629,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Political opinion
+Label=Nos últimos 3 anos, sentiu-se discriminado: Opinião política
 Name=MVT23K_VS1
 Value=1;YES
 Value=2;NO
@@ -3636,7 +3637,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 year, felt discriminated: Political opinion
+Label=No último ano, sentiu-se discriminado: Opinião política|In the past 1 year, felt discriminated: Political opinion
 Name=MVT23K1
 Start=39
 Len=1
@@ -3644,7 +3645,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 year, felt discriminated: Political opinion
+Label=No último ano, sentiu-se discriminado: Opinião política
 Name=MVT23K1_VS1
 Value=1;YES
 Value=2;NO
@@ -3652,7 +3653,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 3 years, felt discriminated: Other
+Label=Nos últimos 3 anos, sentiu-se discriminado: Outro motivo|In the past 3 years, felt discriminated: Other
 Name=MVT23X
 Start=40
 Len=1
@@ -3660,7 +3661,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 3 years, felt discriminated: Other
+Label=Nos últimos 3 anos, sentiu-se discriminado: Outro motivo
 Name=MVT23X_VS1
 Value=1;YES
 Value=2;NO
@@ -3668,7 +3669,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past 1 years, felt discriminated: Other
+Label=No último ano, sentiu-se discriminado: Outro motivo|In the past 1 years, felt discriminated: Other
 Name=MVT23X2
 Start=41
 Len=1
@@ -3676,7 +3677,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past 1 years, felt discriminated: Other
+Label=No último ano, sentiu-se discriminado: Outro motivo
 Name=MVT23X1_VS2
 Value=1;YES
 Value=2;NO
@@ -3684,14 +3685,14 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Record]
-Label=Marriage/Union
+Label=Casamento / União|Marriage/Union
 Name=MODMMA
 RecordTypeValue='MMA'
 Required=No
 RecordLen=37
 
 [Item]
-Label=Currently married or living with a woman
+Label=Atualmente é casado ou vive em união com uma mulher|Currently married or living with a woman
 Name=MMA1
 Start=16
 Len=1
@@ -3699,7 +3700,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Currently married or living with a woman
+Label=Atualmente é casado ou vive em união com uma mulher
 Name=MMA1_VST
 Value=1;YES, CURRENTLY MARRIED
 Value=2;YES, LIVING WITH A PARTNER
@@ -3707,7 +3708,7 @@ Value=3;NO, NOT IN UNION
 Value=9;NO RESPONSE
 
 [Item]
-Label=Other wifes or live-in partners
+Label=Outras esposas ou companheiras com quem coabita|Other wifes or live-in partners
 Name=MMA3
 Start=17
 Len=1
@@ -3715,14 +3716,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Other wifes or live-in partners
+Label=Outras esposas ou companheiras com quem coabita
 Name=MMA3_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Number of wifes or live-in partners
+Label=Número de esposas ou companheiras com quem coabita|Number of wifes or live-in partners
 Name=MMA4
 Start=18
 Len=2
@@ -3730,14 +3731,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of wifes or live-in partners
+Label=Número de esposas ou companheiras com quem coabita
 Name=MMA4_VST
 Value=1:19
 Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Ever married or lived with a woman
+Label=Alguma vez foi casado ou viveu em união com uma mulher|Ever married or lived with a woman
 Name=MMA5
 Start=20
 Len=1
@@ -3745,7 +3746,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ever married or lived with a woman
+Label=Alguma vez foi casado ou viveu em união com uma mulher
 Name=MMA5_VST
 Value=1;YES, FORMERLY MARRIED
 Value=2;YES, FORMERLY LIVED WITH A PARTNER
@@ -3753,7 +3754,7 @@ Value=3;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Marital status
+Label=Estado civil|Marital status
 Name=MMA6
 Start=21
 Len=1
@@ -3761,7 +3762,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Marital status
+Label=Estado civil
 Name=MMA6_VST
 Value=1;WIDOWED
 Value=2;DIVORCED
@@ -3769,7 +3770,7 @@ Value=3;SEPARATED
 Value=9;NO RESPONSE
 
 [Item]
-Label=Married or lived with a woman once or more than once
+Label=Foi casado ou viveu em união com uma mulher uma ou mais vezes|Married or lived with a woman once or more than once
 Name=MMA7
 Start=22
 Len=1
@@ -3777,14 +3778,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Married or lived with a woman once or more than once
+Label=Foi casado ou viveu em união com uma mulher uma ou mais vezes
 Name=MMA7_VST
 Value=1;ONLY ONCE
 Value=2;MORE THAN ONCE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Date of first union
+Label=Data da primeira união|Date of first union
 Name=MMA8
 Start=23
 Len=6
@@ -3792,7 +3793,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Month of first union
+Label=Mês da primeira união|Month of first union
 Name=MMA8M
 Start=23
 Len=2
@@ -3801,7 +3802,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Month of first union
+Label=Mês da primeira união
 Name=MMA8M_VST
 Value=1;JANUARY
 Value=2;FEBRUARY
@@ -3819,7 +3820,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Year of first union
+Label=Ano da primeira união|Year of first union
 Name=MMA8Y
 Start=25
 Len=4
@@ -3828,14 +3829,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Year of first union
+Label=Ano da primeira união
 Name=MMA8Y_VST
 Value=1988:2025
 Value=9998;DK
 Value=9999;NO RESPONSE
 
 [Item]
-Label=Age at first union
+Label=Idade à primeira união|Age at first union
 Name=MMA11
 Start=29
 Len=2
@@ -3843,13 +3844,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Age at first union
+Label=Idade à primeira união
 Name=MMA11_VST
 Value=12:49
 Value=99;NO RESPONSE
 
 [Item]
-Label=Date of first union (CMC)
+Label=Data da primeira união (CMC)|Date of first union (CMC)
 Name=MMA8C
 Start=31
 Len=4
@@ -3857,7 +3858,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Date flag for MA8C
+Label=Indicador de data para MA8C|Date flag for MA8C
 Name=MMA8F
 Start=35
 Len=1
@@ -3865,7 +3866,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Date flag for MA8C
+Label=Indicador de data para MA8C
 Name=MMA8F_VST
 Value=1;Month and year
 Value=2;Month and age -y imp
@@ -3876,7 +3877,7 @@ Value=7;Month - a, y imp
 Value=8;None - all imp
 
 [Item]
-Label=Age at first union (calculated)
+Label=Idade à primeira união (calculada)|Age at first union (calculated)
 Name=MMA11C
 Start=36
 Len=2
@@ -3884,14 +3885,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Adult Functioning
+Label=Funcionalidade dos adultos|Adult Functioning
 Name=MODMAF
 RecordTypeValue='MAF'
 Required=No
 RecordLen=29
 
 [Item]
-Label=Use glasses or contact lenses
+Label=Usa óculos ou lentes de contacto|Use glasses or contact lenses
 Name=MAF2
 Start=16
 Len=1
@@ -3899,14 +3900,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Use glasses or contact lenses
+Label=Usa óculos ou lentes de contacto
 Name=MAF2_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Use hearing aid
+Label=Usa aparelho auditivo|Use hearing aid
 Name=MAF3
 Start=17
 Len=1
@@ -3914,14 +3915,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Use hearing aid
+Label=Usa aparelho auditivo
 Name=MAF3_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty seeing, even if wearing glasses or contact lenses
+Label=Dificuldade em ver, mesmo usando óculos ou lentes de contacto|Difficulty seeing, even if wearing glasses or contact lenses
 Name=MAF6
 Start=18
 Len=1
@@ -3929,7 +3930,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty seeing, even if wearing glasses or contact lenses
+Label=Dificuldade em ver, mesmo usando óculos ou lentes de contacto
 Name=MAF6_VST
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -3938,7 +3939,7 @@ Value=4;CANNOT SEE AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty hearing, even if using a hearing aid
+Label=Dificuldade em ouvir, mesmo usando aparelho auditivo|Difficulty hearing, even if using a hearing aid
 Name=MAF8
 Start=19
 Len=1
@@ -3946,7 +3947,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty hearing, even if using a hearing aid
+Label=Dificuldade em ouvir, mesmo usando aparelho auditivo
 Name=MAF8_VST
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -3955,7 +3956,7 @@ Value=4;CANNOT HEAR AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty walking or climbing steps
+Label=Dificuldade em andar ou subir degraus|Difficulty walking or climbing steps
 Name=MAF9
 Start=20
 Len=1
@@ -3963,7 +3964,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty walking or climbing steps
+Label=Dificuldade em andar ou subir degraus
 Name=MAF9_VST
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -3972,7 +3973,7 @@ Value=4;CANNOT WALK / CLIMB STEPS AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty remembering or concentrating
+Label=Dificuldade em recordar-se de coisas ou concentrar-se|Difficulty remembering or concentrating
 Name=MAF10
 Start=21
 Len=1
@@ -3980,7 +3981,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty remembering or concentrating
+Label=Dificuldade em recordar-se de coisas ou concentrar-se
 Name=MAF10_VST
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -3989,7 +3990,7 @@ Value=4;CANNOT REMEMBER / CONCENTRATE AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty with self-care, such as washing all over or dressing
+Label=Dificuldade em cuidar de si próprio, como tomar banho ou vestir-se|Difficulty with self-care, such as washing all over or dressing
 Name=MAF11
 Start=22
 Len=1
@@ -3997,7 +3998,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty with self-care, such as washing all over or dressing
+Label=Dificuldade em cuidar de si próprio, como tomar banho ou vestir-se
 Name=MAF11_VST
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -4006,7 +4007,7 @@ Value=4;CANNOT CARE FOR SELF AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty communicating
+Label=Dificuldade em comunicar|Difficulty communicating
 Name=MAF12
 Start=23
 Len=1
@@ -4014,7 +4015,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty communicating
+Label=Dificuldade em comunicar
 Name=MAF12_VST
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -4022,7 +4023,7 @@ Value=3;A LOT OF DIFFICULTY
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty with raising 2 litre of water/soda from waist to eye level
+Label=Dificuldade em levantar 2 litros de água ou refrigerante da cintura até à altura dos olhos|Difficulty with raising 2 litre of water/soda from waist to eye level
 Name=MAF13
 Start=24
 Len=1
@@ -4030,7 +4031,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty with raising 2 litre of water/soda from waist to eye level
+Label=Dificuldade em levantar 2 litros de água ou refrigerante da cintura até à altura dos olhos
 Name=MAF13_VS1
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -4039,7 +4040,7 @@ Value=4;CANNOT RAISE AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Difficulty with using fingers to pick up small objects
+Label=Dificuldade em utilizar os dedos para apanhar objetos pequenos|Difficulty with using fingers to pick up small objects
 Name=MAF14
 Start=25
 Len=1
@@ -4047,7 +4048,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Difficulty with using fingers to pick up small objects
+Label=Dificuldade em utilizar os dedos para apanhar objetos pequenos
 Name=MAF14_VS1
 Value=1;NO DIFFICULTY
 Value=2;SOME DIFFICULTY
@@ -4056,7 +4057,7 @@ Value=4;CANNOT USE AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Feel worried nervous or anxious
+Label=Sente preocupação, nervosismo ou ansiedade|Feel worried nervous or anxious
 Name=MAF15
 Start=26
 Len=1
@@ -4064,7 +4065,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Feel worried nervous or anxious
+Label=Sente preocupação, nervosismo ou ansiedade
 Name=MAF15_VS1
 Value=1;DAILY
 Value=2;WEEKLY
@@ -4074,7 +4075,7 @@ Value=5;NEVER
 Value=9;NO RESPONSE
 
 [Item]
-Label=Level of last anxiety
+Label=Intensidade do último episódio de ansiedade|Level of last anxiety
 Name=MAF16
 Start=27
 Len=1
@@ -4082,7 +4083,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Level of last anxiety
+Label=Intensidade do último episódio de ansiedade
 Name=MAF16_VS1
 Value=1;A LITTLE
 Value=2;A LOT
@@ -4090,7 +4091,7 @@ Value=3;SOMEWHERE IN BETWEEN A LITTLE AND A LOT
 Value=9;NO RESPONSE
 
 [Item]
-Label=Feel depressed
+Label=Sente-se deprimido|Feel depressed
 Name=MAF17
 Start=28
 Len=1
@@ -4098,7 +4099,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Feel depressed
+Label=Sente-se deprimido
 Name=MAF17_VS1
 Value=1;DAILY
 Value=2;WEEKLY
@@ -4108,7 +4109,7 @@ Value=5;NEVER
 Value=9;NO RESPONSE
 
 [Item]
-Label=Level of last depression
+Label=Intensidade do último episódio de depressão|Level of last depression
 Name=MAF18
 Start=29
 Len=1
@@ -4116,7 +4117,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Level of last depression
+Label=Intensidade do último episódio de depressão
 Name=MAF18_VS1
 Value=1;A LITTLE
 Value=2;A LOT
@@ -4124,14 +4125,14 @@ Value=3;SOMEWHERE IN BETWEEN A LITTLE AND A LOT
 Value=9;NO RESPONSE
 
 [Record]
-Label=Tobacco Use
+Label=Consumo de tabaco|Tobacco Use
 Name=MODMTO
 RecordTypeValue='MTO'
 Required=No
 RecordLen=29
 
 [Item]
-Label=Ever tried cigarette smoking
+Label=Alguma vez experimentou fumar cigarros|Ever tried cigarette smoking
 Name=MTO1
 Start=16
 Len=1
@@ -4139,14 +4140,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ever tried cigarette smoking
+Label=Alguma vez experimentou fumar cigarros
 Name=MTO1_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Age when cigarette was smoked for the first time
+Label=Idade em que fumou um cigarro pela primeira vez|Age when cigarette was smoked for the first time
 Name=MTO2
 Start=17
 Len=2
@@ -4154,14 +4155,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Age when cigarette was smoked for the first time
+Label=Idade em que fumou um cigarro pela primeira vez
 Name=MTO2_VS1
 Value=0;NEVER SMOKED A WHOLE CIGARETTE
 Value=5:49
 Value=99;NO RESPONSE
 
 [Item]
-Label=Currently smoking cigarettes
+Label=Atualmente fuma cigarros|Currently smoking cigarettes
 Name=MTO3
 Start=19
 Len=1
@@ -4169,7 +4170,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Currently smoking cigarettes
+Label=Atualmente fuma cigarros
 Name=MTO3_VS1
 Value=1;EVERY DAY
 Value=2;SOME DAYS
@@ -4177,7 +4178,7 @@ Value=3;NOT AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Number of cigarettes smoked each day
+Label=Número de cigarros fumados por dia|Number of cigarettes smoked each day
 Name=MTO4
 Start=20
 Len=2
@@ -4185,13 +4186,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of cigarettes smoked each day
+Label=Número de cigarros fumados por dia
 Name=MTO4_VS1
 Value=0:70
 Value=99;NO RESPONSE
 
 [Item]
-Label=Smoked cigarette in past month
+Label=Fumou cigarros no último mês|Smoked cigarette in past month
 Name=MTO5
 Start=22
 Len=1
@@ -4199,14 +4200,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Smoked cigarette in past month
+Label=Fumou cigarros no último mês
 Name=MTO5_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Ever heard electronic cigarette
+Label=Alguma vez ouviu falar de cigarros eletrónicos|Ever heard electronic cigarette
 Name=MTO6
 Start=23
 Len=1
@@ -4214,14 +4215,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ever heard electronic cigarette
+Label=Alguma vez ouviu falar de cigarros eletrónicos
 Name=MTO6_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Currently smoking electronic cigarettes
+Label=Atualmente fuma cigarros eletrónicos|Currently smoking electronic cigarettes
 Name=MTO7
 Start=24
 Len=1
@@ -4229,7 +4230,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Currently smoking electronic cigarettes
+Label=Atualmente fuma cigarros eletrónicos
 Name=MTO7_VS1
 Value=1;EVERY DAY
 Value=2;SOME DAYS
@@ -4237,7 +4238,7 @@ Value=3;NOT AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Smoked electronic cigarette in past month
+Label=Fumou cigarros eletrónicos no último mês|Smoked electronic cigarette in past month
 Name=MTO8
 Start=25
 Len=1
@@ -4245,14 +4246,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Smoked electronic cigarette in past month
+Label=Fumou cigarros eletrónicos no último mês
 Name=MTO8_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Currently smoking other tobacco products
+Label=Atualmente fuma outros produtos de tabaco|Currently smoking other tobacco products
 Name=MTO9
 Start=26
 Len=1
@@ -4260,7 +4261,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Currently smoking other tobacco products
+Label=Atualmente fuma outros produtos de tabaco
 Name=MTO9_VS1
 Value=1;EVERY DAY
 Value=2;SOME DAYS
@@ -4268,7 +4269,7 @@ Value=3;NOT AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Smoked other tobacco products in past month
+Label=Fumou outros produtos de tabaco no último mês|Smoked other tobacco products in past month
 Name=MTO10
 Start=27
 Len=1
@@ -4276,14 +4277,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Smoked other tobacco products in past month
+Label=Fumou outros produtos de tabaco no último mês
 Name=MTO10_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Currently using smokeless tobacco
+Label=Atualmente utiliza tabaco sem combustão|Currently using smokeless tobacco
 Name=MTO11
 Start=28
 Len=1
@@ -4291,7 +4292,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Currently using smokeless tobacco
+Label=Atualmente utiliza tabaco sem combustão
 Name=MTO11_VS1
 Value=1;EVERY DAY
 Value=2;SOME DAYS
@@ -4299,7 +4300,7 @@ Value=3;NOT AT ALL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Used smokeless tobacco in past month
+Label=Utilizou tabaco sem combustão no último mês|Used smokeless tobacco in past month
 Name=MTO12
 Start=29
 Len=1
@@ -4307,21 +4308,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Used smokeless tobacco in past month
+Label=Utilizou tabaco sem combustão no último mês
 Name=MTO12_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Record]
-Label=Mental Health
+Label=Saúde mental|Mental Health
 Name=MODMMH
 RecordTypeValue='MMH'
 Required=No
 RecordLen=505
 
 [Item]
-Label=Privacy obtanied
+Label=Privacidade assegurada|Privacy obtanied
 Name=MMH1
 Start=16
 Len=1
@@ -4329,13 +4330,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Privacy obtanied
+Label=Privacidade assegurada
 Name=MMH1_VS1
 Value=1;PRIVACY OBTAINED
 Value=2;PRIVACY NOT POSSIBLE
 
 [Item]
-Label=Introduction
+Label=Introdução|Introduction
 Name=MMH2
 Start=17
 Len=1
@@ -4343,12 +4344,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Introduction
+Label=Introdução
 Name=MMH2_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Been feeling very sad or depressed during the past two weeks
+Label=Sentiu-se muito triste ou deprimida nas últimas duas semanas|Been feeling very sad or depressed during the past two weeks
 Name=MMH3
 Start=18
 Len=1
@@ -4356,7 +4357,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Been feeling very sad or depressed during the past two weeks
+Label=Sentiu-se muito triste ou deprimida nas últimas duas semanas
 Name=MMH3_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4365,7 +4366,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt easily annoyyed or irritable at small things during the past two weeks
+Label=Sentiu-se facilmente incomodada ou irritada com pequenas coisas nas últimas duas semanas|Felt easily annoyyed or irritable at small things during the past two weeks
 Name=MMH4
 Start=19
 Len=1
@@ -4373,7 +4374,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt easily annoyyed or irritable at small things during the past two weeks
+Label=Sentiu-se facilmente incomodada ou irritada com pequenas coisas nas últimas duas semanas
 Name=MMH4_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4382,7 +4383,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Not enjoyed doing things she eused to enjoy during the past two weeks
+Label=Deixou de sentir prazer em atividades de que antes gostava nas últimas duas semanas|Not enjoyed doing things she eused to enjoy during the past two weeks
 Name=MMH5
 Start=20
 Len=1
@@ -4390,7 +4391,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Not enjoyed doing things she eused to enjoy during the past two weeks
+Label=Deixou de sentir prazer em atividades de que antes gostava nas últimas duas semanas
 Name=MMH5_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4399,7 +4400,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt hopeless about the future during the past two weeks
+Label=Sentiu falta de esperança em relação ao futuro nas últimas duas semanas|Felt hopeless about the future during the past two weeks
 Name=MMH6
 Start=21
 Len=1
@@ -4407,7 +4408,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt hopeless about the future during the past two weeks
+Label=Sentiu falta de esperança em relação ao futuro nas últimas duas semanas
 Name=MMH6_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4416,7 +4417,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt nervous anxious or on edge during the past two weeks
+Label=Sentiu-se nervosa, ansiosa ou inquieta nas últimas duas semanas|Felt nervous anxious or on edge during the past two weeks
 Name=MMH7
 Start=22
 Len=1
@@ -4424,7 +4425,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt nervous anxious or on edge during the past two weeks
+Label=Sentiu-se nervosa, ansiosa ou inquieta nas últimas duas semanas
 Name=MMH7_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4433,7 +4434,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Worried not doing the things right or doing poorly during the past two weeks
+Label=Preocupou-se por não fazer as coisas corretamente ou por ter um mau desempenho nas últimas duas semanas|Worried not doing the things right or doing poorly during the past two weeks
 Name=MMH8
 Start=23
 Len=1
@@ -4441,7 +4442,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Worried not doing the things right or doing poorly during the past two weeks
+Label=Preocupou-se por não fazer as coisas corretamente ou por ter um mau desempenho nas últimas duas semanas
 Name=MMH8_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4450,7 +4451,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Worried about what others think of her during the past two weeks
+Label=Preocupou-se com o que os outros pensam dela nas últimas duas semanas|Worried about what others think of her during the past two weeks
 Name=MMH9
 Start=24
 Len=1
@@ -4458,7 +4459,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Worried about what others think of her during the past two weeks
+Label=Preocupou-se com o que os outros pensam dela nas últimas duas semanas
 Name=MMH9_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4467,7 +4468,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Worried something bad will happen during the past two weeks
+Label=Preocupou-se com a possibilidade de acontecer algo de mau nas últimas duas semanas|Worried something bad will happen during the past two weeks
 Name=MMH10
 Start=25
 Len=1
@@ -4475,7 +4476,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Worried something bad will happen during the past two weeks
+Label=Preocupou-se com a possibilidade de acontecer algo de mau nas últimas duas semanas
 Name=MMH10_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4484,7 +4485,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Worried too much about different things during the past two weeks
+Label=Preocupou-se excessivamente com diferentes assuntos nas últimas duas semanas|Worried too much about different things during the past two weeks
 Name=MMH11
 Start=26
 Len=1
@@ -4492,7 +4493,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Worried too much about different things during the past two weeks
+Label=Preocupou-se excessivamente com diferentes assuntos nas últimas duas semanas
 Name=MMH11_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4501,7 +4502,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt unable to stop or control your worries during the past two weeks
+Label=Sentiu-se incapaz de parar ou controlar as suas preocupações nas últimas duas semanas|Felt unable to stop or control your worries during the past two weeks
 Name=MMH12
 Start=27
 Len=1
@@ -4509,7 +4510,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt unable to stop or control your worries during the past two weeks
+Label=Sentiu-se incapaz de parar ou controlar as suas preocupações nas últimas duas semanas
 Name=MMH12_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4518,7 +4519,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Not wanted to eat food or eaten too much during past two weeks
+Label=Teve falta de apetite ou comeu em excesso nas últimas duas semanas|Not wanted to eat food or eaten too much during past two weeks
 Name=MMH15
 Start=28
 Len=1
@@ -4526,7 +4527,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Not wanted to eat food or eaten too much during past two weeks
+Label=Teve falta de apetite ou comeu em excesso nas últimas duas semanas
 Name=MMH15_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4535,7 +4536,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Had sleeping issues during past two weeks
+Label=Teve problemas de sono nas últimas duas semanas|Had sleeping issues during past two weeks
 Name=MMH16
 Start=29
 Len=1
@@ -4543,7 +4544,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Had sleeping issues during past two weeks
+Label=Teve problemas de sono nas últimas duas semanas
 Name=MMH16_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4552,7 +4553,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt she got tired easily or did not have energy during past two weeks
+Label=Sentiu-se facilmente cansada ou sem energia nas últimas duas semanas|Felt she got tired easily or did not have energy during past two weeks
 Name=MMH17
 Start=30
 Len=1
@@ -4560,7 +4561,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt she got tired easily or did not have energy during past two weeks
+Label=Sentiu-se facilmente cansada ou sem energia nas últimas duas semanas
 Name=MMH17_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4569,7 +4570,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Had trouble on concentrating things during past two weeks
+Label=Teve dificuldade em concentrar-se nas últimas duas semanas|Had trouble on concentrating things during past two weeks
 Name=MMH18
 Start=31
 Len=1
@@ -4577,7 +4578,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Had trouble on concentrating things during past two weeks
+Label=Teve dificuldade em concentrar-se nas últimas duas semanas
 Name=MMH18_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4586,7 +4587,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt lonely during past two weeks
+Label=Sentiu-se sozinha nas últimas duas semanas|Felt lonely during past two weeks
 Name=MMH19
 Start=32
 Len=1
@@ -4594,7 +4595,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt lonely during past two weeks
+Label=Sentiu-se sozinha nas últimas duas semanas
 Name=MMH19_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4603,7 +4604,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt like a failure during past two weeks
+Label=Sentiu-se fracassada nas últimas duas semanas|Felt like a failure during past two weeks
 Name=MMH20
 Start=33
 Len=1
@@ -4611,7 +4612,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt like a failure during past two weeks
+Label=Sentiu-se fracassada nas últimas duas semanas
 Name=MMH20_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4620,7 +4621,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Had thoughts rather be dead or hurting herself during past two weeks
+Label=Pensou que seria melhor estar morta ou em magoar-se nas últimas duas semanas|Had thoughts rather be dead or hurting herself during past two weeks
 Name=MMH21
 Start=34
 Len=1
@@ -4628,7 +4629,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Had thoughts rather be dead or hurting herself during past two weeks
+Label=Pensou que seria melhor estar morta ou em magoar-se nas últimas duas semanas
 Name=MMH21_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4637,7 +4638,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Others said she was moving more slowly than usual during past two weeks
+Label=Outras pessoas disseram que se movimentava mais lentamente do que o habitual nas últimas duas semanas|Others said she was moving more slowly than usual during past two weeks
 Name=MMH22
 Start=35
 Len=1
@@ -4645,7 +4646,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Others said she was moving more slowly than usual during past two weeks
+Label=Outras pessoas disseram que se movimentava mais lentamente do que o habitual nas últimas duas semanas
 Name=MMH22_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4654,7 +4655,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Others said she was restless during past two weeks
+Label=Outras pessoas disseram que estava inquieta nas últimas duas semanas|Others said she was restless during past two weeks
 Name=MMH23
 Start=36
 Len=1
@@ -4662,7 +4663,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Others said she was restless during past two weeks
+Label=Outras pessoas disseram que estava inquieta nas últimas duas semanas
 Name=MMH23_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4671,7 +4672,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt that it was difficult to breath during past two weeks
+Label=Sentiu dificuldade em respirar nas últimas duas semanas|Felt that it was difficult to breath during past two weeks
 Name=MMH24
 Start=37
 Len=1
@@ -4679,7 +4680,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt that it was difficult to breath during past two weeks
+Label=Sentiu dificuldade em respirar nas últimas duas semanas
 Name=MMH24_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4688,7 +4689,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt dizzy or faint during past two weeks
+Label=Sentiu tonturas ou sensação de desmaio nas últimas duas semanas|Felt dizzy or faint during past two weeks
 Name=MMH25
 Start=38
 Len=1
@@ -4696,7 +4697,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt dizzy or faint during past two weeks
+Label=Sentiu tonturas ou sensação de desmaio nas últimas duas semanas
 Name=MMH25_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4705,7 +4706,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Gotten suddenly scared for no reason during past two weeks
+Label=Sentiu medo repentino sem motivo aparente nas últimas duas semanas|Gotten suddenly scared for no reason during past two weeks
 Name=MMH27
 Start=39
 Len=1
@@ -4713,7 +4714,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Gotten suddenly scared for no reason during past two weeks
+Label=Sentiu medo repentino sem motivo aparente nas últimas duas semanas
 Name=MMH27_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4722,7 +4723,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Had difficulty relaxing or feeling calm during past two weeks
+Label=Teve dificuldade em relaxar ou sentir-se calma nas últimas duas semanas|Had difficulty relaxing or feeling calm during past two weeks
 Name=MMH28
 Start=40
 Len=1
@@ -4730,7 +4731,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Had difficulty relaxing or feeling calm during past two weeks
+Label=Teve dificuldade em relaxar ou sentir-se calma nas últimas duas semanas
 Name=MMH28_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4739,7 +4740,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Felt like her heart was pounding or beating too fast during past two weeks
+Label=Sentiu o coração a bater muito forte ou demasiado depressa nas últimas duas semanas|Felt like her heart was pounding or beating too fast during past two weeks
 Name=MMH29
 Start=41
 Len=1
@@ -4747,7 +4748,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Felt like her heart was pounding or beating too fast during past two weeks
+Label=Sentiu o coração a bater muito forte ou demasiado depressa nas últimas duas semanas
 Name=MMH29_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4756,7 +4757,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Had headaches or muscle tension during past two weeks
+Label=Teve dores de cabeça ou tensão muscular nas últimas duas semanas|Had headaches or muscle tension during past two weeks
 Name=MMH30
 Start=42
 Len=1
@@ -4764,7 +4765,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Had headaches or muscle tension during past two weeks
+Label=Teve dores de cabeça ou tensão muscular nas últimas duas semanas
 Name=MMH30_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4773,7 +4774,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Her daily activities negatively affected during past two weeks
+Label=As suas atividades diárias foram afetadas negativamente nas últimas duas semanas|Her daily activities negatively affected during past two weeks
 Name=MMH33
 Start=43
 Len=1
@@ -4781,7 +4782,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Her daily activities negatively affected during past two weeks
+Label=As suas atividades diárias foram afetadas negativamente nas últimas duas semanas
 Name=MMH33_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4790,7 +4791,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Her school or work activities negatively affected during past two weeks
+Label=As suas atividades escolares ou profissionais foram afetadas negativamente nas últimas duas semanas|Her school or work activities negatively affected during past two weeks
 Name=MMH34
 Start=44
 Len=1
@@ -4798,7 +4799,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Her school or work activities negatively affected during past two weeks
+Label=As suas atividades escolares ou profissionais foram afetadas negativamente nas últimas duas semanas
 Name=MMH34_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4808,7 +4809,7 @@ Value=5;NOT APPLICABLE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Her relationships with peers negatively affected during past two weeks
+Label=As suas relações com pessoas da mesma idade foram afetadas negativamente nas últimas duas semanas|Her relationships with peers negatively affected during past two weeks
 Name=MMH35
 Start=45
 Len=1
@@ -4816,7 +4817,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Her relationships with peers negatively affected during past two weeks
+Label=As suas relações com pessoas da mesma idade foram afetadas negativamente nas últimas duas semanas
 Name=MMH35_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4825,7 +4826,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Talking to someone else about these feelings and experiences
+Label=Falou com alguém sobre estes sentimentos e experiências|Talking to someone else about these feelings and experiences
 Name=MMH36
 Start=46
 Len=1
@@ -4833,7 +4834,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Talking to someone else about these feelings and experiences
+Label=Falou com alguém sobre estes sentimentos e experiências
 Name=MMH36_VS1
 Value=0;NEVER
 Value=1;SOMETIMES
@@ -4842,7 +4843,7 @@ Value=3;ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=Talking to someone else about these feelings and experiences - to confirm
+Label=Falou com alguém sobre estes sentimentos e experiências - Confirmação|Talking to someone else about these feelings and experiences - to confirm
 Name=MMH36A
 Start=47
 Len=1
@@ -4850,7 +4851,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Talking to someone else about these feelings and experiences - to confirm
+Label=Falou com alguém sobre estes sentimentos e experiências - Confirmação
 Name=MMH36A_VS1
 Value=0;NO, NEVER
 Value=1;YES, SOMETIMES
@@ -4859,7 +4860,7 @@ Value=3;YES, ALWAYS
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past month talked someone about these kinds of problems or worries
+Label=No último mês, falou com alguém sobre estes problemas ou preocupações|In the past month talked someone about these kinds of problems or worries
 Name=MMH37
 Start=48
 Len=1
@@ -4867,14 +4868,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past month talked someone about these kinds of problems or worries
+Label=No último mês, falou com alguém sobre estes problemas ou preocupações
 Name=MMH37_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=In the past month talked someone about these kinds of problems or worries - to confrm
+Label=No último mês, falou com alguém sobre estes problemas ou preocupações - Confirmação|In the past month talked someone about these kinds of problems or worries - to confrm
 Name=MMH37A
 Start=49
 Len=1
@@ -4882,21 +4883,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=In the past month talked someone about these kinds of problems or worries - to confrm
+Label=No último mês, falou com alguém sobre estes problemas ou preocupações - Confirmação
 Name=MMH37A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Person taked to
+Label=Pessoa com quem falou|Person taked to
 Name=MMH38
 Start=50
 Len=12
 DataType=Alpha
 
 [ValueSet]
-Label=Person taked to
+Label=Pessoa com quem falou
 Name=MMH38_VS1
 Value='A           ';COUNSELLOR
 Value='B           ';DOCTOR / NURSE / HEALTH AID
@@ -4912,7 +4913,7 @@ Value='X           ';OTHER
 Value='?           ';NO RESPONSE
 
 [Item]
-Label=Person talked to: Counsellor
+Label=Pessoa com quem falou: Conselheiro|Person talked to: Counsellor
 Name=MMH38A
 Start=50
 Len=1
@@ -4920,14 +4921,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Counsellor
+Label=Pessoa com quem falou: Conselheiro
 Name=MMH38A_VS1
 Value='A';COUNSELLOR
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Doctor, Nurse, Health Aid
+Label=Pessoa com quem falou: Médico, enfermeiro ou auxiliar de saúde|Person talked to: Doctor, Nurse, Health Aid
 Name=MMH38B
 Start=51
 Len=1
@@ -4935,14 +4936,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Doctor, Nurse, Health Aid
+Label=Pessoa com quem falou: Médico, enfermeiro ou auxiliar de saúde
 Name=MMH38B_VS1
 Value='B';DOCTOR / NURSE / HEALTH AID
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Other Qualified
+Label=Pessoa com quem falou: Outro profissional qualificado|Person talked to: Other Qualified
 Name=MMH38C
 Start=52
 Len=1
@@ -4950,14 +4951,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Other Qualified
+Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MMH38C_VS1
 Value='C';OTHER QUALIFIED
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Other Qualified
+Label=Pessoa com quem falou: Outro profissional qualificado|Person talked to: Other Qualified
 Name=MMH38D
 Start=53
 Len=1
@@ -4965,14 +4966,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Other Qualified
+Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MMH38D_VS1
 Value='D';OTHER QUALIFIED
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Other Qualified
+Label=Pessoa com quem falou: Outro profissional qualificado|Person talked to: Other Qualified
 Name=MMH38E
 Start=54
 Len=1
@@ -4980,14 +4981,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Other Qualified
+Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MMH38E_VS1
 Value='E';OTHER QUALIFIED
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Parent
+Label=Pessoa com quem falou: Pai ou mãe|Person talked to: Parent
 Name=MMH38F
 Start=55
 Len=1
@@ -4995,14 +4996,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Parent
+Label=Pessoa com quem falou: Pai ou mãe
 Name=MMH38F_VS1
 Value='F';PARENT
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Other Relative (Adult)
+Label=Pessoa com quem falou: Outro familiar (adulto)|Person talked to: Other Relative (Adult)
 Name=MMH38G
 Start=56
 Len=1
@@ -5010,14 +5011,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Other Relative (Adult)
+Label=Pessoa com quem falou: Outro familiar (adulto)
 Name=MMH38G_VS1
 Value='G';OTHER RELATIVE (ADULT)
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Other Relative (<18)
+Label=Pessoa com quem falou: Outro familiar (menor de 18 anos)|Person talked to: Other Relative (<18)
 Name=MMH38H
 Start=57
 Len=1
@@ -5025,14 +5026,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Other Relative (<18)
+Label=Pessoa com quem falou: Outro familiar (menor de 18 anos)
 Name=MMH38H_VS1
 Value='H';OTHER RELATIVE (<18)
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Teacher
+Label=Pessoa com quem falou: Professor|Person talked to: Teacher
 Name=MMH38I
 Start=58
 Len=1
@@ -5040,14 +5041,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Teacher
+Label=Pessoa com quem falou: Professor
 Name=MMH38I_VS1
 Value='I';TEACHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Friend
+Label=Pessoa com quem falou: Amigo|Person talked to: Friend
 Name=MMH38J
 Start=59
 Len=1
@@ -5055,14 +5056,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Friend
+Label=Pessoa com quem falou: Amigo
 Name=MMH38J_VS1
 Value='J';FRIEND
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: Other
+Label=Pessoa com quem falou: Outro|Person talked to: Other
 Name=MMH38X
 Start=60
 Len=1
@@ -5070,14 +5071,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: Other
+Label=Pessoa com quem falou: Outro
 Name=MMH38X_VS1
 Value='X';OTHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Person talked to: No response
+Label=Pessoa com quem falou: Sem resposta|Person talked to: No response
 Name=MMH38NR
 Start=61
 Len=1
@@ -5085,13 +5086,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Person talked to: No response
+Label=Pessoa com quem falou: Sem resposta
 Name=MMH38NR_VS1
 Value='?';NO RESPONSE
 Value=' '
 
 [Item]
-Label=Privacy obtanied
+Label=Privacidade assegurada|Privacy obtanied
 Name=MMH40
 Start=62
 Len=1
@@ -5099,13 +5100,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Privacy obtanied
+Label=Privacidade assegurada
 Name=MMH40_VS1
 Value=1;PRIVACY OBTAINED
 Value=2;PRIVACY NOT POSSIBLE
 
 [Item]
-Label=Tried suicide in past 12 months
+Label=Tentou suicidar-se nos últimos 12 meses|Tried suicide in past 12 months
 Name=MMH42
 Start=63
 Len=1
@@ -5113,14 +5114,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Tried suicide in past 12 months
+Label=Tentou suicidar-se nos últimos 12 meses
 Name=MMH42_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Thought about suicide in the past 2 weeks
+Label=Pensou em suicidar-se nas últimas duas semanas|Thought about suicide in the past 2 weeks
 Name=MMH43
 Start=64
 Len=1
@@ -5128,14 +5129,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Thought about suicide in the past 2 weeks
+Label=Pensou em suicidar-se nas últimas duas semanas
 Name=MMH43_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=High Suicidal Risk Emergency Referral Protocol
+Label=Protocolo de encaminhamento de emergência para risco elevado de suicídio|High Suicidal Risk Emergency Referral Protocol
 Name=MMH45
 Start=65
 Len=1
@@ -5143,13 +5144,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=High Suicidal Risk Emergency Referral Protocol
+Label=Protocolo de encaminhamento de emergência para risco elevado de suicídio
 Name=MMH45_VS1
 Value=1;YES, PERMISSION FOR REFERRAL
 Value=2;NO PERMISSION FOR REFERRAL
 
 [Item]
-Label=MH46 filter
+Label=Filtro MH46|MH46 filter
 Name=MMH46
 Start=66
 Len=1
@@ -5157,7 +5158,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=MH47 filter
+Label=Filtro MH47|MH47 filter
 Name=MMH47
 Start=67
 Len=1
@@ -5165,7 +5166,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Low/Moderate Risk Referral Protocol
+Label=Protocolo de encaminhamento para risco baixo ou moderado|Low/Moderate Risk Referral Protocol
 Name=MMH48
 Start=68
 Len=1
@@ -5173,13 +5174,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Low/Moderate Risk Referral Protocol
+Label=Protocolo de encaminhamento para risco baixo ou moderado
 Name=MMH48_VS1
 Value=1;YES, PERMISSION FOR REFERRAL
 Value=2;NO PERMISSION FOR REFERRAL
 
 [Item]
-Label=Protocol text MH49AB
+Label=Texto do protocolo MH49AB|Protocol text MH49AB
 Name=MMH49AB
 Start=69
 Len=1
@@ -5187,12 +5188,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Protocol text MH49AB
+Label=Texto do protocolo MH49AB
 Name=MMH49AB_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Referral CASEID
+Label=Identificador do caso encaminhado (CASEID)|Referral CASEID
 Name=MMH49AB1
 Start=70
 Len=7
@@ -5200,7 +5201,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Referral Type
+Label=Tipo de encaminhamento|Referral Type
 Name=MMH49AB2
 Start=77
 Len=1
@@ -5208,20 +5209,20 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Referral Type
+Label=Tipo de encaminhamento
 Name=MMH49AB2_VS1
 Value=1;HIGH RISK
 Value=2;LOW/MODERATE RISK
 
 [Item]
-Label=Referral Name of the Women
+Label=Nome da mulher encaminhada|Referral Name of the Women
 Name=MMH49AB3
 Start=78
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Referral Sex
+Label=Sexo da pessoa encaminhada|Referral Sex
 Name=MMH49AB4
 Start=98
 Len=1
@@ -5229,13 +5230,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Referral Sex
+Label=Sexo da pessoa encaminhada
 Name=MMH49AB4_VS1
 Value=1;MALE
 Value=2;FEMALE
 
 [Item]
-Label=Referral Age
+Label=Idade da pessoa encaminhada|Referral Age
 Name=MMH49AB5
 Start=99
 Len=2
@@ -5243,26 +5244,26 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Referral Age
+Label=Idade da pessoa encaminhada
 Name=MMH49AB5_VS1
 Value=15:49
 
 [Item]
-Label=Best and Safest Way
+Label=Forma mais adequada e segura|Best and Safest Way
 Name=MMH49AB6
 Start=101
 Len=3
 DataType=Alpha
 
 [ValueSet]
-Label=Best and Safest Way
+Label=Forma mais adequada e segura
 Name=MMH49AB6_VS1
 Value='A  ';PHONE
 Value='B  ';IN PERSON
 Value='X  ';OTHER
 
 [Item]
-Label=Best and Safest Way - Phone
+Label=Forma mais adequada e segura - Telefone|Best and Safest Way - Phone
 Name=MMH49AB6A
 Start=101
 Len=1
@@ -5270,13 +5271,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Best and Safest Way - Phone
+Label=Forma mais adequada e segura - Telefone
 Name=MMH49AB6A_VS1
 Value='A';PHONE
 Value=' '
 
 [Item]
-Label=Best and Safest Way - In Person
+Label=Forma mais adequada e segura - Presencialmente|Best and Safest Way - In Person
 Name=MMH49AB6B
 Start=102
 Len=1
@@ -5284,13 +5285,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Best and Safest Way - In Person
+Label=Forma mais adequada e segura - Presencialmente
 Name=MMH49AB6B_VS1
 Value='B';IN PERSON
 Value=' '
 
 [Item]
-Label=Best and Safest Way - Other
+Label=Forma mais adequada e segura - Outra|Best and Safest Way - Other
 Name=MMH49AB6X
 Start=103
 Len=1
@@ -5298,20 +5299,20 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Best and Safest Way - Other
+Label=Forma mais adequada e segura - Outra
 Name=MMH49AB6X_VS1
 Value='X';OTHER
 Value=' '
 
 [Item]
-Label=Referral Phone
+Label=Telefone para encaminhamento|Referral Phone
 Name=MMH49AB7
 Start=104
 Len=8
 DataType=Alpha
 
 [Item]
-Label=Referral Meetup Location  - Region No
+Label=Local de encontro para encaminhamento - Número da região|Referral Meetup Location  - Region No
 Name=MMH49AB8
 Start=112
 Len=2
@@ -5319,56 +5320,56 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Referral Meetup Location  - Region Name
+Label=Local de encontro para encaminhamento - Nome da região|Referral Meetup Location  - Region Name
 Name=MMH49AB8N
 Start=114
 Len=50
 DataType=Alpha
 
 [Item]
-Label=Referral Meetup Location  - District Name
+Label=Local de encontro para encaminhamento - Nome do distrito|Referral Meetup Location  - District Name
 Name=MMH49AB9N
 Start=164
 Len=50
 DataType=Alpha
 
 [Item]
-Label=Referral Meetup Location  - Name of Village Town
+Label=Local de encontro para encaminhamento - Nome da aldeia ou vila|Referral Meetup Location  - Name of Village Town
 Name=MMH49AB10N
 Start=214
 Len=50
 DataType=Alpha
 
 [Item]
-Label=Referral Meetup Location  - Description of Location
+Label=Local de encontro para encaminhamento - Descrição do local|Referral Meetup Location  - Description of Location
 Name=MMH49AB11N
 Start=264
 Len=50
 DataType=Alpha
 
 [Item]
-Label=Referral Meetup Location  - Nearby Landmark
+Label=Local de encontro para encaminhamento - Ponto de referência próximo|Referral Meetup Location  - Nearby Landmark
 Name=MMH49AB12
 Start=314
 Len=50
 DataType=Alpha
 
 [Item]
-Label=Referral Meetup Location  - Best Time to Contact
+Label=Local de encontro para encaminhamento - Melhor horário para contacto|Referral Meetup Location  - Best Time to Contact
 Name=MMH49AB13
 Start=364
 Len=50
 DataType=Alpha
 
 [Item]
-Label=Referral Meetup Location  - Best Time to Contact
+Label=Local de encontro para encaminhamento - Melhor horário para contacto|Referral Meetup Location  - Best Time to Contact
 Name=MMH49AB14
 Start=414
 Len=40
 DataType=Alpha
 
 [Item]
-Label=Protocol text MH49C
+Label=Texto do protocolo MH49C|Protocol text MH49C
 Name=MMH49C
 Start=454
 Len=1
@@ -5376,12 +5377,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Protocol text MH49C
+Label=Texto do protocolo MH49C
 Name=MMH49C_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Protocol text MH49D
+Label=Texto do protocolo MH49D|Protocol text MH49D
 Name=MMH49D
 Start=455
 Len=1
@@ -5389,19 +5390,19 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Protocol text MH49D
+Label=Texto do protocolo MH49D
 Name=MMH49D_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Interviewer's Observations
+Label=Observações do entrevistador|Interviewer's Observations
 Name=MMH51
 Start=456
 Len=50
 DataType=Alpha
 
 [Record]
-Label=MICS plus consent
+Label=Consentimento MICS Plus|MICS plus consent
 Name=MODMPN
 RecordTypeValue='MPN'
 Required=No
@@ -5409,7 +5410,7 @@ MaxRecords=5
 RecordLen=25
 
 [Item]
-Label=Shared phone number
+Label=Número de telefone partilhado|Shared phone number
 Name=MWM15J
 Start=16
 Len=8
@@ -5417,7 +5418,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Confirm shared number
+Label=Confirmar o número de telefone partilhado|Confirm shared number
 Name=MWM15K
 Start=24
 Len=1
@@ -5425,13 +5426,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Confirm shared number
+Label=Confirmar o número de telefone partilhado
 Name=MWM15K_VS1
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Another personal or shared phone number where can be reached
+Label=Outro número de telefone, pessoal ou partilhado, através do qual possa ser contactado|Another personal or shared phone number where can be reached
 Name=MWM15L
 Start=25
 Len=1
@@ -5439,19 +5440,19 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Another personal or shared phone number where can be reached
+Label=Outro número de telefone, pessoal ou partilhado, através do qual possa ser contactado
 Name=MWM15L_VS1
 Value=1;YES
 Value=2;NO
 
 [Record]
-Label=Time Stamps of the Women Questionnaire Modules
+Label=Registos de data e hora dos módulos do questionário da mulher|Time Stamps of the Women Questionnaire Modules
 Name=MODMNTS
 RecordTypeValue='MTS'
 RecordLen=465
 
 [Item]
-Label=Timestamp of start of MN Questionnaire - Man’s information panel
+Label=Data e hora de início do questionário MN - Painel de informações do homem|Timestamp of start of MN Questionnaire - Man’s information panel
 Name=MWMMWMTSTMPS
 Start=16
 Len=15
@@ -5461,7 +5462,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of MN Questionnaire - Man’s information panel
+Label=Data e hora de fim do questionário MN - Painel de informações do homem|Timestamp of end of MN Questionnaire - Man’s information panel
 Name=MWMMWMTSTMPE
 Start=31
 Len=15
@@ -5471,7 +5472,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MWB Man’s background
+Label=Data e hora de início do módulo MWB - Características do homem|Timestamp of start of Module MWB Man’s background
 Name=MWMMWBTSTMPS
 Start=46
 Len=15
@@ -5481,7 +5482,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MWB Man’s background
+Label=Data e hora de fim do módulo MWB - Características do homem|Timestamp of end of Module MWB Man’s background
 Name=MWMMWBTSTMPE
 Start=61
 Len=15
@@ -5491,7 +5492,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MMG Migration
+Label=Data e hora de início do módulo MMG - Migração|Timestamp of start of Module MMG Migration
 Name=MWMMMGTSTMPS
 Start=76
 Len=15
@@ -5501,7 +5502,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MMG Migration
+Label=Data e hora de fim do módulo MMG - Migração|Timestamp of end of Module MMG Migration
 Name=MWMMMGTSTMPE
 Start=91
 Len=15
@@ -5511,7 +5512,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MIN Health insurance
+Label=Data e hora de início do módulo MIN - Seguro de saúde|Timestamp of start of Module MIN Health insurance
 Name=MWMMINTSTMPS
 Start=106
 Len=15
@@ -5521,7 +5522,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MIN Health insurance
+Label=Data e hora de fim do módulo MIN - Seguro de saúde|Timestamp of end of Module MIN Health insurance
 Name=MWMMINTSTMPE
 Start=121
 Len=15
@@ -5531,7 +5532,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MNE Employment and training [15-24]
+Label=Data e hora de início do módulo MNE - Emprego e formação [15-24]|Timestamp of start of Module MNE Employment and training [15-24]
 Name=MWMMNETSTMPS
 Start=136
 Len=15
@@ -5541,7 +5542,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MNE Employment and training [15-24]
+Label=Data e hora de fim do módulo MNE - Emprego e formação [15-24]|Timestamp of end of Module MNE Employment and training [15-24]
 Name=MWMMNETSTMPE
 Start=151
 Len=15
@@ -5551,7 +5552,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MIC ICT use
+Label=Data e hora de início do módulo MIC - Utilização das TIC|Timestamp of start of Module MIC ICT use
 Name=MWMMICTSTMPS
 Start=166
 Len=15
@@ -5561,7 +5562,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MIC ICT use
+Label=Data e hora de fim do módulo MIC - Utilização das TIC|Timestamp of end of Module MIC ICT use
 Name=MWMMICTSTMPE
 Start=181
 Len=15
@@ -5571,7 +5572,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MTU Time-use [15-17]
+Label=Data e hora de início do módulo MTU - Utilização do tempo [15-17]|Timestamp of start of Module MTU Time-use [15-17]
 Name=MWMMTUTSTMPS
 Start=196
 Len=15
@@ -5581,7 +5582,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MTU Time-use [15-17]
+Label=Data e hora de fim do módulo MTU - Utilização do tempo [15-17]|Timestamp of end of Module MTU Time-use [15-17]
 Name=MWMMTUTSTMPE
 Start=211
 Len=15
@@ -5591,7 +5592,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MDV Attitudes toward domestic violence
+Label=Data e hora de início do módulo MDV - Atitudes face à violência doméstica|Timestamp of start of Module MDV Attitudes toward domestic violence
 Name=MWMMDVTSTMPS
 Start=226
 Len=15
@@ -5601,7 +5602,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MDV Attitudes toward domestic violence
+Label=Data e hora de fim do módulo MDV - Atitudes face à violência doméstica|Timestamp of end of Module MDV Attitudes toward domestic violence
 Name=MWMMDVTSTMPE
 Start=241
 Len=15
@@ -5611,7 +5612,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MVT SDG16: Safety
+Label=Data e hora de início do módulo MVT ODS 16 - Segurança|Timestamp of start of Module MVT SDG16: Safety
 Name=MWMMVT1TSTMPS
 Start=256
 Len=15
@@ -5621,7 +5622,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MVT SDG16: Safety
+Label=Data e hora de fim do módulo MVT ODS 16 - Segurança|Timestamp of end of Module MVT SDG16: Safety
 Name=MWMMVT1TSTMPE
 Start=271
 Len=15
@@ -5631,7 +5632,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MVT SDG16: Discrimination
+Label=Data e hora de início do módulo MVT ODS 16 - Discriminação|Timestamp of start of Module MVT SDG16: Discrimination
 Name=MWMMVT2TSTMPS
 Start=286
 Len=15
@@ -5641,7 +5642,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MVT SDG16: Discrimination
+Label=Data e hora de fim do módulo MVT ODS 16 - Discriminação|Timestamp of end of Module MVT SDG16: Discrimination
 Name=MWMMVT2TSTMPE
 Start=301
 Len=15
@@ -5651,7 +5652,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MMA Marriage / Union
+Label=Data e hora de início do módulo MMA - Casamento / União|Timestamp of start of Module MMA Marriage / Union
 Name=MWMMMATSTMPS
 Start=316
 Len=15
@@ -5661,7 +5662,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MMA Marriage / Union
+Label=Data e hora de fim do módulo MMA - Casamento / União|Timestamp of end of Module MMA Marriage / Union
 Name=MWMMMATSTMPE
 Start=331
 Len=15
@@ -5671,7 +5672,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MAF Adult functioning [18-49]
+Label=Data e hora de início do módulo MAF - Funcionalidade dos adultos [18-49]|Timestamp of start of Module MAF Adult functioning [18-49]
 Name=MWMMAFTSTMPS
 Start=346
 Len=15
@@ -5681,7 +5682,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MAF Adult functioning [18-49]
+Label=Data e hora de fim do módulo MAF - Funcionalidade dos adultos [18-49]|Timestamp of end of Module MAF Adult functioning [18-49]
 Name=MWMMAFTSTMPE
 Start=361
 Len=15
@@ -5691,7 +5692,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MTO Tobacco use
+Label=Data e hora de início do módulo MTO - Consumo de tabaco|Timestamp of start of Module MTO Tobacco use
 Name=MWMMTOTSTMPS
 Start=376
 Len=15
@@ -5701,7 +5702,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MTO Tobacco use
+Label=Data e hora de fim do módulo MTO - Consumo de tabaco|Timestamp of end of Module MTO Tobacco use
 Name=MWMMTOTSTMPE
 Start=391
 Len=15
@@ -5711,7 +5712,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module MMH Mental health [15-24]
+Label=Data e hora de início do módulo MMH - Saúde mental [15-24]|Timestamp of start of Module MMH Mental health [15-24]
 Name=MWMMMHTSTMPS
 Start=406
 Len=15
@@ -5721,7 +5722,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module MMH Mental health [15-24]
+Label=Data e hora de fim do módulo MMH - Saúde mental [15-24]|Timestamp of end of Module MMH Mental health [15-24]
 Name=MWMMMHTSTMPE
 Start=421
 Len=15
@@ -5731,7 +5732,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of MN - End of Interview
+Label=Data e hora de início de MN - Fim da entrevista|Timestamp of start of MN - End of Interview
 Name=MWMENDTSTMPS
 Start=436
 Len=15
@@ -5741,7 +5742,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of MN - End of Interview
+Label=Data e hora de fim de MN - Fim da entrevista|Timestamp of end of MN - End of Interview
 Name=MWMENDTSTMPE
 Start=451
 Len=15

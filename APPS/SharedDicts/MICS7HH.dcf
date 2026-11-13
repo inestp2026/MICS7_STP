@@ -10,6 +10,7 @@ DecimalChar=No
 SecurityOptions=1DB005EC1D90D57463939D81D9995E26757D0E10BF8E4538CBC3E60370AE13C4
 
 [Languages]
+PT=Portugues
 ENG=English
 
 [Level]
@@ -19,7 +20,7 @@ Name=HH
 [IdItems]
 
 [Item]
-Label=Cluster number
+Label=Número do conglomerado|Cluster number
 Name=HH1
 Start=1
 Len=5
@@ -27,7 +28,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Household number
+Label=Número do agregado familiar|Household number
 Name=HH2
 Start=6
 Len=2
@@ -35,7 +36,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Household interviewer number
+Label=Número do entrevistador do agregado familiar|Household interviewer number
 Name=HINT
 Start=8
 Len=3
@@ -43,7 +44,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Household line number
+Label=Número de ordem no agregado familiar|Household line number
 Name=HLN
 Start=14
 Len=2
@@ -51,13 +52,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Household Information Panel
+Label=Painel de informação do agregado familiar|Household Information Panel
 Name=MODHH
 RecordTypeValue='0HH'
 RecordLen=250
 
 [Item]
-Label=Interviewer number
+Label=Número do entrevistador|Interviewer number
 Name=HH3
 Start=16
 Len=3
@@ -65,7 +66,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Supervisor number
+Label=Número do supervisor|Supervisor number
 Name=HH4
 Start=19
 Len=3
@@ -73,7 +74,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Date of interview
+Label=Data da entrevista|Date of interview
 Name=HH5
 Start=22
 Len=8
@@ -81,7 +82,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Day of interview
+Label=Dia da entrevista|Day of interview
 Name=HH5D
 Start=22
 Len=2
@@ -90,12 +91,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Day of interview
+Label=Dia da entrevista
 Name=HH5D_VST
 Value=1:31
 
 [Item]
-Label=Month of interview
+Label=Mês da entrevista|Month of interview
 Name=HH5M
 Start=24
 Len=2
@@ -104,12 +105,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Month of interview
+Label=Mês da entrevista
 Name=HH5M_VST
 Value=1:12
 
 [Item]
-Label=Year of interview
+Label=Ano da entrevista|Year of interview
 Name=HH5Y
 Start=26
 Len=4
@@ -118,12 +119,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Year of interview
+Label=Ano da entrevista
 Name=HH5Y_VST
 Value=2025:2028
 
 [Item]
-Label=Location
+Label=Localização|Location
 Name=HH6
 Start=30
 Len=1
@@ -131,13 +132,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Location
+Label=Localização
 Name=HH6_VST
 Value=1;URBAN
 Value=2;RURAL
 
 [Item]
-Label=Region
+Label=Região|Region
 Name=HH7
 Start=31
 Len=1
@@ -145,7 +146,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Region
+Label=Região
 Name=HH7_VST
 Value=1;REGION 1
 Value=2;REGION 2
@@ -154,7 +155,7 @@ Value=4;REGION 4
 Value=5;REGION 5
 
 [Item]
-Label=HH selected for Questionnaire for Men
+Label=Agregado familiar selecionado para o questionário dos homens|HH selected for Questionnaire for Men
 Name=HH8
 Start=32
 Len=1
@@ -162,13 +163,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=HH selected for Questionnaire for Men
+Label=Agregado familiar selecionado para o questionário dos homens
 Name=HH8_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=HH selected for Water Quality Testing
+Label=Agregado familiar selecionado para o teste da qualidade da água|HH selected for Water Quality Testing
 Name=HH9
 Start=33
 Len=1
@@ -176,13 +177,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=HH selected for Water Quality Testing
+Label=Agregado familiar selecionado para o teste da qualidade da água
 Name=HH9_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=HH selected for Blank Testing
+Label=Agregado familiar selecionado para o teste em branco|HH selected for Blank Testing
 Name=HH10
 Start=34
 Len=1
@@ -190,20 +191,20 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=HH selected for Blank Testing
+Label=Agregado familiar selecionado para o teste em branco
 Name=HH10_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Name of household head
+Label=Nome do chefe do agregado familiar|Name of household head
 Name=HHNAME
 Start=35
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Time of start of interview
+Label=Hora de início da entrevista|Time of start of interview
 Name=HH11
 Start=55
 Len=4
@@ -211,7 +212,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Start of interview - Hour
+Label=Início da entrevista - Hora|Start of interview - Hour
 Name=HH11H
 Start=55
 Len=2
@@ -220,12 +221,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Start of interview - Hour
+Label=Início da entrevista - Hora
 Name=HH11H_VST
 Value=6:23
 
 [Item]
-Label=Start of interview - Minutes
+Label=Início da entrevista - Minutos|Start of interview - Minutes
 Name=HH11M
 Start=57
 Len=2
@@ -234,12 +235,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Start of interview - Minutes
+Label=Início da entrevista - Minutos
 Name=HH11M_VST
 Value=0:59
 
 [Item]
-Label=Respondent age confirmation
+Label=Confirmação da idade do respondente|Respondent age confirmation
 Name=HH11C
 Start=59
 Len=1
@@ -247,12 +248,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Respondent age confirmation
+Label=Confirmação da idade do respondente
 Name=HH11C_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Consent
+Label=Consentimento|Consent
 Name=HH12
 Start=60
 Len=1
@@ -260,13 +261,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent
+Label=Consentimento
 Name=HH12_VST
 Value=1;YES
 Value=2;NO / NOT ASKED
 
 [Item]
-Label=Result of HH interview
+Label=Resultado da entrevista ao agregado familiar|Result of HH interview
 Name=HH46
 Start=61
 Len=2
@@ -274,7 +275,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Result of HH interview
+Label=Resultado da entrevista ao agregado familiar
 Name=HH46_VST
 Value=1;COMPLETED
 Value=2;NO HOUSEHOLD MEMBER AT HOME OR NO COMPETENT RESPONDENT AT HOME AT TIME OF VISIT
@@ -286,7 +287,7 @@ Value=7;DWELLING NOT FOUND
 Value=96;OTHER
 
 [Item]
-Label=Time of end of interview
+Label=Hora de fim da entrevista|Time of end of interview
 Name=HH13
 Start=63
 Len=4
@@ -294,7 +295,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=End of interview - Hour
+Label=Fim da entrevista - Hora|End of interview - Hour
 Name=HH13H
 Start=63
 Len=2
@@ -303,12 +304,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=End of interview - Hour
+Label=Fim da entrevista - Hora
 Name=HH13H_VST
 Value=6:23
 
 [Item]
-Label=End of interview - Minutes
+Label=Fim da entrevista - Minutos|End of interview - Minutes
 Name=HH13M
 Start=65
 Len=2
@@ -317,12 +318,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=End of interview - Minutes
+Label=Fim da entrevista - Minutos
 Name=HH13M_VST
 Value=0:59
 
 [Item]
-Label=Language of the Questionnaire
+Label=Língua do questionário|Language of the Questionnaire
 Name=HH14
 Start=67
 Len=1
@@ -330,14 +331,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Language of the Questionnaire
+Label=Língua do questionário
 Name=HH14_VST
 Value=1;ENGLISH
 Value=2;LANGUAGE 2
 Value=3;LANGUAGE 3
 
 [Item]
-Label=Language of the Interview
+Label=Língua da entrevista|Language of the Interview
 Name=HH15
 Start=68
 Len=1
@@ -345,7 +346,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Language of the Interview
+Label=Língua da entrevista
 Name=HH15_VST
 Value=1;ENGLISH
 Value=2;LANGUAGE 2
@@ -353,7 +354,7 @@ Value=3;LANGUAGE 3
 Value=6;OTHER LANGUAGE
 
 [Item]
-Label=Native language of the Respondent
+Label=Língua materna do respondente|Native language of the Respondent
 Name=HH16
 Start=69
 Len=1
@@ -361,7 +362,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Native language of the Respondent
+Label=Língua materna do respondente
 Name=HH16_VST
 Value=1;ENGLISH
 Value=2;LANGUAGE 2
@@ -369,7 +370,7 @@ Value=3;LANGUAGE 3
 Value=6;OTHER LANGUAGE
 
 [Item]
-Label=Translator used
+Label=Utilização de tradutor|Translator used
 Name=HH17
 Start=70
 Len=1
@@ -377,14 +378,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Translator used
+Label=Utilização de tradutor
 Name=HH17_VST
 Value=1;YES, ENTIRE QUESTIONNAIRE
 Value=2;YES, PART OF QUESTIONNAIRE
 Value=3;NO, NOT USED
 
 [Item]
-Label=Rank number of the selected child
+Label=Número de ordem da criança selecionada|Rank number of the selected child
 Name=HH26A
 Start=71
 Len=1
@@ -392,12 +393,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Rank number of the selected child
+Label=Número de ordem da criança selecionada
 Name=HH26A_VST
 Value=1:8
 
 [Item]
-Label=Child line number
+Label=Número de ordem da criança|Child line number
 Name=HH26B
 Start=72
 Len=2
@@ -405,13 +406,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Child line number
+Label=Número de ordem da criança
 Name=HH26B_VST
 Value=1:50
 Value=97;Inconsistent
 
 [Item]
-Label=Child's age
+Label=Idade da criança|Child's age
 Name=HH26C
 Start=74
 Len=2
@@ -419,7 +420,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Rank number of the selected woman for the VW module
+Label=Número de ordem da mulher selecionada para o módulo VW|Rank number of the selected woman for the VW module
 Name=HH30HA
 Start=76
 Len=1
@@ -427,12 +428,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Rank number of the selected woman for the VW module
+Label=Número de ordem da mulher selecionada para o módulo VW
 Name=HH30HA_VS1
 Value=1:8
 
 [Item]
-Label=Woman line number for the VW module
+Label=Número de ordem da mulher para o módulo VW|Woman line number for the VW module
 Name=HH30HB
 Start=77
 Len=2
@@ -440,13 +441,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Woman line number for the VW module
+Label=Número de ordem da mulher para o módulo VW
 Name=HH30HB_VS1
 Value=1:50
 Value=97;Inconsistent
 
 [Item]
-Label=Woman's age (selected for the VW module)
+Label=Idade da mulher selecionada para o módulo VW|Woman's age (selected for the VW module)
 Name=HH30HC
 Start=79
 Len=2
@@ -454,7 +455,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Roster to check the consent for interview girls 15-17
+Label=Lista para verificar o consentimento para entrevistar raparigas dos 15 aos 17 anos|Roster to check the consent for interview girls 15-17
 Name=HH33X
 Start=81
 Len=1
@@ -463,13 +464,13 @@ Occurrences=50
 ZeroFill=Yes
 
 [ValueSet]
-Label=Roster to check the consent for interview girls 15-17
+Label=Lista para verificar o consentimento para entrevistar raparigas dos 15 aos 17 anos
 Name=HH33X_VST
 Value=1;YES, PERMISSION IS GIVEN
 Value=2;NO, PERMISSION IS NOT GIVEN
 
 [Item]
-Label=Consent for interview girls 15-17
+Label=Consentimento para entrevistar raparigas dos 15 aos 17 anos|Consent for interview girls 15-17
 Name=HH33
 Start=131
 Len=1
@@ -477,14 +478,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent for interview girls 15-17
+Label=Consentimento para entrevistar raparigas dos 15 aos 17 anos
 Name=HH33_VST
 Value=1;YES for all girls age 15-17
 Value=2;NO for at least one girl age 15-17 and Yes to at least one girl age 15-17
 Value=3;NO for all girls age 15-17
 
 [Item]
-Label=Roster to check the consent for interview boys 15-17
+Label=Lista para verificar o consentimento para entrevistar rapazes dos 15 aos 17 anos|Roster to check the consent for interview boys 15-17
 Name=HH39X
 Start=132
 Len=1
@@ -493,13 +494,13 @@ Occurrences=50
 ZeroFill=Yes
 
 [ValueSet]
-Label=Roster to check the consent for interview boys 15-17
+Label=Lista para verificar o consentimento para entrevistar rapazes dos 15 aos 17 anos
 Name=HH39X_VST
 Value=1;YES, PERMISSION IS GIVEN
 Value=2;NO, PERMISSION IS NOT GIVEN
 
 [Item]
-Label=Consent for interview boys 15-17
+Label=Consentimento para entrevistar rapazes dos 15 aos 17 anos|Consent for interview boys 15-17
 Name=HH39
 Start=182
 Len=1
@@ -507,14 +508,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent for interview boys 15-17
+Label=Consentimento para entrevistar rapazes dos 15 aos 17 anos
 Name=HH39_VST
 Value=1;YES for all boys age 15-17
 Value=2;NO for at least one boy age 15-17 and Yes to at least one boy age 15-17
 Value=3;NO for all boys age 15-17
 
 [Item]
-Label=Consent for Water Quality Testing
+Label=Consentimento para o teste da qualidade da água|Consent for Water Quality Testing
 Name=HH44
 Start=183
 Len=1
@@ -522,13 +523,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent for Water Quality Testing
+Label=Consentimento para o teste da qualidade da água
 Name=HH44_VST
 Value=1;YES, PERMISSION IS GIVEN
 Value=2;NO, PERMISSION IS NOT GIVEN
 
 [Item]
-Label=Respondent to HH questionnaire
+Label=Respondente ao questionário do agregado familiar|Respondent to HH questionnaire
 Name=HH47
 Start=184
 Len=2
@@ -536,12 +537,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Respondent to HH questionnaire
+Label=Respondente ao questionário do agregado familiar
 Name=HH47_VST
 Value=1:50
 
 [Item]
-Label=Number of HH members
+Label=Número de membros do agregado familiar|Number of HH members
 Name=HH48
 Start=186
 Len=2
@@ -549,12 +550,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of HH members
+Label=Número de membros do agregado familiar
 Name=HH48_VST
 Value=1:50
 
 [Item]
-Label=Number of women 15-49 years
+Label=Número de mulheres dos 15 aos 49 anos|Number of women 15-49 years
 Name=HH49
 Start=188
 Len=2
@@ -562,12 +563,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of women 15-49 years
+Label=Número de mulheres dos 15 aos 49 anos
 Name=HH49_VST
 Value=0:50
 
 [Item]
-Label=Number of woman's questionnaires completed
+Label=Número de questionários de mulheres concluídos|Number of woman's questionnaires completed
 Name=HH53
 Start=190
 Len=2
@@ -575,12 +576,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of woman's questionnaires completed
+Label=Número de questionários de mulheres concluídos
 Name=HH53_VST
 Value=0:50
 
 [Item]
-Label=Number of men 15-49 years [If household is selected for Questionnaire for Men]
+Label=Número de homens dos 15 aos 49 anos [se o agregado foi selecionado para o questionário dos homens]|Number of men 15-49 years [If household is selected for Questionnaire for Men]
 Name=HH50
 Start=192
 Len=2
@@ -588,12 +589,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of men 15-49 years [If household is selected for Questionnaire for Men]
+Label=Número de homens dos 15 aos 49 anos [se o agregado foi selecionado para o questionário dos homens]
 Name=HH50_VST
 Value=0:50
 
 [Item]
-Label=Number of man's questionnaires completed [If household is selected for Questionnaire for Men]
+Label=Número de questionários de homens concluídos [se o agregado foi selecionado para o questionário dos homens]|Number of man's questionnaires completed [If household is selected for Questionnaire for Men]
 Name=HH54
 Start=194
 Len=2
@@ -601,12 +602,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of man's questionnaires completed [If household is selected for Questionnaire for Men]
+Label=Número de questionários de homens concluídos [se o agregado foi selecionado para o questionário dos homens]
 Name=HH54_VST
 Value=0:50
 
 [Item]
-Label=Number of children under age 5
+Label=Número de crianças menores de 5 anos|Number of children under age 5
 Name=HH51
 Start=196
 Len=2
@@ -614,12 +615,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of children under age 5
+Label=Número de crianças menores de 5 anos
 Name=HH51_VST
 Value=0:50
 
 [Item]
-Label=Number of under-5 questionnaires completed
+Label=Número de questionários de menores de 5 anos concluídos|Number of under-5 questionnaires completed
 Name=HH55
 Start=198
 Len=2
@@ -627,12 +628,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of under-5 questionnaires completed
+Label=Número de questionários de menores de 5 anos concluídos
 Name=HH55_VST
 Value=0:50
 
 [Item]
-Label=Number of children age 5-17
+Label=Número de crianças dos 5 aos 17 anos|Number of children age 5-17
 Name=HH52
 Start=200
 Len=2
@@ -640,12 +641,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of children age 5-17
+Label=Número de crianças dos 5 aos 17 anos
 Name=HH52_VST
 Value=0:50
 
 [Item]
-Label=Number of 5-17 questionnaires completed
+Label=Número de questionários de crianças dos 5 aos 17 anos concluídos|Number of 5-17 questionnaires completed
 Name=HH56
 Start=202
 Len=2
@@ -653,25 +654,25 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of 5-17 questionnaires completed
+Label=Número de questionários de crianças dos 5 aos 17 anos concluídos
 Name=HH56_VST
 Value=0;ZERO
 Value=1;ONE
 
 [Item]
-Label=Introduction HH Listing
+Label=Introdução à listagem dos membros do agregado familiar|Introduction HH Listing
 Name=INTROHL
 Start=204
 Len=1
 DataType=Alpha
 
 [ValueSet]
-Label=Introduction HH Listing
+Label=Introdução à listagem dos membros do agregado familiar
 Name=INTROHL_VST
 Value=1;CONTINUE
 
 [Item]
-Label=Other household members
+Label=Outros membros do agregado familiar|Other household members
 Name=HHAUX
 Start=205
 Len=1
@@ -679,32 +680,32 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Other household members
+Label=Outros membros do agregado familiar
 Name=HHAUX_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Household address
+Label=Endereço do agregado familiar|Household address
 Name=HHADDR
 Start=206
 Len=40
 DataType=Alpha
 
 [Item]
-Label=Water Quality prompt
+Label=Instrução relativa à qualidade da água|Water Quality prompt
 Name=HHWQ
 Start=246
 Len=1
 DataType=Alpha
 
 [ValueSet]
-Label=Water Quality prompt
+Label=Instrução relativa à qualidade da água
 Name=HHWQ_VST
 Value=1;CONTINUE
 
 [Item]
-Label=Consent for phone survey
+Label=Consentimento para inquérito telefónico|Consent for phone survey
 Name=HH44BC
 Start=247
 Len=1
@@ -712,13 +713,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent for phone survey
+Label=Consentimento para inquérito telefónico
 Name=HH44BC_VS1
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Have personal phone number or phone number for the household
+Label=Tem número de telefone pessoal ou do agregado familiar|Have personal phone number or phone number for the household
 Name=HH44DE
 Start=248
 Len=1
@@ -726,13 +727,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Have personal phone number or phone number for the household
+Label=Tem número de telefone pessoal ou do agregado familiar
 Name=HH44DE_VS1
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Note on sharing phone number for the household
+Label=Nota sobre a partilha do número de telefone do agregado familiar|Note on sharing phone number for the household
 Name=HH44F
 Start=249
 Len=1
@@ -740,12 +741,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Note on sharing phone number for the household
+Label=Nota sobre a partilha do número de telefone do agregado familiar
 Name=HH44F_VS1
 Value=1;CONTINUE
 
 [Item]
-Label=Finish
+Label=Terminar|Finish
 Name=HHFIN
 Start=250
 Len=1
@@ -753,14 +754,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Finish
+Label=Terminar
 Name=HHFIN_VST
 Value=1;REVIEW QUESTIONNAIRE
 Value=2;ADD NOTES
 Value=3;SAVE QUESTIONNAIRE AND FINISH
 
 [Record]
-Label=List of Household Members (1)
+Label=Lista dos membros do agregado familiar (1)|List of Household Members (1)
 Name=MODHX
 RecordTypeValue='0HX'
 Required=No
@@ -768,7 +769,7 @@ MaxRecords=50
 RecordLen=41
 
 [Item]
-Label=Line Number
+Label=Número de ordem|Line Number
 Name=HX1
 Start=16
 Len=2
@@ -776,19 +777,19 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Line Number
+Label=Número de ordem
 Name=HX1_VST
 Value=1:50
 
 [Item]
-Label=Name
+Label=Nome|Name
 Name=HX2
 Start=18
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Relationship to the head
+Label=Relação de parentesco com o chefe do agregado familiar|Relationship to the head
 Name=HX3
 Start=38
 Len=2
@@ -796,7 +797,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Relationship to the head
+Label=Relação de parentesco com o chefe do agregado familiar
 Name=HX3_VST
 Value=1;HEAD
 Value=2;SPOUSE / PARTNER
@@ -816,7 +817,7 @@ Value=96;OTHER (NOT RELATED)
 Value=98;DK
 
 [Item]
-Label=Sex
+Label=Sexo|Sex
 Name=HX4
 Start=40
 Len=1
@@ -824,13 +825,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Sex
+Label=Sexo
 Name=HX4_VST
 Value=1;MALE
 Value=2;FEMALE
 
 [Item]
-Label=Other member
+Label=Outro membro|Other member
 Name=HX0
 Start=41
 Len=1
@@ -838,13 +839,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Other member
+Label=Outro membro
 Name=HX0_VST
 Value=1;YES
 Value=2;NO
 
 [Record]
-Label=List of Household Members
+Label=Lista dos membros do agregado familiar|List of Household Members
 Name=MODHL
 RecordTypeValue='0HL'
 Required=No
@@ -852,7 +853,7 @@ MaxRecords=50
 RecordLen=68
 
 [Item]
-Label=Line number
+Label=Número de ordem|Line number
 Name=HL1
 Start=16
 Len=2
@@ -860,19 +861,19 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Line number
+Label=Número de ordem
 Name=HL1_VST
 Value=1:50
 
 [Item]
-Label=Name
+Label=Nome|Name
 Name=HL2
 Start=18
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Relationship to the head
+Label=Relação de parentesco com o chefe do agregado familiar|Relationship to the head
 Name=HL3
 Start=38
 Len=2
@@ -880,7 +881,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Relationship to the head
+Label=Relação de parentesco com o chefe do agregado familiar
 Name=HL3_VST
 Value=1;HEAD
 Value=2;SPOUSE / PARTNER
@@ -900,7 +901,7 @@ Value=96;OTHER (NOT RELATED)
 Value=98;DK
 
 [Item]
-Label=Sex
+Label=Sexo|Sex
 Name=HL4
 Start=40
 Len=1
@@ -908,13 +909,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Sex
+Label=Sexo
 Name=HL4_VST
 Value=1;MALE
 Value=2;FEMALE
 
 [Item]
-Label=Date of birth
+Label=Data de nascimento|Date of birth
 Name=HL5
 Start=41
 Len=6
@@ -922,7 +923,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Month of birth
+Label=Mês de nascimento|Month of birth
 Name=HL5M
 Start=41
 Len=2
@@ -931,7 +932,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Month of birth
+Label=Mês de nascimento
 Name=HL5M_VST
 Value=1;JANUARY
 Value=2;FEBRUARY
@@ -949,7 +950,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Year of birth
+Label=Ano de nascimento|Year of birth
 Name=HL5Y
 Start=43
 Len=4
@@ -958,14 +959,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Year of birth
+Label=Ano de nascimento
 Name=HL5Y_VST
 Value=1900:2025
 Value=9998;DK
 Value=9999;NO RESPONSE
 
 [Item]
-Label=Age
+Label=Idade|Age
 Name=HL6
 Start=47
 Len=2
@@ -973,7 +974,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Age
+Label=Idade
 Name=HL6_VST
 Value=0:94
 Value=95;95+
@@ -981,7 +982,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Member stayed in the household last night
+Label=Membro passou a noite anterior no agregado familiar|Member stayed in the household last night
 Name=HL7
 Start=49
 Len=1
@@ -989,14 +990,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Member stayed in the household last night
+Label=Membro passou a noite anterior no agregado familiar
 Name=HL7_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Line number of woman age 15-49
+Label=Número de ordem da mulher dos 15 aos 49 anos|Line number of woman age 15-49
 Name=HL8
 Start=50
 Len=2
@@ -1004,13 +1005,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Line number of woman age 15-49
+Label=Número de ordem da mulher dos 15 aos 49 anos
 Name=HL8_VST
 Value=0;NOT ELIGIBLE
 Value=1:50
 
 [Item]
-Label=Line number of man age 15-49
+Label=Número de ordem do homem dos 15 aos 49 anos|Line number of man age 15-49
 Name=HL9
 Start=52
 Len=2
@@ -1018,13 +1019,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Line number of man age 15-49
+Label=Número de ordem do homem dos 15 aos 49 anos
 Name=HL9_VST
 Value=0;NOT ELIGIBLE
 Value=1:50
 
 [Item]
-Label=Line number for children age 0-4
+Label=Número de ordem das crianças dos 0 aos 4 anos|Line number for children age 0-4
 Name=HL10
 Start=54
 Len=2
@@ -1032,13 +1033,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Line number for children age 0-4
+Label=Número de ordem das crianças dos 0 aos 4 anos
 Name=HL10_VST
 Value=0;NOT ELIGIBLE
 Value=1:50
 
 [Item]
-Label=Member age 0-17
+Label=Membro com idade dos 0 aos 17 anos|Member age 0-17
 Name=HL11
 Start=56
 Len=1
@@ -1046,13 +1047,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Member age 0-17
+Label=Membro com idade dos 0 aos 17 anos
 Name=HL11_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Is natural mother alive
+Label=Mãe biológica está viva|Is natural mother alive
 Name=HL12
 Start=57
 Len=1
@@ -1060,7 +1061,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Is natural mother alive
+Label=Mãe biológica está viva
 Name=HL12_VST
 Value=1;YES
 Value=2;NO
@@ -1068,7 +1069,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Does natural mother live in HH
+Label=Mãe biológica vive no agregado familiar|Does natural mother live in HH
 Name=HL13
 Start=58
 Len=1
@@ -1076,14 +1077,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Does natural mother live in HH
+Label=Mãe biológica vive no agregado familiar
 Name=HL13_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Natural mother's line number in HH
+Label=Número de ordem da mãe biológica no agregado familiar|Natural mother's line number in HH
 Name=HL14
 Start=59
 Len=2
@@ -1091,13 +1092,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Natural mother's line number in HH
+Label=Número de ordem da mãe biológica no agregado familiar
 Name=HL14_VST
 Value=1:50
 Value=99;NO RESPONSE
 
 [Item]
-Label=Where does natural mother live
+Label=Onde vive a mãe biológica|Where does natural mother live
 Name=HL15
 Start=61
 Len=1
@@ -1105,7 +1106,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Where does natural mother live
+Label=Onde vive a mãe biológica
 Name=HL15_VST
 Value=1;ABROAD
 Value=2;IN ANOTHER HOUSEHOLD IN THE SAME REGION
@@ -1115,7 +1116,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Is natural father alive
+Label=Pai biológico está vivo|Is natural father alive
 Name=HL16
 Start=62
 Len=1
@@ -1123,7 +1124,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Is natural father alive
+Label=Pai biológico está vivo
 Name=HL16_VST
 Value=1;YES
 Value=2;NO
@@ -1131,7 +1132,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Does natural father live in HH
+Label=Pai biológico vive no agregado familiar|Does natural father live in HH
 Name=HL17
 Start=63
 Len=1
@@ -1139,14 +1140,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Does natural father live in HH
+Label=Pai biológico vive no agregado familiar
 Name=HL17_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Natural father's line number in HH
+Label=Número de ordem do pai biológico no agregado familiar|Natural father's line number in HH
 Name=HL18
 Start=64
 Len=2
@@ -1154,13 +1155,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Natural father's line number in HH
+Label=Número de ordem do pai biológico no agregado familiar
 Name=HL18_VST
 Value=1:50
 Value=99;NO RESPONSE
 
 [Item]
-Label=Where does natural father live
+Label=Onde vive o pai biológico|Where does natural father live
 Name=HL19
 Start=66
 Len=1
@@ -1168,7 +1169,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Where does natural father live
+Label=Onde vive o pai biológico
 Name=HL19_VST
 Value=1;ABROAD
 Value=2;IN ANOTHER HOUSEHOLD IN THE SAME REGION
@@ -1178,7 +1179,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Line number of mother or primary caretaker for children 0-17 years of age
+Label=Número de ordem da mãe ou cuidador principal das crianças dos 0 aos 17 anos|Line number of mother or primary caretaker for children 0-17 years of age
 Name=HL20
 Start=67
 Len=2
@@ -1186,13 +1187,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Line number of mother or primary caretaker for children 0-17 years of age
+Label=Número de ordem da mãe ou cuidador principal das crianças dos 0 aos 17 anos
 Name=HL20_VST
 Value=1:50
 Value=90;NO ONE
 
 [Record]
-Label=Education: Attainment and Attendance
+Label=Educação: nível de escolaridade e frequência escolar|Education: Attainment and Attendance
 Name=MODED
 RecordTypeValue='0ED'
 Required=No
@@ -1200,7 +1201,7 @@ MaxRecords=50
 RecordLen=66
 
 [Item]
-Label=Line number
+Label=Número de ordem|Line number
 Name=ED1
 Start=16
 Len=2
@@ -1208,19 +1209,19 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Line number
+Label=Número de ordem
 Name=ED1_VST
 Value=1:50
 
 [Item]
-Label=Name
+Label=Nome|Name
 Name=ED2
 Start=18
 Len=20
 DataType=Alpha
 
 [Item]
-Label=Age
+Label=Idade|Age
 Name=ED2A
 Start=38
 Len=2
@@ -1228,7 +1229,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Age 3 or above
+Label=Idade igual ou superior a 3 anos|Age 3 or above
 Name=ED3
 Start=40
 Len=1
@@ -1236,13 +1237,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Age 3 or above
+Label=Idade igual ou superior a 3 anos
 Name=ED3_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Ever attended school or any Early Childhood Education programme
+Label=Alguma vez frequentou a escola ou um programa de educação pré-escolar|Ever attended school or any Early Childhood Education programme
 Name=ED4
 Start=41
 Len=1
@@ -1250,14 +1251,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ever attended school or any Early Childhood Education programme
+Label=Alguma vez frequentou a escola ou um programa de educação pré-escolar
 Name=ED4_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Highest level of education attended
+Label=Nível de ensino mais elevado frequentado|Highest level of education attended
 Name=ED5A
 Start=42
 Len=1
@@ -1265,7 +1266,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Highest level of education attended
+Label=Nível de ensino mais elevado frequentado
 Name=ED5A_VST
 Value=0;EARLY CHILDHOOD EDUCATION
 Value=1;PRIMARY
@@ -1276,7 +1277,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Highest grade attended at that level
+Label=Classe/ano mais elevado frequentado nesse nível|Highest grade attended at that level
 Name=ED5B
 Start=43
 Len=2
@@ -1284,7 +1285,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Highest grade attended at that level
+Label=Classe/ano mais elevado frequentado nesse nível
 Name=ED5B_VST
 Value=1;GRADE/YEAR 1
 Value=2;GRADE/YEAR 2
@@ -1298,7 +1299,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Ever completed that grade/year
+Label=Concluiu essa classe/ano|Ever completed that grade/year
 Name=ED6
 Start=45
 Len=1
@@ -1306,7 +1307,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ever completed that grade/year
+Label=Concluiu essa classe/ano
 Name=ED6_VST
 Value=1;YES
 Value=2;NO
@@ -1314,7 +1315,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Age 3-24
+Label=Idade dos 3 aos 24 anos|Age 3-24
 Name=ED7
 Start=46
 Len=1
@@ -1322,13 +1323,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Age 3-24
+Label=Idade dos 3 aos 24 anos
 Name=ED7_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Check: Ever attended school or any Early Childhood Education programme
+Label=Verificação: alguma vez frequentou a escola ou um programa de educação pré-escolar|Check: Ever attended school or any Early Childhood Education programme
 Name=ED8
 Start=47
 Len=1
@@ -1336,14 +1337,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Check: Ever attended school or any Early Childhood Education programme
+Label=Verificação: alguma vez frequentou a escola ou um programa de educação pré-escolar
 Name=ED8_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Attended school during current school year
+Label=Frequentou a escola no ano letivo atual|Attended school during current school year
 Name=ED9
 Start=48
 Len=1
@@ -1351,14 +1352,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Attended school during current school year
+Label=Frequentou a escola no ano letivo atual
 Name=ED9_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Level of education attended during current school year
+Label=Nível de ensino frequentado no ano letivo atual|Level of education attended during current school year
 Name=ED10A
 Start=49
 Len=1
@@ -1366,7 +1367,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Level of education attended during current school year
+Label=Nível de ensino frequentado no ano letivo atual
 Name=ED10A_VST
 Value=0;EARLY CHILDHOOD EDUCATION
 Value=1;PRIMARY
@@ -1377,7 +1378,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Grade attended at that level during current school year
+Label=Classe/ano frequentado nesse nível no ano letivo atual|Grade attended at that level during current school year
 Name=ED10B
 Start=50
 Len=2
@@ -1385,7 +1386,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Grade attended at that level during current school year
+Label=Classe/ano frequentado nesse nível no ano letivo atual
 Name=ED10B_VST
 Value=1;GRADE/YEAR 1
 Value=2;GRADE/YEAR 2
@@ -1399,7 +1400,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Attended public school during current school year
+Label=Frequentou escola pública no ano letivo atual|Attended public school during current school year
 Name=ED11
 Start=52
 Len=1
@@ -1407,7 +1408,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Attended public school during current school year
+Label=Frequentou escola pública no ano letivo atual
 Name=ED11_VS1
 Value=1;GOVT./ PUBLIC
 Value=2;RELIGIOUS/ FAITH ORG.
@@ -1417,7 +1418,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=School tuition support in the current school year
+Label=Apoio para pagamento das propinas no ano letivo atual|School tuition support in the current school year
 Name=ED12
 Start=53
 Len=1
@@ -1425,7 +1426,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=School tuition support in the current school year
+Label=Apoio para pagamento das propinas no ano letivo atual
 Name=ED12_VS1
 Value=1;YES
 Value=2;NO
@@ -1433,7 +1434,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=School tuition support was sufficient for paying the costs
+Label=Apoio para propinas foi suficiente para cobrir os custos|School tuition support was sufficient for paying the costs
 Name=ED12A
 Start=54
 Len=1
@@ -1441,7 +1442,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=School tuition support was sufficient for paying the costs
+Label=Apoio para propinas foi suficiente para cobrir os custos
 Name=ED12A_VS1
 Value=1;YES
 Value=2;NO
@@ -1449,14 +1450,14 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Tuition support provided
+Label=Entidade que concedeu o apoio para propinas|Tuition support provided
 Name=ED13
 Start=55
 Len=6
 DataType=Alpha
 
 [ValueSet]
-Label=Tuition support provided
+Label=Entidade que concedeu o apoio para propinas
 Name=ED13_VS1
 Value='A     ';GOVT./ PUBLIC
 Value='B     ';RELIGIOUS/ FAITH ORG.
@@ -1466,7 +1467,7 @@ Value='Z     ';DK
 Value='?     ';NO RESPONSE
 
 [Item]
-Label=Tuition support provided: Govt./public
+Label=Apoio para propinas: Governo/setor público|Tuition support provided: Govt./public
 Name=ED13A
 Start=55
 Len=1
@@ -1474,14 +1475,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Tuition support provided: Govt./public
+Label=Apoio para propinas: Governo/setor público
 Name=ED13A_VS1
 Value='A';GOVT./ PUBLIC
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Tuition support provided: Religious/faith org.
+Label=Apoio para propinas: Organização religiosa|Tuition support provided: Religious/faith org.
 Name=ED13B
 Start=56
 Len=1
@@ -1489,14 +1490,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Tuition support provided: Religious/faith org.
+Label=Apoio para propinas: Organização religiosa
 Name=ED13B_VS1
 Value='B';RELIGIOUS/ FAITH ORG.
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Tuition support provided: Private
+Label=Apoio para propinas: Entidade privada|Tuition support provided: Private
 Name=ED13C
 Start=57
 Len=1
@@ -1504,14 +1505,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Tuition support provided: Private
+Label=Apoio para propinas: Entidade privada
 Name=ED13C_VS1
 Value='C';PRIVATE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Tuition support provided: Other
+Label=Apoio para propinas: Outra|Tuition support provided: Other
 Name=ED13X
 Start=58
 Len=1
@@ -1519,13 +1520,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Tuition support provided: Other
+Label=Apoio para propinas: Outra
 Name=ED13X_VS1
 Value='X';OTHER
 Value='?';NO RESPONSE
 
 [Item]
-Label=Tuition support provided: DK
+Label=Apoio para propinas: Não sabe|Tuition support provided: DK
 Name=ED13Z
 Start=59
 Len=1
@@ -1533,13 +1534,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Tuition support provided: DK
+Label=Apoio para propinas: Não sabe
 Name=ED13Z_VS1
 Value='Z';DK
 Value='?';NO RESPONSE
 
 [Item]
-Label=Tuition support provided: No response
+Label=Apoio para propinas: Sem resposta|Tuition support provided: No response
 Name=ED13NR
 Start=60
 Len=1
@@ -1547,13 +1548,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Tuition support provided: No response
+Label=Apoio para propinas: Sem resposta
 Name=ED13NR_VS1
 Value='?';NO RESPONSE
 Value=' '
 
 [Item]
-Label=Material support in the current school year
+Label=Apoio material no ano letivo atual|Material support in the current school year
 Name=ED14
 Start=61
 Len=1
@@ -1561,7 +1562,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Material support in the current school year
+Label=Apoio material no ano letivo atual
 Name=ED14_VS1
 Value=1;YES, CASH ONLY
 Value=2;YES, IN KIND ONLY
@@ -1571,7 +1572,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Material support was sufficient
+Label=Apoio material foi suficiente|Material support was sufficient
 Name=ED14A
 Start=62
 Len=1
@@ -1579,7 +1580,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Material support was sufficient
+Label=Apoio material foi suficiente
 Name=ED14A_VS1
 Value=1;YES
 Value=2;NO
@@ -1587,7 +1588,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Attended school during previous school year
+Label=Frequentou a escola no ano letivo anterior|Attended school during previous school year
 Name=ED15
 Start=63
 Len=1
@@ -1595,7 +1596,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Attended school during previous school year
+Label=Frequentou a escola no ano letivo anterior
 Name=ED15_VST
 Value=1;YES
 Value=2;NO
@@ -1603,7 +1604,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Level of education attended during previous school year
+Label=Nível de ensino frequentado no ano letivo anterior|Level of education attended during previous school year
 Name=ED16A
 Start=64
 Len=1
@@ -1611,7 +1612,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Level of education attended during previous school year
+Label=Nível de ensino frequentado no ano letivo anterior
 Name=ED16A_VST
 Value=0;EARLY CHILDHOOD EDUCATION
 Value=1;PRIMARY
@@ -1622,7 +1623,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Grade attended at that level during previous school year
+Label=Classe/ano frequentado nesse nível no ano letivo anterior|Grade attended at that level during previous school year
 Name=ED16B
 Start=65
 Len=2
@@ -1630,7 +1631,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Grade attended at that level during previous school year
+Label=Classe/ano frequentado nesse nível no ano letivo anterior
 Name=ED16B_VST
 Value=1;GRADE/YEAR 1
 Value=2;GRADE/YEAR 2
@@ -1644,14 +1645,14 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Record]
-Label=Household Characteristics
+Label=Características do agregado familiar|Household Characteristics
 Name=MODHC
 RecordTypeValue='0HC'
 Required=No
 RecordLen=80
 
 [Item]
-Label=Religion of household head
+Label=Religião do chefe do agregado familiar|Religion of household head
 Name=HC1A
 Start=16
 Len=1
@@ -1659,7 +1660,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Religion of household head
+Label=Religião do chefe do agregado familiar
 Name=HC1A_VS1
 Value=1;RELIGION 1
 Value=2;RELIGION 2
@@ -1669,7 +1670,7 @@ Value=7;NO RELIGION
 Value=9;NO RESPONSE
 
 [Item]
-Label=Language of household head
+Label=Língua do chefe do agregado familiar|Language of household head
 Name=HC1B
 Start=17
 Len=1
@@ -1677,7 +1678,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Language of household head
+Label=Língua do chefe do agregado familiar
 Name=HC1B_VS1
 Value=1;LANGUAGE 1
 Value=2;LANGUAGE 2
@@ -1686,7 +1687,7 @@ Value=6;OTHER LANGUAGE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Ethnic group of household head
+Label=Grupo étnico do chefe do agregado familiar|Ethnic group of household head
 Name=HC2
 Start=18
 Len=1
@@ -1694,7 +1695,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Ethnic group of household head
+Label=Grupo étnico do chefe do agregado familiar
 Name=HC2_VST
 Value=1;ETHNIC GROUP 1
 Value=2;ETHNIC GROUP 2
@@ -1703,7 +1704,7 @@ Value=6;OTHER
 Value=9;NO RESPONSE
 
 [Item]
-Label=Number of rooms used for sleeping
+Label=Número de divisões utilizadas para dormir|Number of rooms used for sleeping
 Name=HC3
 Start=19
 Len=2
@@ -1711,13 +1712,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of rooms used for sleeping
+Label=Número de divisões utilizadas para dormir
 Name=HC3_VST
 Value=1:90
 Value=99;NO RESPONSE
 
 [Item]
-Label=Main material of floor
+Label=Material principal do pavimento|Main material of floor
 Name=HC4
 Start=21
 Len=2
@@ -1725,7 +1726,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main material of floor
+Label=Material principal do pavimento
 Name=HC4_VST
 Value=11;NATURAL FLOOR: EARTH/ SAND
 Value=12;NATURAL FLOOR: DUNG
@@ -1739,7 +1740,7 @@ Value=35;FINISHED FLOOR: CARPET
 Value=96;OTHER
 
 [Item]
-Label=Main material of roof
+Label=Material principal do telhado|Main material of roof
 Name=HC5
 Start=23
 Len=2
@@ -1747,7 +1748,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main material of roof
+Label=Material principal do telhado
 Name=HC5_VST
 Value=11;NO ROOF
 Value=12;NATURAL ROOFING: THATCH / PALM LEAF
@@ -1765,7 +1766,7 @@ Value=36;FINISHED ROOFING: ROOFING SHINGLES
 Value=96;OTHER
 
 [Item]
-Label=Main material of exterior wall
+Label=Material principal das paredes exteriores|Main material of exterior wall
 Name=HC6
 Start=25
 Len=2
@@ -1773,7 +1774,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main material of exterior wall
+Label=Material principal das paredes exteriores
 Name=HC6_VST
 Value=11;NO WALLS
 Value=12;NATURAL WALLS: CANE / PALM / TRUNKS
@@ -1793,7 +1794,7 @@ Value=36;FINISHED WALLS: WOOD PLANKS / SHINGLES
 Value=96;OTHER
 
 [Item]
-Label=Household have: Fixed telephone line
+Label=O agregado familiar possui: Telefone fixo|Household have: Fixed telephone line
 Name=HC7A
 Start=27
 Len=1
@@ -1801,14 +1802,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household have: Fixed telephone line
+Label=O agregado familiar possui: Telefone fixo
 Name=HC7A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household have: Radio
+Label=O agregado familiar possui: Rádio|Household have: Radio
 Name=HC7B
 Start=28
 Len=1
@@ -1816,14 +1817,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household have: Radio
+Label=O agregado familiar possui: Rádio
 Name=HC7B_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household have: Country Specific Items That Do Not Run On Electricity
+Label=O agregado familiar possui: Artigos específicos do país que não utilizam eletricidade|Household have: Country Specific Items That Do Not Run On Electricity
 Name=HC7C
 Start=29
 Len=1
@@ -1831,14 +1832,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household have: Country Specific Items That Do Not Run On Electricity
+Label=O agregado familiar possui: Artigos específicos do país que não utilizam eletricidade
 Name=HC7C_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household have electricity
+Label=O agregado familiar tem eletricidade|Household have electricity
 Name=HC8
 Start=30
 Len=1
@@ -1846,21 +1847,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household have electricity
+Label=O agregado familiar tem eletricidade
 Name=HC8_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household
+Label=Fonte de eletricidade do agregado familiar|Source of electricity for the household
 Name=HC8A
 Start=31
 Len=10
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household
+Label=Fonte de eletricidade do agregado familiar
 Name=HC8A_VS1
 Value='A         ';NATIONAL / INTERCONNECTED GRID
 Value='B         ';LOCAL MINI GRID
@@ -1874,7 +1875,7 @@ Value='Z         ';DK
 Value='?         ';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: National / Interconnected grid
+Label=Fonte de eletricidade: Rede nacional/interligada|Source of electricity for the household: National / Interconnected grid
 Name=HC8AA
 Start=31
 Len=1
@@ -1882,14 +1883,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: National / Interconnected grid
+Label=Fonte de eletricidade: Rede nacional/interligada
 Name=HC8AA_VS1
 Value='A';NATIONAL / INTERCONNECTED GRID
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: Local mini grid
+Label=Fonte de eletricidade: Minirrede local|Source of electricity for the household: Local mini grid
 Name=HC8AB
 Start=32
 Len=1
@@ -1897,14 +1898,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: Local mini grid
+Label=Fonte de eletricidade: Minirrede local
 Name=HC8AB_VS1
 Value='B';LOCAL MINI GRID
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: Solar home system
+Label=Fonte de eletricidade: Sistema solar doméstico|Source of electricity for the household: Solar home system
 Name=HC8AC
 Start=33
 Len=1
@@ -1912,14 +1913,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: Solar home system
+Label=Fonte de eletricidade: Sistema solar doméstico
 Name=HC8AC_VS1
 Value='C';SOLAR HOME SYSTEM
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: Solar lantern
+Label=Fonte de eletricidade: Candeeiro solar|Source of electricity for the household: Solar lantern
 Name=HC8AD
 Start=34
 Len=1
@@ -1927,14 +1928,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: Solar lantern
+Label=Fonte de eletricidade: Candeeiro solar
 Name=HC8AD_VS1
 Value='D';SOLAR LANTERN
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: Electric generator
+Label=Fonte de eletricidade: Gerador elétrico|Source of electricity for the household: Electric generator
 Name=HC8AE
 Start=35
 Len=1
@@ -1942,14 +1943,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: Electric generator
+Label=Fonte de eletricidade: Gerador elétrico
 Name=HC8AE_VS1
 Value='E';ELECTRIC GENERATOR
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: Rechargeable battery
+Label=Fonte de eletricidade: Bateria recarregável|Source of electricity for the household: Rechargeable battery
 Name=HC8AF
 Start=36
 Len=1
@@ -1957,14 +1958,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: Rechargeable battery
+Label=Fonte de eletricidade: Bateria recarregável
 Name=HC8AF_VS1
 Value='F';RECHARGEABLE BATTERY
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: Dry cell battery / torch
+Label=Fonte de eletricidade: Pilhas/lanterna|Source of electricity for the household: Dry cell battery / torch
 Name=HC8AG
 Start=37
 Len=1
@@ -1972,14 +1973,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: Dry cell battery / torch
+Label=Fonte de eletricidade: Pilhas/lanterna
 Name=HC8AG_VS1
 Value='G';DRY CELL BATTERY / TORCH
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: Other
+Label=Fonte de eletricidade: Outra|Source of electricity for the household: Other
 Name=HC8AX
 Start=38
 Len=1
@@ -1987,14 +1988,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: Other
+Label=Fonte de eletricidade: Outra
 Name=HC8AX_VS1
 Value='X';OTHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: DK
+Label=Fonte de eletricidade: Não sabe|Source of electricity for the household: DK
 Name=HC8AZ
 Start=39
 Len=1
@@ -2002,14 +2003,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: DK
+Label=Fonte de eletricidade: Não sabe
 Name=HC8AZ_VS1
 Value='Z';DK
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Source of electricity for the household: No response
+Label=Fonte de eletricidade: Sem resposta|Source of electricity for the household: No response
 Name=HC8ANR
 Start=40
 Len=1
@@ -2017,13 +2018,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Source of electricity for the household: No response
+Label=Fonte de eletricidade: Sem resposta
 Name=HC8ANR_VS1
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Most used source of electricity
+Label=Fonte de eletricidade mais utilizada|Most used source of electricity
 Name=HC8B
 Start=41
 Len=2
@@ -2031,7 +2032,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Most used source of electricity
+Label=Fonte de eletricidade mais utilizada
 Name=HC8B_VS1
 Value=11;NATIONAL / INTERCONNECTED GRID
 Value=21;LOCAL MINI GRID
@@ -2045,7 +2046,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Household have: Television
+Label=O agregado familiar possui: Televisão|Household have: Television
 Name=HC9A
 Start=43
 Len=1
@@ -2053,14 +2054,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household have: Television
+Label=O agregado familiar possui: Televisão
 Name=HC9A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household have: Refrigerator
+Label=O agregado familiar possui: Frigorífico|Household have: Refrigerator
 Name=HC9B
 Start=44
 Len=1
@@ -2068,14 +2069,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household have: Refrigerator
+Label=O agregado familiar possui: Frigorífico
 Name=HC9B_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household have: Country Specific Items That Run On Electricity
+Label=O agregado familiar possui: Artigos específicos do país que utilizam eletricidade|Household have: Country Specific Items That Run On Electricity
 Name=HC9C
 Start=45
 Len=1
@@ -2083,14 +2084,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household have: Country Specific Items That Run On Electricity
+Label=O agregado familiar possui: Artigos específicos do país que utilizam eletricidade
 Name=HC9C_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household own: Wristwatch
+Label=Algum membro do agregado familiar possui: Relógio de pulso|Any member of household own: Wristwatch
 Name=HC10A
 Start=46
 Len=1
@@ -2098,14 +2099,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household own: Wristwatch
+Label=Algum membro do agregado familiar possui: Relógio de pulso
 Name=HC10A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household own: Bicycle
+Label=Algum membro do agregado familiar possui: Bicicleta|Any member of household own: Bicycle
 Name=HC10B
 Start=47
 Len=1
@@ -2113,14 +2114,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household own: Bicycle
+Label=Algum membro do agregado familiar possui: Bicicleta
 Name=HC10B_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household own: Motorcycle or scooter
+Label=Algum membro do agregado familiar possui: Motociclo ou motorizada|Any member of household own: Motorcycle or scooter
 Name=HC10C
 Start=48
 Len=1
@@ -2128,14 +2129,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household own: Motorcycle or scooter
+Label=Algum membro do agregado familiar possui: Motociclo ou motorizada
 Name=HC10C_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household own: Animal-drawn cart
+Label=Algum membro do agregado familiar possui: Carroça de tração animal|Any member of household own: Animal-drawn cart
 Name=HC10D
 Start=49
 Len=1
@@ -2143,14 +2144,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household own: Animal-drawn cart
+Label=Algum membro do agregado familiar possui: Carroça de tração animal
 Name=HC10D_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household own: Car, truck or van
+Label=Algum membro do agregado familiar possui: Automóvel, camião ou carrinha|Any member of household own: Car, truck or van
 Name=HC10E
 Start=50
 Len=1
@@ -2158,14 +2159,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household own: Car, truck or van
+Label=Algum membro do agregado familiar possui: Automóvel, camião ou carrinha
 Name=HC10E_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household own: Boat with motor
+Label=Algum membro do agregado familiar possui: Barco a motor|Any member of household own: Boat with motor
 Name=HC10F
 Start=51
 Len=1
@@ -2173,14 +2174,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household own: Boat with motor
+Label=Algum membro do agregado familiar possui: Barco a motor
 Name=HC10F_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household own: Country Specific Items
+Label=Algum membro do agregado familiar possui: Artigos específicos do país|Any member of household own: Country Specific Items
 Name=HC10G
 Start=52
 Len=1
@@ -2188,14 +2189,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household own: Country Specific Items
+Label=Algum membro do agregado familiar possui: Artigos específicos do país
 Name=HC10G_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member have a computer
+Label=Algum membro do agregado familiar possui computador|Any member have a computer
 Name=HC11
 Start=53
 Len=1
@@ -2203,14 +2204,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member have a computer
+Label=Algum membro do agregado familiar possui computador
 Name=HC11_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member have a mobile telephone
+Label=Algum membro do agregado familiar possui telemóvel|Any member have a mobile telephone
 Name=HC12
 Start=54
 Len=1
@@ -2218,14 +2219,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member have a mobile telephone
+Label=Algum membro do agregado familiar possui telemóvel
 Name=HC12_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member have a smart telephone
+Label=Algum membro do agregado familiar possui smartphone|Any member have a smart telephone
 Name=HC12A
 Start=55
 Len=1
@@ -2233,14 +2234,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member have a smart telephone
+Label=Algum membro do agregado familiar possui smartphone
 Name=HC12A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Internet access at home
+Label=Acesso à Internet em casa|Internet access at home
 Name=HC13
 Start=56
 Len=1
@@ -2248,14 +2249,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Internet access at home
+Label=Acesso à Internet em casa
 Name=HC13_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Internet access via smart phone
+Label=Acesso à Internet através de smartphone|Internet access via smart phone
 Name=HC13B
 Start=57
 Len=1
@@ -2263,7 +2264,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Internet access via smart phone
+Label=Acesso à Internet através de smartphone
 Name=HC13B_VS1
 Value=1;YES, SMART PHONE CAN ACCESS INTERNET AT HOME
 Value=2;NO, SMARTPHONE CANNOT ACCESS INTERNET AT HOME
@@ -2271,7 +2272,7 @@ Value=8;DK IF SMARTPHONE CAN ACCESS INTERNET AT HOME
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household owns the dwelling
+Label=O agregado familiar é proprietário da habitação|Household owns the dwelling
 Name=HC14
 Start=58
 Len=1
@@ -2279,7 +2280,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household owns the dwelling
+Label=O agregado familiar é proprietário da habitação
 Name=HC14_VST
 Value=1;OWN
 Value=2;RENT
@@ -2287,7 +2288,7 @@ Value=6;OTHER
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any household member own land that can be used for agriculture
+Label=Algum membro possui terras para uso agrícola|Any household member own land that can be used for agriculture
 Name=HC15
 Start=59
 Len=1
@@ -2295,14 +2296,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any household member own land that can be used for agriculture
+Label=Algum membro possui terras para uso agrícola
 Name=HC15_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Hectares of agricultural land members of household owns
+Label=Hectares de terras agrícolas pertencentes aos membros do agregado familiar|Hectares of agricultural land members of household owns
 Name=HC16
 Start=60
 Len=2
@@ -2310,7 +2311,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Hectares of agricultural land members of household owns
+Label=Hectares de terras agrícolas pertencentes aos membros do agregado familiar
 Name=HC16_VST
 Value=0:94
 Value=95;95+
@@ -2318,7 +2319,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Household own any animals
+Label=O agregado familiar possui animais|Household own any animals
 Name=HC17
 Start=62
 Len=1
@@ -2326,14 +2327,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household own any animals
+Label=O agregado familiar possui animais
 Name=HC17_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Milk cows or bulls
+Label=Vacas leiteiras ou touros|Milk cows or bulls
 Name=HC18A
 Start=63
 Len=2
@@ -2341,7 +2342,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Milk cows or bulls
+Label=Vacas leiteiras ou touros
 Name=HC18A_VS1
 Value=0:94
 Value=95;95+
@@ -2349,7 +2350,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Other cattle
+Label=Outros bovinos|Other cattle
 Name=HC18B
 Start=65
 Len=2
@@ -2357,7 +2358,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Other cattle
+Label=Outros bovinos
 Name=HC18B_VS1
 Value=0:94
 Value=95;95+
@@ -2365,7 +2366,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Horses, donkeys or mules
+Label=Cavalos, burros ou mulas|Horses, donkeys or mules
 Name=HC18C
 Start=67
 Len=2
@@ -2373,7 +2374,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Horses, donkeys or mules
+Label=Cavalos, burros ou mulas
 Name=HC18C_VS1
 Value=0:94
 Value=95;95+
@@ -2381,7 +2382,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Goats
+Label=Cabras|Goats
 Name=HC18D
 Start=69
 Len=2
@@ -2389,7 +2390,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Goats
+Label=Cabras
 Name=HC18D_VS1
 Value=0:94
 Value=95;95+
@@ -2397,7 +2398,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Sheep
+Label=Ovelhas|Sheep
 Name=HC18E
 Start=71
 Len=2
@@ -2405,7 +2406,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Sheep
+Label=Ovelhas
 Name=HC18E_VS1
 Value=0:94
 Value=95;95+
@@ -2413,7 +2414,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Chickens
+Label=Galinhas|Chickens
 Name=HC18F
 Start=73
 Len=2
@@ -2421,7 +2422,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Chickens
+Label=Galinhas
 Name=HC18F_VS1
 Value=0:94
 Value=95;95+
@@ -2429,7 +2430,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Pigs
+Label=Porcos|Pigs
 Name=HC18G
 Start=75
 Len=2
@@ -2437,7 +2438,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Pigs
+Label=Porcos
 Name=HC18G_VS1
 Value=0:94
 Value=95;95+
@@ -2445,7 +2446,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Country Specific Additions
+Label=Outros animais específicos do país|Country Specific Additions
 Name=HC18H
 Start=77
 Len=2
@@ -2453,7 +2454,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Country Specific Additions
+Label=Outros animais específicos do país
 Name=HC18H_VS1
 Value=0:94
 Value=95;95+
@@ -2461,7 +2462,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Any household member own bank account
+Label=Algum membro do agregado familiar possui conta bancária|Any household member own bank account
 Name=HC19
 Start=79
 Len=1
@@ -2469,14 +2470,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any household member own bank account
+Label=Algum membro do agregado familiar possui conta bancária
 Name=HC19_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any household member makes financial transactions via mobile phone
+Label=Algum membro realiza transações financeiras por telemóvel|Any household member makes financial transactions via mobile phone
 Name=HC20
 Start=80
 Len=1
@@ -2484,21 +2485,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any household member makes financial transactions via mobile phone
+Label=Algum membro realiza transações financeiras por telemóvel
 Name=HC20_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Record]
-Label=Household Energy Use
+Label=Utilização de energia no agregado familiar|Household Energy Use
 Name=MODEU
 RecordTypeValue='0EU'
 Required=No
 RecordLen=32
 
 [Item]
-Label=Type of cookstove mainly used for cooking
+Label=Tipo de fogão mais utilizado para cozinhar|Type of cookstove mainly used for cooking
 Name=EU1
 Start=16
 Len=2
@@ -2506,7 +2507,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Type of cookstove mainly used for cooking
+Label=Tipo de fogão mais utilizado para cozinhar
 Name=EU1_VS1
 Value=1;SOLAR COOKER (THERMAL ENERGY, NOT SOLAR PANELS)
 Value=2;ELECTRIC STOVE
@@ -2523,7 +2524,7 @@ Value=97;NO FOOD COOKED IN HOUSEHOLD
 Value=99;NO RESPONSE
 
 [Item]
-Label=Name of the stove brand
+Label=Marca do fogão|Name of the stove brand
 Name=EU1A
 Start=18
 Len=2
@@ -2531,7 +2532,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Name of the stove brand
+Label=Marca do fogão
 Name=EU1A_VS1
 Value=1;NAME/BRAND 1
 Value=2;NAME/BRAND 2
@@ -2541,7 +2542,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Type of energy source for cookstove
+Label=Tipo de fonte de energia utilizada para cozinhar|Type of energy source for cookstove
 Name=EU4
 Start=20
 Len=2
@@ -2549,7 +2550,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Type of energy source for cookstove
+Label=Tipo de fonte de energia utilizada para cozinhar
 Name=EU4_VS1
 Value=1;ALCOHOL / ETHANOL
 Value=2;GASOLINE / DIESEL (NOT IN GENERATOR)
@@ -2569,7 +2570,7 @@ Value=96;OTHER
 Value=99;NO RESPONSE
 
 [Item]
-Label=Type of space heating in household
+Label=Tipo de aquecimento da habitação|Type of space heating in household
 Name=EU6
 Start=22
 Len=2
@@ -2577,7 +2578,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Type of space heating in household
+Label=Tipo de aquecimento da habitação
 Name=EU6_VS1
 Value=0;SPACE HEATING NEVER NEEDED
 Value=1;CENTRAL HEATING
@@ -2593,7 +2594,7 @@ Value=97;NO SPACE HEATING IN HOUSEHOLD
 Value=99;NO RESPONSE
 
 [Item]
-Label=Name of the space heater brand
+Label=Marca do aquecedor|Name of the space heater brand
 Name=EU6A
 Start=24
 Len=2
@@ -2601,7 +2602,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Name of the space heater brand
+Label=Marca do aquecedor
 Name=EU6A_VS1
 Value=1;NAME/BRAND 1
 Value=2;NAME/BRAND 2
@@ -2611,7 +2612,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Type of energy source for heater
+Label=Tipo de fonte de energia utilizada para aquecimento|Type of energy source for heater
 Name=EU8
 Start=26
 Len=2
@@ -2619,7 +2620,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Type of energy source for heater
+Label=Tipo de fonte de energia utilizada para aquecimento
 Name=EU8_VS1
 Value=1;ELECTRICITY (INCLUDING SOLAR PANELS)
 Value=2;PIPED NATURAL GAS
@@ -2644,7 +2645,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Type of lighting in household
+Label=Tipo de iluminação do agregado familiar|Type of lighting in household
 Name=EU9
 Start=28
 Len=2
@@ -2652,7 +2653,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Type of lighting in household
+Label=Tipo de iluminação do agregado familiar
 Name=EU9_VS1
 Value=1;ELECTRICITY (INCLUDING SOLAR PANELS)
 Value=2;SOLAR-POWERED LANTERN OR FLASHLIGHT
@@ -2670,7 +2671,7 @@ Value=97;NO LIGHTING IN HOUSEHOLD
 Value=99;NO RESPONSE
 
 [Item]
-Label=Household has mosquito nets
+Label=O agregado familiar possui redes mosquiteiras|Household has mosquito nets
 Name=TN1
 Start=30
 Len=1
@@ -2678,14 +2679,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household has mosquito nets
+Label=O agregado familiar possui redes mosquiteiras
 Name=TN1_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Number of mosquito nets
+Label=Número de redes mosquiteiras|Number of mosquito nets
 Name=TN2
 Start=31
 Len=2
@@ -2693,12 +2694,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of mosquito nets
+Label=Número de redes mosquiteiras
 Name=TN2_VS1
 Value=1:10
 
 [Record]
-Label=Malaria: ITNS
+Label=Malária: redes mosquiteiras tratadas com inseticida (RMTI)|Malaria: ITNS
 Name=MODTN
 RecordTypeValue='0TN'
 Required=No
@@ -2706,7 +2707,7 @@ MaxRecords=10
 RecordLen=37
 
 [Item]
-Label=Net number
+Label=Número da rede mosquiteira|Net number
 Name=TNLN
 Start=16
 Len=2
@@ -2714,12 +2715,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Net number
+Label=Número da rede mosquiteira
 Name=TNLN_VST
 Value=1:10
 
 [Item]
-Label=Mosquito net observed
+Label=Rede mosquiteira observada|Mosquito net observed
 Name=TN3
 Start=18
 Len=1
@@ -2727,13 +2728,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Mosquito net observed
+Label=Rede mosquiteira observada
 Name=TN3_VST
 Value=1;OBSERVED
 Value=2;NOT OBSERVED
 
 [Item]
-Label=Months ago net obtained
+Label=Há quantos meses foi obtida a rede mosquiteira|Months ago net obtained
 Name=TN4
 Start=19
 Len=2
@@ -2741,7 +2742,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Months ago net obtained
+Label=Há quantos meses foi obtida a rede mosquiteira
 Name=TN4_VST
 Value=0:36
 Value=95;MORE THAN 36 MONTHS AGO
@@ -2749,7 +2750,7 @@ Value=98;DK / NOT SURE
 Value=99;NO RESPONSE
 
 [Item]
-Label=Brand/type of observed net
+Label=Marca/tipo da rede mosquiteira observada|Brand/type of observed net
 Name=TN5
 Start=21
 Len=2
@@ -2757,7 +2758,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Brand/type of observed net
+Label=Marca/tipo da rede mosquiteira observada
 Name=TN5_VST
 Value=11;LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND A
 Value=12;LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND B
@@ -2768,7 +2769,7 @@ Value=98;DK TYPE
 Value=99;NO RESPONSE
 
 [Item]
-Label=Way net was obtained
+Label=Forma de obtenção da rede mosquiteira|Way net was obtained
 Name=TN10
 Start=23
 Len=2
@@ -2776,7 +2777,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Way net was obtained
+Label=Forma de obtenção da rede mosquiteira
 Name=TN10_VST
 Value=1;YES, NAME OF CAMPAIGN
 Value=2;YES, ANC
@@ -2786,7 +2787,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Place where net was obtained
+Label=Local de obtenção da rede mosquiteira|Place where net was obtained
 Name=TN12
 Start=25
 Len=2
@@ -2794,7 +2795,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Place where net was obtained
+Label=Local de obtenção da rede mosquiteira
 Name=TN12_VST
 Value=11;GOVERNMENT HEALTH FACILITY
 Value=12;COMMUNITY HEALTH WORKER
@@ -2809,7 +2810,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Persons slept under mosquito net last night
+Label=Pessoas que dormiram sob a rede mosquiteira na noite anterior|Persons slept under mosquito net last night
 Name=TN13
 Start=27
 Len=1
@@ -2817,7 +2818,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Persons slept under mosquito net last night
+Label=Pessoas que dormiram sob a rede mosquiteira na noite anterior
 Name=TN13_VST
 Value=1;YES
 Value=2;NO
@@ -2825,7 +2826,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Main reason this net was not used last night
+Label=Principal motivo pelo qual a rede não foi utilizada na noite anterior|Main reason this net was not used last night
 Name=TN14A
 Start=28
 Len=2
@@ -2833,7 +2834,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main reason this net was not used last night
+Label=Principal motivo pelo qual a rede não foi utilizada na noite anterior
 Name=TN14A_VS1
 Value=1;TOO HOT
 Value=2;DON’T LIKE NET SHAPE / COLOUR / SIZE
@@ -2848,7 +2849,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Person 1 who slept under net
+Label=Pessoa 1 que dormiu sob a rede|Person 1 who slept under net
 Name=TN15_1
 Start=30
 Len=2
@@ -2856,13 +2857,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Person 1 who slept under net
+Label=Pessoa 1 que dormiu sob a rede
 Name=TN15_1_VST
 Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
 Value=1:50
 
 [Item]
-Label=Person 2 who slept under net
+Label=Pessoa 2 que dormiu sob a rede|Person 2 who slept under net
 Name=TN15_2
 Start=32
 Len=2
@@ -2870,14 +2871,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Person 2 who slept under net
+Label=Pessoa 2 que dormiu sob a rede
 Name=TN15_2_VST
 Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
 Value=1:50
 Value=90;NO ONE ELSE
 
 [Item]
-Label=Person 3 who slept under net
+Label=Pessoa 3 que dormiu sob a rede|Person 3 who slept under net
 Name=TN15_3
 Start=34
 Len=2
@@ -2885,14 +2886,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Person 3 who slept under net
+Label=Pessoa 3 que dormiu sob a rede
 Name=TN15_3_VST
 Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
 Value=1:50
 Value=90;NO ONE ELSE
 
 [Item]
-Label=Person 4 who slept under net
+Label=Pessoa 4 que dormiu sob a rede|Person 4 who slept under net
 Name=TN15_4
 Start=36
 Len=2
@@ -2900,14 +2901,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Person 4 who slept under net
+Label=Pessoa 4 que dormiu sob a rede
 Name=TN15_4_VST
 Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
 Value=1:50
 Value=90;NO ONE ELSE
 
 [Record]
-Label=Social Transfers
+Label=Transferências sociais|Social Transfers
 Name=MODST
 RecordTypeValue='0ST'
 Required=No
@@ -2915,7 +2916,7 @@ MaxRecords=5
 RecordLen=220
 
 [Item]
-Label=Aware of (name of programme)
+Label=Conhece o (nome do programa)|Aware of (name of programme)
 Name=ST2
 Start=16
 Len=1
@@ -2923,14 +2924,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Aware of (name of programme)
+Label=Conhece o (nome do programa)
 Name=ST2_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Received assistance through (name of programme)
+Label=Recebeu assistência através do (nome do programa)|Received assistance through (name of programme)
 Name=ST3
 Start=17
 Len=1
@@ -2938,7 +2939,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Received assistance through (name of programme)
+Label=Recebeu assistência através do (nome do programa)
 Name=ST3_VST
 Value=1;YES
 Value=2;NO
@@ -2946,21 +2947,21 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Assistance intended for
+Label=Pessoas a quem se destinava a assistência|Assistance intended for
 Name=ST4
 Start=18
 Len=100
 DataType=Alpha
 
 [ValueSet]
-Label=Assistance intended for
+Label=Pessoas a quem se destinava a assistência
 Name=ST4_VS1
 Value='95                                                                                                  ';ALL MEMBERS
 Value='98                                                                                                  ';DK
 Value='99                                                                                                  ';NO RESPONSE
 
 [Item]
-Label=Person 1 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)|Person 1 (needed to force CSPRO put 0 at beginning)
 Name=ST4_1
 Start=18
 Len=2
@@ -2969,14 +2970,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Person 1 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)
 Name=ST4_1_VS1
 Value=95;ALL MEMBERS
 Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Person 2 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 2 (necessário para obrigar o CSPro a colocar 0 no início)|Person 2 (needed to force CSPRO put 0 at beginning)
 Name=ST4_2
 Start=20
 Len=2
@@ -2985,7 +2986,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 3 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 3 (necessário para obrigar o CSPro a colocar 0 no início)|Person 3 (needed to force CSPRO put 0 at beginning)
 Name=ST4_3
 Start=22
 Len=2
@@ -2994,7 +2995,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 4 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 4 (necessário para obrigar o CSPro a colocar 0 no início)|Person 4 (needed to force CSPRO put 0 at beginning)
 Name=ST4_4
 Start=24
 Len=2
@@ -3003,7 +3004,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 5 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 5 (necessário para obrigar o CSPro a colocar 0 no início)|Person 5 (needed to force CSPRO put 0 at beginning)
 Name=ST4_9
 Start=26
 Len=2
@@ -3012,7 +3013,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 6 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 6 (necessário para obrigar o CSPro a colocar 0 no início)|Person 6 (needed to force CSPRO put 0 at beginning)
 Name=ST4_5
 Start=28
 Len=2
@@ -3021,7 +3022,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 7 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 7 (necessário para obrigar o CSPro a colocar 0 no início)|Person 7 (needed to force CSPRO put 0 at beginning)
 Name=ST4_6
 Start=30
 Len=2
@@ -3030,7 +3031,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 8 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 8 (necessário para obrigar o CSPro a colocar 0 no início)|Person 8 (needed to force CSPRO put 0 at beginning)
 Name=ST4_7
 Start=32
 Len=2
@@ -3039,7 +3040,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 9 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 9 (necessário para obrigar o CSPro a colocar 0 no início)|Person 9 (needed to force CSPRO put 0 at beginning)
 Name=ST4_8
 Start=34
 Len=2
@@ -3048,14 +3049,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person authorised to receive or collect the assistance
+Label=Pessoa autorizada a receber ou levantar a assistência|Person authorised to receive or collect the assistance
 Name=ST5
 Start=118
 Len=100
 DataType=Alpha
 
 [ValueSet]
-Label=Person authorised to receive or collect the assistance
+Label=Pessoa autorizada a receber ou levantar a assistência
 Name=ST5_VS1
 Value='00                                                                                                  ';NO ONE IN THIS HOUSEHOLD
 Value='95                                                                                                  ';ALL MEMBERS
@@ -3063,7 +3064,7 @@ Value='98                                                                       
 Value='99                                                                                                  ';NO RESPONSE
 
 [Item]
-Label=Person 1 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)|Person 1 (needed to force CSPRO put 0 at beginning)
 Name=ST5_1
 Start=118
 Len=2
@@ -3072,7 +3073,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Person 1 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)
 Name=ST5_1_VS1
 Value=0;NO ONE IN THIS HOUSEHOLD
 Value=95;ALL MEMBERS
@@ -3080,7 +3081,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Person 2 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 2 (necessário para obrigar o CSPro a colocar 0 no início)|Person 2 (needed to force CSPRO put 0 at beginning)
 Name=ST5_2
 Start=120
 Len=2
@@ -3089,7 +3090,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 3 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 3 (necessário para obrigar o CSPro a colocar 0 no início)|Person 3 (needed to force CSPRO put 0 at beginning)
 Name=ST5_3
 Start=122
 Len=2
@@ -3098,7 +3099,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 4 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 4 (necessário para obrigar o CSPro a colocar 0 no início)|Person 4 (needed to force CSPRO put 0 at beginning)
 Name=ST5_4
 Start=124
 Len=2
@@ -3107,7 +3108,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 5 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 5 (necessário para obrigar o CSPro a colocar 0 no início)|Person 5 (needed to force CSPRO put 0 at beginning)
 Name=ST5_5
 Start=126
 Len=2
@@ -3116,7 +3117,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 6 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 6 (necessário para obrigar o CSPro a colocar 0 no início)|Person 6 (needed to force CSPRO put 0 at beginning)
 Name=ST5_6
 Start=128
 Len=2
@@ -3125,7 +3126,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 7 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 7 (necessário para obrigar o CSPro a colocar 0 no início)|Person 7 (needed to force CSPRO put 0 at beginning)
 Name=ST5_7
 Start=130
 Len=2
@@ -3134,7 +3135,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 8 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 8 (necessário para obrigar o CSPro a colocar 0 no início)|Person 8 (needed to force CSPRO put 0 at beginning)
 Name=ST5_8
 Start=132
 Len=2
@@ -3143,7 +3144,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Person 9 (needed to force CSPRO put 0 at beginning)
+Label=Pessoa 9 (necessário para obrigar o CSPro a colocar 0 no início)|Person 9 (needed to force CSPRO put 0 at beginning)
 Name=ST5_9
 Start=134
 Len=2
@@ -3152,7 +3153,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Last time assistance was received (unit)
+Label=Última vez que recebeu assistência (unidade)|Last time assistance was received (unit)
 Name=ST6U
 Start=218
 Len=1
@@ -3160,14 +3161,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last time assistance was received (unit)
+Label=Última vez que recebeu assistência (unidade)
 Name=ST6U_VS1
 Value=1;MONTHS AGO
 Value=2;YEARS AGO
 Value=9;DK / NO RESPONSE
 
 [Item]
-Label=Last time assistance was received (number)
+Label=Última vez que recebeu assistência (número)|Last time assistance was received (number)
 Name=ST6N
 Start=219
 Len=2
@@ -3175,21 +3176,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Last time assistance was received (number)
+Label=Última vez que recebeu assistência (número)
 Name=ST6N_VS1
 Value=0:90
 Value=98;DK
 Value=99;NO RESPONSE
 
 [Record]
-Label=Post Emergency
+Label=Pós-emergência|Post Emergency
 Name=MODPE
 RecordTypeValue='0PE'
 Required=No
 RecordLen=52
 
 [Item]
-Label=New household member post emergency
+Label=Novo membro do agregado familiar após a emergência|New household member post emergency
 Name=PE1
 Start=16
 Len=1
@@ -3197,7 +3198,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=New household member post emergency
+Label=Novo membro do agregado familiar após a emergência
 Name=PE1_VS1
 Value=1;YES
 Value=2;NO
@@ -3205,7 +3206,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Number of new household members post emergency
+Label=Número de novos membros após a emergência|Number of new household members post emergency
 Name=PE2
 Start=17
 Len=2
@@ -3213,13 +3214,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of new household members post emergency
+Label=Número de novos membros após a emergência
 Name=PE2_VS1
 Value=1:15
 Value=99;NO RESPONSE
 
 [Item]
-Label=All members of the household moves somewhere else because of the emergency
+Label=Todos os membros mudaram-se para outro local devido à emergência|All members of the household moves somewhere else because of the emergency
 Name=PE3
 Start=19
 Len=1
@@ -3227,14 +3228,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=All members of the household moves somewhere else because of the emergency
+Label=Todos os membros mudaram-se para outro local devido à emergência
 Name=PE3_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=How long did all the members of this household live in that other place(s): Unit
+Label=Durante quanto tempo todos os membros viveram noutro(s) local(is): Unidade|How long did all the members of this household live in that other place(s): Unit
 Name=PE4U
 Start=20
 Len=1
@@ -3242,7 +3243,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=How long did all the members of this household live in that other place(s): Unit
+Label=Durante quanto tempo todos os membros viveram noutro(s) local(is): Unidade
 Name=PE4U_VS1
 Value=1;DAYS
 Value=2;WEEKS
@@ -3250,7 +3251,7 @@ Value=3;MONTHS
 Value=9;SPECIAL
 
 [Item]
-Label=How long did all the members of this household live in that other place(s): Number
+Label=Durante quanto tempo todos os membros viveram noutro(s) local(is): Número|How long did all the members of this household live in that other place(s): Number
 Name=PE4N
 Start=21
 Len=2
@@ -3258,7 +3259,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=How long did all the members of this household live in that other place(s): Number
+Label=Durante quanto tempo todos os membros viveram noutro(s) local(is): Número
 Name=PE4N_VS1
 Value=1:36
 Value=95;NOT YET RETURNED
@@ -3266,7 +3267,7 @@ Value=98;DK / NOT SURE
 Value=99;NO RESPONSE
 
 [Item]
-Label=House damaged or destroyed due to emergency
+Label=Habitação danificada ou destruída devido à emergência|House damaged or destroyed due to emergency
 Name=PE5
 Start=23
 Len=1
@@ -3274,14 +3275,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=House damaged or destroyed due to emergency
+Label=Habitação danificada ou destruída devido à emergência
 Name=PE5_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Anyone who was living in the household during the emergency died as a direct result of the emergency
+Label=Alguma pessoa que vivia no agregado familiar morreu em consequência direta da emergência|Anyone who was living in the household during the emergency died as a direct result of the emergency
 Name=PE6
 Start=24
 Len=1
@@ -3289,7 +3290,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Anyone who was living in the household during the emergency died as a direct result of the emergency
+Label=Alguma pessoa que vivia no agregado familiar morreu em consequência direta da emergência
 Name=PE6_VS1
 Value=1;YES
 Value=2;NO
@@ -3297,7 +3298,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any of the members of this household needed medical care for any reason at the time of the emergency
+Label=Algum membro necessitou de cuidados médicos durante a emergência|Any of the members of this household needed medical care for any reason at the time of the emergency
 Name=PE7
 Start=25
 Len=1
@@ -3305,7 +3306,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any of the members of this household needed medical care for any reason at the time of the emergency
+Label=Algum membro necessitou de cuidados médicos durante a emergência
 Name=PE7_VS1
 Value=1;YES
 Value=2;NO
@@ -3313,7 +3314,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=All members that needed medical care receive this care
+Label=Todos os membros que necessitaram de cuidados médicos receberam-nos|All members that needed medical care receive this care
 Name=PE8
 Start=26
 Len=1
@@ -3321,7 +3322,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=All members that needed medical care receive this care
+Label=Todos os membros que necessitaram de cuidados médicos receberam-nos
 Name=PE8_VS1
 Value=1;YES
 Value=2;NO
@@ -3329,7 +3330,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any member of household became seriously ill at the time of the emergency
+Label=Algum membro ficou gravemente doente durante a emergência|Any member of household became seriously ill at the time of the emergency
 Name=PE9
 Start=27
 Len=1
@@ -3337,7 +3338,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any member of household became seriously ill at the time of the emergency
+Label=Algum membro ficou gravemente doente durante a emergência
 Name=PE9_VS1
 Value=1;YES
 Value=2;NO
@@ -3345,7 +3346,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household member was unable to perform usual daily activities
+Label=Membro do agregado familiar ficou impossibilitado de realizar atividades diárias habituais|Household member was unable to perform usual daily activities
 Name=PE10
 Start=28
 Len=1
@@ -3353,7 +3354,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household member was unable to perform usual daily activities
+Label=Membro do agregado familiar ficou impossibilitado de realizar atividades diárias habituais
 Name=PE10_VS1
 Value=1;YES
 Value=2;NO
@@ -3361,7 +3362,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Anyone in this household becme seriously injured due to the emergency
+Label=Alguém do agregado familiar sofreu ferimentos graves devido à emergência|Anyone in this household becme seriously injured due to the emergency
 Name=PE11
 Start=29
 Len=1
@@ -3369,7 +3370,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Anyone in this household becme seriously injured due to the emergency
+Label=Alguém do agregado familiar sofreu ferimentos graves devido à emergência
 Name=PE11_VS1
 Value=1;YES
 Value=2;NO
@@ -3377,7 +3378,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Any household members were separated from the household
+Label=Alguns membros ficaram separados do agregado familiar|Any household members were separated from the household
 Name=PE12
 Start=30
 Len=1
@@ -3385,14 +3386,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any household members were separated from the household
+Label=Alguns membros ficaram separados do agregado familiar
 Name=PE12_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Number of household members that were separated
+Label=Número de membros que ficaram separados|Number of household members that were separated
 Name=PE13
 Start=31
 Len=2
@@ -3400,13 +3401,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of household members that were separated
+Label=Número de membros que ficaram separados
 Name=PE13_VS1
 Value=1:50
 Value=99;NO RESPONSE
 
 [Item]
-Label=Any of the separated household members were less than 18 years old at the time of separation
+Label=Algum membro separado tinha menos de 18 anos no momento da separação|Any of the separated household members were less than 18 years old at the time of separation
 Name=PE14
 Start=33
 Len=1
@@ -3414,7 +3415,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any of the separated household members were less than 18 years old at the time of separation
+Label=Algum membro separado tinha menos de 18 anos no momento da separação
 Name=PE14_VS1
 Value=1;YES
 Value=2;NO
@@ -3422,7 +3423,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Children age 5-17 years living in this household during the emergency
+Label=Crianças dos 5 aos 17 anos que viviam no agregado familiar durante a emergência|Children age 5-17 years living in this household during the emergency
 Name=PE15
 Start=34
 Len=1
@@ -3430,14 +3431,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Children age 5-17 years living in this household during the emergency
+Label=Crianças dos 5 aos 17 anos que viviam no agregado familiar durante a emergência
 Name=PE15_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Before the emergency, any of children age 5-17 were attending school
+Label=Antes da emergência, alguma criança dos 5 aos 17 anos frequentava a escola|Before the emergency, any of children age 5-17 were attending school
 Name=PE16
 Start=35
 Len=1
@@ -3445,7 +3446,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Before the emergency, any of children age 5-17 were attending school
+Label=Antes da emergência, alguma criança dos 5 aos 17 anos frequentava a escola
 Name=PE16_VS1
 Value=1;YES
 Value=2;NO
@@ -3453,7 +3454,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the emergency, any children age 5 to 17 years stopped attending school
+Label=Durante a emergência, alguma criança dos 5 aos 17 anos deixou de frequentar a escola|During the emergency, any children age 5 to 17 years stopped attending school
 Name=PE17
 Start=36
 Len=1
@@ -3461,7 +3462,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the emergency, any children age 5 to 17 years stopped attending school
+Label=Durante a emergência, alguma criança dos 5 aos 17 anos deixou de frequentar a escola
 Name=PE17_VS1
 Value=1;YES
 Value=2;NO
@@ -3469,7 +3470,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the emergency, the household’s main source of drinking water was unusable
+Label=Durante a emergência, a principal fonte de água para beber ficou inutilizável|During the emergency, the household’s main source of drinking water was unusable
 Name=PE18
 Start=37
 Len=1
@@ -3477,7 +3478,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the emergency, the household’s main source of drinking water was unusable
+Label=Durante a emergência, a principal fonte de água para beber ficou inutilizável
 Name=PE18_VS1
 Value=1;YES
 Value=2;NO
@@ -3485,7 +3486,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=During the emergency, the household’s main toilet facility was unusable
+Label=Durante a emergência, a principal instalação sanitária ficou inutilizável|During the emergency, the household’s main toilet facility was unusable
 Name=PE19
 Start=38
 Len=1
@@ -3493,7 +3494,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=During the emergency, the household’s main toilet facility was unusable
+Label=Durante a emergência, a principal instalação sanitária ficou inutilizável
 Name=PE19_VS1
 Value=1;YES
 Value=2;NO
@@ -3502,7 +3503,7 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Household income affected by the emergency
+Label=Rendimento do agregado familiar afetado pela emergência|Household income affected by the emergency
 Name=PE20
 Start=39
 Len=1
@@ -3510,7 +3511,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household income affected by the emergency
+Label=Rendimento do agregado familiar afetado pela emergência
 Name=PE20_VS1
 Value=1;YES, INCREASED
 Value=2;YES, DECREASED
@@ -3519,14 +3520,14 @@ Value=8;DK / NOT SURE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Why did your household’s income decrease
+Label=Motivo da diminuição do rendimento do agregado familiar|Why did your household’s income decrease
 Name=PE21
 Start=40
 Len=12
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household’s income decrease
+Label=Motivo da diminuição do rendimento do agregado familiar
 Name=PE21_VS1
 Value='A           ';LOST JOB
 Value='B           ';REDUCTION IN WORK HOURS / EARNINGS
@@ -3542,7 +3543,7 @@ Value='X           ';OTHER
 Value='?           ';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Lost job
+Label=Motivo da diminuição do rendimento: Perda de emprego|Why did your household's income decrease: Lost job
 Name=PE21A
 Start=40
 Len=1
@@ -3550,14 +3551,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Lost job
+Label=Motivo da diminuição do rendimento: Perda de emprego
 Name=PE21A_VS1
 Value='A';LOST JOB
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Reduction in work hours / Earnings
+Label=Motivo da diminuição do rendimento: Redução das horas de trabalho/dos ganhos|Why did your household's income decrease: Reduction in work hours / Earnings
 Name=PE21B
 Start=41
 Len=1
@@ -3565,14 +3566,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Reduction in work hours / Earnings
+Label=Motivo da diminuição do rendimento: Redução das horas de trabalho/dos ganhos
 Name=PE21B_VS1
 Value='B';REDUCTION IN WORK HOURS / EARNINGS
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Unable to harvest or plant
+Label=Motivo da diminuição do rendimento: Impossibilidade de colher ou plantar|Why did your household's income decrease: Unable to harvest or plant
 Name=PE21C
 Start=42
 Len=1
@@ -3580,14 +3581,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Unable to harvest or plant
+Label=Motivo da diminuição do rendimento: Impossibilidade de colher ou plantar
 Name=PE21C_VS1
 Value='C';UNABLE TO HARVEST OR PLANT
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Unable to maintain livestock
+Label=Motivo da diminuição do rendimento: Impossibilidade de cuidar do gado|Why did your household's income decrease: Unable to maintain livestock
 Name=PE21D
 Start=43
 Len=1
@@ -3595,14 +3596,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Unable to maintain livestock
+Label=Motivo da diminuição do rendimento: Impossibilidade de cuidar do gado
 Name=PE21D_VS1
 Value='D';UNABLE TO MAINTAIN LIVESTOCK
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Could not go to work
+Label=Motivo da diminuição do rendimento: Impossibilidade de ir trabalhar|Why did your household's income decrease: Could not go to work
 Name=PE21E
 Start=44
 Len=1
@@ -3610,14 +3611,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Could not go to work
+Label=Motivo da diminuição do rendimento: Impossibilidade de ir trabalhar
 Name=PE21E_VS1
 Value='E';COULD NOT GO TO WORK
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Could not open business
+Label=Motivo da diminuição do rendimento: Impossibilidade de abrir o negócio|Why did your household's income decrease: Could not open business
 Name=PE21F
 Start=45
 Len=1
@@ -3625,14 +3626,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Could not open business
+Label=Motivo da diminuição do rendimento: Impossibilidade de abrir o negócio
 Name=PE21F_VS1
 Value='F';COULD NOT OPEN BUSINESS
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Loss of business location
+Label=Motivo da diminuição do rendimento: Perda das instalações do negócio|Why did your household's income decrease: Loss of business location
 Name=PE21G
 Start=46
 Len=1
@@ -3640,14 +3641,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Loss of business location
+Label=Motivo da diminuição do rendimento: Perda das instalações do negócio
 Name=PE21G_VS1
 Value='G';LOSS OF BUSINESS LOCATION
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Loss of business inventory
+Label=Motivo da diminuição do rendimento: Perda de existências do negócio|Why did your household's income decrease: Loss of business inventory
 Name=PE21H
 Start=47
 Len=1
@@ -3655,14 +3656,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Loss of business inventory
+Label=Motivo da diminuição do rendimento: Perda de existências do negócio
 Name=PE21H_VS1
 Value='H';LOSS OF BUSINESS INVENTORY
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Loss of business equipment/assets
+Label=Motivo da diminuição do rendimento: Perda de equipamentos/ativos do negócio|Why did your household's income decrease: Loss of business equipment/assets
 Name=PE21I
 Start=48
 Len=1
@@ -3670,14 +3671,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Loss of business equipment/assets
+Label=Motivo da diminuição do rendimento: Perda de equipamentos/ativos do negócio
 Name=PE21I_VS1
 Value='I';LOSS OF BUSINESS EQUIPMENT / ASSETS
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Death/injury / injury of family member
+Label=Motivo da diminuição do rendimento: Morte/ferimentos de um familiar|Why did your household's income decrease: Death/injury / injury of family member
 Name=PE21J
 Start=49
 Len=1
@@ -3685,14 +3686,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Death/injury / injury of family member
+Label=Motivo da diminuição do rendimento: Morte/ferimentos de um familiar
 Name=PE21J_VS1
 Value='J';DEATH / INJURY / INJURY OF FAMILY MEMBER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: Other
+Label=Motivo da diminuição do rendimento: Outro|Why did your household's income decrease: Other
 Name=PE21X
 Start=50
 Len=1
@@ -3700,14 +3701,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: Other
+Label=Motivo da diminuição do rendimento: Outro
 Name=PE21X_VS1
 Value='X';OTHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Why did your household's income decrease: No response
+Label=Motivo da diminuição do rendimento: Sem resposta|Why did your household's income decrease: No response
 Name=PE21NR
 Start=51
 Len=1
@@ -3715,13 +3716,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Why did your household's income decrease: No response
+Label=Motivo da diminuição do rendimento: Sem resposta
 Name=PE21NR_VS1
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Any items of value in the home, farm or business, either damaged, destroyed or stolen
+Label=Bens de valor na habitação, exploração agrícola ou negócio danificados, destruídos ou roubados|Any items of value in the home, farm or business, either damaged, destroyed or stolen
 Name=PE22
 Start=52
 Len=1
@@ -3729,7 +3730,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Any items of value in the home, farm or business, either damaged, destroyed or stolen
+Label=Bens de valor na habitação, exploração agrícola ou negócio danificados, destruídos ou roubados
 Name=PE22_VS1
 Value=1;YES
 Value=2;NO
@@ -3737,14 +3738,14 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Record]
-Label=Food Insecurity Experience
+Label=Experiência de insegurança alimentar|Food Insecurity Experience
 Name=MODFE
 RecordTypeValue='0FE'
 Required=No
 RecordLen=23
 
 [Item]
-Label=Food security concern in past year
+Label=Preocupação com a segurança alimentar no último ano|Food security concern in past year
 Name=FE1
 Start=16
 Len=1
@@ -3752,7 +3753,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Food security concern in past year
+Label=Preocupação com a segurança alimentar no último ano
 Name=FE1_VS1
 Value=1;YES
 Value=2;NO
@@ -3760,7 +3761,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Access to healthy food in past year
+Label=Acesso a alimentos saudáveis no último ano|Access to healthy food in past year
 Name=FE2
 Start=17
 Len=1
@@ -3768,7 +3769,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Access to healthy food in past year
+Label=Acesso a alimentos saudáveis no último ano
 Name=FE2_VS1
 Value=1;YES
 Value=2;NO
@@ -3776,7 +3777,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Limited food variety due to resource constraints
+Label=Variedade alimentar limitada por falta de recursos|Limited food variety due to resource constraints
 Name=FE3
 Start=18
 Len=1
@@ -3784,7 +3785,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Limited food variety due to resource constraints
+Label=Variedade alimentar limitada por falta de recursos
 Name=FE3_VS1
 Value=1;YES
 Value=2;NO
@@ -3792,7 +3793,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Meal skipping due to resource constraints
+Label=Omissão de refeições por falta de recursos|Meal skipping due to resource constraints
 Name=FE4
 Start=19
 Len=1
@@ -3800,7 +3801,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Meal skipping due to resource constraints
+Label=Omissão de refeições por falta de recursos
 Name=FE4_VS1
 Value=1;YES
 Value=2;NO
@@ -3808,7 +3809,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Eating less due to resource constraints in past year
+Label=Comer menos por falta de recursos no último ano|Eating less due to resource constraints in past year
 Name=FE5
 Start=20
 Len=1
@@ -3816,7 +3817,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Eating less due to resource constraints in past year
+Label=Comer menos por falta de recursos no último ano
 Name=FE5_VS1
 Value=1;YES
 Value=2;NO
@@ -3824,7 +3825,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Running out of food due to resource constraints
+Label=Ficar sem alimentos por falta de recursos|Running out of food due to resource constraints
 Name=FE6
 Start=21
 Len=1
@@ -3832,7 +3833,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Running out of food due to resource constraints
+Label=Ficar sem alimentos por falta de recursos
 Name=FE6_VS1
 Value=1;YES
 Value=2;NO
@@ -3840,7 +3841,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Hunger without eating due to resource constraints
+Label=Sentir fome sem comer por falta de recursos|Hunger without eating due to resource constraints
 Name=FE7
 Start=22
 Len=1
@@ -3848,7 +3849,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Hunger without eating due to resource constraints
+Label=Sentir fome sem comer por falta de recursos
 Name=FE7_VS1
 Value=1;YES
 Value=2;NO
@@ -3856,7 +3857,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Going without eating for a whole day due to resource constraints in past year
+Label=Passar um dia inteiro sem comer por falta de recursos no último ano|Going without eating for a whole day due to resource constraints in past year
 Name=FE8
 Start=23
 Len=1
@@ -3864,7 +3865,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Going without eating for a whole day due to resource constraints in past year
+Label=Passar um dia inteiro sem comer por falta de recursos no último ano
 Name=FE8_VS1
 Value=1;YES
 Value=2;NO
@@ -3872,14 +3873,14 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Record]
-Label=Water and Sanitation
+Label=Água e saneamento|Water and Sanitation
 Name=MODWS
 RecordTypeValue='0WS'
 Required=No
 RecordLen=66
 
 [Item]
-Label=Main source of drinking water
+Label=Principal fonte de água para beber|Main source of drinking water
 Name=WS1
 Start=16
 Len=2
@@ -3887,7 +3888,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main source of drinking water
+Label=Principal fonte de água para beber
 Name=WS1_VS1
 Value=11;PIPED WATER: PIPED INTO DWELLING
 Value=12;PIPED WATER: PIPED TO YARD / PLOT
@@ -3910,7 +3911,7 @@ Value=96;OTHER
 Value=99;NO RESPONSE
 
 [Item]
-Label=Main source of water used for other purposes (if bottled water used for drinking)
+Label=Principal fonte de água para outros fins (se utilizar água engarrafada para beber)|Main source of water used for other purposes (if bottled water used for drinking)
 Name=WS2
 Start=18
 Len=2
@@ -3918,7 +3919,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main source of water used for other purposes (if bottled water used for drinking)
+Label=Principal fonte de água para outros fins (se utilizar água engarrafada para beber)
 Name=WS2_VS1
 Value=11;PIPED WATER: PIPED INTO DWELLING
 Value=12;PIPED WATER: PIPED TO YARD / PLOT
@@ -3938,7 +3939,7 @@ Value=96;OTHER
 Value=99;NO RESPONSE
 
 [Item]
-Label=Location of the water source
+Label=Localização da fonte de água|Location of the water source
 Name=WS3
 Start=20
 Len=1
@@ -3946,7 +3947,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Location of the water source
+Label=Localização da fonte de água
 Name=WS3_VS1
 Value=1;IN OWN DWELLING
 Value=2;IN OWN YARD / PLOT
@@ -3954,7 +3955,7 @@ Value=3;ELSEWHERE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Time (in minutes) to get water and come back
+Label=Tempo (em minutos) para ir buscar água e regressar|Time (in minutes) to get water and come back
 Name=WS4
 Start=21
 Len=3
@@ -3962,7 +3963,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time (in minutes) to get water and come back
+Label=Tempo (em minutos) para ir buscar água e regressar
 Name=WS4_VS1
 Value=0;MEMBERS DO NOT COLLECT
 Value=1:990
@@ -3970,7 +3971,7 @@ Value=998;DK
 Value=999;NO RESPONSE
 
 [Item]
-Label=Person collecting water
+Label=Pessoa responsável pela recolha de água|Person collecting water
 Name=WS5
 Start=24
 Len=2
@@ -3978,13 +3979,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Person collecting water
+Label=Pessoa responsável pela recolha de água
 Name=WS5_VS1
 Value=1:50
 Value=99;NO RESPONSE
 
 [Item]
-Label=Number of times person collected water in the last seven days
+Label=Número de vezes que a pessoa recolheu água nos últimos sete dias|Number of times person collected water in the last seven days
 Name=WS6
 Start=26
 Len=2
@@ -3992,14 +3993,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Number of times person collected water in the last seven days
+Label=Número de vezes que a pessoa recolheu água nos últimos sete dias
 Name=WS6_VS1
 Value=0:90
 Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=There been any time in the last month without sufficient water
+Label=Houve algum período no último mês sem água suficiente|There been any time in the last month without sufficient water
 Name=WS7
 Start=28
 Len=1
@@ -4007,7 +4008,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=There been any time in the last month without sufficient water
+Label=Houve algum período no último mês sem água suficiente
 Name=WS7_VS1
 Value=1;YES, AT LEAST ONCE
 Value=2;NO, ALWAYS SUFFICIENT
@@ -4015,7 +4016,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=There been any time in the last 12 months without sufficient water
+Label=Houve algum período nos últimos 12 meses sem água suficiente|There been any time in the last 12 months without sufficient water
 Name=WS7A
 Start=29
 Len=1
@@ -4023,7 +4024,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=There been any time in the last 12 months without sufficient water
+Label=Houve algum período nos últimos 12 meses sem água suficiente
 Name=WS7A_VS1
 Value=1;YES, AT LEAST ONCE
 Value=2;NO, ALWAYS SUFFICIENT
@@ -4031,7 +4032,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Main reason without sufficient water
+Label=Principal motivo da falta de água suficiente|Main reason without sufficient water
 Name=WS8
 Start=30
 Len=1
@@ -4039,7 +4040,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main reason without sufficient water
+Label=Principal motivo da falta de água suficiente
 Name=WS8_VS1
 Value=1;WATER SOURCE NOT FUNCTIONAL
 Value=2;WATER NOT AVAILABLE
@@ -4050,7 +4051,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Treat water to make safer for drinking
+Label=Tratamento da água para a tornar mais segura para beber|Treat water to make safer for drinking
 Name=WS9
 Start=31
 Len=1
@@ -4058,7 +4059,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Treat water to make safer for drinking
+Label=Tratamento da água para a tornar mais segura para beber
 Name=WS9_VS1
 Value=1;YES
 Value=2;NO
@@ -4066,14 +4067,14 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Water treatment
+Label=Tratamento da água|Water treatment
 Name=WS10
 Start=32
 Len=9
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment
+Label=Tratamento da água
 Name=WS10_VS1
 Value='A        ';BOIL
 Value='B        ';ADD BLEACH / CHLORINE
@@ -4086,7 +4087,7 @@ Value='Z        ';DK
 Value='?        ';NO RESPONSE
 
 [Item]
-Label=Water treatment: Boil
+Label=Tratamento da água: Fervura|Water treatment: Boil
 Name=WS10A
 Start=32
 Len=1
@@ -4094,14 +4095,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Boil
+Label=Tratamento da água: Fervura
 Name=WS10A_VS1
 Value='A';BOIL
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Add bleach/chlorine
+Label=Tratamento da água: Adição de lixívia/cloro|Water treatment: Add bleach/chlorine
 Name=WS10B
 Start=33
 Len=1
@@ -4109,14 +4110,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Add bleach/chlorine
+Label=Tratamento da água: Adição de lixívia/cloro
 Name=WS10B_VS1
 Value='B';ADD BLEACH / CHLORINE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Strain it through a cloth
+Label=Tratamento da água: Filtração através de um pano|Water treatment: Strain it through a cloth
 Name=WS10C
 Start=34
 Len=1
@@ -4124,14 +4125,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Strain it through a cloth
+Label=Tratamento da água: Filtração através de um pano
 Name=WS10C_VS1
 Value='C';STRAIN IT THROUGH A CLOTH
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Use water filter
+Label=Tratamento da água: Utilização de filtro de água|Water treatment: Use water filter
 Name=WS10D
 Start=35
 Len=1
@@ -4139,14 +4140,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Use water filter
+Label=Tratamento da água: Utilização de filtro de água
 Name=WS10D_VS1
 Value='D';USE WATER FILTER (CERAMIC, SAND, COMPOSITE, ETC.)
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Solar disinfection
+Label=Tratamento da água: Desinfeção solar|Water treatment: Solar disinfection
 Name=WS10E
 Start=36
 Len=1
@@ -4154,14 +4155,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Solar disinfection
+Label=Tratamento da água: Desinfeção solar
 Name=WS10E_VS1
 Value='E';SOLAR DISINFECTION
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Let it stand and settle
+Label=Tratamento da água: Deixar repousar e decantar|Water treatment: Let it stand and settle
 Name=WS10F
 Start=37
 Len=1
@@ -4169,14 +4170,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Let it stand and settle
+Label=Tratamento da água: Deixar repousar e decantar
 Name=WS10F_VS1
 Value='F';LET IT STAND AND SETTLE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Other
+Label=Tratamento da água: Outro|Water treatment: Other
 Name=WS10X
 Start=38
 Len=1
@@ -4184,14 +4185,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Other
+Label=Tratamento da água: Outro
 Name=WS10X_VS1
 Value='X';OTHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: DK
+Label=Tratamento da água: Não sabe|Water treatment: DK
 Name=WS10Z
 Start=39
 Len=1
@@ -4199,14 +4200,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: DK
+Label=Tratamento da água: Não sabe
 Name=WS10Z_VS1
 Value='Z';DK
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: No response
+Label=Tratamento da água: Sem resposta|Water treatment: No response
 Name=WS10NR
 Start=40
 Len=1
@@ -4214,13 +4215,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: No response
+Label=Tratamento da água: Sem resposta
 Name=WS10NR_VS1
 Value='?';NO RESPONSE
 Value=' '
 
 [Item]
-Label=Water supply management entity
+Label=Entidade gestora do abastecimento de água|Water supply management entity
 Name=WS10AA
 Start=41
 Len=1
@@ -4228,7 +4229,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Water supply management entity
+Label=Entidade gestora do abastecimento de água
 Name=WS10AA_VS1
 Value=1;OWN HOUSEHOLD
 Value=2;LOCAL OR COMMUNITY ORGANISATION
@@ -4237,7 +4238,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Consistency of main drinking water source in wet season
+Label=Regularidade da principal fonte de água para beber na estação das chuvas|Consistency of main drinking water source in wet season
 Name=WS10BB
 Start=42
 Len=1
@@ -4245,7 +4246,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consistency of main drinking water source in wet season
+Label=Regularidade da principal fonte de água para beber na estação das chuvas
 Name=WS10BB_VS1
 Value=1;YES
 Value=2;NO
@@ -4253,7 +4254,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Main drinking water source in wet season
+Label=Principal fonte de água para beber na estação das chuvas|Main drinking water source in wet season
 Name=WS10CC
 Start=43
 Len=2
@@ -4261,7 +4262,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main drinking water source in wet season
+Label=Principal fonte de água para beber na estação das chuvas
 Name=WS10CC_VS1
 Value=11;PIPED WATER: PIPED INTO DWELLING
 Value=12;PIPED WATER: PIPED TO YARD / PLOT
@@ -4284,7 +4285,7 @@ Value=96;OTHER
 Value=99;NO RESPONSE
 
 [Item]
-Label=Location of the water source that is used during wet season
+Label=Localização da fonte de água utilizada na estação das chuvas|Location of the water source that is used during wet season
 Name=WS10DD
 Start=45
 Len=1
@@ -4292,7 +4293,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Location of the water source that is used during wet season
+Label=Localização da fonte de água utilizada na estação das chuvas
 Name=WS10DD_VS1
 Value=1;IN OWN DWELLING
 Value=2;IN OWN YARD / PLOT
@@ -4300,7 +4301,7 @@ Value=3;ELSEWHERE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Time (in minutes) to get water and come back from the water source that is used during wet season
+Label=Tempo (em minutos) para ir buscar água e regressar da fonte utilizada na estação das chuvas|Time (in minutes) to get water and come back from the water source that is used during wet season
 Name=WS10EE
 Start=46
 Len=3
@@ -4308,7 +4309,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time (in minutes) to get water and come back from the water source that is used during wet season
+Label=Tempo (em minutos) para ir buscar água e regressar da fonte utilizada na estação das chuvas
 Name=WS10EE_VS1
 Value=0;MEMBERS DO NOT COLLECT
 Value=1:990
@@ -4316,7 +4317,7 @@ Value=998;DK
 Value=999;NO RESPONSE
 
 [Item]
-Label=Type of toilet facility
+Label=Tipo de instalação sanitária|Type of toilet facility
 Name=WS11
 Start=49
 Len=2
@@ -4324,7 +4325,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Type of toilet facility
+Label=Tipo de instalação sanitária
 Name=WS11_VS1
 Value=11;FLUSH / POUR FLUSH: PIPED SEWER SYSTEM
 Value=12;FLUSH / POUR FLUSH: SEPTIC TANK
@@ -4344,7 +4345,7 @@ Value=96;OTHER
 Value=99;NO RESPONSE
 
 [Item]
-Label=Outlet pipe for liquid waste
+Label=Tubo de saída de águas residuais líquidas|Outlet pipe for liquid waste
 Name=WS11B
 Start=51
 Len=1
@@ -4352,7 +4353,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Outlet pipe for liquid waste
+Label=Tubo de saída de águas residuais líquidas
 Name=WS11B_VS1
 Value=1;YES
 Value=2;NO
@@ -4360,7 +4361,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Destination of outlet pipe for liquid waste
+Label=Destino do tubo de saída de águas residuais líquidas|Destination of outlet pipe for liquid waste
 Name=WS11C
 Start=52
 Len=2
@@ -4368,7 +4369,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Destination of outlet pipe for liquid waste
+Label=Destino do tubo de saída de águas residuais líquidas
 Name=WS11C_VS1
 Value=11;TO A LEACH FIELD, SOAK PIT
 Value=21;TO A SEWER / CLOSED DRAIN THAT LEADS TO: A WASTEWATER TREATMENT PLANT (WWTP)
@@ -4381,7 +4382,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Excreta release events from water source: Overflowed
+Label=Ocorrências de libertação de excrementos: Transbordamento|Excreta release events from water source: Overflowed
 Name=WS11DA
 Start=54
 Len=1
@@ -4389,7 +4390,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Excreta release events from water source: Overflowed
+Label=Ocorrências de libertação de excrementos: Transbordamento
 Name=WS11DA_VS1
 Value=1;YES
 Value=2;NO
@@ -4397,7 +4398,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Excreta release events from water source: Flooded
+Label=Ocorrências de libertação de excrementos: Inundação|Excreta release events from water source: Flooded
 Name=WS11DB
 Start=55
 Len=1
@@ -4405,7 +4406,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Excreta release events from water source: Flooded
+Label=Ocorrências de libertação de excrementos: Inundação
 Name=WS11DB_VS1
 Value=1;YES
 Value=2;NO
@@ -4413,7 +4414,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Excreta release events from water source: Containment collapsed
+Label=Ocorrências de libertação de excrementos: Colapso da estrutura de contenção|Excreta release events from water source: Containment collapsed
 Name=WS11DC
 Start=56
 Len=1
@@ -4421,7 +4422,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Excreta release events from water source: Containment collapsed
+Label=Ocorrências de libertação de excrementos: Colapso da estrutura de contenção
 Name=WS11DC_VS1
 Value=1;YES
 Value=2;NO
@@ -4429,7 +4430,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Excreta release events from water source: Other event
+Label=Ocorrências de libertação de excrementos: Outra ocorrência|Excreta release events from water source: Other event
 Name=WS11DD
 Start=57
 Len=1
@@ -4437,7 +4438,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Excreta release events from water source: Other event
+Label=Ocorrências de libertação de excrementos: Outra ocorrência
 Name=WS11DD_VS1
 Value=1;YES
 Value=2;NO
@@ -4445,7 +4446,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Pit latrine or septic tank ever been emptied
+Label=Fossa ou tanque séptico alguma vez esvaziado|Pit latrine or septic tank ever been emptied
 Name=WS12
 Start=58
 Len=1
@@ -4453,7 +4454,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Pit latrine or septic tank ever been emptied
+Label=Fossa ou tanque séptico alguma vez esvaziado
 Name=WS12_VS1
 Value=1;YES, EMPTIED
 Value=4;NO, NEVER EMPTIED
@@ -4462,7 +4463,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Entity responsible for the last emptying of water source
+Label=Entidade responsável pelo último esvaziamento da fossa/tanque|Entity responsible for the last emptying of water source
 Name=WS12A
 Start=59
 Len=2
@@ -4470,7 +4471,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Entity responsible for the last emptying of water source
+Label=Entidade responsável pelo último esvaziamento da fossa/tanque
 Name=WS12A_VS1
 Value=11;SERVICE PROVIDER: PUBLIC / MUNICIPALITY / GOVERNMENT
 Value=12;SERVICE PROVIDER: PRIVATE COMPANY / NGO
@@ -4482,7 +4483,7 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Item]
-Label=Place the contents were emptied
+Label=Local onde o conteúdo foi descarregado|Place the contents were emptied
 Name=WS13
 Start=61
 Len=1
@@ -4490,7 +4491,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Place the contents were emptied
+Label=Local onde o conteúdo foi descarregado
 Name=WS13_VS1
 Value=1;REMOVED OFF-SITE (TO TREATMENT / UNKNOWN)
 Value=2;REMOVED TO A WATERBODY, OPEN 	GROUND, FIELD OR ELSEWHERE
@@ -4502,7 +4503,7 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Location of the toilet faciltity
+Label=Localização da instalação sanitária|Location of the toilet faciltity
 Name=WS14
 Start=62
 Len=1
@@ -4510,7 +4511,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Location of the toilet faciltity
+Label=Localização da instalação sanitária
 Name=WS14_VS1
 Value=1;IN OWN DWELLING
 Value=2;IN OWN YARD / PLOT
@@ -4518,7 +4519,7 @@ Value=3;ELSEWHERE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Toilet facility shared
+Label=Instalação sanitária partilhada|Toilet facility shared
 Name=WS15
 Start=63
 Len=1
@@ -4526,14 +4527,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Toilet facility shared
+Label=Instalação sanitária partilhada
 Name=WS15_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Toilet shared with other household or with general public
+Label=Instalação sanitária partilhada com outros agregados ou com o público em geral|Toilet shared with other household or with general public
 Name=WS16
 Start=64
 Len=1
@@ -4541,14 +4542,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Toilet shared with other household or with general public
+Label=Instalação sanitária partilhada com outros agregados ou com o público em geral
 Name=WS16_VS1
 Value=1;SHARED WITH KNOWN HOUSEHOLDS (NOT PUBLIC)
 Value=2;SHARED WITH GENERAL PUBLIC
 Value=9;NO RESPONSE
 
 [Item]
-Label=Households using this toilet facility
+Label=Número de agregados familiares que utilizam esta instalação sanitária|Households using this toilet facility
 Name=WS17
 Start=65
 Len=2
@@ -4556,7 +4557,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Households using this toilet facility
+Label=Número de agregados familiares que utilizam esta instalação sanitária
 Name=WS17_VS1
 Value=2;TWO
 Value=3;THREE
@@ -4571,14 +4572,14 @@ Value=98;DK
 Value=99;NO RESPONSE
 
 [Record]
-Label=Hygiene
+Label=Higiene|Hygiene
 Name=MODHW
 RecordTypeValue='0HW'
 Required=No
 RecordLen=24
 
 [Item]
-Label=Place where household members most often wash their hands
+Label=Local onde os membros do agregado familiar lavam habitualmente as mãos|Place where household members most often wash their hands
 Name=HW1
 Start=16
 Len=1
@@ -4586,7 +4587,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Place where household members most often wash their hands
+Label=Local onde os membros do agregado familiar lavam habitualmente as mãos
 Name=HW1_VST
 Value=1;OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN DWELLING
 Value=2;OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN YARD /PLOT
@@ -4596,7 +4597,7 @@ Value=5;NOT OBSERVED: NO PERMISSION TO SEE
 Value=6;OTHER REASON
 
 [Item]
-Label=Water available at the place for handwashing
+Label=Água disponível no local de lavagem das mãos|Water available at the place for handwashing
 Name=HW2
 Start=17
 Len=1
@@ -4604,20 +4605,20 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Water available at the place for handwashing
+Label=Água disponível no local de lavagem das mãos
 Name=HW2_VST
 Value=1;WATER IS AVAILABLE
 Value=2;WATER IS NOT AVAILABLE
 
 [Item]
-Label=Soap/other material present at the place for hand washing
+Label=Sabão/outro material disponível no local de lavagem das mãos|Soap/other material present at the place for hand washing
 Name=HW3
 Start=18
 Len=5
 DataType=Alpha
 
 [ValueSet]
-Label=Soap/other material present at the place for hand washing
+Label=Sabão/outro material disponível no local de lavagem das mãos
 Name=HW3_VS1
 Value='A    ';BAR OR LIQUID SOAP
 Value='B    ';DETERGENT (POWDER / LIQUID / PASTE)
@@ -4626,7 +4627,7 @@ Value='D    ';MUD / SAND
 Value='Y    ';NONE OF THESE PRESENT
 
 [Item]
-Label=Bar soap
+Label=Sabão em barra|Bar soap
 Name=HW3A
 Start=18
 Len=1
@@ -4634,13 +4635,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Bar soap
+Label=Sabão em barra
 Name=HW3A_VS1
 Value='A';BAR OR LIQUID SOAP
 Value=' '
 
 [Item]
-Label=Detergent (Powder / Liquid / Paste)
+Label=Detergente (pó/líquido/pasta)|Detergent (Powder / Liquid / Paste)
 Name=HW3B
 Start=19
 Len=1
@@ -4648,13 +4649,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Detergent (Powder / Liquid / Paste)
+Label=Detergente (pó/líquido/pasta)
 Name=HW3B_VS1
 Value='B';DETERGENT (POWDER / LIQUID / PASTE)
 Value=' '
 
 [Item]
-Label=Ash / Mud / Sand
+Label=Cinza/lama/areia|Ash / Mud / Sand
 Name=HW3C
 Start=20
 Len=1
@@ -4662,13 +4663,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Ash / Mud / Sand
+Label=Cinza/lama/areia
 Name=HW3C_VS1
 Value='C';ASH
 Value=' '
 
 [Item]
-Label=Mud / Sand
+Label=Lama/areia|Mud / Sand
 Name=HW3D
 Start=21
 Len=1
@@ -4676,13 +4677,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Mud / Sand
+Label=Lama/areia
 Name=HW3D_VS1
 Value='D';MUD / SAND
 Value=' '
 
 [Item]
-Label=None of these present
+Label=Nenhum destes materiais presente|None of these present
 Name=HW3Y
 Start=22
 Len=1
@@ -4690,13 +4691,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=None of these present
+Label=Nenhum destes materiais presente
 Name=HW3Y_VS1
 Value='Y';NONE OF THESE PRESENT
 Value=' '
 
 [Item]
-Label=House or yard have a bathtub, shower
+Label=A casa ou quintal dispõe de banheira ou chuveiro|House or yard have a bathtub, shower
 Name=HW4A
 Start=23
 Len=1
@@ -4704,7 +4705,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=House or yard have a bathtub, shower
+Label=A casa ou quintal dispõe de banheira ou chuveiro
 Name=HW4A_VS1
 Value=1;YES, IN THE DWELLING
 Value=2;YES, IN THE YARD OR PLOT
@@ -4713,7 +4714,7 @@ Value=4;NO, NONE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Water available for a bathtub or a shower
+Label=Água disponível para banho de banheira ou duche|Water available for a bathtub or a shower
 Name=HW5A
 Start=24
 Len=1
@@ -4721,14 +4722,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Water available for a bathtub or a shower
+Label=Água disponível para banho de banheira ou duche
 Name=HW5A_VS1
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Record]
-Label=MICS Plus Consent
+Label=Consentimento MICS Plus|MICS Plus Consent
 Name=MODHPN
 RecordTypeValue='HPN'
 Required=No
@@ -4736,14 +4737,14 @@ MaxRecords=5
 RecordLen=25
 
 [Item]
-Label=Shared phone number
+Label=Número de telefone partilhado|Shared phone number
 Name=HH44G
 Start=16
 Len=8
 DataType=Numeric
 
 [Item]
-Label=Confirm shared number
+Label=Confirmação do número partilhado|Confirm shared number
 Name=HH44H
 Start=24
 Len=1
@@ -4751,13 +4752,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Confirm shared number
+Label=Confirmação do número partilhado
 Name=HH44H_VS1
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Another personal or shared phone number where can be reached
+Label=Outro número de telefone pessoal ou partilhado através do qual possa ser contactado|Another personal or shared phone number where can be reached
 Name=HH44I
 Start=25
 Len=1
@@ -4765,20 +4766,20 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Another personal or shared phone number where can be reached
+Label=Outro número de telefone pessoal ou partilhado através do qual possa ser contactado
 Name=HH44I_VS1
 Value=1;YES
 Value=2;NO
 
 [Record]
-Label=Water quality testing
+Label=Teste da qualidade da água|Water quality testing
 Name=MODWQ
 RecordTypeValue='0WQ'
 Required=No
 RecordLen=90
 
 [Item]
-Label=Cluster number
+Label=Número do conglomerado|Cluster number
 Name=WQ1
 Start=16
 Len=5
@@ -4786,7 +4787,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Household number
+Label=Número do agregado familiar|Household number
 Name=WQ2
 Start=21
 Len=2
@@ -4794,7 +4795,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Measurer number
+Label=Número do medidor|Measurer number
 Name=WQ3
 Start=23
 Len=3
@@ -4802,7 +4803,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Interviewer number
+Label=Número do entrevistador|Interviewer number
 Name=WQ4
 Start=26
 Len=3
@@ -4810,7 +4811,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Date of water quality test
+Label=Data do teste da qualidade da água|Date of water quality test
 Name=WQ5
 Start=29
 Len=8
@@ -4818,7 +4819,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Day of water quality test
+Label=Dia do teste da qualidade da água|Day of water quality test
 Name=WQ5D
 Start=29
 Len=2
@@ -4827,12 +4828,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Day of water quality test
+Label=Dia do teste da qualidade da água
 Name=WQ5D_VST
 Value=1:31
 
 [Item]
-Label=Month of water quality test
+Label=Mês do teste da qualidade da água|Month of water quality test
 Name=WQ5M
 Start=31
 Len=2
@@ -4841,7 +4842,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Month of water quality test
+Label=Mês do teste da qualidade da água
 Name=WQ5M_VST
 Value=1;JANUARY
 Value=2;FEBRUARY
@@ -4857,7 +4858,7 @@ Value=11;NOVEMBER
 Value=12;DECEMBER
 
 [Item]
-Label=Year of water quality test
+Label=Ano do teste da qualidade da água|Year of water quality test
 Name=WQ5Y
 Start=33
 Len=4
@@ -4866,12 +4867,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Year of water quality test
+Label=Ano do teste da qualidade da água
 Name=WQ5Y_VST
 Value=2025;2025
 
 [Item]
-Label=HH selected for blank testing
+Label=Agregado familiar selecionado para teste em branco|HH selected for blank testing
 Name=WQ6
 Start=37
 Len=1
@@ -4879,13 +4880,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=HH selected for blank testing
+Label=Agregado familiar selecionado para teste em branco
 Name=WQ6_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Respondent to WQT questionnaire
+Label=Respondente ao questionário de teste da qualidade da água|Respondent to WQT questionnaire
 Name=WQ7
 Start=38
 Len=2
@@ -4893,12 +4894,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Respondent to WQT questionnaire
+Label=Respondente ao questionário de teste da qualidade da água
 Name=WQ7_VS1
 Value=1:50
 
 [Item]
-Label=Consent for water quality test
+Label=Consentimento para o teste da qualidade da água|Consent for water quality test
 Name=WQ8
 Start=40
 Len=1
@@ -4906,13 +4907,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Consent for water quality test
+Label=Consentimento para o teste da qualidade da água
 Name=WQ8_VST
 Value=1;YES, PERMISSION IS GIVEN
 Value=2;NO, PERMISSION IS NOT GIVEN
 
 [Item]
-Label=Result of water quality test
+Label=Resultado do teste da qualidade da água|Result of water quality test
 Name=WQ31
 Start=41
 Len=2
@@ -4920,7 +4921,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Result of water quality test
+Label=Resultado do teste da qualidade da água
 Name=WQ31_VST
 Value=1;COMPLETED
 Value=2;PERMISSION NOT GIVEN
@@ -4929,7 +4930,7 @@ Value=4;PARTLY COMPLETED
 Value=96;OTHER
 
 [Item]
-Label=Time of start of water quality test
+Label=Hora de início do teste da qualidade da água|Time of start of water quality test
 Name=WQ10
 Start=43
 Len=4
@@ -4937,7 +4938,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Start of water quality test - Hour
+Label=Início do teste da qualidade da água - Hora|Start of water quality test - Hour
 Name=WQ10H
 Start=43
 Len=2
@@ -4946,12 +4947,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Start of water quality test - Hour
+Label=Início do teste da qualidade da água - Hora
 Name=WQ10H_VST
 Value=6:23
 
 [Item]
-Label=Start of water quality test - Minutes
+Label=Início do teste da qualidade da água - Minutos|Start of water quality test - Minutes
 Name=WQ10M
 Start=45
 Len=2
@@ -4960,12 +4961,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Start of water quality test - Minutes
+Label=Início do teste da qualidade da água - Minutos
 Name=WQ10M_VST
 Value=0:59
 
 [Item]
-Label=Time of end of water quality test
+Label=Hora de fim do teste da qualidade da água|Time of end of water quality test
 Name=WQ23
 Start=47
 Len=4
@@ -4973,7 +4974,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=End of water quality test - Hour
+Label=Fim do teste da qualidade da água - Hora|End of water quality test - Hour
 Name=WQ23H
 Start=47
 Len=2
@@ -4982,12 +4983,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=End of water quality test - Hour
+Label=Fim do teste da qualidade da água - Hora
 Name=WQ23H_VST
 Value=6:23
 
 [Item]
-Label=End of water quality test - Minutes
+Label=Fim do teste da qualidade da água - Minutos|End of water quality test - Minutes
 Name=WQ23M
 Start=49
 Len=2
@@ -4996,12 +4997,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=End of water quality test - Minutes
+Label=Fim do teste da qualidade da água - Minutos
 Name=WQ23M_VST
 Value=0:59
 
 [Item]
-Label=A glass of water that members of household usually drink was provided
+Label=Foi fornecido um copo de água habitualmente consumida pelos membros do agregado|A glass of water that members of household usually drink was provided
 Name=WQ11
 Start=51
 Len=1
@@ -5009,14 +5010,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=A glass of water that members of household usually drink was provided
+Label=Foi fornecido um copo de água habitualmente consumida pelos membros do agregado
 Name=WQ11_VST
 Value=1;YES
 Value=2;NO
 Value=9;NO RESPONSE
 
 [Item]
-Label=Observed the source from where water was collected
+Label=Foi observada a fonte de onde a água foi recolhida|Observed the source from where water was collected
 Name=WQ12
 Start=52
 Len=1
@@ -5024,7 +5025,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Observed the source from where water was collected
+Label=Foi observada a fonte de onde a água foi recolhida
 Name=WQ12_VST
 Value=1;DIRECT FROM SOURCE
 Value=2;COVERED CONTAINER
@@ -5032,7 +5033,7 @@ Value=3;UNCOVERED CONTAINER
 Value=8;UNABLE TO OBSERVE
 
 [Item]
-Label=From where water was poured
+Label=Local de onde a água foi vertida|From where water was poured
 Name=WQ12A
 Start=53
 Len=1
@@ -5040,14 +5041,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=From where water was poured
+Label=Local de onde a água foi vertida
 Name=WQ12A_VS1
 Value=1;DIRECT FROM SOURCE
 Value=2;COVERED CONTAINER
 Value=3;UNCOVERED CONTAINER
 
 [Item]
-Label=Done anything to the water to make it safer to drink
+Label=Foi efetuado algum tratamento da água para a tornar mais segura para beber|Done anything to the water to make it safer to drink
 Name=WQ14
 Start=54
 Len=1
@@ -5055,7 +5056,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Done anything to the water to make it safer to drink
+Label=Foi efetuado algum tratamento da água para a tornar mais segura para beber
 Name=WQ14_VST
 Value=1;YES
 Value=2;NO
@@ -5063,14 +5064,14 @@ Value=8;DK
 Value=9;NO RESPONSE
 
 [Item]
-Label=Water treatment to make it safer to drink
+Label=Tratamento da água para a tornar mais segura para beber|Water treatment to make it safer to drink
 Name=WQ15
 Start=55
 Len=9
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment to make it safer to drink
+Label=Tratamento da água para a tornar mais segura para beber
 Name=WQ15_VST
 Value='A        ';BOIL
 Value='B        ';ADD BLEACH / CHLORINE
@@ -5083,7 +5084,7 @@ Value='Z        ';DK
 Value='?        ';NO RESPONSE
 
 [Item]
-Label=Water treatment: Boil
+Label=Tratamento da água: Fervura|Water treatment: Boil
 Name=WQ15A
 Start=55
 Len=1
@@ -5091,14 +5092,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Boil
+Label=Tratamento da água: Fervura
 Name=WQ15A_VST
 Value='A';BOIL
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Add bleach/chlorine
+Label=Tratamento da água: Adição de lixívia/cloro|Water treatment: Add bleach/chlorine
 Name=WQ15B
 Start=56
 Len=1
@@ -5106,14 +5107,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Add bleach/chlorine
+Label=Tratamento da água: Adição de lixívia/cloro
 Name=WQ15B_VST
 Value='B';ADD BLEACH / CHLORINE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Strain it through a cloth
+Label=Tratamento da água: Filtração através de um pano|Water treatment: Strain it through a cloth
 Name=WQ15C
 Start=57
 Len=1
@@ -5121,14 +5122,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Strain it through a cloth
+Label=Tratamento da água: Filtração através de um pano
 Name=WQ15C_VST
 Value='C';STRAIN IT THROUGH A CLOTH
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Use water filter
+Label=Tratamento da água: Utilização de filtro de água|Water treatment: Use water filter
 Name=WQ15D
 Start=58
 Len=1
@@ -5136,14 +5137,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Use water filter
+Label=Tratamento da água: Utilização de filtro de água
 Name=WQ15D_VST
 Value='D';USE A WATER FILTER (CERAMIC, SAND, COMPOSITE, OR MEMBRANE FILTRATION)
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Solar disinfection
+Label=Tratamento da água: Desinfeção solar|Water treatment: Solar disinfection
 Name=WQ15E
 Start=59
 Len=1
@@ -5151,14 +5152,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Solar disinfection
+Label=Tratamento da água: Desinfeção solar
 Name=WQ15E_VST
 Value='E';SOLAR DISINFECTION
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Let it stand and settle
+Label=Tratamento da água: Deixar repousar e decantar|Water treatment: Let it stand and settle
 Name=WQ15F
 Start=60
 Len=1
@@ -5166,14 +5167,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Let it stand and settle
+Label=Tratamento da água: Deixar repousar e decantar
 Name=WQ15F_VST
 Value='F';LET IT STAND AND SETTLE
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: Other
+Label=Tratamento da água: Outro|Water treatment: Other
 Name=WQ15X
 Start=61
 Len=1
@@ -5181,14 +5182,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: Other
+Label=Tratamento da água: Outro
 Name=WQ15X_VST
 Value='X';OTHER
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: DK
+Label=Tratamento da água: Não sabe|Water treatment: DK
 Name=WQ15Z
 Start=62
 Len=1
@@ -5196,14 +5197,14 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: DK
+Label=Tratamento da água: Não sabe
 Name=WQ15Z_VST
 Value='Z';DK
 Value=' '
 Value='?';NO RESPONSE
 
 [Item]
-Label=Water treatment: No response
+Label=Tratamento da água: Sem resposta|Water treatment: No response
 Name=WQ15NR
 Start=63
 Len=1
@@ -5211,13 +5212,13 @@ ItemType=SubItem
 DataType=Alpha
 
 [ValueSet]
-Label=Water treatment: No response
+Label=Tratamento da água: Sem resposta
 Name=WQ15NR_VST
 Value='?';NO RESPONSE
 Value=' '
 
 [Item]
-Label=Source of water where the glass of water was collected
+Label=Fonte de água de onde foi recolhido o copo de água|Source of water where the glass of water was collected
 Name=WQ17
 Start=64
 Len=2
@@ -5225,7 +5226,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Source of water where the glass of water was collected
+Label=Fonte de água de onde foi recolhido o copo de água
 Name=WQ17_VST
 Value=11;PIPED WATER: PIPED INTO DWELLING
 Value=12;PIPED WATER: PIPED TO YARD / PLOT
@@ -5248,7 +5249,7 @@ Value=96;OTHER
 Value=99;NO RESPONSE
 
 [Item]
-Label=Main source of water was shown
+Label=Foi apresentada a principal fonte de água|Main source of water was shown
 Name=WQ18
 Start=66
 Len=1
@@ -5256,14 +5257,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Main source of water was shown
+Label=Foi apresentada a principal fonte de água
 Name=WQ18_VST
 Value=1;YES, SHOWN OR TOLD
 Value=2;NO, UNABLE TO SHOW OR TELL
 Value=9;NO RESPONSE
 
 [Item]
-Label=Source water sample collected
+Label=Amostra de água da fonte recolhida|Source water sample collected
 Name=WQ19
 Start=67
 Len=1
@@ -5271,7 +5272,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Source water sample collected
+Label=Amostra de água da fonte recolhida
 Name=WQ19_VST
 Value=1;SOURCE WATER COLLECTED
 Value=2;SOURCE WATER NOT COLLECTED: NO WATER AVAILABLE AT SOURCE
@@ -5280,7 +5281,7 @@ Value=4;SOURCE WATER NOT COLLECTED: UNABLE TO ACCESS SOURCE
 Value=5;SOURCE WATER NOT COLLECTED: PERMISSION NOT GIVEN TO COLLECT SAMPLE
 
 [Item]
-Label=HH selected for blank testing
+Label=Agregado familiar selecionado para teste em branco|HH selected for blank testing
 Name=WQ20
 Start=68
 Len=1
@@ -5288,13 +5289,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=HH selected for blank testing
+Label=Agregado familiar selecionado para teste em branco
 Name=WQ20_VST
 Value=1;YES
 Value=2;NO
 
 [Item]
-Label=Blank water test available
+Label=Teste de água em branco disponível|Blank water test available
 Name=WQ21
 Start=69
 Len=1
@@ -5302,14 +5303,14 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Blank water test available
+Label=Teste de água em branco disponível
 Name=WQ21_VST
 Value=1;BLANK WATER SAMPLE AVAILABLE
 Value=2;BLANK WATER SAMPLE NOT AVAILABLE
 Value=9;NO RESPONSE
 
 [Item]
-Label=Date of recording test results
+Label=Data de registo dos resultados do teste|Date of recording test results
 Name=WQ24
 Start=70
 Len=8
@@ -5317,7 +5318,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Day of recording test results
+Label=Dia de registo dos resultados do teste|Day of recording test results
 Name=WQ24D
 Start=70
 Len=2
@@ -5326,12 +5327,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Day of recording test results
+Label=Dia de registo dos resultados do teste
 Name=WQ24D_VST
 Value=1:31
 
 [Item]
-Label=Month of recording test results
+Label=Mês de registo dos resultados do teste|Month of recording test results
 Name=WQ24M
 Start=72
 Len=2
@@ -5340,7 +5341,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Month of recording test results
+Label=Mês de registo dos resultados do teste
 Name=WQ24M_VST
 Value=1;JANUARY
 Value=2;FEBRUARY
@@ -5356,7 +5357,7 @@ Value=11;NOVEMBER
 Value=12;DECEMBER
 
 [Item]
-Label=Year of recording test results
+Label=Ano de registo dos resultados do teste|Year of recording test results
 Name=WQ24Y
 Start=74
 Len=4
@@ -5365,12 +5366,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Year of recording test results
+Label=Ano de registo dos resultados do teste
 Name=WQ24Y_VST
 Value=2025;2025
 
 [Item]
-Label=Time of recording test results
+Label=Hora de registo dos resultados do teste|Time of recording test results
 Name=WQ25
 Start=78
 Len=4
@@ -5378,7 +5379,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Time of recording test results - Hour
+Label=Hora de registo dos resultados - Hora|Time of recording test results - Hour
 Name=WQ25H
 Start=78
 Len=2
@@ -5387,12 +5388,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time of recording test results - Hour
+Label=Hora de registo dos resultados - Hora
 Name=WQ25H_VST
 Value=6:23
 
 [Item]
-Label=Time of recording test results - Minutes
+Label=Hora de registo dos resultados - Minutos|Time of recording test results - Minutes
 Name=WQ25M
 Start=80
 Len=2
@@ -5401,12 +5402,12 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Time of recording test results - Minutes
+Label=Hora de registo dos resultados - Minutos
 Name=WQ25M_VST
 Value=0:59
 
 [Item]
-Label=Household water test (100ml)
+Label=Teste da água do agregado familiar (100 ml)|Household water test (100ml)
 Name=WQ26
 Start=82
 Len=3
@@ -5414,7 +5415,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Household water test (100ml)
+Label=Teste da água do agregado familiar (100 ml)
 Name=WQ26_VST
 Value=0:100
 Value=101;MORE THAN 100
@@ -5422,7 +5423,7 @@ Value=991;NOT POSSIBLE TO READ THE RESULTS
 Value=992;THE RESULTS HAVE BEEN LOST
 
 [Item]
-Label=Source water test (100ml)
+Label=Teste da água da fonte (100 ml)|Source water test (100ml)
 Name=WQ27
 Start=85
 Len=3
@@ -5430,7 +5431,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Source water test (100ml)
+Label=Teste da água da fonte (100 ml)
 Name=WQ27_VST
 Value=0:100
 Value=101;MORE THAN 100
@@ -5438,7 +5439,7 @@ Value=991;NOT POSSIBLE TO READ THE RESULTS
 Value=992;THE RESULTS HAVE BEEN LOST
 
 [Item]
-Label=Blank water test (100ml)
+Label=Teste de água em branco (100 ml)|Blank water test (100ml)
 Name=WQ29
 Start=88
 Len=3
@@ -5446,7 +5447,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Blank water test (100ml)
+Label=Teste de água em branco (100 ml)
 Name=WQ29_VST
 Value=0:100
 Value=101;MORE THAN 100
@@ -5454,13 +5455,13 @@ Value=991;NOT POSSIBLE TO READ THE RESULTS
 Value=992;THE RESULTS HAVE BEEN LOST
 
 [Record]
-Label=Time Stamps of the HH Questionnaire Modules
+Label=Registos de hora dos módulos do questionário do agregado familiar|Time Stamps of the HH Questionnaire Modules
 Name=MODHHTS
 RecordTypeValue='HTS'
 RecordLen=405
 
 [Item]
-Label=Timestamp of start of HH Questionnaire - Household information panel
+Label=Data e hora de início do questionário HH - Painel de informações do agregado familiar|Timestamp of start of HH Questionnaire - Household information panel
 Name=HHHHTSTMPS
 Start=16
 Len=15
@@ -5470,7 +5471,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of HH Questionnaire - Household information panel
+Label=Data e hora de fim do questionário HH - Painel de informações do agregado familiar|Timestamp of end of HH Questionnaire - Household information panel
 Name=HHHHTSTMPE
 Start=31
 Len=15
@@ -5480,7 +5481,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module HL List of household members
+Label=Data e hora de início do módulo HL - Lista dos membros do agregado familiar|Timestamp of start of Module HL List of household members
 Name=HHHLTSTMPS
 Start=46
 Len=15
@@ -5490,7 +5491,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module HL List of household members
+Label=Data e hora de fim do módulo HL - Lista dos membros do agregado familiar|Timestamp of end of Module HL List of household members
 Name=HHHLTSTMPE
 Start=61
 Len=15
@@ -5500,7 +5501,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module ED Education: Attainment [3+] and Attendance [3-24]
+Label=Data e hora de início do módulo ED - Educação: escolaridade [3+] e frequência [3-24]|Timestamp of start of Module ED Education: Attainment [3+] and Attendance [3-24]
 Name=HHEDTSTMPS
 Start=76
 Len=15
@@ -5510,7 +5511,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module ED Education: Attainment [3+] and Attendance [3-24]
+Label=Data e hora de fim do módulo ED - Educação: escolaridade [3+] e frequência [3-24]|Timestamp of end of Module ED Education: Attainment [3+] and Attendance [3-24]
 Name=HHEDTSTMPE
 Start=91
 Len=15
@@ -5520,7 +5521,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module HC Household characteristics
+Label=Data e hora de início do módulo HC - Características do agregado familiar|Timestamp of start of Module HC Household characteristics
 Name=HHHCTSTMPS
 Start=106
 Len=15
@@ -5530,7 +5531,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module HC Household characteristics
+Label=Data e hora de fim do módulo HC - Características do agregado familiar|Timestamp of end of Module HC Household characteristics
 Name=HHHCTSTMPE
 Start=121
 Len=15
@@ -5540,7 +5541,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module EU Household energy use
+Label=Data e hora de início do módulo EU - Utilização de energia no agregado familiar|Timestamp of start of Module EU Household energy use
 Name=HHEUTSTMPS
 Start=136
 Len=15
@@ -5550,7 +5551,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module EU Household energy use
+Label=Data e hora de fim do módulo EU - Utilização de energia no agregado familiar|Timestamp of end of Module EU Household energy use
 Name=HHEUTSTMPE
 Start=151
 Len=15
@@ -5560,7 +5561,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module TN Malaria: ITNs
+Label=Data e hora de início do módulo TN - Malária: redes mosquiteiras tratadas com inseticida|Timestamp of start of Module TN Malaria: ITNs
 Name=HHTNTSTMPS
 Start=166
 Len=15
@@ -5570,7 +5571,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module TN Malaria: ITNs
+Label=Data e hora de fim do módulo TN - Malária: redes mosquiteiras tratadas com inseticida|Timestamp of end of Module TN Malaria: ITNs
 Name=HHTNTSTMPE
 Start=181
 Len=15
@@ -5580,7 +5581,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module ST Social transfers
+Label=Data e hora de início do módulo ST - Transferências sociais|Timestamp of start of Module ST Social transfers
 Name=HHSTTSTMPS
 Start=196
 Len=15
@@ -5590,7 +5591,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module ST Social transfers
+Label=Data e hora de fim do módulo ST - Transferências sociais|Timestamp of end of Module ST Social transfers
 Name=HHSTTSTMPE
 Start=211
 Len=15
@@ -5600,7 +5601,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module PE Post-emergency
+Label=Data e hora de início do módulo PE - Pós-emergência|Timestamp of start of Module PE Post-emergency
 Name=HHPETSTMPS
 Start=226
 Len=15
@@ -5610,7 +5611,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module PE Post-emergency
+Label=Data e hora de fim do módulo PE - Pós-emergência|Timestamp of end of Module PE Post-emergency
 Name=HHPETSTMPE
 Start=241
 Len=15
@@ -5620,7 +5621,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module FE Food insecurity experience
+Label=Data e hora de início do módulo FE - Experiência de insegurança alimentar|Timestamp of start of Module FE Food insecurity experience
 Name=HHFETSTMPS
 Start=256
 Len=15
@@ -5630,7 +5631,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module FE Food insecurity experience
+Label=Data e hora de fim do módulo FE - Experiência de insegurança alimentar|Timestamp of end of Module FE Food insecurity experience
 Name=HHFETSTMPE
 Start=271
 Len=15
@@ -5640,7 +5641,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module WS Water
+Label=Data e hora de início do módulo WS - Água|Timestamp of start of Module WS Water
 Name=HHWS1TSTMPS
 Start=286
 Len=15
@@ -5650,7 +5651,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module WS Water
+Label=Data e hora de fim do módulo WS - Água|Timestamp of end of Module WS Water
 Name=HHWS1TSTMPE
 Start=301
 Len=15
@@ -5660,7 +5661,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module WS Sanitation
+Label=Data e hora de início do módulo WS - Saneamento|Timestamp of start of Module WS Sanitation
 Name=HHWS2TSTMPS
 Start=316
 Len=15
@@ -5670,7 +5671,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module WS Sanitation
+Label=Data e hora de fim do módulo WS - Saneamento|Timestamp of end of Module WS Sanitation
 Name=HHWS2TSTMPE
 Start=331
 Len=15
@@ -5680,7 +5681,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of Module HW Hygiene
+Label=Data e hora de início do módulo HW - Higiene|Timestamp of start of Module HW Hygiene
 Name=HHHWTSTMPS
 Start=346
 Len=15
@@ -5690,7 +5691,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of Module HW Hygiene
+Label=Data e hora de fim do módulo HW - Higiene|Timestamp of end of Module HW Hygiene
 Name=HHHWTSTMPE
 Start=361
 Len=15
@@ -5700,7 +5701,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of start of HH - End of Interview
+Label=Data e hora de início do questionário HH - Fim da entrevista|Timestamp of start of HH - End of Interview
 Name=HHENDTSTMPS
 Start=376
 Len=15
@@ -5710,7 +5711,7 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Timestamp of end of HH  - End of Interview
+Label=Data e hora de fim do questionário HH - Fim da entrevista|Timestamp of end of HH  - End of Interview
 Name=HHENDTSTMPE
 Start=391
 Len=15

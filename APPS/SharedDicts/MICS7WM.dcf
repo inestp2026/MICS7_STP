@@ -10,7 +10,8 @@ DecimalChar=No
 SecurityOptions=95C8CF075C71FFAA9FA01EEC7CC163CA2E83AF60F1782B25AD0BC1B70DAB41FD
 
 [Languages]
-ENG=English
+PT=Portugues
+ENGA=English
 
 [Level]
 Label=Woman
@@ -4174,9 +4175,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Weight at birth (Kilograms)
 Name=MN34_VST
-Value=0.500:6.999
-Value=9.998;DK
-Value=9.999;NO RESPONSE
+Value=0,500:6,999
+Value=9,998;DK
+Value=9,999;NO RESPONSE
 
 [Item]
 Label=Menstrual period returned since the birth of child
@@ -6463,7 +6464,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Activity start time
 Name=TU8_VS1
-Value=0.00:23.59
+Value=0,00:23,59
 Value='     '
 Name=NOTAPPL,Special
 
