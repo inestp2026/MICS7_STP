@@ -1675,7 +1675,7 @@ Value=5;Ano - idade e mês imputados|Year - a, m imp
 Value=6;Idade - ano e mês imputados|Age - y, m imp
 Value=7;Mês - idade e ano imputados|Month - a, y imp
 Value=8;Nenhum - tudo imputado|None - all imp
-Value='';Não aplicável|Not applicable
+Value=' ';Não aplicável|Not applicable
 Name=NOTAPPL,Special
 
 [Item]
@@ -2323,7 +2323,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de linha
 Name=BHA_VS1
-Value=1:20 ''
+Value=1:20
+Value='  '
+Name=NOTAPPL,Special
 
 [Item]
 Label=Nome do filho|Name of the  child
@@ -2381,7 +2383,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de linha
 Name=BH0_VST
-Value=1:20 ''
+Value=1:20
+Value='  '
+Name=NOTAPPL,Special
 
 [Item]
 Label=Nome do filho|Name of child
@@ -2740,7 +2744,8 @@ DataType=Alpha
 [ValueSet]
 Label=Prestador de cuidados pré-natais: Médico
 Name=MN3A_VST
-Value='A' ' ';MÉDICO|DOCTOR
+Value='A';MÉDICO|DOCTOR
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -2754,7 +2759,8 @@ DataType=Alpha
 [ValueSet]
 Label=Prestador de cuidados pré-natais: Enfermeiro/Parteira
 Name=MN3B_VST
-Value='B' ' ';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value='B';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -2768,7 +2774,8 @@ DataType=Alpha
 [ValueSet]
 Label=Prestador de cuidados pré-natais: Outro profissional qualificado
 Name=MN3C_VST
-Value='C' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='C';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -2782,7 +2789,8 @@ DataType=Alpha
 [ValueSet]
 Label=Prestador de cuidados pré-natais: Parteira tradicional
 Name=MN3F_VST
-Value='F' ' ';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value='F';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -2796,7 +2804,8 @@ DataType=Alpha
 [ValueSet]
 Label=Prestador de cuidados pré-natais: Agente de saúde comunitário
 Name=MN3G_VST
-Value='G' ' ';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value='G';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -2810,7 +2819,8 @@ DataType=Alpha
 [ValueSet]
 Label=Prestador de cuidados pré-natais: Outro
 Name=MN3X_VST
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -2824,7 +2834,8 @@ DataType=Alpha
 [ValueSet]
 Label=Prestador de cuidados pré-natais: Sem resposta
 Name=MN3NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Semanas ou meses de gravidez na primeira consulta pré-natal - unidade|Weeks or months pregnent at first antenatal care - unit
@@ -3033,7 +3044,8 @@ DataType=Alpha
 [ValueSet]
 Label=Recebeu SP/Fansidar numa consulta pré-natal ou noutra consulta: Consulta pré-natal
 Name=MN18A_VST
-Value='A' ' ';CONSULTA PRÉ-NATAL|ANTENATAL VISIT
+Value='A';CONSULTA PRÉ-NATAL|ANTENATAL VISIT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3047,7 +3059,8 @@ DataType=Alpha
 [ValueSet]
 Label=Recebeu SP/Fansidar numa consulta pré-natal ou noutra consulta: Consulta noutra unidade de saúde
 Name=MN18B_VST
-Value='B' ' ';OUTRA VISITA A UNIDADE DE SAÚDE|ANOTHER FACILITY VISIT
+Value='B';OUTRA VISITA A UNIDADE DE SAÚDE|ANOTHER FACILITY VISIT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3061,7 +3074,8 @@ DataType=Alpha
 [ValueSet]
 Label=Recebeu SP/Fansidar numa consulta pré-natal ou noutra consulta: Outra fonte
 Name=MN18X_VST
-Value='X' ' ';OUTRA FONTE|OTHER SOURCE
+Value='X';OUTRA FONTE|OTHER SOURCE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3075,7 +3089,8 @@ DataType=Alpha
 [ValueSet]
 Label=Recebeu SP/Fansidar numa consulta pré-natal ou noutra consulta: Sem resposta
 Name=MN18NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Assistência no parto|Assistance at delivery
@@ -3108,7 +3123,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Médico
 Name=MN19A_VST
-Value='A' ' ';MÉDICO|DOCTOR
+Value='A';MÉDICO|DOCTOR
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3122,7 +3138,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Enfermeiro / Parteira
 Name=MN19B_VST
-Value='B' ' ';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value='B';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3136,7 +3153,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Outro profissional qualificado
 Name=MN19C_VST
-Value='C' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='C';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3150,7 +3168,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Parteira tradicional
 Name=MN19F_VST
-Value='F' ' ';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value='F';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3164,7 +3183,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Agente de saúde comunitário
 Name=MN19G_VST
-Value='G' ' ';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value='G';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3178,7 +3198,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Familiar / Amigo
 Name=MN19H_VST
-Value='H' ' ';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value='H';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3192,7 +3213,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Outro
 Name=MN19X_VST
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3206,7 +3228,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Ninguém
 Name=MN19Y_VST
-Value='Y' ' ';NINGUÉM|NO ONE
+Value='Y';NINGUÉM|NO ONE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3220,7 +3243,8 @@ DataType=Alpha
 [ValueSet]
 Label=Assistência no parto: Sem resposta
 Name=MN19NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Local do parto|Place of delivery
@@ -3376,7 +3400,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Momento em que o bebé foi lavado - número
 Name=MN26N_VST
-Value=0 1:90;IMEDIATAMENTE / MENOS DE 1 HORA|IMMEDIATELY / LESS THAN 1 HOUR
+Value=0;IMEDIATAMENTE / MENOS DE 1 HORA|IMMEDIATELY / LESS THAN 1 HOUR
+Value=1:90
 Value=97;NUNCA FOI BANHADO|NEVER BATHED
 Value=98;NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3461,7 +3486,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: Clorexidina
 Name=MN31A_VST
-Value='A' ' ';CLORO-HEXIDINA|CHLORHEXIDINE
+Value='A';CLORO-HEXIDINA|CHLORHEXIDINE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3475,7 +3501,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: Outro antisséptico
 Name=MN31B_VST
-Value='B' ' ';OUTRO ANTISSÉTICO (ÁLCOOL, AGUARDENTE, VIOLETA DE GENCIANA)|OTHER ANTISEPTIC (ALCOHOL, SPIRIT, GENTIAN VIOLET)
+Value='B';OUTRO ANTISSÉTICO (ÁLCOOL, AGUARDENTE, VIOLETA DE GENCIANA)|OTHER ANTISEPTIC (ALCOHOL, SPIRIT, GENTIAN VIOLET)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3489,7 +3516,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: Óleo de mostarda
 Name=MN31C_VST
-Value='C' ' ';ÓLEO DE MOSTARDA|MUSTARD OIL
+Value='C';ÓLEO DE MOSTARDA|MUSTARD OIL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3503,7 +3531,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: Cinza
 Name=MN31D_VST
-Value='D' ' ';CINZA|ASH
+Value='D';CINZA|ASH
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3517,7 +3546,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: Estrume animal
 Name=MN31E_VST
-Value='E' ' ';ESTRUME ANIMAL|ANIMAL DUNG
+Value='E';ESTRUME ANIMAL|ANIMAL DUNG
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3531,7 +3561,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: Outro
 Name=MN31X_VST
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3545,7 +3576,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: NS / Não se lembra
 Name=MN31Z_VST
-Value='Z' ' ';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value='Z';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3559,7 +3591,8 @@ DataType=Alpha
 [ValueSet]
 Label=O que foi aplicado no cordão: Sem resposta
 Name=MN31NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Tamanho do filho ao nascer|Size of child at birth
@@ -3624,9 +3657,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Peso ao nascer (quilogramas)
 Name=MN34_VST
-Value=0:'6.000'
-Value='9.000';NÃO SABE|DK
-Value='9.000';SEM RESPOSTA|NO RESPONSE
+Value=0.500:6.999
+Value=9.998;NÃO SABE|DK
+Value=9.999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A menstruação voltou desde o nascimento do filho|Menstrual period returned since the birth of child
@@ -3704,7 +3737,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Momento em que o bebé foi colocado ao peito - número
 Name=MN37N_VST
-Value=0 1:90;IMEDIATAMENTE|IMMEDIATELY
+Value=0;IMEDIATAMENTE|IMMEDIATELY
+Value=1:90
 Value=98;NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -3980,7 +4014,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Médico
 Name=PN14A_VST
-Value='A' ' ';MÉDICO|DOCTOR
+Value='A';MÉDICO|DOCTOR
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -3994,7 +4029,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Enfermeiro / Parteira
 Name=PN14B_VST
-Value='B' ' ';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value='B';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4008,7 +4044,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Outro profissional qualificado
 Name=PN14C_VST
-Value='C' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='C';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4022,7 +4059,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Parteira tradicional
 Name=PN14F_VST
-Value='F' ' ';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value='F';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4036,7 +4074,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Agente de saúde comunitário
 Name=PN14G_VST
-Value='G' ' ';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value='G';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4050,7 +4089,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Familiar / Amigo
 Name=PN14H_VST
-Value='H' ' ';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value='H';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4064,7 +4104,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Outro
 Name=PN14X_VST
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4078,7 +4119,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde do bebé: Sem resposta
 Name=PN14NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Local onde foi verificada a saúde do bebé|Place where baby's health was checked
@@ -4248,7 +4290,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Médico
 Name=PN23A_VST
-Value='A' ' ';MÉDICO|DOCTOR
+Value='A';MÉDICO|DOCTOR
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4262,7 +4305,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Enfermeiro / Parteira
 Name=PN23B_VST
-Value='B' ' ';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value='B';ENFERMEIRA / PARTEIRA|NURSE / MIDWIFE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4276,7 +4320,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Outro profissional qualificado
 Name=PN23C_VST
-Value='C' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='C';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4290,7 +4335,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Parteira tradicional
 Name=PN23F_VST
-Value='F' ' ';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value='F';PARTEIRA TRADICIONAL|TRADITIONAL BIRTH ATTENDANT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4304,7 +4350,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Agente de saúde comunitário
 Name=PN23G_VST
-Value='G' ' ';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value='G';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4318,7 +4365,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Familiar / Amigo
 Name=PN23H_VST
-Value='H' ' ';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value='H';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4332,7 +4380,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Outro
 Name=PN23X_VST
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4346,7 +4395,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa que verificou a saúde da mãe: Sem resposta
 Name=PN23NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Local onde foi verificada a saúde da mãe|Place where mother's health was checked
@@ -4560,7 +4610,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Esterilização feminina
 Name=CP4A_VST
-Value='A' ' ';ESTERILIZAÇÃO FEMININA|FEMALE STERILIZATION
+Value='A';ESTERILIZAÇÃO FEMININA|FEMALE STERILIZATION
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4574,7 +4625,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Esterilização masculina
 Name=CP4B_VST
-Value='B' ' ';ESTERILIZAÇÃO MASCULINA|MALE STERILIZATION
+Value='B';ESTERILIZAÇÃO MASCULINA|MALE STERILIZATION
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4588,7 +4640,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: DIU
 Name=CP4C_VST
-Value='C' ' ';DIU|IUD
+Value='C';DIU|IUD
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4602,7 +4655,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Injetáveis
 Name=CP4D_VST
-Value='D' ' ';INJETÁVEIS|INJECTABLES
+Value='D';INJETÁVEIS|INJECTABLES
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4616,7 +4670,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Implantes
 Name=CP4E_VST
-Value='E' ' ';IMPLANTES|IMPLANTS
+Value='E';IMPLANTES|IMPLANTS
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4630,7 +4685,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Pílula
 Name=CP4F_VST
-Value='F' ' ';PÍLULA|PILL
+Value='F';PÍLULA|PILL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4644,7 +4700,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Preservativo masculino
 Name=CP4G_VST
-Value='G' ' ';PRESERVATIVO MASCULINO|MALE CONDOM
+Value='G';PRESERVATIVO MASCULINO|MALE CONDOM
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4658,7 +4715,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Preservativo feminino
 Name=CP4H_VST
-Value='H' ' ';PRESERVATIVO FEMININO|FEMALE CONDOM
+Value='H';PRESERVATIVO FEMININO|FEMALE CONDOM
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4672,7 +4730,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Diafragma
 Name=CP4I_VST
-Value='I' ' ';DIAFRAGMA|DIAPHRAGM
+Value='I';DIAFRAGMA|DIAPHRAGM
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4686,7 +4745,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Espuma / Gel
 Name=CP4J_VST
-Value='J' ' ';ESPUMA / GEL|FOAM / JELLY
+Value='J';ESPUMA / GEL|FOAM / JELLY
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4700,7 +4760,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Método da amenorreia lactacional (MAL)
 Name=CP4K_VST
-Value='K' ' ';MÉTODO DA AMENORREIA LACTACIONAL (MAL)|LACTATIONAL AMENORRHOEA METHOD (LAM)
+Value='K';MÉTODO DA AMENORREIA LACTACIONAL (MAL)|LACTATIONAL AMENORRHOEA METHOD (LAM)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4714,7 +4775,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Abstinência periódica / Método do calendário
 Name=CP4L_VST
-Value='L' ' ';ABSTINÊNCIA PERIÓDICA / CALENDÁRIO|PERIODIC ABSTINENCE / RHYTHM
+Value='L';ABSTINÊNCIA PERIÓDICA / CALENDÁRIO|PERIODIC ABSTINENCE / RHYTHM
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4728,7 +4790,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Coito interrompido
 Name=CP4M_VST
-Value='M' ' ';COITO INTERROMPIDO|WITHDRAWAL
+Value='M';COITO INTERROMPIDO|WITHDRAWAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4742,7 +4805,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Outro
 Name=CP4X_VST
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4756,7 +4820,8 @@ DataType=Alpha
 [ValueSet]
 Label=Método atual: Sem resposta
 Name=CP4NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Record]
 Label=Necessidades não satisfeitas / Saúde e higiene menstrual|Unmet Need / Menstrual Health and Hygiene
@@ -4922,7 +4987,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Relações sexuais pouco frequentes / Sem relações sexuais
 Name=UN12A_VST
-Value='A' ' ';RELAÇÕES SEXUAIS POUCO FREQUENTES / SEM RELAÇÕES|INFREQUENT SEX / NO SEX
+Value='A';RELAÇÕES SEXUAIS POUCO FREQUENTES / SEM RELAÇÕES|INFREQUENT SEX / NO SEX
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4936,7 +5002,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Menopausa
 Name=UN12B_VST
-Value='B' ' ';NA MENOPAUSA|MENOPAUSAL
+Value='B';NA MENOPAUSA|MENOPAUSAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4950,7 +5017,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Nunca menstruou
 Name=UN12C_VST
-Value='C' ' ';NUNCA MENSTRUOU|NEVER MENSTRUATED
+Value='C';NUNCA MENSTRUOU|NEVER MENSTRUATED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4964,7 +5032,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Histerectomia
 Name=UN12D_VST
-Value='D' ' ';HISTERECTOMIA (REMOÇÃO CIRÚRGICA DO ÚTERO)|HYSTERECTOMY (SURGICAL REMOVAL OF UTERUS)
+Value='D';HISTERECTOMIA (REMOÇÃO CIRÚRGICA DO ÚTERO)|HYSTERECTOMY (SURGICAL REMOVAL OF UTERUS)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4978,7 +5047,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Tentou engravidar durante 2 anos ou mais sem resultado
 Name=UN12E_VST
-Value='E' ' ';TENTA ENGRAVIDAR HÁ 2 ANOS OU MAIS SEM RESULTADO|HAS BEEN TRYING TO GET PREGNANT FOR 2 YEARS OR MORE WITHOUT RESULT
+Value='E';TENTA ENGRAVIDAR HÁ 2 ANOS OU MAIS SEM RESULTADO|HAS BEEN TRYING TO GET PREGNANT FOR 2 YEARS OR MORE WITHOUT RESULT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -4992,7 +5062,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Amenorreia pós-parto
 Name=UN12F_VST
-Value='F' ' ';EM AMENORREIA PÓS-PARTO|POSTPARTUM AMENORRHEIC
+Value='F';EM AMENORREIA PÓS-PARTO|POSTPARTUM AMENORRHEIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5006,7 +5077,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Amamentação
 Name=UN12G_VST
-Value='G' ' ';A AMAMENTAR|BREASTFEEDING
+Value='G';A AMAMENTAR|BREASTFEEDING
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5020,7 +5092,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Demasiado velha
 Name=UN12H_VST
-Value='H' ' ';DEMASIADO VELHA|TOO OLD
+Value='H';DEMASIADO VELHA|TOO OLD
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5034,7 +5107,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Fatalista
 Name=UN12I_VST
-Value='I' ' ';FATALISTA|FATALISTIC
+Value='I';FATALISTA|FATALISTIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5048,7 +5122,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Outra
 Name=UN12X_VST
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5062,7 +5137,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: NS
 Name=UN12Z_VST
-Value='Z' ' ';NÃO SABE|DK
+Value='Z';NÃO SABE|DK
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5076,7 +5152,8 @@ DataType=Alpha
 [ValueSet]
 Label=Razão: Sem resposta
 Name=UN12NR_VST
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Início da última menstruação|Start of last menstrual period
@@ -5622,7 +5699,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Idade na primeira relação sexual
 Name=SB1_VST
-Value=0 8:49;NUNCA TEVE RELAÇÕES SEXUAIS|NEVER HAD INTERCOURSE
+Value=0;NUNCA TEVE RELAÇÕES SEXUAIS|NEVER HAD INTERCOURSE
+Value=8:49
 Value=95;PRIMEIRA VEZ QUANDO COMEÇOU A VIVER COM O PRIMEIRO MARIDO / COMPANHEIRO|FIRST TIME WHEN STARTED LIVING WITH FIRST HUSBAND / PARTNER
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -6351,7 +6429,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Conselheiro
 Name=MH38A_VS1
-Value='A' ' ';CONSELHEIRO|COUNSELLOR
+Value='A';CONSELHEIRO|COUNSELLOR
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6365,7 +6444,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Médico, enfermeiro, auxiliar de saúde
 Name=MH38B_VS1
-Value='B' ' ';MÉDICO / ENFERMEIRO / AUXILIAR DE SAÚDE|DOCTOR / NURSE / HEALTH AID
+Value='B';MÉDICO / ENFERMEIRO / AUXILIAR DE SAÚDE|DOCTOR / NURSE / HEALTH AID
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6379,7 +6459,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MH38C_VS1
-Value='C' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='C';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6393,7 +6474,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MH38D_VS1
-Value='D' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='D';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6407,7 +6489,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MH38E_VS1
-Value='E' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='E';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6421,7 +6504,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Pai/mãe
 Name=MH38F_VS1
-Value='F' ' ';PAI / MÃE|PARENT
+Value='F';PAI / MÃE|PARENT
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6435,7 +6519,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro familiar (adulto)
 Name=MH38G_VS1
-Value='G' ' ';OUTRO FAMILIAR (ADULTO)|OTHER RELATIVE (ADULT)
+Value='G';OUTRO FAMILIAR (ADULTO)|OTHER RELATIVE (ADULT)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6449,7 +6534,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro familiar (<18)
 Name=MH38H_VS1
-Value='H' ' ';OUTRO FAMILIAR (<18)|OTHER RELATIVE (<18)
+Value='H';OUTRO FAMILIAR (<18)|OTHER RELATIVE (<18)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6463,7 +6549,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Professor
 Name=MH38I_VS1
-Value='I' ' ';PROFESSOR|TEACHER
+Value='I';PROFESSOR|TEACHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6477,7 +6564,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Amigo
 Name=MH38J_VS1
-Value='J' ' ';AMIGO|FRIEND
+Value='J';AMIGO|FRIEND
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6491,7 +6579,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro
 Name=MH38X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6505,7 +6594,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Sem resposta
 Name=MH38NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Privacidade obtida|Privacy obtanied
@@ -6689,7 +6779,8 @@ DataType=Alpha
 [ValueSet]
 Label=Melhor e mais segura forma - Telefone
 Name=MH49AB6A_VS1
-Value='A' ' ';TELEFONE|PHONE
+Value='A';TELEFONE|PHONE
+Value=' '
 
 [Item]
 Label=Melhor e mais segura forma - Presencialmente|Best and Safest Way - In Person
@@ -6702,7 +6793,8 @@ DataType=Alpha
 [ValueSet]
 Label=Melhor e mais segura forma - Presencialmente
 Name=MH49AB6B_VS1
-Value='B' ' ';PRESENCIALMENTE|IN PERSON
+Value='B';PRESENCIALMENTE|IN PERSON
+Value=' '
 
 [Item]
 Label=Melhor e mais segura forma - Outra|Best and Safest Way - Other
@@ -6715,7 +6807,8 @@ DataType=Alpha
 [ValueSet]
 Label=Melhor e mais segura forma - Outra
 Name=MH49AB6X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 
 [Item]
 Label=Encaminhamento - Telefone|Referral Phone

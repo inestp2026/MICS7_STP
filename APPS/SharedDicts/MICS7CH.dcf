@@ -624,7 +624,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tipo de seguro de saúde - Mutualidade de saúde/seguro comunitário
 Name=UIN2A_VS1
-Value='A' ' ';MUTUALIDADE DE SAÚDE / SEGURO DE SAÚDE COMUNITÁRIO|MUTUAL HEALTH ORGANIZATION / COMMUNITY-BASED HEALTH INSURANCE
+Value='A';MUTUALIDADE DE SAÚDE / SEGURO DE SAÚDE COMUNITÁRIO|MUTUAL HEALTH ORGANIZATION / COMMUNITY-BASED HEALTH INSURANCE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -638,7 +639,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tipo de seguro de saúde - Seguro disponibilizado pela entidade empregadora
 Name=UIN2B_VS1
-Value='B' ' ';SEGURO DE SAÚDE ATRAVÉS DO EMPREGADOR|HEALTH INSURANCE THROUGH EMPLOYER
+Value='B';SEGURO DE SAÚDE ATRAVÉS DO EMPREGADOR|HEALTH INSURANCE THROUGH EMPLOYER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -652,7 +654,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tipo de seguro de saúde - Segurança social
 Name=UIN2C_VS1
-Value='C' ' ';SEGURANÇA SOCIAL|SOCIAL SECURITY
+Value='C';SEGURANÇA SOCIAL|SOCIAL SECURITY
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -666,7 +669,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tipo de seguro de saúde - Outro seguro privado contratado
 Name=UIN2D_VS1
-Value='D' ' ';OUTRO SEGURO DE SAÚDE COMERCIAL ADQUIRIDO A TÍTULO PRIVADO|OTHER PRIVATELY PURCHASED COMMERCIAL HEALTH INSURANCE
+Value='D';OUTRO SEGURO DE SAÚDE COMERCIAL ADQUIRIDO A TÍTULO PRIVADO|OTHER PRIVATELY PURCHASED COMMERCIAL HEALTH INSURANCE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -680,7 +684,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tipo de seguro de saúde - Outro
 Name=UIN2X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -694,7 +699,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tipo de seguro de saúde - Sem resposta
 Name=UIN2NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Record]
 Label=Registo de nascimento|Birth Registration
@@ -916,7 +922,8 @@ DataType=Alpha
 [ValueSet]
 Label=Ler livros - Mãe
 Name=EC5A1A_VS1
-Value='A' ' ';MÃE|MOTHER
+Value='A';MÃE|MOTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -930,7 +937,8 @@ DataType=Alpha
 [ValueSet]
 Label=Ler livros - Pai
 Name=EC5A1B_VS1
-Value='B' ' ';PAI|FATHER
+Value='B';PAI|FATHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -944,7 +952,8 @@ DataType=Alpha
 [ValueSet]
 Label=Ler livros - Outra pessoa
 Name=EC5A1X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -958,7 +967,8 @@ DataType=Alpha
 [ValueSet]
 Label=Ler livros - Sem resposta
 Name=EC5A1NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Nos últimos 3 dias, contaram histórias|In past 3 days, tell stories
@@ -1002,7 +1012,8 @@ DataType=Alpha
 [ValueSet]
 Label=Contar histórias - Mãe
 Name=EC5B1A_VS1
-Value='A' ' ';MÃE|MOTHER
+Value='A';MÃE|MOTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1016,7 +1027,8 @@ DataType=Alpha
 [ValueSet]
 Label=Contar histórias - Pai
 Name=EC5B1B_VS1
-Value='B' ' ';PAI|FATHER
+Value='B';PAI|FATHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1030,7 +1042,8 @@ DataType=Alpha
 [ValueSet]
 Label=Contar histórias - Outra pessoa
 Name=EC5B1X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1044,7 +1057,8 @@ DataType=Alpha
 [ValueSet]
 Label=Contar histórias - Sem resposta
 Name=EC5B1NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Nos últimos 3 dias, cantaram canções|In past 3 days, sang songs
@@ -1088,7 +1102,8 @@ DataType=Alpha
 [ValueSet]
 Label=Cantar canções - Mãe
 Name=EC5C1A_VS1
-Value='A' ' ';MÃE|MOTHER
+Value='A';MÃE|MOTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1102,7 +1117,8 @@ DataType=Alpha
 [ValueSet]
 Label=Cantar canções - Pai
 Name=EC5C1B_VS1
-Value='B' ' ';PAI|FATHER
+Value='B';PAI|FATHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1116,7 +1132,8 @@ DataType=Alpha
 [ValueSet]
 Label=Cantar canções - Outra pessoa
 Name=EC5C1X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1130,7 +1147,8 @@ DataType=Alpha
 [ValueSet]
 Label=Cantar canções - Sem resposta
 Name=EC5C1NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Nos últimos 3 dias, levaram a criança ao exterior|In past 3 days, took outside
@@ -1174,7 +1192,8 @@ DataType=Alpha
 [ValueSet]
 Label=Levar ao exterior - Mãe
 Name=EC5D1A_VS1
-Value='A' ' ';MÃE|MOTHER
+Value='A';MÃE|MOTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1188,7 +1207,8 @@ DataType=Alpha
 [ValueSet]
 Label=Levar ao exterior - Pai
 Name=EC5D1B_VS1
-Value='B' ' ';PAI|FATHER
+Value='B';PAI|FATHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1202,7 +1222,8 @@ DataType=Alpha
 [ValueSet]
 Label=Levar ao exterior - Outra pessoa
 Name=EC5D1X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1216,7 +1237,8 @@ DataType=Alpha
 [ValueSet]
 Label=Levar ao exterior - Sem resposta
 Name=EC5D1NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Nos últimos 3 dias, brincaram com a criança|In past 3 days, played with
@@ -1260,7 +1282,8 @@ DataType=Alpha
 [ValueSet]
 Label=Brincar com a criança - Mãe
 Name=EC5E1A_VS1
-Value='A' ' ';MÃE|MOTHER
+Value='A';MÃE|MOTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1274,7 +1297,8 @@ DataType=Alpha
 [ValueSet]
 Label=Brincar com a criança - Pai
 Name=EC5E1B_VS1
-Value='B' ' ';PAI|FATHER
+Value='B';PAI|FATHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1288,7 +1312,8 @@ DataType=Alpha
 [ValueSet]
 Label=Brincar com a criança - Outra pessoa
 Name=EC5E1X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1302,7 +1327,8 @@ DataType=Alpha
 [ValueSet]
 Label=Brincar com a criança - Sem resposta
 Name=EC5E1NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Nos últimos 3 dias, dedicaram tempo a nomear objetos, contar ou desenhar|In past 3 days, spent time naming, counting, or drawing
@@ -1346,7 +1372,8 @@ DataType=Alpha
 [ValueSet]
 Label=Nomear objetos/contar - Mãe
 Name=EC5F1A_VS1
-Value='A' ' ';MÃE|MOTHER
+Value='A';MÃE|MOTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1360,7 +1387,8 @@ DataType=Alpha
 [ValueSet]
 Label=Nomear objetos/contar - Pai
 Name=EC5F1B_VS1
-Value='B' ' ';PAI|FATHER
+Value='B';PAI|FATHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1374,7 +1402,8 @@ DataType=Alpha
 [ValueSet]
 Label=Nomear objetos/contar - Outra pessoa
 Name=EC5F1X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -1388,7 +1417,8 @@ DataType=Alpha
 [ValueSet]
 Label=Nomear objetos/contar - Sem resposta
 Name=EC5F1NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=A criança anda numa superfície irregular sem cair|Child walks on an uneven surface without falling
@@ -3035,7 +3065,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação BCG
 Name=IM6BD_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3111,7 +3142,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra hepatite B (ao nascer)
 Name=IM6H0D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3187,7 +3219,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral (VOP, ao nascer)
 Name=IM6P0D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3263,7 +3296,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral 1 (VOP)
 Name=IM6P1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3339,7 +3373,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral 2 (VOP)
 Name=IM6P2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3415,7 +3450,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral 3 (VOP)
 Name=IM6P3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3491,7 +3527,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite inativada 1 (VIP)
 Name=IM6I1D_VS1
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3567,7 +3604,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite inativada 2 (VIP)
 Name=IM6I2D_VS1
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3643,7 +3681,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pentavalente 1 (DTP-Hib-HepB)
 Name=IM6PENTA1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3719,7 +3758,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pentavalente 2 (DTP-Hib-HepB)
 Name=IM6PENTA2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3795,7 +3835,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pentavalente 3 (DTP-Hib-HepB)
 Name=IM6PENTA3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3871,7 +3912,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pneumocócica conjugada 1
 Name=IM6PCV1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -3947,7 +3989,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pneumocócica conjugada 2
 Name=IM6PCV2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4023,7 +4066,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pneumocócica conjugada 3
 Name=IM6PCV3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4099,7 +4143,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra rotavírus 1
 Name=IM6R1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4175,7 +4220,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra rotavírus 2
 Name=IM6R2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4251,7 +4297,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra rotavírus 3
 Name=IM6R3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4327,7 +4374,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra VASPR/SR 1
 Name=IM6M1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4403,7 +4451,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra VASPR/SR 2
 Name=IM6M2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4479,7 +4528,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra febre-amarela
 Name=IM6YD_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -4555,7 +4605,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra reforço Td 1
 Name=IM6TD1D_VS1
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=66;DECLARADO PELA MÃE|MOTHER REPORTED
 Value=99;SEM RESPOSTA|NO RESPONSE
@@ -5180,7 +5231,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital público
 Name=DA6A_VS1
-Value='A' ' ';HOSPITAL PÚBLICO|GOVERNMENT HOSPITAL
+Value='A';HOSPITAL PÚBLICO|GOVERNMENT HOSPITAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5194,7 +5246,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Centro de saúde público
 Name=DA6B_VS1
-Value='B' ' ';CENTRO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH CENTRE
+Value='B';CENTRO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH CENTRE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5208,7 +5261,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Posto de saúde público
 Name=DA6C_VS1
-Value='C' ' ';POSTO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH POST
+Value='C';POSTO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH POST
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5222,7 +5276,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Agente comunitário de saúde
 Name=DA6D_VS1
-Value='D' ' ';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value='D';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5236,7 +5291,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica móvel/equipa de proximidade
 Name=DA6E_VS1
-Value='E' ' ';CLÍNICA MÓVEL / DE PROXIMIDADE|MOBILE / OUTREACH CLINIC
+Value='E';CLÍNICA MÓVEL / DE PROXIMIDADE|MOBILE / OUTREACH CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5250,7 +5306,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro serviço público de saúde
 Name=DA6G_VS1
-Value='G' ' ';OUTRO SERVIÇO MÉDICO PÚBLICO|OTHER PUBLIC MEDICAL
+Value='G';OUTRO SERVIÇO MÉDICO PÚBLICO|OTHER PUBLIC MEDICAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5264,7 +5321,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital/clínica privada
 Name=DA6H_VS1
-Value='H' ' ';HOSPITAL / CLÍNICA PRIVADA|PRIVATE HOSPITAL / CLINIC
+Value='H';HOSPITAL / CLÍNICA PRIVADA|PRIVATE HOSPITAL / CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5278,7 +5336,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Médico privado
 Name=DA6I_VS1
-Value='I' ' ';MÉDICO PRIVADO|PRIVATE PHYSICIAN
+Value='I';MÉDICO PRIVADO|PRIVATE PHYSICIAN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5292,7 +5351,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Farmácia privada
 Name=DA6J_VS1
-Value='J' ' ';FARMÁCIA PRIVADA|PRIVATE PHARMACY
+Value='J';FARMÁCIA PRIVADA|PRIVATE PHARMACY
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5306,7 +5366,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Agente comunitário de saúde não governamental
 Name=DA6K_VS1
-Value='K' ' ';AGENTE DE SAÚDE COMUNITÁRIO (NÃO GOVERNAMENTAL)|COMMUNITY HEALTH WORKER (NON-GOVERNMENT)
+Value='K';AGENTE DE SAÚDE COMUNITÁRIO (NÃO GOVERNAMENTAL)|COMMUNITY HEALTH WORKER (NON-GOVERNMENT)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5320,7 +5381,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica móvel privada
 Name=DA6L_VS1
-Value='L' ' ';CLÍNICA MÓVEL PRIVADA|PRIVATE MOBILE CLINIC
+Value='L';CLÍNICA MÓVEL PRIVADA|PRIVATE MOBILE CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5334,7 +5396,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro serviço privado de saúde
 Name=DA6N_VS1
-Value='N' ' ';OUTRO SERVIÇO MÉDICO PRIVADO|OTHER PRIVATE MEDICAL
+Value='N';OUTRO SERVIÇO MÉDICO PRIVADO|OTHER PRIVATE MEDICAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5348,7 +5411,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital de ONG
 Name=DA6O_VS1
-Value='O' ' ';HOSPITAL DE ONG|NGO HOSPITAL
+Value='O';HOSPITAL DE ONG|NGO HOSPITAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5362,7 +5426,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica de ONG
 Name=DA6P_VS1
-Value='P' ' ';CLÍNICA DE ONG|NGO CLINIC
+Value='P';CLÍNICA DE ONG|NGO CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5376,7 +5441,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outra ONG
 Name=DA6Q_VS1
-Value='Q' ' ';OUTRA ONG|OTHER NGO
+Value='Q';OUTRA ONG|OTHER NGO
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5390,7 +5456,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Não sabe se público, privado ou ONG
 Name=DA6W_VS1
-Value='W' ' ';NÃO SABE SE PÚBLICO OU PRIVADO|DK PUBLIC OR PRIVATE
+Value='W';NÃO SABE SE PÚBLICO OU PRIVADO|DK PUBLIC OR PRIVATE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5404,7 +5471,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Familiar/amigo
 Name=DA6S_VS1
-Value='S' ' ';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value='S';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5418,7 +5486,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Loja/mercado/rua
 Name=DA6T_VS1
-Value='T' ' ';LOJA / MERCADO / RUA|SHOP / MARKET / STREET
+Value='T';LOJA / MERCADO / RUA|SHOP / MARKET / STREET
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5432,7 +5501,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Curandeiro/praticante de medicina tradicional
 Name=DA6U_VS1
-Value='U' ' ';CURANDEIRO TRADICIONAL|TRADITIONAL PRACTITIONER
+Value='U';CURANDEIRO TRADICIONAL|TRADITIONAL PRACTITIONER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5446,7 +5516,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro
 Name=DA6X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5460,7 +5531,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Não sabe/não se lembra
 Name=DA6Z_VS1
-Value='Z' ' ';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value='Z';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5474,7 +5546,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Sem resposta
 Name=DA6NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Primeiro local onde procurou cuidados|Place first sought care
@@ -5623,7 +5696,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento (comprimido ou xarope): Antibiótico
 Name=DA11A_VS1
-Value='A' ' ';COMPRIMIDO OU XAROPE: ANTIBIÓTICO|PILL OR SYRUP: ANTIBIOTIC
+Value='A';COMPRIMIDO OU XAROPE: ANTIBIÓTICO|PILL OR SYRUP: ANTIBIOTIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5637,7 +5711,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento (comprimido ou xarope): Antidiarreico
 Name=DA11B_VS1
-Value='B' ' ';COMPRIMIDO OU XAROPE: ANTIMOTILIDADE (ANTIDIARREICO)|PILL OR SYRUP: ANTIMOTILITY (ANTI-DIARRHOEA)
+Value='B';COMPRIMIDO OU XAROPE: ANTIMOTILIDADE (ANTIDIARREICO)|PILL OR SYRUP: ANTIMOTILITY (ANTI-DIARRHOEA)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5651,7 +5726,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento (comprimido ou xarope): Outro
 Name=DA11G_VS1
-Value='G' ' ';COMPRIMIDO OU XAROPE: OUTRO COMPRIMIDO OU XAROPE|PILL OR SYRUP: OTHER PILL OR SYRUP
+Value='G';COMPRIMIDO OU XAROPE: OUTRO COMPRIMIDO OU XAROPE|PILL OR SYRUP: OTHER PILL OR SYRUP
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5665,7 +5741,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento (comprimido ou xarope): Desconhecido
 Name=DA11H_VS1
-Value='H' ' ';COMPRIMIDO OU XAROPE: COMPRIMIDO OU XAROPE DESCONHECIDO|PILL OR SYRUP: UNKNOWN PILL OR SYRUP
+Value='H';COMPRIMIDO OU XAROPE: COMPRIMIDO OU XAROPE DESCONHECIDO|PILL OR SYRUP: UNKNOWN PILL OR SYRUP
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5679,7 +5756,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento (injeção): Antibiótico
 Name=DA11L_VS1
-Value='L' ' ';INJEÇÃO: ANTIBIÓTICO|INJECTION: ANTIBIOTIC
+Value='L';INJEÇÃO: ANTIBIÓTICO|INJECTION: ANTIBIOTIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5693,7 +5771,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento (injeção): Não antibiótico
 Name=DA11M_VS1
-Value='M' ' ';INJEÇÃO: NÃO ANTIBIÓTICO|INJECTION: NON-ANTIBIOTIC
+Value='M';INJEÇÃO: NÃO ANTIBIÓTICO|INJECTION: NON-ANTIBIOTIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5707,7 +5786,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento (injeção): Desconhecido
 Name=DA11N_VS1
-Value='N' ' ';INJEÇÃO: INJEÇÃO DESCONHECIDA|INJECTION: UNKNOWN INJECTION
+Value='N';INJEÇÃO: INJEÇÃO DESCONHECIDA|INJECTION: UNKNOWN INJECTION
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5721,7 +5801,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento: Via intravenosa (IV)
 Name=DA11O_VS1
-Value='O' ' ';INTRAVENOSO (IV)|INTRAVENOUS (IV)
+Value='O';INTRAVENOSO (IV)|INTRAVENOUS (IV)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5735,7 +5816,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento: Remédio caseiro/fitoterapia
 Name=DA11Q_VS1
-Value='Q' ' ';REMÉDIO CASEIRO / MEDICINA À BASE DE PLANTAS|HOME REMEDY / HERBAL MEDICINE
+Value='Q';REMÉDIO CASEIRO / MEDICINA À BASE DE PLANTAS|HOME REMEDY / HERBAL MEDICINE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5749,7 +5831,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento: Outro
 Name=DA11X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5763,7 +5846,8 @@ DataType=Alpha
 [ValueSet]
 Label=Outro tratamento: Sem resposta
 Name=DA11NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Record]
 Label=Procura de cuidados e tratamento de sintomas de IRA|Care-seeking and Treatment of Symptoms of ARI
@@ -5882,7 +5966,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital público
 Name=AR5A_VS1
-Value='A' ' ';HOSPITAL PÚBLICO|GOVERNMENT HOSPITAL
+Value='A';HOSPITAL PÚBLICO|GOVERNMENT HOSPITAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5896,7 +5981,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Centro de saúde público
 Name=AR5B_VS1
-Value='B' ' ';CENTRO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH CENTRE
+Value='B';CENTRO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH CENTRE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5910,7 +5996,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Posto de saúde público
 Name=AR5C_VS1
-Value='C' ' ';POSTO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH POST
+Value='C';POSTO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH POST
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5924,7 +6011,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Agente comunitário de saúde
 Name=AR5D_VS1
-Value='D' ' ';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value='D';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5938,7 +6026,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica móvel/equipa de proximidade
 Name=AR5E_VS1
-Value='E' ' ';CLÍNICA MÓVEL / DE PROXIMIDADE|MOBILE / OUTREACH CLINIC
+Value='E';CLÍNICA MÓVEL / DE PROXIMIDADE|MOBILE / OUTREACH CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5952,7 +6041,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro serviço público de saúde
 Name=AR5G_VS1
-Value='G' ' ';OUTRO SERVIÇO MÉDICO PÚBLICO|OTHER PUBLIC MEDICAL
+Value='G';OUTRO SERVIÇO MÉDICO PÚBLICO|OTHER PUBLIC MEDICAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5966,7 +6056,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital/clínica privada
 Name=AR5H_VS1
-Value='H' ' ';HOSPITAL / CLÍNICA PRIVADA|PRIVATE HOSPITAL / CLINIC
+Value='H';HOSPITAL / CLÍNICA PRIVADA|PRIVATE HOSPITAL / CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5980,7 +6071,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Médico privado
 Name=AR5I_VS1
-Value='I' ' ';MÉDICO PRIVADO|PRIVATE PHYSICIAN
+Value='I';MÉDICO PRIVADO|PRIVATE PHYSICIAN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -5994,7 +6086,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Farmácia privada
 Name=AR5J_VS1
-Value='J' ' ';FARMÁCIA PRIVADA|PRIVATE PHARMACY
+Value='J';FARMÁCIA PRIVADA|PRIVATE PHARMACY
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6008,7 +6101,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Agente comunitário de saúde não governamental
 Name=AR5K_VS1
-Value='K' ' ';AGENTE DE SAÚDE COMUNITÁRIO (NÃO GOVERNAMENTAL)|COMMUNITY HEALTH WORKER (NON-GOVERNMENT)
+Value='K';AGENTE DE SAÚDE COMUNITÁRIO (NÃO GOVERNAMENTAL)|COMMUNITY HEALTH WORKER (NON-GOVERNMENT)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6022,7 +6116,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica móvel privada
 Name=AR5L_VS1
-Value='L' ' ';CLÍNICA MÓVEL PRIVADA|PRIVATE MOBILE CLINIC
+Value='L';CLÍNICA MÓVEL PRIVADA|PRIVATE MOBILE CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6036,7 +6131,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro serviço privado de saúde
 Name=AR5N_VS1
-Value='N' ' ';OUTRO SERVIÇO MÉDICO PRIVADO|OTHER PRIVATE MEDICAL
+Value='N';OUTRO SERVIÇO MÉDICO PRIVADO|OTHER PRIVATE MEDICAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6050,7 +6146,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital de ONG
 Name=AR5O_VS1
-Value='O' ' ';HOSPITAL DE ONG|NGO HOSPITAL
+Value='O';HOSPITAL DE ONG|NGO HOSPITAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6064,7 +6161,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica de ONG
 Name=AR5P_VS1
-Value='P' ' ';CLÍNICA DE ONG|NGO CLINIC
+Value='P';CLÍNICA DE ONG|NGO CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6078,7 +6176,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outra ONG
 Name=AR5Q_VS1
-Value='Q' ' ';OUTRA ONG|OTHER NGO
+Value='Q';OUTRA ONG|OTHER NGO
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6092,7 +6191,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Não sabe se público ou privado
 Name=AR5W_VS1
-Value='W' ' ';NÃO SABE SE PÚBLICO OU PRIVADO|DK PUBLIC OR PRIVATE
+Value='W';NÃO SABE SE PÚBLICO OU PRIVADO|DK PUBLIC OR PRIVATE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6106,7 +6206,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Familiar/amigo
 Name=AR5S_VS1
-Value='S' ' ';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value='S';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6120,7 +6221,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Loja/mercado/rua
 Name=AR5T_VS1
-Value='T' ' ';LOJA / MERCADO / RUA|SHOP / MARKET / STREET
+Value='T';LOJA / MERCADO / RUA|SHOP / MARKET / STREET
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6134,7 +6236,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Curandeiro/praticante de medicina tradicional
 Name=AR5U_VS1
-Value='U' ' ';CURANDEIRO TRADICIONAL|TRADITIONAL PRACTITIONER
+Value='U';CURANDEIRO TRADICIONAL|TRADITIONAL PRACTITIONER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6148,7 +6251,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro
 Name=AR5X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6162,7 +6266,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Não sabe/não se lembra
 Name=AR5Z_VS1
-Value='Z' ' ';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value='Z';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6176,7 +6281,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Sem resposta
 Name=AR5NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Primeiro local onde procurou cuidados|Place first sought care
@@ -6224,7 +6330,8 @@ ZeroFill=Yes
 Label=Número de dias após o início da doença até procurar cuidados
 Name=AR8_VS1
 Value=0;NO MESMO DIA|SAME DAY
-Value=1 2:95;NO DIA SEGUINTE|NEXT DAY
+Value=1;NO DIA SEGUINTE|NEXT DAY
+Value=2:95
 Value=98;NÃO SABE|DK
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -6277,7 +6384,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Amoxicilina
 Name=AR10L_VS1
-Value='L' ' ';ANTIBIÓTICOS: AMOXICILINA|ANTIBIOTICS: AMOXICILLIN
+Value='L';ANTIBIÓTICOS: AMOXICILINA|ANTIBIOTICS: AMOXICILLIN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6291,7 +6399,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Cotrimoxazol
 Name=AR10M_VS1
-Value='M' ' ';ANTIBIÓTICOS: COTRIMOXAZOL|ANTIBIOTICS: COTRIMOXAZOLE
+Value='M';ANTIBIÓTICOS: COTRIMOXAZOL|ANTIBIOTICS: COTRIMOXAZOLE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6305,7 +6414,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Outro comprimido/xarope
 Name=AR10N_VS1
-Value='N' ' ';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO EM COMPRIMIDO / XAROPE|ANTIBIOTICS: OTHER ANTIBIOTIC PILL / SYRUP
+Value='N';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO EM COMPRIMIDO / XAROPE|ANTIBIOTICS: OTHER ANTIBIOTIC PILL / SYRUP
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6319,7 +6429,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Outra injeção/perfusão IV
 Name=AR10O_VS1
-Value='O' ' ';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO INJETÁVEL / IV|ANTIBIOTICS: OTHER ANTIBIOTIC INJECTION / IV
+Value='O';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO INJETÁVEL / IV|ANTIBIOTICS: OTHER ANTIBIOTIC INJECTION / IV
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6333,7 +6444,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Paracetamol/Panadol/acetaminofeno
 Name=AR10R_VS1
-Value='R' ' ';PARACETAMOL / PANADOL / ACETAMINOFENO|PARACETAMOL / PANADOL / ACETAMINOPHEN
+Value='R';PARACETAMOL / PANADOL / ACETAMINOFENO|PARACETAMOL / PANADOL / ACETAMINOPHEN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6347,7 +6459,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Aspirina
 Name=AR10S_VS1
-Value='S' ' ';ASPIRINA|ASPIRIN
+Value='S';ASPIRINA|ASPIRIN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6361,7 +6474,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Ibuprofeno
 Name=AR10T_VS1
-Value='T' ' ';IBUPROFENO|IBUPROFEN
+Value='T';IBUPROFENO|IBUPROFEN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6375,7 +6489,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Apenas a marca foi registada
 Name=AR10W_VS1
-Value='W' ' ';APENAS NOME COMERCIAL REGISTADO|ONLY BRAND NAME RECORDED
+Value='W';APENAS NOME COMERCIAL REGISTADO|ONLY BRAND NAME RECORDED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6389,7 +6504,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Outro
 Name=AR10X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6403,7 +6519,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Não sabe
 Name=AR10Z_VS1
-Value='Z' ' ';NÃO SABE|DK
+Value='Z';NÃO SABE|DK
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6417,7 +6534,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Sem resposta
 Name=AR10NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Record]
 Label=Malária: Procura de cuidados e tratamento|Malaria: Care-seeking and Treatment
@@ -6534,7 +6652,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital público
 Name=MC5A_VS1
-Value='A' ' ';HOSPITAL PÚBLICO|GOVERNMENT HOSPITAL
+Value='A';HOSPITAL PÚBLICO|GOVERNMENT HOSPITAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6548,7 +6667,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Centro de saúde público
 Name=MC5B_VS1
-Value='B' ' ';CENTRO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH CENTRE
+Value='B';CENTRO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH CENTRE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6562,7 +6682,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Posto de saúde público
 Name=MC5C_VS1
-Value='C' ' ';POSTO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH POST
+Value='C';POSTO DE SAÚDE PÚBLICO|GOVERNMENT HEALTH POST
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6576,7 +6697,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Agente comunitário de saúde
 Name=MC5D_VS1
-Value='D' ' ';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value='D';AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6590,7 +6712,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica móvel/equipa de proximidade
 Name=MC5E_VS1
-Value='E' ' ';CLÍNICA MÓVEL / DE PROXIMIDADE|MOBILE / OUTREACH CLINIC
+Value='E';CLÍNICA MÓVEL / DE PROXIMIDADE|MOBILE / OUTREACH CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6604,7 +6727,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro serviço público de saúde
 Name=MC5G_VS1
-Value='G' ' ';OUTRO SERVIÇO MÉDICO PÚBLICO|OTHER PUBLIC MEDICAL
+Value='G';OUTRO SERVIÇO MÉDICO PÚBLICO|OTHER PUBLIC MEDICAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6618,7 +6742,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital/clínica privada
 Name=MC5H_VS1
-Value='H' ' ';HOSPITAL / CLÍNICA PRIVADA|PRIVATE HOSPITAL / CLINIC
+Value='H';HOSPITAL / CLÍNICA PRIVADA|PRIVATE HOSPITAL / CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6632,7 +6757,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Médico privado
 Name=MC5I_VS1
-Value='I' ' ';MÉDICO PRIVADO|PRIVATE PHYSICIAN
+Value='I';MÉDICO PRIVADO|PRIVATE PHYSICIAN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6646,7 +6772,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Farmácia privada
 Name=MC5J_VS1
-Value='J' ' ';FARMÁCIA PRIVADA|PRIVATE PHARMACY
+Value='J';FARMÁCIA PRIVADA|PRIVATE PHARMACY
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6660,7 +6787,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Agente comunitário de saúde não governamental
 Name=MC5K_VS1
-Value='K' ' ';AGENTE DE SAÚDE COMUNITÁRIO (NÃO GOVERNAMENTAL)|COMMUNITY HEALTH WORKER (NON-GOVERNMENT)
+Value='K';AGENTE DE SAÚDE COMUNITÁRIO (NÃO GOVERNAMENTAL)|COMMUNITY HEALTH WORKER (NON-GOVERNMENT)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6674,7 +6802,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica móvel privada
 Name=MC5L_VS1
-Value='L' ' ';CLÍNICA MÓVEL PRIVADA|PRIVATE MOBILE CLINIC
+Value='L';CLÍNICA MÓVEL PRIVADA|PRIVATE MOBILE CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6688,7 +6817,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro serviço privado de saúde
 Name=MC5N_VS1
-Value='N' ' ';OUTRO SERVIÇO MÉDICO PRIVADO|OTHER PRIVATE MEDICAL
+Value='N';OUTRO SERVIÇO MÉDICO PRIVADO|OTHER PRIVATE MEDICAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6702,7 +6832,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Hospital de ONG
 Name=MC5O_VS1
-Value='O' ' ';HOSPITAL DE ONG|NGO HOSPITAL
+Value='O';HOSPITAL DE ONG|NGO HOSPITAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6716,7 +6847,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Clínica de ONG
 Name=MC5P_VS1
-Value='P' ' ';CLÍNICA DE ONG|NGO CLINIC
+Value='P';CLÍNICA DE ONG|NGO CLINIC
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6730,7 +6862,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outra ONG
 Name=MC5Q_VS1
-Value='Q' ' ';OUTRA ONG|OTHER NGO
+Value='Q';OUTRA ONG|OTHER NGO
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6744,7 +6877,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Não sabe se público ou privado
 Name=MC5W_VS1
-Value='W' ' ';NÃO SABE SE PÚBLICO OU PRIVADO|DK PUBLIC OR PRIVATE
+Value='W';NÃO SABE SE PÚBLICO OU PRIVADO|DK PUBLIC OR PRIVATE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6758,7 +6892,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Familiar/amigo
 Name=MC5S_VS1
-Value='S' ' ';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value='S';FAMILIAR / AMIGO|RELATIVE / FRIEND
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6772,7 +6907,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Loja/mercado/rua
 Name=MC5T_VS1
-Value='T' ' ';LOJA / MERCADO / RUA|SHOP / MARKET / STREET
+Value='T';LOJA / MERCADO / RUA|SHOP / MARKET / STREET
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6786,7 +6922,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Curandeiro/praticante de medicina tradicional
 Name=MC5U_VS1
-Value='U' ' ';CURANDEIRO TRADICIONAL|TRADITIONAL PRACTITIONER
+Value='U';CURANDEIRO TRADICIONAL|TRADITIONAL PRACTITIONER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6800,7 +6937,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Outro
 Name=MC5X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6814,7 +6952,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Não sabe/não se lembra
 Name=MC5Z_VS1
-Value='Z' ' ';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value='Z';NÃO SABE / NÃO SE LEMBRA|DK / DON’T REMEMBER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6828,7 +6967,8 @@ DataType=Alpha
 [ValueSet]
 Label=Local de cuidados: Sem resposta
 Name=MC5NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Primeiro local onde procurou cuidados|Place first sought care
@@ -6876,7 +7016,8 @@ ZeroFill=Yes
 Label=Número de dias após o início da doença até procurar cuidados
 Name=MC8_VS1
 Value=0;NO MESMO DIA|SAME DAY
-Value=1 2:95;NO DIA SEGUINTE|NEXT DAY
+Value=1;NO DIA SEGUINTE|NEXT DAY
+Value=2:95
 Value=98;NÃO SABE|DK
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -6938,7 +7079,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Terapêutica combinada à base de artemisinina (ACT)
 Name=MC10A_VS1
-Value='A' ' ';ANTIMALÁRICOS: TERAPÊUTICA COMBINADA À BASE DE ARTEMISININA (TCA)|ANTI-MALARIALS: ARTEMISININ COMBINATION THERAPY (ACT)
+Value='A';ANTIMALÁRICOS: TERAPÊUTICA COMBINADA À BASE DE ARTEMISININA (TCA)|ANTI-MALARIALS: ARTEMISININ COMBINATION THERAPY (ACT)
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6952,7 +7094,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: SP/Fansidar
 Name=MC10B_VS1
-Value='B' ' ';ANTIMALÁRICOS: SP / FANSIDAR|ANTI-MALARIALS: SP / FANSIDAR
+Value='B';ANTIMALÁRICOS: SP / FANSIDAR|ANTI-MALARIALS: SP / FANSIDAR
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6966,7 +7109,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Cloroquina
 Name=MC10C_VS1
-Value='C' ' ';ANTIMALÁRICOS: CLOROQUINA|ANTI-MALARIALS: CHLOROQUINE
+Value='C';ANTIMALÁRICOS: CLOROQUINA|ANTI-MALARIALS: CHLOROQUINE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6980,7 +7124,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Amodiaquina
 Name=MC10D_VS1
-Value='D' ' ';ANTIMALÁRICOS: AMODIAQUINA|ANTI-MALARIALS: AMODIAQUINE
+Value='D';ANTIMALÁRICOS: AMODIAQUINA|ANTI-MALARIALS: AMODIAQUINE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -6994,7 +7139,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Comprimidos de quinino
 Name=MC10E_VS1
-Value='E' ' ';ANTIMALÁRICOS: COMPRIMIDOS DE QUININO|ANTI-MALARIALS: QUININE PILLS
+Value='E';ANTIMALÁRICOS: COMPRIMIDOS DE QUININO|ANTI-MALARIALS: QUININE PILLS
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7008,7 +7154,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Quinino injetável/IV
 Name=MC10F_VS1
-Value='F' ' ';ANTIMALÁRICOS: QUININO INJETÁVEL / IV|ANTI-MALARIALS: QUININE INJECTION / IV
+Value='F';ANTIMALÁRICOS: QUININO INJETÁVEL / IV|ANTI-MALARIALS: QUININE INJECTION / IV
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7022,7 +7169,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Artesunato retal
 Name=MC10G_VS1
-Value='G' ' ';ANTIMALÁRICOS: ARTESUNATO RETAL|ANTI-MALARIALS: ARTESUNATE RECTAL
+Value='G';ANTIMALÁRICOS: ARTESUNATO RETAL|ANTI-MALARIALS: ARTESUNATE RECTAL
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7036,7 +7184,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Artesunato injetável/IV
 Name=MC10H_VS1
-Value='H' ' ';ANTIMALÁRICOS: ARTESUNATO INJETÁVEL / IV|ANTI-MALARIALS: ARTESUNATE INJECTION / IV
+Value='H';ANTIMALÁRICOS: ARTESUNATO INJETÁVEL / IV|ANTI-MALARIALS: ARTESUNATE INJECTION / IV
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7050,7 +7199,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antipalúdico: Outro
 Name=MC10K_VS1
-Value='K' ' ';ANTIMALÁRICOS: OUTRO|ANTI-MALARIALS: OTHER
+Value='K';ANTIMALÁRICOS: OUTRO|ANTI-MALARIALS: OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7064,7 +7214,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Amoxicilina
 Name=MC10L_VS1
-Value='L' ' ';ANTIBIÓTICOS: AMOXICILINA|ANTIBIOTICS: AMOXICILLIN
+Value='L';ANTIBIÓTICOS: AMOXICILINA|ANTIBIOTICS: AMOXICILLIN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7078,7 +7229,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Cotrimoxazol
 Name=MC10M_VS1
-Value='M' ' ';ANTIBIÓTICOS: COTRIMOXAZOL|ANTIBIOTICS: COTRIMOXAZOLE
+Value='M';ANTIBIÓTICOS: COTRIMOXAZOL|ANTIBIOTICS: COTRIMOXAZOLE
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7092,7 +7244,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Outro comprimido/xarope
 Name=MC10N_VS1
-Value='N' ' ';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO EM COMPRIMIDO / XAROPE|ANTIBIOTICS: OTHER ANTIBIOTIC PILL / SYRUP
+Value='N';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO EM COMPRIMIDO / XAROPE|ANTIBIOTICS: OTHER ANTIBIOTIC PILL / SYRUP
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7106,7 +7259,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Antibiótico: Outra injeção/perfusão IV
 Name=MC10O_VS1
-Value='O' ' ';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO INJETÁVEL / IV|ANTIBIOTICS: OTHER ANTIBIOTIC INJECTION / IV
+Value='O';ANTIBIÓTICOS: OUTRO ANTIBIÓTICO INJETÁVEL / IV|ANTIBIOTICS: OTHER ANTIBIOTIC INJECTION / IV
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7120,7 +7274,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Paracetamol/Panadol/acetaminofeno
 Name=MC10R_VS1
-Value='R' ' ';PARACETAMOL / PANADOL / ACETAMINOFENO|PARACETAMOL / PANADOL / ACETAMINOPHEN
+Value='R';PARACETAMOL / PANADOL / ACETAMINOFENO|PARACETAMOL / PANADOL / ACETAMINOPHEN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7134,7 +7289,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Aspirina
 Name=MC10S_VS1
-Value='S' ' ';ASPIRINA|ASPIRIN
+Value='S';ASPIRINA|ASPIRIN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7148,7 +7304,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Ibuprofeno
 Name=MC10T_VS1
-Value='T' ' ';IBUPROFENO|IBUPROFEN
+Value='T';IBUPROFENO|IBUPROFEN
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7162,7 +7319,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Apenas a marca foi registada
 Name=MC10W_VS1
-Value='W' ' ';APENAS NOME COMERCIAL REGISTADO|ONLY BRAND NAME RECORDED
+Value='W';APENAS NOME COMERCIAL REGISTADO|ONLY BRAND NAME RECORDED
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7176,7 +7334,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Outro
 Name=MC10X_VS1
-Value='X' ' ';OUTRO|OTHER
+Value='X';OUTRO|OTHER
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7190,7 +7349,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Não sabe
 Name=MC10Z_VS1
-Value='Z' ' ';NÃO SABE|DK
+Value='Z';NÃO SABE|DK
+Value=' '
 Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
@@ -7204,7 +7364,8 @@ DataType=Alpha
 [ValueSet]
 Label=Medicamento tomado: Sem resposta
 Name=MC10NR_VS1
-Value='?' ' ';SEM RESPOSTA|NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
+Value=' '
 
 [Item]
 Label=Número de dias após o início da doença até tomar pela primeira vez terapêutica combinada à base de artemisinina|How many days after illness first took artemisinin combination therapy
@@ -7373,11 +7534,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Peso da criança (quilogramas)
 Name=AN8_VST
-Value=0:'36.0'
-Value='99.0';CRIANÇA AUSENTE APÓS NOVAS VISITAS|CHILD NOT PRESENT AFTER REVISITS
-Value='99.0';A CRIANÇA RECUSOU|CHILD REFUSED
-Value='99.0';A INQUIRIDA RECUSOU|RESPONDENT REFUSED
-Value='99.0';OUTRO|OTHER
+Value=0.5:36.0
+Value=99.3;CRIANÇA AUSENTE APÓS NOVAS VISITAS|CHILD NOT PRESENT AFTER REVISITS
+Value=99.4;A CRIANÇA RECUSOU|CHILD REFUSED
+Value=99.5;A INQUIRIDA RECUSOU|RESPONDENT REFUSED
+Value=99.6;OUTRO|OTHER
 
 [Item]
 Label=Criança despida tanto quanto possível|Child undressed to the minimum
@@ -7406,10 +7567,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Comprimento ou altura da criança (centímetros)
 Name=AN11_VST
-Value='36.0':'140.0'
-Value='999.0';A CRIANÇA RECUSOU|CHILD REFUSED
-Value='999.0';A INQUIRIDA RECUSOU|RESPONDENT REFUSED
-Value='999.0';OUTRO|OTHER
+Value=36.0:140.0
+Value=999.4;A CRIANÇA RECUSOU|CHILD REFUSED
+Value=999.5;A INQUIRIDA RECUSOU|RESPONDENT REFUSED
+Value=999.6;OUTRO|OTHER
 
 [Item]
 Label=Criança medida deitada ou em pé|Child measured lying or standing
@@ -7655,7 +7816,7 @@ Name=HF7BD_VS1
 Value=1:31
 Value=98;NÃO SABE|DK
 Value=99;SEM RESPOSTA|NO RESPONSE
-Value='';NãoAplic|NotAppl
+Value='  ';NãoAplic|NotAppl
 Name=NOTAPPL,Special
 
 [Item]
@@ -7673,7 +7834,7 @@ Name=HF7BM_VS1
 Value=1:12
 Value=98;NÃO SABE|DK
 Value=99;SEM RESPOSTA|NO RESPONSE
-Value='';NãoAplic|NotAppl
+Value='  ';NãoAplic|NotAppl
 Name=NOTAPPL,Special
 
 [Item]
@@ -7691,7 +7852,7 @@ Name=HF7BY_VS1
 Value=2020:2025
 Value=9998;NÃO SABE|DK
 Value=9999;SEM RESPOSTA|NO RESPONSE
-Value='';NãoAplic|NotAppl
+Value='    ';NãoAplic|NotAppl
 Name=NOTAPPL,Special
 
 [Item]
@@ -7939,7 +8100,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação BCG
 Name=HF12BD_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8012,7 +8174,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra hepatite B (ao nascer)
 Name=HF12H0D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8085,7 +8248,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral (VOP, ao nascer)
 Name=HF12P0D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8158,7 +8322,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral 1 (VOP)
 Name=HF12P1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8231,7 +8396,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral 2 (VOP)
 Name=HF12P2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8304,7 +8470,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite oral 3 (VOP)
 Name=HF12P3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8377,7 +8544,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite inativada 1 (VIP)
 Name=HF12I1D_VS1
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8450,7 +8618,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra poliomielite inativada 2 (VIP)
 Name=HF12I2D_VS1
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8523,7 +8692,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pentavalente 1 (DTP-Hib-HepB)
 Name=HF12PENTA1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8596,7 +8766,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pentavalente 2 (DTP-Hib-HepB)
 Name=HF12PENTA2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8669,7 +8840,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pentavalente 3 (DTP-Hib-HepB)
 Name=HF12PENTA3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8742,7 +8914,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pneumocócica conjugada 1
 Name=HF12PCV1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8815,7 +8988,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pneumocócica conjugada 2
 Name=HF12PCV2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8888,7 +9062,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra pneumocócica conjugada 3
 Name=HF12PCV3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -8961,7 +9136,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra rotavírus 1
 Name=HF12R1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -9034,7 +9210,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra rotavírus 2
 Name=HF12R2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -9107,7 +9284,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra rotavírus 3
 Name=HF12R3D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -9180,7 +9358,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra VASPR/SR 1
 Name=HF12M1D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -9253,7 +9432,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra VASPR/SR 2
 Name=HF12M2D_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -9326,7 +9506,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra febre-amarela
 Name=HF12YD_VST
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
@@ -9399,7 +9580,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Dia de vacinação contra reforço Td 1
 Name=HF12TD1D_VS1
-Value=0 1:31;NÃO ADMINISTRADA|NOT GIVEN
+Value=0;NÃO ADMINISTRADA|NOT GIVEN
+Value=1:31
 Value=44;ASSINALADO NO CARTÃO|MARKED ON CARD
 Value=99;SEM RESPOSTA|NO RESPONSE
 
