@@ -58,3 +58,16 @@ User unnumbered messages:
 
 CSPro Executor Normal End
 ------------------------------------------------------------------------------------------------------------------------
+Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 13, 2026
+Start Time      17:01:37
+End Time        17:02:20
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

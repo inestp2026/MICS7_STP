@@ -1,11 +1,13 @@
-﻿---
+---
 fileType: Question Text
 version: CSPro 7.7
 languages:
-  - name: EN
-    label: English
+  - name: PT
+    label: Portugues
   - name: ES
     label: Español
+  - name: ENG
+    label: English
 styles:
   - name: Normal
     className: normal
@@ -31,50 +33,20 @@ questions:
   - name: MENU_DICT.STAFF_ID
     conditions:
       - questionText:
-          EN: |
-            <p><img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;"><span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span></p><p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff">SUPERVISOR APPLICATION</font></b></span></p><p></p><p><span style="font-size: 14px;">&nbsp;<i><b>&nbsp;Select the supervisor who will use this tablet</b></i></span><span style="font-size: 14px;"><i><b>:</b></i></span><br></p><p><br></p><p></p>
           ES: |
             <p><img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;"><span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span></p><p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff">APLICACIÓN DEL SUPERVISOR</font></b></span></p><p></p><p><span style="font-size: 14px;">&nbsp;<i><b>&nbsp;Seleccione el supervisor que usará esta tableta</b></i></span><span style="font-size: 14px;"><i><b>:</b></i></span><br></p><p><br></p><p></p>
+          PT: |
+            <p><img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;"><span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span></p><p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff">APLICAÇÃO DO SUPERVISOR</font></b></span></p><p></p><p><span style="font-size: 14px;">&nbsp;<i><b>&nbsp;Selecione o supervisor que vai usar este tablet</b></i></span><span style="font-size: 14px;"><i><b>:</b></i></span><br></p><p><br></p><p></p>
   - name: MENU_DICT.CLUSTER
     conditions:
       - questionText:
-          EN: |
-            <p><img src="./Resources/Images/unicef_mics_logo.png" style="width: 200px;"><span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span><br></p><p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff">INTERVIEWER APPLICATION</font></b></span></p><p></p><p>&nbsp; &nbsp; &nbsp;<span style="font-size: 14px;">&nbsp;&nbsp;<i><b>&nbsp;Select cluster to work on</b></i></span><span style="font-size: 14px;"><i><b>:</b></i></span><br></p><p></p>
           ES: |
             <p><img src="./Resources/Images/unicef_mics_logo.png" style="width: 200px;"><span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span><br></p><p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff">APLICACIÓN DEL ENTREVISTADOR</font></b></span></p><p></p><p>&nbsp; &nbsp; &nbsp;<span style="font-size: 14px;">&nbsp;&nbsp;<i><b>&nbsp;Seleccione el cluster a trabajar</b></i></span><span style="font-size: 14px;"><i><b>:</b></i></span><br></p><p></p>
+          PT: |
+            <p><img src="./Resources/Images/unicef_mics_logo.png" style="width: 200px;"><span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span><br></p><p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff">APLICAÇÃO DO INQUIRIDOR</font></b></span></p><p></p><p>&nbsp; &nbsp; &nbsp;<span style="font-size: 14px;">&nbsp;&nbsp;<i><b>&nbsp;Selecione o cluster a trabalhar</b></i></span><span style="font-size: 14px;"><i><b>:</b></i></span><br></p><p></p>
   - name: MENU_DICT.SUPERVISOR_MENU
     conditions:
       - questionText:
-          EN: |
-            <img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;">
-            <span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span>
-            <p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="Red" style="">SUPERVISOR MENU</font></b></span></p>
-            <p style="line-height:20%">Supervisor: ~~staff_id~~ ~~staff_name~~</p>
-            <p style="line-height:20%">Team ~~team~~ working on cluster ~~CLUSTER~~</p>
-            <p style="line-height:20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i><b>Options:</b></i></p>
-            <table>
-            <!-- <tbody style="background-color:#ccffcc;"> -->
-            <tbody><tr>
-            <td style="border:none; width:1%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(1);');"><img src=".\Resources\Images\sampleG.png"> </a></td>
-            <td style="border:none; width:20%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(1);');"><b><span style="font-size: 18px;">Assigments and </span><br>household managment</b></a></td>
-            </tr>
-            <tr>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(2);');"><img src=".\Resources\Images\sync.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(2);');"><b><span style="font-size: 18px;">Sync</span></b></a></td>
-            </tr>
-            <tr>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(3);');"><img src=".\Resources\Images\reportG.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(3);');"><b><span style="font-size: 18px;">Reports</span></b></a></td>
-            </tr>
-            <tr>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(4);');"><img src=".\Resources\Images\review.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(4);');"><b><span style="font-size: 18px;">Review of started<br>interviews</span></b></a></td>
-            </tr>
-            <tr>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><img src=".\Resources\Images\changepsu.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><b><span style="font-size: 18px;">Change Cluster</span></b></a></td>
-            </tr>
-            </tbody></table>
           ES: |
             <img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;">
             <span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span>
@@ -105,46 +77,46 @@ questions:
             <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><b><span style="font-size: 18px;">Cambiar de cluster</span></b></a></td>
             </tr>
             </tbody></table>
-  - name: MENU_DICT.SYNCCENTRAL
-    conditions:
-      - questionText:
-          EN: |
-            <b><span style="font-size: 24px;">SYNC WITH CENTRAL OFFICE</span></b><p></p>
-          ES: |
-            <b><span style="font-size: 24px;">SINCRONIZAR CON OFICINA CENTRAL</span></b><p></p>
-  - name: MENU_DICT.INTERVIEWER_MENU
-    conditions:
-      - questionText:
-          EN: |
+          PT: |
             <img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;">
             <span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span>
-            <p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff" style="">INTERVIEWER MENU</font></b></span></p>
-            <p style="line-height:20%">Interviewer: ~~staff_id~~ ~~staff_name~~</p>
-            <p style="line-height:20%">Team ~~team~~ working on cluster ~~CLUSTER~~</p>
-            <p style="line-height:20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i><b>Options:</b></i></p>
+            <p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="Red" style="">MENU DO SUPERVISOR</font></b></span></p>
+            <p style="line-height:20%">Supervisor: ~~staff_id~~ ~~staff_name~~</p>
+            <p style="line-height:20%">Equipa ~~team~~ a trabalhar no cluster ~~CLUSTER~~</p>
+            <p style="line-height:20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i><b>Opções:</b></i></p>
             <table>
-            <!-- <tbody style="background-color:lightcyan;"> -->
-            <tr>
-            <td style="border:none; width:1%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(1);');"><img src=".\Resources\Images\selectg.png"> </a></td>
-            <td style="border:none; width:20%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(1);');"><b><span style="font-size: 18px;">Select interview</span></b></a></td>
+            <!-- <tbody style="background-color:#ccffcc;"> -->
+            <tbody><tr>
+            <td style="border:none; width:1%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(1);');"><img src=".\Resources\Images\sampleG.png"> </a></td>
+            <td style="border:none; width:20%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(1);');"><b><span style="font-size: 18px;">Atribuições e </span><br>gestão de agregados</b></a></td>
             </tr>
             <tr>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(2);');"><img src=".\Resources\Images\syncint.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(2);');"><b><span style="font-size: 18px;">Sync</span></b></a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(2);');"><img src=".\Resources\Images\sync.png" style=""> </a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(2);');"><b><span style="font-size: 18px;">Sincronizar</span></b></a></td>
             </tr>
             <tr>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(3);');"><img src=".\Resources\Images\reportG.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(3);');"><b><span style="font-size: 18px;">Cluster report</span></b></a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(3);');"><img src=".\Resources\Images\reportG.png" style=""> </a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(3);');"><b><span style="font-size: 18px;">Relatórios</span></b></a></td>
             </tr>
             <tr>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(4);');"><img src=".\Resources\Images\fix.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(4);');"><b><span style="font-size: 18px;">Fix structural problems</span></b></a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(4);');"><img src=".\Resources\Images\review.png" style=""> </a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(4);');"><b><span style="font-size: 18px;">Revisão de entrevistas<br>iniciadas</span></b></a></td>
             </tr>
             <tr>
             <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><img src=".\Resources\Images\changepsu.png" style=""> </a></td>
-            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><b><span style="font-size: 18px;">Change Cluster</span></b></a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><b><span style="font-size: 18px;">Mudar de cluster</span></b></a></td>
             </tr>
             </tbody></table>
+  - name: MENU_DICT.SYNCCENTRAL
+    conditions:
+      - questionText:
+          ES: |
+            <b><span style="font-size: 24px;">SINCRONIZAR CON OFICINA CENTRAL</span></b><p></p>
+          PT: |
+            <b><span style="font-size: 24px;">SINCRONIZAR COM A SEDE CENTRAL</span></b><p></p>
+  - name: MENU_DICT.INTERVIEWER_MENU
+    conditions:
+      - questionText:
           ES: |
             <img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;">
             <span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span>
@@ -175,17 +147,39 @@ questions:
             <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><b><span style="font-size: 18px;">Cambiar de cluster</span></b></a></td>
             </tr>
             </tbody></table>
+          PT: |
+            <img src=".\Resources\Images\unicef_mics_logo.png" style="width: 200px;">
+            <span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;~~project~~</span>
+            <p><span style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><b><font color="#0000ff" style="">MENU DO INQUIRIDOR</font></b></span></p>
+            <p style="line-height:20%">Inquiridor: ~~staff_id~~ ~~staff_name~~</p>
+            <p style="line-height:20%">Equipa ~~team~~ a trabalhar no cluster ~~CLUSTER~~</p>
+            <p style="line-height:20%">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<i><b>Opções:</b></i></p>
+            <table>
+            <!-- <tbody style="background-color:lightcyan;"> -->
+            <tr>
+            <td style="border:none; width:1%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(1);');"><img src=".\Resources\Images\selectg.png"> </a></td>
+            <td style="border:none; width:20%;"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(1);');"><b><span style="font-size: 18px;">Selecionar entrevista</span></b></a></td>
+            </tr>
+            <tr>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(2);');"><img src=".\Resources\Images\syncint.png" style=""> </a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(2);');"><b><span style="font-size: 18px;">Sincronizar</span></b></a></td>
+            </tr>
+            <tr>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(3);');"><img src=".\Resources\Images\reportG.png" style=""> </a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(3);');"><b><span style="font-size: 18px;">Relatório do cluster</span></b></a></td>
+            </tr>
+            <tr>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(4);');"><img src=".\Resources\Images\fix.png" style=""> </a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menuinter(4);');"><b><span style="font-size: 18px;">Corrigir problemas estruturais</span></b></a></td>
+            </tr>
+            <tr>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><img src=".\Resources\Images\changepsu.png" style=""> </a></td>
+            <td style="border:none"><a href="#" onclick="javascript:CSPro.runLogicAsync('menusuper(5);');"><b><span style="font-size: 18px;">Mudar de cluster</span></b></a></td>
+            </tr>
+            </tbody></table>
   - name: MENU_DICT.CONFIRM_DELETE
     conditions:
       - questionText:
-          EN: |
-            
-            <table class="table table-bordered">
-             <tbody style="background-color:~~color~~;">
-             <tr><td style="border:none; width:5%;"><img src="~~showimage~~" width="80" height="80">
-             </td><td style="width: 95%"><b>~~line1~~</b><br><br><b><font color="#0000ff">~~line2~~</font></b><br><br>~~line3~~<br><br>~~line4~~</td></tr>
-             </tbody></table>
-            <p><b>ARE YOU SURE TO DELETE THIS RECORD?</b></p>
           ES: |
             
             <table class="table table-bordered">
@@ -194,17 +188,17 @@ questions:
              </td><td style="width: 95%"><b>~~line1~~</b><br><br><b><font color="#0000ff">~~line2~~</font></b><br><br>~~line3~~<br><br>~~line4~~</td></tr>
              </tbody></table>
             <p><b>¿ESTÁ SEGURO DE ELIMINAR ESTE REGISTRO?</b></p>
-  - name: MENU_DICT.SELECT_INTERVIEWED
-    conditions:
-      - questionText:
-          EN: |
+          PT: |
             
             <table class="table table-bordered">
              <tbody style="background-color:~~color~~;">
              <tr><td style="border:none; width:5%;"><img src="~~showimage~~" width="80" height="80">
-             </td><td style="width: 95%"><b>~~line1~~</b><br><br>~~line2~~<br><br>~~line3~~<br><br>~~line4~~</td></tr>
+             </td><td style="width: 95%"><b>~~line1~~</b><br><br><b><font color="#0000ff">~~line2~~</font></b><br><br>~~line3~~<br><br>~~line4~~</td></tr>
              </tbody></table>
-            <p>Select one option:</p>
+            <p><b>TEM A CERTEZA QUE QUER ELIMINAR ESTE REGISTO?</b></p>
+  - name: MENU_DICT.SELECT_INTERVIEWED
+    conditions:
+      - questionText:
           ES: |
             
             <table class="table table-bordered">
@@ -213,9 +207,17 @@ questions:
              </td><td style="width: 95%"><b>~~line1~~</b><br><br>~~line2~~<br><br>~~line3~~<br><br>~~line4~~</td></tr>
              </tbody></table>
             <p>Seleccione una opción:</p>
+          PT: |
+            
+            <table class="table table-bordered">
+             <tbody style="background-color:~~color~~;">
+             <tr><td style="border:none; width:5%;"><img src="~~showimage~~" width="80" height="80">
+             </td><td style="width: 95%"><b>~~line1~~</b><br><br>~~line2~~<br><br>~~line3~~<br><br>~~line4~~</td></tr>
+             </tbody></table>
+            <p>Selecione uma opção:</p>
   - name: MENU_DICT.BYE
     conditions:
       - questionText:
-          EN: |
-            <span style="font-size: 36px;"><font color="#ff0000">BYE</font></span>
+          PT: |
+            <span style="font-size: 36px;"><font color="#ff0000">ADEUS</font></span>
 ...

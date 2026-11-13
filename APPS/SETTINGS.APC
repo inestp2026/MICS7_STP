@@ -1,6 +1,6 @@
 ﻿
 // ----------Customization starts here -------------
-string project="Country, 202X";     // Put your country name and year
+string project="São Tomé e Príncipe, 2027";     // Put your country name and year
 
 numeric server_type=1;				// Select the server type to use
 									// 1->CSweb  

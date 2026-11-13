@@ -10,8 +10,9 @@ DecimalChar=Yes
 SecurityOptions=067F73DD16819176E306844F92207E4C4DF25E48BCA7DB388B81F5D2D8353AF3
 
 [Languages]
-EN=English
+PT=Portugues
 ES=Español
+EN=English
 
 [Level]
 Label=Menu questionnaire
@@ -20,7 +21,7 @@ Name=MENU_QUEST
 [IdItems]
 
 [Item]
-Label=Menu identification
+Label=Identificação do menu|Menu identification|Menu identification
 Name=MENU_ID
 Start=2
 Len=1
@@ -28,13 +29,13 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=Menu record
+Label=Registo do menu|Menu record|Menu record
 Name=MENU_REC
 RecordTypeValue='1'
 RecordLen=20
 
 [Item]
-Label=Staff ID number|Número de identificación
+Label=Número de identificação do pessoal|Número de identificación|Staff ID number
 Name=STAFF_ID
 Start=3
 Len=3
@@ -42,7 +43,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Primary sampling unit|Conglomerado
+Label=Unidade primária de amostragem|Conglomerado|Primary sampling unit
 Name=CLUSTER
 Start=6
 Len=5
@@ -50,7 +51,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Supervisor Menu|Menú del supervisor
+Label=Menu do supervisor|Menú del supervisor|Supervisor Menu
 Name=SUPERVISOR_MENU
 Start=11
 Len=1
@@ -58,34 +59,34 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Supervisor Menu|Menú del supervisor
+Label=Menu do supervisor|Menú del supervisor
 Name=SUPERVISOR_MENU_VS1
-Value=1;Work as interviewer|Trabajar como entrevistador
-Value=9;Logout|Salir
+Value=1;Trabalhar como entrevistador|Trabajar como entrevistador|Work as interviewer
+Value=9;Terminar sessão|Salir|Logout
 
 [Item]
-Label=Select_interviewed|Seleccionar entrevistado
+Label=Selecionar_entrevistado|Seleccionar entrevistado|Select_interviewed
 Name=SELECT_INTERVIEWED
 Start=12
 Len=2
 DataType=Numeric
 
 [Item]
-Label=Sync with central office|Sincronizar con oficina central
+Label=Sincronizar com o escritório central|Sincronizar con oficina central|Sync with central office
 Name=SYNCCENTRAL
 Start=14
 Len=3
 DataType=Alpha
 
 [ValueSet]
-Label=Sync with central office|Sincronizar con oficina central
+Label=Sincronizar com o escritório central|Sincronizar con oficina central
 Name=SYNCCENTRAL_VS1
-Value='1  ';Send data|Enviar datos
-Value='2  ';Receive updated sample|Recibir muestra actualizada
-Value='3  ';Receive staff or application updates|Recibir actualizaciones de aplicaciones o staff
+Value='1  ';Enviar dados|Enviar datos|Send data
+Value='2  ';Receber amostra atualizada|Recibir muestra actualizada|Receive updated sample
+Value='3  ';Receber atualizações do pessoal ou da aplicação|Recibir actualizaciones de aplicaciones o staff|Receive staff or application updates
 
 [Item]
-Label=Sample managnment and household assignment|Manejo de la muestra y asignación de hogares
+Label=Gestão da amostra e atribuição de agregados|Manejo de la muestra y asignación de hogares|Sample managnment and household assignment
 Name=SAMPLE_MENU
 Start=17
 Len=1
@@ -93,21 +94,21 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Sample managnment and household assignment|Manejo de la muestra y asignación de hogares
+Label=Gestão da amostra e atribuição de agregados|Manejo de la muestra y asignación de hogares
 Name=SAMPLE_MENU_VS1
-Value=1;Household assigment to interviewers|Asignación de hogares a los entrevistadores
+Value=1;Atribuição de agregados aos entrevistadores|Asignación de hogares a los entrevistadores|Household assigment to interviewers
 Image=.\Resources\Images\assignHH.png
-Value=2;Add new structure/dwelling|Agregar nueva vivienda/estructura
+Value=2;Adicionar nova estrutura/alojamento|Agregar nueva vivienda/estructura|Add new structure/dwelling
 Image=.\Resources\Images\adddwelling.png
-Value=3;Add household to existing dwelling|Agregar hogar a vivienda existente
+Value=3;Adicionar agregado a alojamento existente|Agregar hogar a vivienda existente|Add household to existing dwelling
 Image=.\Resources\Images\addHH.png
-Value=4;Delete household/structure added by supervisor|Eliminar hogar/estructura agregada por supervisor
+Value=4;Eliminar agregado/estrutura adicionado pelo supervisor|Eliminar hogar/estructura agregada por supervisor|Delete household/structure added by supervisor
 Image=.\Resources\Images\deleteHH.png
-Value=9;Return to supervisor menu|Volver al menú del supervisor
+Value=9;Voltar ao menu do supervisor|Volver al menú del supervisor|Return to supervisor menu
 Image=.\Resources\Images\goback.png
 
 [Item]
-Label=Interview assigned|Entrevistador asignado
+Label=Entrevista atribuída|Entrevistador asignado|Interview assigned
 Name=ASSIGNED
 Start=18
 Len=3
@@ -115,7 +116,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Record]
-Label=ASSIGMENTS
+Label=ATRIBUIÇÕES|ASSIGMENTS|ASSIGMENTS
 Name=ASSIGMENTS
 RecordTypeValue='2'
 Required=No
@@ -123,7 +124,7 @@ MaxRecords=100
 RecordLen=158
 
 [Item]
-Label=PSU
+Label=UPA|PSU|PSU
 Name=X_PSU
 Start=3
 Len=5
@@ -131,7 +132,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Dwelling unit number
+Label=Número da unidade de alojamento|Dwelling unit number|Dwelling unit number
 Name=X_DWNO
 Start=8
 Len=3
@@ -139,28 +140,28 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Household address
+Label=Endereço do agregado|Household address|Household address
 Name=X_ADDRESS
 Start=11
 Len=80
 DataType=Alpha
 
 [Item]
-Label=Household head name
+Label=Nome do chefe do agregado|Household head name|Household head name
 Name=X_HEAD
 Start=91
 Len=40
 DataType=Alpha
 
 [Item]
-Label=Household contact phone
+Label=Telefone de contacto do agregado|Household contact phone|Household contact phone
 Name=X_PHONE
 Start=131
 Len=15
 DataType=Alpha
 
 [Item]
-Label=Assigned interviewer
+Label=Entrevistador atribuído|Assigned interviewer|Assigned interviewer
 Name=X_ASSIGNED
 Start=146
 Len=3
@@ -168,7 +169,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [Item]
-Label=Subsamples
+Label=Subamostras|Subsamples|Subsamples
 Name=X_SUBSAMPLES
 Start=149
 Len=1
@@ -177,14 +178,14 @@ Occurrences=10
 ZeroFill=Yes
 
 [Record]
-Label=Interviewer record
+Label=Registo do entrevistador|Interviewer record|Interviewer record
 Name=INTERVIEWER_RECORD
 RecordTypeValue='3'
 Required=No
 RecordLen=7
 
 [Item]
-Label=Interviewer Menu|Menú del entrevistador
+Label=Menu do entrevistador|Menú del entrevistador|Interviewer Menu
 Name=INTERVIEWER_MENU
 Start=3
 Len=1
@@ -192,27 +193,27 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Interviewer Menu
+Label=Menu do entrevistador
 Name=INTERVIEWER_MENU_VS1
-Value=1;Return to work as supervisor|Retornar a trabajar como supervisor
-Value=9;Logout|Salir
+Value=1;Voltar a trabalhar como supervisor|Retornar a trabajar como supervisor|Return to work as supervisor
+Value=9;Terminar sessão|Salir|Logout
 
 [Item]
-Label=Options to sync with supervisor|Opciones sincronizar con supervisor
+Label=Opções de sincronização com o supervisor|Opciones sincronizar con supervisor|Options to sync with supervisor
 Name=SYNCOPTIONS
 Start=4
 Len=3
 DataType=Alpha
 
 [ValueSet]
-Label=Options to sync with supervisor|Opciones sincronizar con supervisor
+Label=Opções de sincronização com o supervisor|Opciones sincronizar con supervisor
 Name=SYNCOPTIONS_VS1
-Value='1  ';Receive assigments|Recibir asignaciones
-Value='2  ';Send data|Enviar datos
-Value='3  ';Receive updates|Recibir actualizaciones
+Value='1  ';Receber atribuições|Recibir asignaciones|Receive assigments
+Value='2  ';Enviar dados|Enviar datos|Send data
+Value='3  ';Receber atualizações|Recibir actualizaciones|Receive updates
 
 [Item]
-Label=Confirm delete|Confirmación de eliminar hogar
+Label=Confirmar eliminação|Confirmación de eliminar hogar|Confirm delete
 Name=CONFIRM_DELETE
 Start=7
 Len=1
@@ -220,7 +221,7 @@ DataType=Numeric
 ZeroFill=Yes
 
 [ValueSet]
-Label=Confirm delete|Confirmación de eliminar hogar
+Label=Confirmar eliminação|Confirmación de eliminar hogar
 Name=CONFIRM_DELETE_VS1
-Value=1;Yes|Si
-Value=2;No (cancel action)|No (cancelar la acción)
+Value=1;Sim|Si|Yes
+Value=2;Não (cancelar ação)|No (cancelar la acción)|No (cancel action)

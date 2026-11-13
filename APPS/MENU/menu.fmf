@@ -14,7 +14,7 @@ Name=FORM000
 Label=Menu questionnaire
 QuestionTextHeight=243
 Level=1
-Size=445,266
+Size=347,85
   
 Item=STAFF_ID
 Item=CLUSTER
@@ -94,28 +94,28 @@ Max=1
   
 [Field]
 Name=STAFF_ID
-Position=216,14,259,34
+Position=264,11,307,31
 Item=STAFF_ID,MENU_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=5,15,104,31
-Text=Staff ID number
+Position=5,15,233,31
+Text=Número de identificação do pessoal
  
   
 [Field]
 Name=CLUSTER
-Position=202,41,273,61
+Position=251,40,322,60
 Item=CLUSTER,MENU_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=NumberPad
 Form=1
   
 [Text]
-Position=5,44,145,60
-Text=Primary sampling unit
+Position=5,44,219,60
+Text=Unidade primária de amostragem
  
 [EndGroup]
   
@@ -155,8 +155,8 @@ DataCaptureType=CheckBox
 Form=3
   
 [Text]
-Position=27,61,176,77
-Text=Sync with central office
+Position=27,61,254,77
+Text=Sincronizar com o escritório central
 Form=4
  
 [EndGroup]
@@ -177,8 +177,8 @@ DataCaptureType=RadioButton
 Form=4
   
 [Text]
-Position=10,19,321,35
-Text=Sample managnment and household assignment
+Position=10,19,300,35
+Text=Gestão da amostra e atribuição de agregados
  
   
 [Field]
@@ -190,8 +190,8 @@ DataCaptureType=RadioButton
 Form=4
   
 [Text]
-Position=9,66,128,82
-Text=Interview assigned
+Position=9,66,132,82
+Text=Entrevista atribuída
  
 [EndGroup]
   
@@ -258,8 +258,8 @@ DataCaptureType=RadioButton
 Form=6
   
 [Text]
-Position=89,73,211,89
-Text=Select_interviewed
+Position=89,73,243,89
+Text=Selecionar_entrevistado
 Form=6
  
 [EndGroup]
