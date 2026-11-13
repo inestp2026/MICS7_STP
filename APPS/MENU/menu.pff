@@ -9,9 +9,18 @@ Lock=CaseListing
 FullScreen=Yes
 
 [Files]
-Application=.\menu.ENT
+Application=.\menu.ent
 InputData=|type=None
 
 [ExternalFiles]
-HOUSEHOLDS=..\..\PUBLIC\HOUSEHOLDS.csdb
 CLUSTERS=..\..\PUBLIC\CLUSTERS.csdb
+HOUSEHOLDS=..\..\PUBLIC\HOUSEHOLDS.csdb
+MICS7CH=..\SharedDicts\CH.csdb
+MICS7FS=..\SharedDicts\FS.csdb
+MICS7HH=..\SharedDicts\HH.csdb
+MICS7MN=..\SharedDicts\MN.csdb
+MICS7WM=..\SharedDicts\WM.csdb
+STAFF_DICT=..\..\..\MICS7capiV7.2.3\MICS7capiV7.2.3\PUBLIC\STAFF.csdb
+
+[UserFiles]
+psureport=

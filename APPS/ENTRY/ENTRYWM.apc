@@ -140,9 +140,9 @@ PROC GLOBAL
 		elseif selection = 3 then
 			move to FORMMG advance;
 		elseif selection = 4 then
-			move to FORMIN advance;
+			//move to FORMIN advance;
 		elseif selection = 5 then
-			move to FORMNE advance;
+			//move to FORMNE advance;
 		elseif selection = 6 then
 			move to FORMIC advance;
 		elseif selection = 7 then
@@ -178,33 +178,33 @@ PROC GLOBAL
 		elseif selection = 22 then
 			move to FORMUN2 advance;
 		elseif selection = 23 then
-			move to FORMFG advance;
+			//move to FORMFG advance;
 		elseif selection = 24 then
 			move to FORMHP advance;
 		elseif selection = 25 then
-			move to FORMTU advance;
+			//move to FORMTU advance;
 		elseif selection = 26 then
-			move to FORMDV advance;
+			//move to FORMDV advance;
 		elseif selection = 27 then
 			move to FORMVT1 advance;
 		elseif selection = 28 then
-			move to FORMVT2 advance;
+			//move to FORMVT2 advance;
 		elseif selection = 29 then
 			move to FORMMA advance;
 		elseif selection = 30 then
-			move to FORMAF advance;
+			//move to FORMAF advance;
 		elseif selection = 31 then
 			move to FORMSB advance;	
 		elseif selection = 32 then
 			move to FORMDM advance
 		elseif selection = 33 then
-			move to FORMMX advance;		
+			//move to FORMMX advance;		
 		elseif selection = 34 then
-			move to FORMMY advance;	
+			//move to FORMMY advance;	
 		elseif selection = 35 then
-			move to FORMMM advance;			
+			//move to FORMMM advance;			
 		elseif selection = 36 then
-			move to FORMTO advance;
+			//move to FORMTO advance;
 		elseif selection = 37 then
 			move to FORMMH advance;
 		elseif selection = 38 then
@@ -521,6 +521,18 @@ PROC GLOBAL
 	end
 
 
+PROC INTROMM
+if $ <> 1 then 
+		//skip to TO1;
+endif;
+
+PROC MMAUX
+if $ = 1 then
+	//reenter MX0(totocc(FORMMX_ROSTER))
+endif;
+  
+
+
 PROC FL_ENTRYWM
 preproc
   
@@ -583,7 +595,7 @@ preproc
 	{ set up minimal user bar }
 	userbase();
 	userbar( show );
-	set behavior(MM11) canenter(notappl) on (noconfirm); //HH for MM module
+	//set behavior(MM11) canenter(notappl) on (noconfirm); //HH for MM module
 	
 	setfile(STAFF_DICT,publicfolder+"\staff.csdb");
 
@@ -878,172 +890,7 @@ if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
-PROC FORMIN
-preproc
-if visualvalue (WMINTSTMPS) = notappl then
-   WMINTSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue (WMINTSTMPE) = notappl then
-   WMINTSTMPE = timestamp (); 
-   endif; 
-   
-PROC IN1
-preproc
-if addmode then 
-	savepartial(); 
-endif;
 
-postproc
-if $ <> 1 then
-  endgroup;
-endif;
-PROC IN2
-alphavar = $;
-if alphachk("ABCDX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-{ Check "No response" is only response }
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-{ Open notes if answer is "Other" }
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-
-PROC FORMNE
-preproc
-if visualvalue (WMNETSTMPS) = notappl then
-   WMNETSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue (WMNETSTMPE) = notappl then
-   WMNETSTMPE = timestamp (); 
-   endif; 
-   
-PROC NE3
-preproc; 
-if addmode then 
-	savepartial(); 
-endif;
-
-{NE1 Filter}
-if WB4 in 25:49 then 
-	endgroup;
-endif;
- {NE2 Filter}
-if ED9(WM3) <> 1 then 
-	skip to NE4;
-endif;
- 
-postproc;
-if $ in 1,3 then
-	endgroup;
-endif; 
-	
-PROC NE4
-if $ in 1,9 then
-	endgroup;
-endif; 
-	
-PROC NE6
-if $ in 1,9 then
-	endgroup;
-endif; 
-PROC NE8
-if $ in 1,9 then
-	endgroup;
-endif; 
-PROC NE9
-if $ = 1 then
-	skip to NE18A;
-endif; 
-PROC NE10
-if $ = 1 then
-	skip to NE18A;
-endif; 
-PROC NE11
-if $ <> 1 then
-	skip to NE20;
-endif; 
-
-PROC NE12A
-if $ = 1 then
-	skip to NE18A;
-endif; 
-PROC NE12B
-if $ = 1 then
-	skip to NE18A;
-endif; 
-PROC NE12C
-if $ = 1 then
-	skip to NE18A;
-endif; 
-PROC NE12D
-if $ = 1 then
-	skip to NE18A;
-endif; 
-
-PROC NE13
-if $ <> 2 then
-	skip to NE20;
-endif; 
-PROC NE14
-if $ <> 1 then
-	skip to NE16;
-endif; 
-PROC NE15
-if $ = 1 then
-	skip to NE18A;
-else 
-	skip to NE20;
-endif; 
-PROC NE16
-if $ = 1 then
-	skip to NE18A;
-endif; 
-PROC NE17
-if $ <> 1 then
-	skip to NE20;
-endif; 
-
-PROC NE18X
-if NE18A <> 1 and NE18B <> 1 and NE18X <> 1 then
-	errmsg("At least one ‘yes’ must be recorded in question [A], [B] or [X]");
-	reenter;
- endif; 
-PROC NE20
-preproc;
-{NE19 filter}
-if NE18X=1 then
-	endgroup;
-else if NE18X in 2,9 then
-	skip to NE21;
-	endif
-endif;
-
-postproc;
-if $ <> 1 then
-	endgroup;
-endif; 
-PROC NE21
-if $ in 1:2 then
-	endgroup;
-elseif $ in 3:4 then
-	skip to NE23;
-endif; 
-PROC NE22
-if $ in 1:2  then
-	endgroup;
-endif; 
 
 PROC FORMIC
 preproc
@@ -2524,136 +2371,6 @@ endif;
 if addmode then 
 	savepartial(); 
 endif;
-PROC FORMFG
-preproc
-if visualvalue (WMFGTSTMPS) = notappl then
-   WMFGTSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue (WMFGTSTMPE) = notappl then
-   WMFGTSTMPE = timestamp (); 
-   endif; 
-   
-PROC FG1
-if $ in 1,9 then
-	skip to FG3
-endif;
-
-if addmode then 
-	savepartial(); 
-endif;
-PROC FG2
-if $ <> 1 then
-	endgroup
-endif;
-
-PROC FG3
-if $ <> 1 then
-	skip to FG9
-endif;
-
-PROC FG4
-if $ = 1 then
-	skip to FG6
-endif;
-
-PROC FG7
-if $ in 15:49 & $ > WB4 then
-	errmsg(1603,$,WB4);
-	reenter;
-endif;
-
-PROC FG8
-if $ in 16, 26 and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC FG9
-preproc
-	{ Count up total number of living daughters}
-	FG9 = NAtoZero(CM4)+NAtoZero(CM7);
-
-PROC FG10
-if $ <> 1 then
-	reenter CM1;
-endif;
-
-PROC FORMFG_ROSTER
-preproc
-	if FG9 = 0 then
-		skip to FG24;
-	endif;
-
-PROC FGLN
-preproc
-	if curocc(FORMFG_ROSTER) > FG9 then
-		endgroup
-	endif;
-
-	if inEntry then
-		do i = 1 while i <= FG9
-			if i <= FG9 then
-				FGLN(i) = i;
-			else
-				FGLN(i) = notappl;
-			endif;
-		enddo;
-	endif;
-
-PROC FG15
-if valid($) and $ + (minab/12) > WB4 then
-	errmsg(1601,WB4,minab/12,tr("Age"),  $)
-endif;
-
-i = NAtoZero(CM11);
-z = 0;
-while i do
-	if BH3(i) = 2 & BH5(i) = 1 then                  { female and alive }
-		z = z + 1;
-		if z = curocc(FORMFG_ROSTER) then
-			age = BH6(i);
-			if $ <> age then
-				errmsg(1604,$,i,age);
-			endif;
-		endif;
-	endif;
-	i = i - 1;
-enddo;
-
-PROC FG17
-preproc
-	if FG15 >= 15 then
-		skip to next FGLN
-	endif;
-
-postproc
-	if $ <> 1 then
-		skip to next FGLN
-	endif;
-
-PROC FG18
-if valid($) and $ + (minab/12) > WB4 then
-	errmsg(1601,WB4,minab/12,tr("Age at circumsision"), $)
-endif;
-
-if $ < 98 and $ > FG15 then
-	errmsg(1602); 
-	reenter;
-endif;
-
-PROC FG19
-if $ = 1 then
-	skip to FG21;
-endif;
-
-PROC FG22
-if $ in 16, 26 and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-
-skip to next FGLN;
 
 PROC FORMHP
 preproc
@@ -2690,190 +2407,7 @@ if $ in 76, 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
-PROC FORMTU
-preproc
-if visualvalue (WMTUTSTMPS) = notappl then
-   WMTUTSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue (WMTUTSTMPE) = notappl then
-   WMTUTSTMPE = timestamp (); 
-   endif; 
-   
-PROC TU3
-preproc
-	if addmode then
-		savepartial();
-	endif;
-	
-	{TU1 filter}
-	if WB4 in 18:49 then
-		endgroup
-	endif;
-PROC TU4
-if !TU4H in 0:23 or !TU4M in 0:59 then
-   errmsg(tr("Incorrect time %v, Hour to be between 0-23, Minutes to be between 0-59"),$);
-   reenter;
-endif;   
-PROC TU5
-if !TU5H in 0:23 or !TU5M in 0:59 then
-   errmsg(tr("Incorrect time %v, Hour to be between 0-23, Minutes to be between 0-59"),$);
-   reenter;
-endif;  
-if TU4H*60 + TU4M >= TU5H*60 + TU5M then 
-   errmsg(2301);
-   reenter;
-endif;
-PROC TU6
-preproc
-if curocc() >1 and TU10(curocc ()-1) >= TU5 then
- endgroup;
-endif; 
 
-$ = curocc ();
-if curocc() = 1 then 
-	TU8=TU4;
-	stactiv=edit("99",TU4H)+":"+edit("99",TU4M);
-else
-	TU8 = TU10(curocc ()-1);
-	stactiv=edit("99",TU10H(curocc ()-1))+":"+edit("99",TU10M(curocc ()-1));
-endif;
-PROC TU7
-if $ = 996 and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC TU7A
-$ = getvaluelabel(TU7)
-PROC TU9X
-if $=1 then
-   protect(TU9,false);
-   protect(TU10,true);
-else
-   protect(TU9,true);
-   protect(TU10,false);
-   skip to TU10;
-endif;   
-PROC TU9
-if !TU9H in 0:23 or !TU9M in 0:59 then
-   errmsg(tr("Incorrect time %v, Hour to be between 0-23, Minutes to be between 0-59"),$);
-   reenter;
-endif; 
-
-if TU8H*60+TU8M + TU9H*60+TU9M > TU5H*60+TU5M then
-   errmsg(2302);
-   reenter;
-endif;  
-PROC TU10
-preproc;
-if TU9X=1 then
-	TU10=00.00;
-	if TU8M+TU9M>59 then
-		TU10H =  TU8H + TU9H + 1;
-		TU10M =  TU8M + TU9M - 60;
-	else
-		TU10H =  TU8H + TU9H;
-		TU10M =  TU8M + TU9M;
-	endif;
-endif;
-
-postproc
-if TU9X=2 then
-   if TU10<TU8 then
-      errmsg(2303);
-	  reenter;
-   endif;
-   TU9=00.00;
-   if TU8M<=TU10M then
-      TU9H =  TU10H-TU8H;
-      TU9M =  TU10M-TU8M;
-   else
-     TU9H =  TU10H-TU8H-1;
-     TU9M =  TU10M-TU8M+60;
-   endif;
-endif;
-PROC TU12
-preproc;
-if     TU7=080 then
-elseif TU7=090 then skip to TU14
-elseif TU7=110 then skip to TU15
-elseif TU7 in 120,130,150 then skip to TU16
-elseif TU7=042 then skip to TU17
-else skip to next TU6
-endif;
-PROC TU13
-alphavar = $;
-if alphachk("ABCD?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-
-if pos("C",$) or pos("D",$) then
-	if TU12 = 2 then
-		errmsg(2304);
-		reenter;
-	endif;
-endif;
-skip to next TU6;
-PROC TU14
-skip to next TU6;
-PROC TU15
-skip to next TU6;
-PROC TU16
-skip to next TU6;
-PROC TU17
-alphavar = $;
-if alphachk("ABCDEX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-if pos("X",$) and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC TU18
-preproc;
-list string activities;
-for FORMTU_ROSTER do 
-    activities.add(maketext("%v - %v/%v: %v",TU6,TU8,TU10,TU7A));
-endfor;
-
-postproc;
-if $=0 then
-   activities.show(tr("Activity"));
-   reenter;
-elseif $=1 then
-   numeric act=accept(tr("Please select where the missed activity should start"),activities);
-   if act > 0 then
-      reenter TU6(act);
-   else
-      reenter;
-   endif;
-endif;
-PROC FORMDV
-preproc
-if visualvalue (WMDVTSTMPS) = notappl then
-   WMDVTSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue (WMDVTSTMPE) = notappl then
-   WMDVTSTMPE = timestamp (); 
-   endif; 
-   
 PROC FORMVT1
 preproc
 if visualvalue (WMVT1TSTMPS) = notappl then
@@ -2885,69 +2419,7 @@ if visualvalue (WMVT1TSTMPE) = notappl then
    WMVT1TSTMPE = timestamp (); 
    endif; 
    
-PROC FORMVT2
-preproc
-if visualvalue (WMVT2TSTMPS) = notappl then
-   WMVT2TSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue (WMVT2TSTMPE) = notappl then
-   WMVT2TSTMPE = timestamp (); 
-   endif; 
-   
-PROC VT23A
-if $ <> 1 then
-	skip to VT23B;
-endif;
-PROC VT23B
-if $ <> 1 then
-	skip to VT23C;
-endif;
-PROC VT23C
-if $ <> 1 then
-	skip to VT23D;
-endif;
-PROC VT23D
-if $ <> 1 then
-	skip to VT23E;
-endif;
-PROC VT23E
-if $ <> 1 then
-	skip to VT23F;
-endif;
-PROC VT23F
-if $ <> 1 then
-	skip to VT23G;
-endif;
-PROC VT23G
-if $ <> 1 then
-	skip to VT23H;
-endif;
-PROC VT23H
-if $ <> 1 then
-	skip to VT23I;
-endif;
-PROC VT23I
-if $ <> 1 then
-	skip to VT23J;
-endif;
-PROC VT23J
-if $ <> 1 then
-	skip to VT23K;
-endif;
-PROC VT23K
-if $ <> 1 then
-	skip to VT23X;
-endif;
-PROC VT23X
-if $ <> 1 then
-	endgroup;
-endif;
-if $ = 1 and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
+
 PROC FORMMA
 preproc
 if visualvalue (WMMATSTMPS) = notappl then
@@ -3039,34 +2511,8 @@ if $ < minam/12 then
 	errmsg(1403,$, minam/12);
 	reenter;
 endif;
-PROC FORMAF
-preproc
-if visualvalue (WMAFTSTMPS) = notappl then
-   WMAFTSTMPS = timestamp (); 
-   endif; 
+; 
    
-postproc
-if visualvalue (WMAFTSTMPE) = notappl then
-   WMAFTSTMPE = timestamp (); 
-   endif; 
-   
-PROC AF2
-preproc
-if WB4 < 18 then
-	endgroup
-endif;
-
-if addmode then
-	savepartial();
-endif;
-PROC AF15
-if $ in 5,9 then
-	skip to AF17;
-endif;
-PROC AF17
-if $ in 5,9 then
-	endgroup;
-endif;
 PROC FORMSB
 preproc
 if visualvalue (WMSBTSTMPS) = notappl then
@@ -3173,233 +2619,7 @@ if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
-PROC FORMMX
-preproc
-if visualvalue (WMMMTSTMPS) = notappl then
-   WMMMTSTMPS = timestamp (); 
-   endif; 
-   
-PROC INTROMM
-if $ <> 1 then 
-		skip to TO1;
-endif;
 
-PROC MX1
-preproc
-	if addmode then
-		savepartial ();
-	endif;	
-  
-	$ = curocc ();
-
-PROC MX2
-if length(strip($)) = 0 then
-	errmsg(9991);
-	reenter
-endif;
-  
-PROC MX0
-if $ <> 1 then
-	endgroup
-endif;
-
-PROC MMAUX
-if $ = 1 then
-	reenter MX0(totocc(FORMMX_ROSTER))
-endif;
-  
-PROC MM3
-if $ = 1 then
-	reenter MX0(totocc(FORMMX_ROSTER))
-endif;
-  
-PROC MM4
-if $ = 1 then
-	reenter MX0(totocc(FORMMX_ROSTER))
-endif;
-  
-PROC MM5
-if $ = 1 then
-	reenter MX0(totocc(FORMMX_ROSTER))
-endif;
-  
-PROC MM6
-if $ = 1 then
-	reenter MX0(totocc(FORMMX_ROSTER))
-endif;
-  
-PROC MM7
-preproc
-	$ = totocc(FORMMX_ROSTER);
-
-PROC MM8
-if $ <> 1 then
-	errmsg(2200);
-  reenter;
-endif;
-
-PROC FORMMY_ROSTER
-preproc
-	for i in FORMMX_ROSTER
-		MYLN(i) = MX1(i);
-		MYNM(i) = MX2(i);
-	enddo;
-
-postproc
-	for i in FORMMX_ROSTER
-		if MM11(i) = notappl then reenter MM11 (i); endif;
-	enddo;
-
-	for i in FORMMX_ROSTER
-		for j in FORMMX_ROSTER
-			if i <> j and MM11(i) = MM11 (j) then
-				errmsg(2201);
-				reenter MM11(i);
-			endif;
-		enddo;
-	enddo; 
-
-PROC MYLN
-preproc
-	if curocc() > MM7 then
-		endgroup
-	endif;
-
-PROC MM11
-if $ > MM7 then 
-	errmsg(2202);
-	reenter;
-endif;
-
-PROC MM12
-if $ > totocc(FORMMY_ROSTER) then
-	errmsg("Cannot be more than the total number of siblings.");
-	reenter
-endif;
-PROC FORMMM
-postproc
-if visualvalue (WMMMTSTMPE) = notappl then
-   WMMMTSTMPE = timestamp (); 
-   endif; 
-   
-PROC FORMMM_ROSTER
-preproc
-	for i in FORMMY_ROSTER
-		for j in  FORMMY_ROSTER
-			if i = MM11 (j) then 
-				MMLN (i) = i;
-				MM14 (i) = MYNM (j);
-			endif;   
-		enddo;
-	enddo;
-
-PROC MMLN
-preproc
-	if addmode then
-		savepartial();
-	endif;
-
-	if curocc() > MM7 then
-		endgroup
-	endif;
-
-PROC MM16
-if $ = 2 then
-	skip to MM18
-elseif $ = 8 or $ = 9 then
-	skip to next MMLN;
-endif;
-
-PROC MM17
-skip to next MMLN;
-
-PROC MM22
-preproc:
-	if MM15 <> 2 then skip to MM26
-	elseif MM19 < 12 then skip to MM26;
-	endif;
-
-postproc:
-	if $ = 1 then
-		skip to MM26
-	endif;
-
-PROC MM23
-if $ = 1 then
-	skip to next MMLN
-endif;
-
-PROC MM24
-if $ <> 1 then
-	skip to MM26
-endif;
-
-PROC MM26
-if $ = 1 then
-	skip to next MMLN;
-endif;
-
-
-PROC FORMTO
-preproc
-if visualvalue (WMTOTSTMPS) = notappl then
-   WMTOTSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue (WMTOTSTMPE) = notappl then
-   WMTOTSTMPE = timestamp (); 
-   endif; 
-   
-PROC TO1
-preproc
-if addmode then 
-	savepartial(); 
-endif;
-
-postproc
-if $ <> 1 then 
-	skip to TO6;
-endif;
-PROC TO2
-if $ = 0 then 
-	skip to TO6;
-endif;
-PROC TO3
-if $ = 2 then 
-	skip to TO5;
-else if $ >= 3 then
-	skip to TO6;
-endif;
-endif;
-PROC TO4
-endgroup;
-PROC TO6
-if $ <> 1 then 
-	skip to TO9;
-endif;
-PROC TO7
-if $ = 1 then
-	endgroup;
-else if $>=3 then
-	skip to TO9;
-endif;
-endif;
-PROC TO9
-if $ = 1 then
-	endgroup;
-else if $>=3 then
-	skip to TO11;
-endif;
-endif;
-PROC TO10
-if $ = 1 then
-	endgroup;
-endif;
-PROC TO11
-if $ in 1, 3 then
-	endgroup;
-endif;
 PROC FORMMH
 preproc
 if visualvalue (WMMHTSTMPS) = notappl then
@@ -3414,12 +2634,12 @@ endif;
 
 {MH0 filter}
 if !WB4 in 15:24 then
-	skip to VW1;
+	//skip to VW1;
 endif;
 
 postproc
 if $ = 2 then
-	skip to VW1;
+	//skip to VW1;
 endif;
 PROC MH15
 preproc
@@ -3635,394 +2855,15 @@ skip to MH51;
 
 PROC FORMVW
 preproc
-if visualvalue (WMVWTSTMPS) = notappl then
+{if visualvalue (WMVWTSTMPS) = notappl then
    WMVWTSTMPS = timestamp (); 
-   endif; 
+   endif; }
 
 postproc
-if visualvalue (WMVWTSTMPE) = notappl then
+{if visualvalue (WMVWTSTMPE) = notappl then
    WMVWTSTMPE = timestamp (); 
-   endif; 
+   endif;} 
    
-PROC VW1
-preproc
-{VW0 filter}
-if HH30HB <> WM3 then
-	endgroup;
-endif;
-
-postproc
-if $ <>1 then
-	skip to VW37;
-endif;
-PROC VW4
-preproc
-{Vw3 filter}
-if MA5 <> 3 then
-	skip to VW6A1;
-endif;
-
-postproc
-if $ = 1 then
-	skip to VW6A1;
-endif;
-
-PROC VW5
-if $ <> 1 then
-	skip to VW20;
-endif;
-PROC VW6A1
-if $ <> 1 then
-	skip to VW6B1;
-endif;
-PROC VW6B1
-if $ <> 1 then
-	skip to VW6C1;
-endif;
-PROC VW6C1
-if $ <> 1 then
-	skip to VW6D1;
-endif;
-PROC VW6D1
-if $ <> 1 then
-	skip to VW6E1;
-endif;
-PROC VW6E1
-if $ <> 1 then
-	skip to VW7A1;
-endif;
-PROC VW7A1
-if $ <> 1 then
-	skip to VW7B1;
-endif;
-PROC VW7B1
-if $ <> 1 then
-	skip to VW7C1;
-endif;
-PROC VW7C1
-if $ <> 1 then
-	skip to VW8A1;
-endif;
-PROC VW8A1
-if $ <> 1 then
-	skip to VW8B1;
-endif;
-PROC VW8B1
-if $ <> 1 then
-	skip to VW8C1;
-endif;
-PROC VW8C1
-if $ <> 1 then
-	skip to VW8D1;
-endif;
-PROC VW8D1
-if $ <> 1 then
-	skip to VW8E1;
-endif;
-PROC VW8E1
-if $ <> 1 then
-	skip to VW8F1;
-endif;
-PROC VW8F1
-if $ <> 1 then
-	skip to VW8G1;
-endif;
-PROC VW8G1
-if $ <> 1 then
-	skip to VW8H1;
-endif;
-PROC VW8H1
-if $ <> 1 then
-	skip to VW8I1;
-endif;
-PROC VW8I1
-if $ <> 1 then
-	skip to VW8J1;
-endif;
-PROC VW8J1
-if $ <> 1 then
-	skip to VW10A;
-endif;
-PROC VW10A
-preproc
-	if (VW8A1 <> 1 and VW8B1 <> 1 and VW8C1 <> 1 and VW8D1 <> 1 and VW8E1 <> 1 and VW8F1 <> 1 and VW8G1 <> 1 and VW8H1 <> 1 and VW8I1 <> 1 and VW8J1 <> 1) then
-		skip to VW11;
-	endif;
-	
-	
-PROC VW11
-if $ <> 1 then
-	skip to VW13;
-endif;
-PROC VW13
-if $ <> 1 then
-	skip to VW15;
-endif;
-PROC VW16A1
-if $ = 2 then
-	skip to VW16B1;
-else if $ = 3 then
-	skip to VW18;
-else if $ = 9 then
-	skip to VW16B1;
-endif;
-endif;
-endif;
-PROC VW16B1
-if $ <> 1 then
-	skip to VW16C1;
-endif;
-PROC VW16C1
-if $ <> 1 then
-	skip to VW18;
-endif;
-PROC VW18
-preproc
-if VW8H1 <>1 and VW8I1 <>1 and VW8J1 <> 1 and VW16B1 <> 1 then
-	skip to VW20;
-endif; 
-
-postproc
-if $ > WB4 and $ < 98 then
-   errmsg("Age at first time (%v) can not be greather than woman age (%v)",$,WB4);
-   reenter;
-endif; 
-PROC VW20
-preproc
-	if (CP1 <> 1 and CM11 = 0) then
-		skip to VW22A;
-	endif;
-	
-postproc
-	if $ <> 1 then
-		skip to VW22A;
-	endif;
-PROC VW21
-alphavar = $;
-if alphachk("ABCDEFGHIJKLMNOPX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-{ Check "Missing" is only response }
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-{ Display the note entry dialog box for recording "Other" answer }
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC VW22A
-if $ <> 1 then
-	skip to VW26;
-endif
-PROC VW23
-alphavar = $;
-if alphachk("ABCDEFGHIJKLMNX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-{ Check "Missing" is only response }
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-{ Display the note entry dialog box for recording "Other" answer }
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC VW26
-preproc
-if MA5=3 AND VW4=2 AND VW5=2 then
-	skip to VW27;
-endif;
-
-postproc
-if $=1 then
-	skip to VW28A
-else
-	skip to VW32;
-endif;
-
-
-PROC VW27
-if $ <> 1 then
-	skip to VW32;
-endif;
-PROC VW28A
-if $ > WB4 and $ < 98 then
-   errmsg("Age at first time (%v) can not be greather than woman age (%v)",$,WB4);
-   reenter;
-endif; 
-PROC VW29
-alphavar = $;
-if alphachk("ABCDEFGHIJKLMNX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-{ Check "Missing" is only response }
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-{ Display the note entry dialog box for recording "Other" answer }
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC VW32
-preproc
-if (VW8A1 <> 1 and 
-    VW8B1 <> 1 and
-	VW8C1 <> 1 and
-	VW8D1 <> 1 and
-	VW8E1 <> 1 and
-	VW8F1 <> 1 and
-	VW8G1 <> 1 and
-	VW8H1 <> 1 and
-	VW8I1 <> 1 and
-	VW8J1 <> 1 and
-	VW16A1 <> 1 and
-	VW16B1 <> 1 and
-	VW20 <> 1 and
-	VW22A <> 1 and
-	VW26 <> 1 and
-	VW27 <> 1 ) then
-	skip to VW35;
-endif;
-
-postproc
-if $ <> 1 then
-	skip to VW34;
-endif;
-PROC VW33
-alphavar = $;
-if alphachk("ABCDEFGHIJKX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-{ Check "Missing" is only response }
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-{ Display the note entry dialog box for recording "Other" answer }
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-
-skip to VW35;
-PROC VW35B
-preproc
-{VW35A filter}
-if (VW7A2 <> 1 and 
-	VW7B2 <> 1 and 
-	VW7C2 <> 1 and 
-    VW8A2 <> 1 and
-    VW8B2 <> 1 and
-	VW8C2 <> 1 and
-	VW8D2 <> 1 and
-	VW8E2 <> 1 and
-	VW8F2 <> 1 and
-	VW8G2 <> 1 and
-	VW8H2 <> 1 and
-	VW8I2 <> 1 and
-	VW8J2 <> 1 and
-	VW15 <> 1 and	
-	VW16A2 <> 1 and
-	VW16B2 <> 1 and
-	VW24 in 3,9,notappl and
-	VW30A <> 1 ) then
-	skip to VW35E;
-endif;
-
-postproc
-if $ =2 then
-	skip to VW35D;
-endif; 
-
-PROC VW35C
-if visualvalue(VW35C1)=notappl then
-	VW35C1 = HH1*10000+HH2*100+WM3;
-endif;
-VW35C2 = 1;
-VW35C3 = WM3A;
-VW35C5 = WB4; 
-
-PROC VW35C6
-alphavar = $;
-if alphachk("ABX") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC VW35C8N
-preproc
-$ = getvaluelabel(VW35C8)
-PROC VW35D
-preproc
-if VW35B = 1 then
-skip to VW35I;
-endif; 
-
-postproc
-skip to VW35I;
-
-PROC VW35E
-if $ = 2 then
-	skip to VW35H;
-endif; 
-PROC VW35F
-if $ = 2 then
-	skip to VW35H;
-endif; 
-PROC VW35G
-if visualvalue(VW35G1)=notappl then
-	VW35G1 = HH1*10000+HH2*100+WM3;
-endif;
-VW35G2 = 2;
-VW35G3 = WM3A;
-VW35G5 = WB4; 
-
-PROC VW35G6
-alphavar = $;
-if alphachk("ABX") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC VW35G8N
-preproc
-$ = getvaluelabel(VW35G8)
-PROC VW35H
-preproc
-if VW35E = 1 then
-skip to VW35I;
-endif; 
- 
 PROC FORMEND
 preproc
 if visualvalue (WMENDTSTMPS) = notappl then

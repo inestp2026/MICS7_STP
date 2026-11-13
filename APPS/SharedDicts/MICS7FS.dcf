@@ -5683,7 +5683,7 @@ Value=2;NO
 Label=Registos de hora - Módulos do questionário dos 5 aos 17 anos|Time Stamps - Five-Seventeen Questionnaire Modules
 Name=MODFSTS
 RecordTypeValue='FTS'
-RecordLen=315
+RecordLen=285
 
 [Item]
 Label=Registo temporal do início de FS questionário - 5-17 painel de informação da criança|Timestamp of start of FS Questionnaire - 5-17 child information panel
@@ -5726,29 +5726,9 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Registo temporal do início de Module FIN seguro de saúde [5-14]|Timestamp of start of Module FIN Health insurance [5-14]
-Name=FSFINTSTMPS
-Start=76
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo temporal do fim de Module FIN seguro de saúde [5-14]|Timestamp of end of Module FIN Health insurance [5-14]
-Name=FSFINTSTMPE
-Start=91
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
 Label=Registo temporal do início de Module CL trabalho infantil|Timestamp of start of Module CL Child labour
 Name=FSCLTSTMPS
-Start=106
+Start=76
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5758,7 +5738,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do fim de Module CL trabalho infantil|Timestamp of end of Module CL Child labour
 Name=FSCLTSTMPE
-Start=121
+Start=91
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5768,7 +5748,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do início de Module FCD disciplina infantil [5-14]|Timestamp of start of Module FCD Child discipline [5-14]
 Name=FSFCDTSTMPS
-Start=136
+Start=106
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5778,7 +5758,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do fim de Module FCD disciplina infantil [5-14]|Timestamp of end of Module FCD Child discipline [5-14]
 Name=FSFCDTSTMPE
-Start=151
+Start=121
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5788,7 +5768,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do início de Module FCF funcionalidade da criança|Timestamp of start of Module FCF Child functioning
 Name=FSFCFTSTMPS
-Start=166
+Start=136
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5798,7 +5778,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do fim de Module FCF funcionalidade da criança|Timestamp of end of Module FCF Child functioning
 Name=FSFCFTSTMPE
-Start=181
+Start=151
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5808,7 +5788,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do início de Module FTU utilização do tempo [10-14]|Timestamp of start of Module FTU Time-use [10-14]
 Name=FSFTUTSTMPS
-Start=196
+Start=166
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5818,7 +5798,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do fim de Module FTU utilização do tempo [10-14]|Timestamp of end of Module FTU Time-use [10-14]
 Name=FSFTUTSTMPE
-Start=211
+Start=181
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5828,7 +5808,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do início de Module PR envolvimento do agregado familiar na educação [7-14]|Timestamp of start of Module PR Household involvement in education [7-14]
 Name=FSPRTSTMPS
-Start=226
+Start=196
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5838,7 +5818,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do fim de Module PR envolvimento do agregado familiar na educação [7-14]|Timestamp of end of Module PR Household involvement in education [7-14]
 Name=FSPRTSTMPE
-Start=241
+Start=211
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5848,7 +5828,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do início de Module FL competências básicas de aprendizagem [7-14]|Timestamp of start of Module FL Foundational learning skills [7-14]
 Name=FSFLTSTMPS
-Start=256
+Start=226
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5858,7 +5838,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do fim de Module FL competências básicas de aprendizagem [7-14]|Timestamp of end of Module FL Foundational learning skills [7-14]
 Name=FSFLTSTMPE
-Start=271
+Start=241
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5868,7 +5848,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do início de FS - fim da entrevista|Timestamp of start of FS - End of Interview
 Name=FSENDTSTMPS
-Start=286
+Start=256
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5878,7 +5858,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo temporal do fim de FS - fim da entrevista|Timestamp of end of FS - End of Interview
 Name=FSENDTSTMPE
-Start=301
+Start=271
 Len=15
 DataType=Numeric
 Decimal=2

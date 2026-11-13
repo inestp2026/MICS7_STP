@@ -4768,7 +4768,7 @@ Value=992;THE RESULTS HAVE BEEN LOST
 Label=Registos de hora dos módulos do questionário do agregado familiar|Time Stamps of the HH Questionnaire Modules
 Name=MODHHTS
 RecordTypeValue='HTS'
-RecordLen=405
+RecordLen=345
 
 [Item]
 Label=Data e hora de início do questionário HH - Painel de informações do agregado familiar|Timestamp of start of HH Questionnaire - Household information panel
@@ -4911,49 +4911,9 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Data e hora de início do módulo PE - Pós-emergência|Timestamp of start of Module PE Post-emergency
-Name=HHPETSTMPS
-Start=226
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de fim do módulo PE - Pós-emergência|Timestamp of end of Module PE Post-emergency
-Name=HHPETSTMPE
-Start=241
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de início do módulo FE - Experiência de insegurança alimentar|Timestamp of start of Module FE Food insecurity experience
-Name=HHFETSTMPS
-Start=256
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de fim do módulo FE - Experiência de insegurança alimentar|Timestamp of end of Module FE Food insecurity experience
-Name=HHFETSTMPE
-Start=271
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
 Label=Data e hora de início do módulo WS - Água|Timestamp of start of Module WS Water
 Name=HHWS1TSTMPS
-Start=286
+Start=226
 Len=15
 DataType=Numeric
 Decimal=2
@@ -4963,7 +4923,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo WS - Água|Timestamp of end of Module WS Water
 Name=HHWS1TSTMPE
-Start=301
+Start=241
 Len=15
 DataType=Numeric
 Decimal=2
@@ -4973,7 +4933,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do módulo WS - Saneamento|Timestamp of start of Module WS Sanitation
 Name=HHWS2TSTMPS
-Start=316
+Start=256
 Len=15
 DataType=Numeric
 Decimal=2
@@ -4983,7 +4943,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo WS - Saneamento|Timestamp of end of Module WS Sanitation
 Name=HHWS2TSTMPE
-Start=331
+Start=271
 Len=15
 DataType=Numeric
 Decimal=2
@@ -4993,7 +4953,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do módulo HW - Higiene|Timestamp of start of Module HW Hygiene
 Name=HHHWTSTMPS
-Start=346
+Start=286
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5003,7 +4963,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo HW - Higiene|Timestamp of end of Module HW Hygiene
 Name=HHHWTSTMPE
-Start=361
+Start=301
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5013,7 +4973,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do questionário HH - Fim da entrevista|Timestamp of start of HH - End of Interview
 Name=HHENDTSTMPS
-Start=376
+Start=316
 Len=15
 DataType=Numeric
 Decimal=2
@@ -5023,7 +4983,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do questionário HH - Fim da entrevista|Timestamp of end of HH  - End of Interview
 Name=HHENDTSTMPE
-Start=391
+Start=331
 Len=15
 DataType=Numeric
 Decimal=2

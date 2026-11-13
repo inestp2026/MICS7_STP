@@ -14,7 +14,7 @@ string server_password="supervisortest";               // Put the password
 string server_root="MICS7/CAPITEST";                   // Put the folder in the server where information is stored
                                                        // If you are using UNICEF's server, the standard name is MICS7/countryname
 
-string preferedlanguage="EN";    // Put the letters used in the Dictionary and capi questions for
+string preferedlanguage="PT";    // Put the letters used in the Dictionary and capi questions for
                                  // the preferred language. Ex.: "EN" for English, "ES" for Spanish.
 								 // This letters must be the same used for language in dictionary and CAPI questions
 
@@ -29,7 +29,7 @@ numeric menselection=1;  // This variable is used to determine if men are interv
 						 // 1->men are interviewed
 						 // 0->men are not interviewed
 
-numeric BTSyncMode=1;	//This variable is used to determine if the Bluetooth name of the tables contains
+numeric BTSyncMode=2;	//This variable is used to determine if the Bluetooth name of the tables contains
 						//the staff code of its user (BTname=IDnnn). The options are:
 						// 1->tablet BT name is IDnnn, where nnn is the staff code of the user. This name
 						//    was created by the MENU system when the tablet was assigned to the user.

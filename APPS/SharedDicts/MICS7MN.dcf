@@ -3397,7 +3397,7 @@ Value=2;NO
 Label=Registos de data e hora dos módulos do questionário da mulher|Time Stamps of the Women Questionnaire Modules
 Name=MODMNTS
 RecordTypeValue='MTS'
-RecordLen=465
+RecordLen=315
 
 [Item]
 Label=Data e hora de início do questionário MN - Painel de informações do homem|Timestamp of start of MN Questionnaire - Man’s information panel
@@ -3460,49 +3460,9 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Data e hora de início do módulo MIN - Seguro de saúde|Timestamp of start of Module MIN Health insurance
-Name=MWMMINTSTMPS
-Start=106
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de fim do módulo MIN - Seguro de saúde|Timestamp of end of Module MIN Health insurance
-Name=MWMMINTSTMPE
-Start=121
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de início do módulo MNE - Emprego e formação [15-24]|Timestamp of start of Module MNE Employment and training [15-24]
-Name=MWMMNETSTMPS
-Start=136
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de fim do módulo MNE - Emprego e formação [15-24]|Timestamp of end of Module MNE Employment and training [15-24]
-Name=MWMMNETSTMPE
-Start=151
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
 Label=Data e hora de início do módulo MIC - Utilização das TIC|Timestamp of start of Module MIC ICT use
 Name=MWMMICTSTMPS
-Start=166
+Start=106
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3512,27 +3472,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo MIC - Utilização das TIC|Timestamp of end of Module MIC ICT use
 Name=MWMMICTSTMPE
-Start=181
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de início do módulo MTU - Utilização do tempo [15-17]|Timestamp of start of Module MTU Time-use [15-17]
-Name=MWMMTUTSTMPS
-Start=196
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de fim do módulo MTU - Utilização do tempo [15-17]|Timestamp of end of Module MTU Time-use [15-17]
-Name=MWMMTUTSTMPE
-Start=211
+Start=121
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3542,7 +3482,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do módulo MDV - Atitudes face à violência doméstica|Timestamp of start of Module MDV Attitudes toward domestic violence
 Name=MWMMDVTSTMPS
-Start=226
+Start=136
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3552,7 +3492,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo MDV - Atitudes face à violência doméstica|Timestamp of end of Module MDV Attitudes toward domestic violence
 Name=MWMMDVTSTMPE
-Start=241
+Start=151
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3562,7 +3502,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do módulo MVT ODS 16 - Segurança|Timestamp of start of Module MVT SDG16: Safety
 Name=MWMMVT1TSTMPS
-Start=256
+Start=166
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3572,7 +3512,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo MVT ODS 16 - Segurança|Timestamp of end of Module MVT SDG16: Safety
 Name=MWMMVT1TSTMPE
-Start=271
+Start=181
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3582,7 +3522,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do módulo MVT ODS 16 - Discriminação|Timestamp of start of Module MVT SDG16: Discrimination
 Name=MWMMVT2TSTMPS
-Start=286
+Start=196
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3592,7 +3532,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo MVT ODS 16 - Discriminação|Timestamp of end of Module MVT SDG16: Discrimination
 Name=MWMMVT2TSTMPE
-Start=301
+Start=211
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3602,7 +3542,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do módulo MMA - Casamento / União|Timestamp of start of Module MMA Marriage / Union
 Name=MWMMMATSTMPS
-Start=316
+Start=226
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3612,47 +3552,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo MMA - Casamento / União|Timestamp of end of Module MMA Marriage / Union
 Name=MWMMMATSTMPE
-Start=331
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de início do módulo MAF - Funcionalidade dos adultos [18-49]|Timestamp of start of Module MAF Adult functioning [18-49]
-Name=MWMMAFTSTMPS
-Start=346
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de fim do módulo MAF - Funcionalidade dos adultos [18-49]|Timestamp of end of Module MAF Adult functioning [18-49]
-Name=MWMMAFTSTMPE
-Start=361
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de início do módulo MTO - Consumo de tabaco|Timestamp of start of Module MTO Tobacco use
-Name=MWMMTOTSTMPS
-Start=376
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Data e hora de fim do módulo MTO - Consumo de tabaco|Timestamp of end of Module MTO Tobacco use
-Name=MWMMTOTSTMPE
-Start=391
+Start=241
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3662,7 +3562,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início do módulo MMH - Saúde mental [15-24]|Timestamp of start of Module MMH Mental health [15-24]
 Name=MWMMMHTSTMPS
-Start=406
+Start=256
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3672,7 +3572,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim do módulo MMH - Saúde mental [15-24]|Timestamp of end of Module MMH Mental health [15-24]
 Name=MWMMMHTSTMPE
-Start=421
+Start=271
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3682,7 +3582,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de início de MN - Fim da entrevista|Timestamp of start of MN - End of Interview
 Name=MWMENDTSTMPS
-Start=436
+Start=286
 Len=15
 DataType=Numeric
 Decimal=2
@@ -3692,7 +3592,7 @@ ZeroFill=Yes
 [Item]
 Label=Data e hora de fim de MN - Fim da entrevista|Timestamp of end of MN - End of Interview
 Name=MWMENDTSTMPE
-Start=451
+Start=301
 Len=15
 DataType=Numeric
 Decimal=2

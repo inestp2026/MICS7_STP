@@ -6955,7 +6955,7 @@ Value=2;NO
 Label=Registos de tempo dos módulos do questionário da mulher|Time Stamps of the Women Questionnaire Modules
 Name=MODWMTS
 RecordTypeValue='WTS'
-RecordLen=1125
+RecordLen=855
 
 [Item]
 Label=Registo de hora de início - Questionário WM - Painel de informação da mulher|Timestamp of start of WM Questionnaire - Woman’s information panel
@@ -7018,49 +7018,9 @@ DecimalChar=Yes
 ZeroFill=Yes
 
 [Item]
-Label=Registo de hora de início - Módulo IN Seguro de saúde|Timestamp of start of Module IN Health insurance
-Name=WMINTSTMPS
-Start=106
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo IN Seguro de saúde|Timestamp of end of Module IN Health insurance
-Name=WMINTSTMPE
-Start=121
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo NE Emprego e formação [15-24]|Timestamp of start of Module NE Employment and training [15-24]
-Name=WMNETSTMPS
-Start=136
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo NE Emprego e formação [15-24]|Timestamp of end of Module NE Employment and training [15-24]
-Name=WMNETSTMPE
-Start=151
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
 Label=Registo de hora de início - Módulo IC Utilização de TIC|Timestamp of start of Module IC ICT use
 Name=WMICTSTMPS
-Start=166
+Start=106
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7070,7 +7030,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo IC Utilização de TIC|Timestamp of end of Module IC ICT use
 Name=WMICTSTMPE
-Start=181
+Start=121
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7080,7 +7040,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo CM Fecundidade|Timestamp of start of Module CM Fertility
 Name=WMCMTSTMPS
-Start=196
+Start=136
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7090,7 +7050,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo CM Fecundidade|Timestamp of end of Module CM Fertility
 Name=WMCMTSTMPE
-Start=211
+Start=151
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7100,7 +7060,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo BH Historial de nascimentos|Timestamp of start of Module BH Birth history
 Name=WMBHTSTMPS
-Start=226
+Start=166
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7110,7 +7070,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo BH Historial de nascimentos|Timestamp of end of Module BH Birth history
 Name=WMBHTSTMPE
-Start=241
+Start=181
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7120,7 +7080,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo DB RC: Desejo do último nascimento|Timestamp of start of Module DB RC: Desire for last birth
 Name=WMDBTSTMPS
-Start=256
+Start=196
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7130,7 +7090,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo DB RC: Desejo do último nascimento|Timestamp of end of Module DB RC: Desire for last birth
 Name=WMDBTSTMPE
-Start=271
+Start=211
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7140,7 +7100,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN Cuidados pré-natais|Timestamp of start of Module MN Antenatal Care
 Name=WMMN1TSTMPS
-Start=286
+Start=226
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7150,7 +7110,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN Cuidados pré-natais|Timestamp of end of Module MN Antenatal Care
 Name=WMMN1TSTMPE
-Start=301
+Start=241
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7160,7 +7120,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN Malária|Timestamp of start of Module MN Malaria
 Name=WMMN2TSTMPS
-Start=316
+Start=256
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7170,7 +7130,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN Malária|Timestamp of end of Module MN Malaria
 Name=WMMN2TSTMPE
-Start=331
+Start=271
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7180,7 +7140,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN Cuidados no parto|Timestamp of start of Module MN Delivery Care
 Name=WMMN3TSTMPS
-Start=346
+Start=286
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7190,7 +7150,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN Cuidados no parto|Timestamp of end of Module MN Delivery Care
 Name=WMMN3TSTMPE
-Start=361
+Start=301
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7200,7 +7160,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN PN&NC: Cuidados térmicos|Timestamp of start of Module MN PN&NC: Thermal Care
 Name=WMMN4TSTMPS
-Start=376
+Start=316
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7210,7 +7170,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN PN&NC: Cuidados térmicos|Timestamp of end of Module MN PN&NC: Thermal Care
 Name=WMMN4TSTMPE
-Start=391
+Start=331
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7220,7 +7180,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN PN&NC: Cuidados com o cordão|Timestamp of start of Module MN PN&NC: Cord Care
 Name=WMMN5TSTMPS
-Start=406
+Start=346
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7230,7 +7190,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN PN&NC: Cuidados com o cordão|Timestamp of end of Module MN PN&NC: Cord Care
 Name=WMMN5TSTMPE
-Start=421
+Start=361
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7240,7 +7200,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN PN&NC: Peso ao nascer|Timestamp of start of Module MN PN&NC: Birthweight
 Name=WMMN6TSTMPS
-Start=436
+Start=376
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7250,7 +7210,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN PN&NC: Peso ao nascer|Timestamp of end of Module MN PN&NC: Birthweight
 Name=WMMN6TSTMPE
-Start=451
+Start=391
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7260,7 +7220,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN RC: Retorno da menstruação|Timestamp of start of Module MN RC: Period return
 Name=WMMN7TSTMPS
-Start=466
+Start=406
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7270,7 +7230,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN RC: Retorno da menstruação|Timestamp of end of Module MN RC: Period return
 Name=WMMN7TSTMPE
-Start=481
+Start=421
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7280,7 +7240,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MN IYCF: Amamentação inicial|Timestamp of start of Module MN IYCF: Initial breastfeeding
 Name=WMMN8TSTMPS
-Start=496
+Start=436
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7290,7 +7250,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MN IYCF: Amamentação inicial|Timestamp of end of Module MN IYCF: Initial breastfeeding
 Name=WMMN8TSTMPE
-Start=511
+Start=451
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7300,7 +7260,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo PN PN&NC: Cuidados pós-natais para recém-nascidos e mães|Timestamp of start of Module PN PN&NC: PNC for newborns and mothers
 Name=WMPN1TSTMPS
-Start=526
+Start=466
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7310,7 +7270,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo PN PN&NC: Cuidados pós-natais para recém-nascidos e mães|Timestamp of end of Module PN PN&NC: PNC for newborns and mothers
 Name=WMPN1TSTMPE
-Start=541
+Start=481
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7320,7 +7280,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo PN PN&NC: Funções de cuidados de sinalização|Timestamp of start of Module PN PN&NC: Signal care functions
 Name=WMPN2TSTMPS
-Start=556
+Start=496
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7330,7 +7290,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo PN PN&NC: Funções de cuidados de sinalização|Timestamp of end of Module PN PN&NC: Signal care functions
 Name=WMPN2TSTMPE
-Start=571
+Start=511
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7340,7 +7300,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo CP RC: Contraceção|Timestamp of start of Module CP RC: Contraception
 Name=WMCPTSTMPS
-Start=586
+Start=526
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7350,7 +7310,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo CP RC: Contraceção|Timestamp of end of Module CP RC: Contraception
 Name=WMCPTSTMPE
-Start=601
+Start=541
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7360,7 +7320,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo UN RC: Necessidades não satisfeitas|Timestamp of start of Module UN RC: Unmet need
 Name=WMUN1TSTMPS
-Start=616
+Start=556
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7370,7 +7330,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo UN RC: Necessidades não satisfeitas|Timestamp of end of Module UN RC: Unmet need
 Name=WMUN1TSTMPE
-Start=631
+Start=571
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7380,7 +7340,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo UN RC: Saúde e higiene menstrual|Timestamp of start of Module UN RC: Menstrual health and hygiene
 Name=WMUN2TSTMPS
-Start=646
+Start=586
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7390,27 +7350,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo UN RC: Saúde e higiene menstrual|Timestamp of end of Module UN RC: Menstrual health and hygiene
 Name=WMUN2TSTMPE
-Start=661
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo FG MGF|Timestamp of start of Module FG FGM
-Name=WMFGTSTMPS
-Start=676
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo FG MGF|Timestamp of end of Module FG FGM
-Name=WMFGTSTMPE
-Start=691
+Start=601
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7420,7 +7360,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo HP HPV [15-17]|Timestamp of start of Module HP HPV [15-17]
 Name=WMHPTSTMPS
-Start=706
+Start=616
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7430,47 +7370,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo HP HPV [15-17]|Timestamp of end of Module HP HPV [15-17]
 Name=WMHPTSTMPE
-Start=721
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo TU Uso do tempo [15-17]|Timestamp of start of Module TU Time-use [15-17]
-Name=WMTUTSTMPS
-Start=736
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo TU Uso do tempo [15-17]|Timestamp of end of Module TU Time-use [15-17]
-Name=WMTUTSTMPE
-Start=751
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo DV Atitudes face à violência doméstica|Timestamp of start of Module DV Attitudes toward domestic violence
-Name=WMDVTSTMPS
-Start=766
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo DV Atitudes face à violência doméstica|Timestamp of end of Module DV Attitudes toward domestic violence
-Name=WMDVTSTMPE
-Start=781
+Start=631
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7480,7 +7380,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo VT ODS16: Segurança|Timestamp of start of Module VT SDG16: Safety
 Name=WMVT1TSTMPS
-Start=796
+Start=646
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7490,7 +7390,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo VT ODS16: Segurança|Timestamp of end of Module VT SDG16: Safety
 Name=WMVT1TSTMPE
-Start=811
+Start=661
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7500,7 +7400,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo VT ODS16: Discriminação|Timestamp of start of Module VT SDG16: Discrimination
 Name=WMVT2TSTMPS
-Start=826
+Start=676
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7510,7 +7410,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo VT ODS16: Discriminação|Timestamp of end of Module VT SDG16: Discrimination
 Name=WMVT2TSTMPE
-Start=841
+Start=691
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7520,7 +7420,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MA Casamento / União|Timestamp of start of Module MA Marriage / Union
 Name=WMMATSTMPS
-Start=856
+Start=706
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7530,27 +7430,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MA Casamento / União|Timestamp of end of Module MA Marriage / Union
 Name=WMMATSTMPE
-Start=871
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo AF Funcionalidade do adulto [18-49]|Timestamp of start of Module AF Adult functioning [18-49]
-Name=WMAFTSTMPS
-Start=886
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo AF Funcionalidade do adulto [18-49]|Timestamp of end of Module AF Adult functioning [18-49]
-Name=WMAFTSTMPE
-Start=901
+Start=721
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7560,7 +7440,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo SB RC: Atividade sexual|Timestamp of start of Module SB RC: Sexual activity
 Name=WMSBTSTMPS
-Start=916
+Start=736
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7570,7 +7450,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo SB RC: Atividade sexual|Timestamp of end of Module SB RC: Sexual activity
 Name=WMSBTSTMPE
-Start=931
+Start=751
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7580,7 +7460,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo DM RC: Tomada de decisão sobre saúde reprodutiva|Timestamp of start of Module DM RC: Decision-making on reproductive health
 Name=WMDMTSTMPS
-Start=946
+Start=766
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7590,47 +7470,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo DM RC: Tomada de decisão sobre saúde reprodutiva|Timestamp of end of Module DM RC: Decision-making on reproductive health
 Name=WMDMTSTMPE
-Start=961
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo MM Mortalidade materna|Timestamp of start of Module MM Maternal mortality
-Name=WMMMTSTMPS
-Start=976
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo MM Mortalidade materna|Timestamp of end of Module MM Maternal mortality
-Name=WMMMTSTMPE
-Start=991
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo TO Consumo de tabaco|Timestamp of start of Module TO Tobacco use
-Name=WMTOTSTMPS
-Start=1006
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo TO Consumo de tabaco|Timestamp of end of Module TO Tobacco use
-Name=WMTOTSTMPE
-Start=1021
+Start=781
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7640,7 +7480,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - Módulo MH Saúde mental [15-24]|Timestamp of start of Module MH Mental health [15-24]
 Name=WMMHTSTMPS
-Start=1036
+Start=796
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7650,27 +7490,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - Módulo MH Saúde mental [15-24]|Timestamp of end of Module MH Mental health [15-24]
 Name=WMMHTSTMPE
-Start=1051
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de início - Módulo VW Violência contra as mulheres|Timestamp of start of Module VW Violence against women
-Name=WMVWTSTMPS
-Start=1066
-Len=15
-DataType=Numeric
-Decimal=2
-DecimalChar=Yes
-ZeroFill=Yes
-
-[Item]
-Label=Registo de hora de fim - Módulo VW Violência contra as mulheres|Timestamp of end of Module VW Violence against women
-Name=WMVWTSTMPE
-Start=1081
+Start=811
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7680,7 +7500,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de início - WM - Fim da entrevista|Timestamp of start of WM - End of Interview
 Name=WMENDTSTMPS
-Start=1096
+Start=826
 Len=15
 DataType=Numeric
 Decimal=2
@@ -7690,7 +7510,7 @@ ZeroFill=Yes
 [Item]
 Label=Registo de hora de fim - WM - Fim da entrevista|Timestamp of end of WM - End of Interview
 Name=WMENDTSTMPE
-Start=1111
+Start=841
 Len=15
 DataType=Numeric
 Decimal=2

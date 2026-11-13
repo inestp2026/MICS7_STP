@@ -1,0 +1,20 @@
+﻿Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryMN.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\MN0021.csdb
+External        MICS7HH=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HHall.csdb
+
+Date            Nov 13, 2026
+Start Time      15:13:16
+End Time        15:14:52
+
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+    3004           1      -  W Man's month of birth (MWB3M=%02d) different from household month of birth               -
+                             (HL5M=%02d)                                                                                
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

@@ -358,7 +358,7 @@ function individual(indquest,reportflag,firstindividualflag,originalint)
  					color="PaleGreen";
 					
 					//check for anthopometric data for U5 and FS
-					if (indquest= 2 and AN8=notappl) or (indquest=3 and CB3<10 and FA8=notappl) then 
+					if (indquest= 2 and AN8=notappl) or (indquest=3 and CB3<10 {and FA8=notappl}) then 
 						//SAM_STATUS=strip(sam_status)+tr(" [Pending Anthro data]");
 						indstatus=indstatus+" "+tr("[Pending Anthro data]");
 						inc(pendinganthro);
@@ -383,7 +383,7 @@ function individual(indquest,reportflag,firstindividualflag,originalint)
 							color="PaleGreen";
 
 							//check for anthropometric data for U5 and FS
-							if (indquest= 2 and AN8=notappl) or (indquest=3 and CB3<10 and FA8=notappl) then 
+							if (indquest= 2 and AN8=notappl) {or (indquest=3 and CB3<10 and FA8=notappl)} then 
 								//SAM_STATUS=strip(sam_status)+tr("[Pending Anthro data]");
 								indstatus=indstatus+" "+tr("[Pending Anthro data]");
 								inc(pendinganthro);

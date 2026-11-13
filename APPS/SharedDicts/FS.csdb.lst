@@ -1,0 +1,18 @@
+﻿Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\ENTRYFS.ENT
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\APPS\SharedDicts\FS.csdb
+External        MICS7HH=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\APPS\SharedDicts\HH.csdb
+External        STAFF_DICT=<<CSPro DB>> G:\O meu disco\MICS7\MICS7capiV7.2.3\MICS7capiV7.2.3\PUBLIC\STAFF.csdb
+<Paradata Log>  G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\ENTRYFS.cslog
+
+Date            Nov 13, 2026
+Start Time      14:46:30
+End Time        14:46:30
+
+
+***  has 1 message (0 E / 0 W / 0 U)
+    A    1010 Application error: protected field FS1 is out of range - value is  NOTAPPL
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

@@ -98,9 +98,9 @@ PROC GLOBAL
 		elseif selection = 8 then    
 			move to FORMST advance;
 		elseif selection = 9 then
-			move to FORMPE advance;
+			//move to FORMPE advance;
 		elseif selection = 10 then
-			move to FORMFE advance;
+			//move to FORMFE advance;
 		elseif selection = 11 then
 			move to FORMWS advance;	  
 		elseif selection = 12 then
@@ -1625,111 +1625,12 @@ if !aok then
 	errmsg(9992);
 	reenter;
 endif;
-PROC FORMPE
-preproc
-if visualvalue(HHPETSTMPS) = notappl then
-   HHPETSTMPS = timestamp (); 
-   endif; 
-
-postproc
-if visualvalue(HHPETSTMPE) = notappl then
-   HHPETSTMPE = timestamp (); 
-   endif; 
-PROC PE1
-preproc
-	if addmode then
-		savepartial();
-	endif;
-	
-postproc
-if $ <> 1 then
-	skip to PE3;
-endif;	
-PROC PE3
-if $ <> 1 then
-	skip to PE5;
-endif;	
-PROC PE4U
-if     $ = 1 then    worklabel=tr("number of days")
-elseif $ = 2 then    worklabel=tr("number of months")
-elseif $ = 3 then    worklabel=tr("number of years")
-else                 worklabel="95/98/99"
-endif;
-PROC PE4N
-recode PE4U  ::          $ -> aok;
-		 1   :: 0:6 ,98,99 -> 1;
-		 2   :: 0:15,98,99 -> 1;
-		 3   :: 0:20,98,99 -> 1;
-		 9   ::   95,98,99 -> 1;
-			 ::            -> 0;
-endrecode;
-if !aok then
-	errmsg(9992);
-	reenter;
-endif;
-PROC PE7
-if $ <> 1 then
-	skip to PE9;
-endif;
-PROC PE9
-if $ <> 1 then
-	skip to PE11;
-endif;
-PROC PE12
-if $ <> 1 then
-	skip to PE15;
-endif;
-PROC PE15
-if $ <> 1 then
-	skip to PE18;
-endif;
-PROC PE16
-if $ <> 1 then
-	skip to PE18;
-endif;
-PROC PE20
-if $ <> 2 then
-	skip to PE22;
-endif;
-PROC PE21
-alphavar = $;
-if alphachk("ABCDEFGHIJX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-{ Check "Missing" is only response }
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter
-endif;
-{ Display the note entry dialog box for recording "Other" answer }
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC FORMFE
-preproc
-if visualvalue(HHFETSTMPS) = notappl then
-   HHFETSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue(HHFETSTMPE) = notappl then
-   HHFETSTMPE = timestamp (); 
-   endif; 
-PROC FE1
-preproc
-	if addmode then
-		savepartial();
-	endif;
 PROC FORMWS
 preproc
-if visualvalue(HHWS1TSTMPS) = notappl then
+{if visualvalue(HHWS1TSTMPS) = notappl then
    HHWS1TSTMPS = timestamp (); 
    endif; 
-
+}
 postproc
 if visualvalue(HHWS1TSTMPE) = notappl then
    HHWS1TSTMPE = timestamp (); 

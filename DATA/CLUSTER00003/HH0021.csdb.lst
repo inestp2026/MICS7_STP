@@ -1,0 +1,60 @@
+﻿Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 13, 2026
+Start Time      12:10:29
+End Time        12:11:05
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 13, 2026
+Start Time      14:50:20
+End Time        14:51:27
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 13, 2026
+Start Time      14:53:55
+End Time        15:05:51
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           1         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           1         Operator entered a value out of range                                                      
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+      91           2      -  D Current level of education (%s=%02d) greater than highest level (%s=%02d)               -
+      92           1      -  D Current grade of education (%s=%02d) greater than highest grade (%s=%02d)               -
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+    1004           1      -  Level of education (%02d) is  not consistent with age (%02d), please checke!              -
+    2063           1      -  Return to HH44G to correct the phone number                                               -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

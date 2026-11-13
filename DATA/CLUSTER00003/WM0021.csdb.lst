@@ -1,0 +1,31 @@
+﻿Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryWM.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\WM0021.csdb
+External        MICS7HH=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HHall.csdb
+
+Date            Nov 13, 2026
+Start Time      15:06:43
+End Time        15:12:53
+
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+    1110           1      -  D Number of boys and girls must be greater than zero %s = 1                               -
+    1111           3      -  D Answers CM1, CM2, CM5 and CM8 inconsistent. Answer on CM1 can not be <Yes> if           -
+                             all other answers are <No>                                                                 
+    1133           2      -  D According to the Household Listing, the woman is natural mother of at least             -
+                             one of the household members (e.i, LN=%d)                                                  
+    2100           1      -  D Check, and correct if needed, the total number of births, then insert the new           -
+                             birth                                                                                      
+
+User unnumbered messages:
+
+    Line        Freq    %    Message Text                                                                          Denom
+    ----        ----  -----  ------------                                                                          -----
+     839           1      -  Country selected cannot be the same as previous country selected.                         -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

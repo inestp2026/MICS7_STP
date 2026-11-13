@@ -1,0 +1,12 @@
+﻿[Run Information]
+Version=CSPro 7.7
+AppType=Entry
+
+[Files]
+Application=.\ENTRYHH.ENT
+InputData=..\SharedDicts\HH.csdb
+Paradata=.\ENTRYHH.cslog
+
+[ExternalFiles]
+CLUSTERS=..\..\PUBLIC\CLUSTERS.csdb
+STAFF_DICT=..\..\..\MICS7capiV7.2.3\MICS7capiV7.2.3\PUBLIC\STAFF.csdb

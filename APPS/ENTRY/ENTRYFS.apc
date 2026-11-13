@@ -72,7 +72,7 @@ PROC GLOBAL
 		elseif selection = 2 then
 			move to FORMCB advance;
 		elseif selection = 3 then
-			move to FORMFIN advance;
+			//move to FORMFIN advance;
 		elseif selection = 4 then
 			move to FORMCL advance;
 		elseif selection = 5 then
@@ -94,7 +94,7 @@ PROC GLOBAL
 		elseif selection = 13 then
 			move to FORMEND advance;
 		elseif selection = 14 then
-			move to FORMFA advance;			
+			//move to FORMFA advance;			
 		endif;
 	end;
   
@@ -244,6 +244,7 @@ PROC GLOBAL
 		dayOfWeek = diff % 7 + 1;
 	end;
 	
+
 PROC FL_ENTRYFS
 preproc
 	//Initializing global variables
@@ -308,9 +309,9 @@ preproc
 		advance to getsymbol(savepartial);
 	endif;
 
-	if xentryhw then
+	{if xentryhw then
 		advance to FA1;
-	endif;  
+	endif;  }
 
 postproc
 	endlevel;
@@ -513,50 +514,6 @@ preproc
 		protect($,true);
 	endif;
 	
-PROC FORMFIN
-preproc
-if visualvalue (FSFINTSTMPS) = notappl then
-   FSFINTSTMPS = timestamp (); 
-   endif; 
-
-postproc
-if visualvalue (FSFINTSTMPE) = notappl then
-   FSFINTSTMPE = timestamp (); 
-   endif; 
-PROC FIN1
-preproc;
-if CB3 >=15 then
-	endgroup;
-endif;
-
-if addmode then
-	savepartial();
-endif;
-
-postproc;
-if $ <> 1 then
-	endgroup;
-endif;
-
-PROC FIN2
-alphavar = $;
-if alphachk("ABCDX?") then
-	errmsg(9998);
-	reenter
-else
-	$ = alphavar;
-endif;
-if pos("?",$) & alphsize > 1 then
-	errmsg(9995);
-	reenter;
-endif;
-{ Open notes if answer is "Other" }
-if pos("X",$)  and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-
-
 
 PROC FORMCL
 preproc
@@ -2587,11 +2544,11 @@ if !xmodcent then
 		if endmess() then
 			reenter FS17
 		endif;
-		if special(visualvalue(FA1)) then
+		{if special(visualvalue(FA1)) then
 			endlevel;
 		else
 			advance;
-		endif;
+		endif;}
 	endif;
 endif;
 PROC FS11H
@@ -2701,50 +2658,3 @@ elseif $ = 2 then
 	strnotes = editnote();
 	reenter
 endif;
-PROC FA1
-preproc
-	if CB3 > 9 then
-		endgroup
-	endif;
-
-	FA1  = FS1;
-	FA2  = FS2;
-	FA3N = FS3A;
-	FA3  = FS3;
-	FA4  = CB3;
-	FA5N = FS4A;
-	FA5  = FS4;
-	FA6  = FSINT;
-
-	if addmode then
-		savepartial();
-	endif;
-
-
-PROC FA8
-if $ > 99.3 then
-	skip to FA11;
-endif;
-
-if $ = 99.3 then
-	skip to FA14D;
-endif;
-
-if $ = 99.6 and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC FA11
-if $ >= 999.4 then
-	skip to FA14D
-endif;
-
-if $ = 999.6 and !inadvance() then
-	string other = editnote();
-	ensureNotBlank(other);
-endif;
-PROC FA14Y
-if datediff(FS7Y*10000+FS7M*100+FS7D,FA14Y*10000+FA14M*100+FA14D,"d") < 0 then
-	errmsg(2910);  
-	reenter
-endif; 

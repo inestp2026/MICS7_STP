@@ -1,0 +1,18 @@
+﻿Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\ENTRYMN.ENT
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\APPS\SharedDicts\MN.csdb
+External        MICS7HH=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\APPS\SharedDicts\HH.csdb
+External        STAFF_DICT=<<CSPro DB>> G:\O meu disco\MICS7\MICS7capiV7.2.3\MICS7capiV7.2.3\PUBLIC\STAFF.csdb
+<Paradata Log>  G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\ENTRYMN.cslog
+
+Date            Nov 13, 2026
+Start Time      12:25:32
+End Time        12:25:32
+
+
+***  has 1 message (0 E / 0 W / 0 U)
+    A    1010 Application error: protected field MWM1 is out of range - value is  NOTAPPL
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
