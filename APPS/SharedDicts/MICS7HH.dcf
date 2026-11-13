@@ -134,7 +134,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Localização
 Name=HH6_VST
-Value=1;URBAN
+Value=1;URBANO|URBAN
 Value=2;RURAL
 
 [Item]
@@ -148,11 +148,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Região
 Name=HH7_VST
-Value=1;REGION 1
-Value=2;REGION 2
-Value=3;REGION 3
-Value=4;REGION 4
-Value=5;REGION 5
+Value=1;REGIÃO 1|REGION 1
+Value=2;REGIÃO 2|REGION 2
+Value=3;REGIÃO 3|REGION 3
+Value=4;REGIÃO 4|REGION 4
+Value=5;REGIÃO 5|REGION 5
 
 [Item]
 Label=Agregado familiar selecionado para o questionário dos homens|HH selected for Questionnaire for Men
@@ -165,8 +165,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Agregado familiar selecionado para o questionário dos homens
 Name=HH8_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Agregado familiar selecionado para o teste da qualidade da água|HH selected for Water Quality Testing
@@ -179,8 +179,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Agregado familiar selecionado para o teste da qualidade da água
 Name=HH9_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Agregado familiar selecionado para o teste em branco|HH selected for Blank Testing
@@ -193,8 +193,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Agregado familiar selecionado para o teste em branco
 Name=HH10_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Nome do chefe do agregado familiar|Name of household head
@@ -250,7 +250,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Confirmação da idade do respondente
 Name=HH11C_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Consentimento|Consent
@@ -263,8 +263,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento
 Name=HH12_VST
-Value=1;YES
-Value=2;NO / NOT ASKED
+Value=1;SIM|YES
+Value=2;NÃO / NÃO PERGUNTADO|NO / NOT ASKED
 
 [Item]
 Label=Resultado da entrevista ao agregado familiar|Result of HH interview
@@ -277,14 +277,14 @@ ZeroFill=Yes
 [ValueSet]
 Label=Resultado da entrevista ao agregado familiar
 Name=HH46_VST
-Value=1;COMPLETED
-Value=2;NO HOUSEHOLD MEMBER AT HOME OR NO COMPETENT RESPONDENT AT HOME AT TIME OF VISIT
-Value=3;ENTIRE HOUSEHOLD ABSENT FOR EXTENDED PERIOD OF TIME
-Value=4;REFUSED
-Value=5;DWELLING VACANT OR ADDRESS NOT A DWELLING
-Value=6;DWELLING DESTROYED
-Value=7;DWELLING NOT FOUND
-Value=96;OTHER
+Value=1;CONCLUÍDO|COMPLETED
+Value=2;NENHUM MEMBRO DO AGREGADO EM CASA OU NENHUM INQUIRIDO COMPETENTE EM CASA NO MOMENTO DA VISITA|NO HOUSEHOLD MEMBER AT HOME OR NO COMPETENT RESPONDENT AT HOME AT TIME OF VISIT
+Value=3;AGREGADO INTEIRO AUSENTE POR UM PERÍODO PROLONGADO|ENTIRE HOUSEHOLD ABSENT FOR EXTENDED PERIOD OF TIME
+Value=4;RECUSOU|REFUSED
+Value=5;ALOJAMENTO DESOCUPADO OU ENDEREÇO NÃO É UM ALOJAMENTO|DWELLING VACANT OR ADDRESS NOT A DWELLING
+Value=6;ALOJAMENTO DESTRUÍDO|DWELLING DESTROYED
+Value=7;ALOJAMENTO NÃO ENCONTRADO|DWELLING NOT FOUND
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=Hora de fim da entrevista|Time of end of interview
@@ -333,9 +333,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua do questionário
 Name=HH14_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
 
 [Item]
 Label=Língua da entrevista|Language of the Interview
@@ -348,10 +348,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua da entrevista
 Name=HH15_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
-Value=6;OTHER LANGUAGE
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
+Value=6;OUTRA LÍNGUA|OTHER LANGUAGE
 
 [Item]
 Label=Língua materna do respondente|Native language of the Respondent
@@ -364,10 +364,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua materna do respondente
 Name=HH16_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
-Value=6;OTHER LANGUAGE
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
+Value=6;OUTRA LÍNGUA|OTHER LANGUAGE
 
 [Item]
 Label=Utilização de tradutor|Translator used
@@ -380,9 +380,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Utilização de tradutor
 Name=HH17_VST
-Value=1;YES, ENTIRE QUESTIONNAIRE
-Value=2;YES, PART OF QUESTIONNAIRE
-Value=3;NO, NOT USED
+Value=1;SIM, QUESTIONÁRIO COMPLETO|YES, ENTIRE QUESTIONNAIRE
+Value=2;SIM, PARTE DO QUESTIONÁRIO|YES, PART OF QUESTIONNAIRE
+Value=3;NÃO, NÃO UTILIZADO|NO, NOT USED
 
 [Item]
 Label=Número de ordem da criança selecionada|Rank number of the selected child
@@ -409,7 +409,7 @@ ZeroFill=Yes
 Label=Número de ordem da criança
 Name=HH26B_VST
 Value=1:50
-Value=97;Inconsistent
+Value=97;Inconsistente|Inconsistent
 
 [Item]
 Label=Idade da criança|Child's age
@@ -444,7 +444,7 @@ ZeroFill=Yes
 Label=Número de ordem da mulher para o módulo VW
 Name=HH30HB_VS1
 Value=1:50
-Value=97;Inconsistent
+Value=97;Inconsistente|Inconsistent
 
 [Item]
 Label=Idade da mulher selecionada para o módulo VW|Woman's age (selected for the VW module)
@@ -466,8 +466,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Lista para verificar o consentimento para entrevistar raparigas dos 15 aos 17 anos
 Name=HH33X_VST
-Value=1;YES, PERMISSION IS GIVEN
-Value=2;NO, PERMISSION IS NOT GIVEN
+Value=1;SIM, PERMISSÃO CONCEDIDA|YES, PERMISSION IS GIVEN
+Value=2;NÃO, PERMISSÃO NÃO CONCEDIDA|NO, PERMISSION IS NOT GIVEN
 
 [Item]
 Label=Consentimento para entrevistar raparigas dos 15 aos 17 anos|Consent for interview girls 15-17
@@ -480,9 +480,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento para entrevistar raparigas dos 15 aos 17 anos
 Name=HH33_VST
-Value=1;YES for all girls age 15-17
-Value=2;NO for at least one girl age 15-17 and Yes to at least one girl age 15-17
-Value=3;NO for all girls age 15-17
+Value=1;SIM para todas as raparigas dos 15-17 anos|YES for all girls age 15-17
+Value=2;NÃO para pelo menos uma rapariga dos 15-17 anos e SIM para pelo menos uma rapariga dos 15-17 anos|NO for at least one girl age 15-17 and Yes to at least one girl age 15-17
+Value=3;NÃO para todas as raparigas dos 15-17 anos|NO for all girls age 15-17
 
 [Item]
 Label=Lista para verificar o consentimento para entrevistar rapazes dos 15 aos 17 anos|Roster to check the consent for interview boys 15-17
@@ -496,8 +496,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Lista para verificar o consentimento para entrevistar rapazes dos 15 aos 17 anos
 Name=HH39X_VST
-Value=1;YES, PERMISSION IS GIVEN
-Value=2;NO, PERMISSION IS NOT GIVEN
+Value=1;SIM, PERMISSÃO CONCEDIDA|YES, PERMISSION IS GIVEN
+Value=2;NÃO, PERMISSÃO NÃO CONCEDIDA|NO, PERMISSION IS NOT GIVEN
 
 [Item]
 Label=Consentimento para entrevistar rapazes dos 15 aos 17 anos|Consent for interview boys 15-17
@@ -510,9 +510,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento para entrevistar rapazes dos 15 aos 17 anos
 Name=HH39_VST
-Value=1;YES for all boys age 15-17
-Value=2;NO for at least one boy age 15-17 and Yes to at least one boy age 15-17
-Value=3;NO for all boys age 15-17
+Value=1;SIM para todos os rapazes dos 15-17 anos|YES for all boys age 15-17
+Value=2;NÃO para pelo menos um rapaz dos 15-17 anos e SIM para pelo menos um rapaz dos 15-17 anos|NO for at least one boy age 15-17 and Yes to at least one boy age 15-17
+Value=3;NÃO para todos os rapazes dos 15-17 anos|NO for all boys age 15-17
 
 [Item]
 Label=Consentimento para o teste da qualidade da água|Consent for Water Quality Testing
@@ -525,8 +525,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento para o teste da qualidade da água
 Name=HH44_VST
-Value=1;YES, PERMISSION IS GIVEN
-Value=2;NO, PERMISSION IS NOT GIVEN
+Value=1;SIM, PERMISSÃO CONCEDIDA|YES, PERMISSION IS GIVEN
+Value=2;NÃO, PERMISSÃO NÃO CONCEDIDA|NO, PERMISSION IS NOT GIVEN
 
 [Item]
 Label=Respondente ao questionário do agregado familiar|Respondent to HH questionnaire
@@ -657,7 +657,7 @@ ZeroFill=Yes
 Label=Número de questionários de crianças dos 5 aos 17 anos concluídos
 Name=HH56_VST
 Value=0;ZERO
-Value=1;ONE
+Value=1;UM|ONE
 
 [Item]
 Label=Introdução à listagem dos membros do agregado familiar|Introduction HH Listing
@@ -669,7 +669,7 @@ DataType=Alpha
 [ValueSet]
 Label=Introdução à listagem dos membros do agregado familiar
 Name=INTROHL_VST
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Outros membros do agregado familiar|Other household members
@@ -682,8 +682,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outros membros do agregado familiar
 Name=HHAUX_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Endereço do agregado familiar|Household address
@@ -702,7 +702,7 @@ DataType=Alpha
 [ValueSet]
 Label=Instrução relativa à qualidade da água
 Name=HHWQ_VST
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Consentimento para inquérito telefónico|Consent for phone survey
@@ -715,8 +715,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento para inquérito telefónico
 Name=HH44BC_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Tem número de telefone pessoal ou do agregado familiar|Have personal phone number or phone number for the household
@@ -729,8 +729,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tem número de telefone pessoal ou do agregado familiar
 Name=HH44DE_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Nota sobre a partilha do número de telefone do agregado familiar|Note on sharing phone number for the household
@@ -743,7 +743,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nota sobre a partilha do número de telefone do agregado familiar
 Name=HH44F_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Terminar|Finish
@@ -756,9 +756,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Terminar
 Name=HHFIN_VST
-Value=1;REVIEW QUESTIONNAIRE
-Value=2;ADD NOTES
-Value=3;SAVE QUESTIONNAIRE AND FINISH
+Value=1;REVER QUESTIONÁRIO|REVIEW QUESTIONNAIRE
+Value=2;ADICIONAR NOTAS|ADD NOTES
+Value=3;GUARDAR QUESTIONÁRIO E TERMINAR|SAVE QUESTIONNAIRE AND FINISH
 
 [Record]
 Label=Lista dos membros do agregado familiar (1)|List of Household Members (1)
@@ -799,22 +799,22 @@ ZeroFill=Yes
 [ValueSet]
 Label=Relação de parentesco com o chefe do agregado familiar
 Name=HX3_VST
-Value=1;HEAD
-Value=2;SPOUSE / PARTNER
-Value=3;SON / DAUGHTER
-Value=4;SON-IN-LAW / DAUGHTER-IN-LAW
-Value=5;GRANDCHILD
-Value=6;PARENT
-Value=7;PARENT-IN-LAW
-Value=8;BROTHER / SISTER
-Value=9;BROTHER-IN-LAW / SISTER-IN-LAW
-Value=10;UNCLE / AUNT
-Value=11;NIECE / NEPHEW
-Value=12;OTHER RELATIVE
-Value=13;ADOPTED / FOSTER / STEPCHILD
-Value=14;SERVANT (LIVE-IN)
-Value=96;OTHER (NOT RELATED)
-Value=98;DK
+Value=1;CHEFE|HEAD
+Value=2;CÔNJUGE / COMPANHEIRO(A)|SPOUSE / PARTNER
+Value=3;FILHO / FILHA|SON / DAUGHTER
+Value=4;GENRO / NORA|SON-IN-LAW / DAUGHTER-IN-LAW
+Value=5;NETO(A)|GRANDCHILD
+Value=6;PAI / MÃE|PARENT
+Value=7;SOGRO / SOGRA|PARENT-IN-LAW
+Value=8;IRMÃO / IRMÃ|BROTHER / SISTER
+Value=9;CUNHADO / CUNHADA|BROTHER-IN-LAW / SISTER-IN-LAW
+Value=10;TIO / TIA|UNCLE / AUNT
+Value=11;SOBRINHA / SOBRINHO|NIECE / NEPHEW
+Value=12;OUTRO FAMILIAR|OTHER RELATIVE
+Value=13;ADOTADO / DE ACOLHIMENTO / ENTEADO|ADOPTED / FOSTER / STEPCHILD
+Value=14;EMPREGADO(A) DOMÉSTICO(A) (RESIDENTE)|SERVANT (LIVE-IN)
+Value=96;OUTRO (SEM PARENTESCO)|OTHER (NOT RELATED)
+Value=98;NÃO SABE|DK
 
 [Item]
 Label=Sexo|Sex
@@ -827,8 +827,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sexo
 Name=HX4_VST
-Value=1;MALE
-Value=2;FEMALE
+Value=1;MASCULINO|MALE
+Value=2;FEMININO|FEMALE
 
 [Item]
 Label=Outro membro|Other member
@@ -841,8 +841,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outro membro
 Name=HX0_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Record]
 Label=Lista dos membros do agregado familiar|List of Household Members
@@ -883,22 +883,22 @@ ZeroFill=Yes
 [ValueSet]
 Label=Relação de parentesco com o chefe do agregado familiar
 Name=HL3_VST
-Value=1;HEAD
-Value=2;SPOUSE / PARTNER
-Value=3;SON / DAUGHTER
-Value=4;SON-IN-LAW / DAUGHTER-IN-LAW
-Value=5;GRANDCHILD
-Value=6;PARENT
-Value=7;PARENT-IN-LAW
-Value=8;BROTHER / SISTER
-Value=9;BROTHER-IN-LAW / SISTER-IN-LAW
-Value=10;UNCLE / AUNT
-Value=11;NIECE / NEPHEW
-Value=12;OTHER RELATIVE
-Value=13;ADOPTED / FOSTER / STEPCHILD
-Value=14;SERVANT (LIVE-IN)
-Value=96;OTHER (NOT RELATED)
-Value=98;DK
+Value=1;CHEFE|HEAD
+Value=2;CÔNJUGE / COMPANHEIRO(A)|SPOUSE / PARTNER
+Value=3;FILHO / FILHA|SON / DAUGHTER
+Value=4;GENRO / NORA|SON-IN-LAW / DAUGHTER-IN-LAW
+Value=5;NETO(A)|GRANDCHILD
+Value=6;PAI / MÃE|PARENT
+Value=7;SOGRO / SOGRA|PARENT-IN-LAW
+Value=8;IRMÃO / IRMÃ|BROTHER / SISTER
+Value=9;CUNHADO / CUNHADA|BROTHER-IN-LAW / SISTER-IN-LAW
+Value=10;TIO / TIA|UNCLE / AUNT
+Value=11;SOBRINHA / SOBRINHO|NIECE / NEPHEW
+Value=12;OUTRO FAMILIAR|OTHER RELATIVE
+Value=13;ADOTADO / DE ACOLHIMENTO / ENTEADO|ADOPTED / FOSTER / STEPCHILD
+Value=14;EMPREGADO(A) DOMÉSTICO(A) (RESIDENTE)|SERVANT (LIVE-IN)
+Value=96;OUTRO (SEM PARENTESCO)|OTHER (NOT RELATED)
+Value=98;NÃO SABE|DK
 
 [Item]
 Label=Sexo|Sex
@@ -911,8 +911,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sexo
 Name=HL4_VST
-Value=1;MALE
-Value=2;FEMALE
+Value=1;MASCULINO|MALE
+Value=2;FEMININO|FEMALE
 
 [Item]
 Label=Data de nascimento|Date of birth
@@ -934,20 +934,20 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mês de nascimento
 Name=HL5M_VST
-Value=1;JANUARY
-Value=2;FEBRUARY
-Value=3;MARCH
-Value=4;APRIL
-Value=5;MAY
-Value=6;JUNE
-Value=7;JULY
-Value=8;AUGUST
-Value=9;SEPTEMBER
-Value=10;OCTOBER
-Value=11;NOVEMBER
-Value=12;DECEMBER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;JANEIRO|JANUARY
+Value=2;FEVEREIRO|FEBRUARY
+Value=3;MARÇO|MARCH
+Value=4;ABRIL|APRIL
+Value=5;MAIO|MAY
+Value=6;JUNHO|JUNE
+Value=7;JULHO|JULY
+Value=8;AGOSTO|AUGUST
+Value=9;SETEMBRO|SEPTEMBER
+Value=10;OUTUBRO|OCTOBER
+Value=11;NOVEMBRO|NOVEMBER
+Value=12;DEZEMBRO|DECEMBER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ano de nascimento|Year of birth
@@ -962,8 +962,8 @@ ZeroFill=Yes
 Label=Ano de nascimento
 Name=HL5Y_VST
 Value=1900:2025
-Value=9998;DK
-Value=9999;NO RESPONSE
+Value=9998;NÃO SABE|DK
+Value=9999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Idade|Age
@@ -978,8 +978,8 @@ Label=Idade
 Name=HL6_VST
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Membro passou a noite anterior no agregado familiar|Member stayed in the household last night
@@ -992,9 +992,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Membro passou a noite anterior no agregado familiar
 Name=HL7_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de ordem da mulher dos 15 aos 49 anos|Line number of woman age 15-49
@@ -1007,8 +1007,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de ordem da mulher dos 15 aos 49 anos
 Name=HL8_VST
-Value=0;NOT ELIGIBLE
-Value=1:50
+Value=0 1:50;NÃO ELEGÍVEL|NOT ELIGIBLE
 
 [Item]
 Label=Número de ordem do homem dos 15 aos 49 anos|Line number of man age 15-49
@@ -1021,8 +1020,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de ordem do homem dos 15 aos 49 anos
 Name=HL9_VST
-Value=0;NOT ELIGIBLE
-Value=1:50
+Value=0 1:50;NÃO ELEGÍVEL|NOT ELIGIBLE
 
 [Item]
 Label=Número de ordem das crianças dos 0 aos 4 anos|Line number for children age 0-4
@@ -1035,8 +1033,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de ordem das crianças dos 0 aos 4 anos
 Name=HL10_VST
-Value=0;NOT ELIGIBLE
-Value=1:50
+Value=0 1:50;NÃO ELEGÍVEL|NOT ELIGIBLE
 
 [Item]
 Label=Membro com idade dos 0 aos 17 anos|Member age 0-17
@@ -1049,8 +1046,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Membro com idade dos 0 aos 17 anos
 Name=HL11_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Mãe biológica está viva|Is natural mother alive
@@ -1063,10 +1060,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mãe biológica está viva
 Name=HL12_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Mãe biológica vive no agregado familiar|Does natural mother live in HH
@@ -1079,9 +1076,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mãe biológica vive no agregado familiar
 Name=HL13_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de ordem da mãe biológica no agregado familiar|Natural mother's line number in HH
@@ -1095,7 +1092,7 @@ ZeroFill=Yes
 Label=Número de ordem da mãe biológica no agregado familiar
 Name=HL14_VST
 Value=1:50
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Onde vive a mãe biológica|Where does natural mother live
@@ -1108,12 +1105,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Onde vive a mãe biológica
 Name=HL15_VST
-Value=1;ABROAD
-Value=2;IN ANOTHER HOUSEHOLD IN THE SAME REGION
-Value=3;IN ANOTHER HOUSEHOLD IN ANOTHER REGION
-Value=4;INSTITUTION IN THIS COUNTRY
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;NO ESTRANGEIRO|ABROAD
+Value=2;NOUTRO AGREGADO NA MESMA REGIÃO|IN ANOTHER HOUSEHOLD IN THE SAME REGION
+Value=3;NOUTRO AGREGADO NOUTRA REGIÃO|IN ANOTHER HOUSEHOLD IN ANOTHER REGION
+Value=4;INSTITUIÇÃO NESTE PAÍS|INSTITUTION IN THIS COUNTRY
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pai biológico está vivo|Is natural father alive
@@ -1126,10 +1123,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pai biológico está vivo
 Name=HL16_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pai biológico vive no agregado familiar|Does natural father live in HH
@@ -1142,9 +1139,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pai biológico vive no agregado familiar
 Name=HL17_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de ordem do pai biológico no agregado familiar|Natural father's line number in HH
@@ -1158,7 +1155,7 @@ ZeroFill=Yes
 Label=Número de ordem do pai biológico no agregado familiar
 Name=HL18_VST
 Value=1:50
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Onde vive o pai biológico|Where does natural father live
@@ -1171,12 +1168,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Onde vive o pai biológico
 Name=HL19_VST
-Value=1;ABROAD
-Value=2;IN ANOTHER HOUSEHOLD IN THE SAME REGION
-Value=3;IN ANOTHER HOUSEHOLD IN ANOTHER REGION
-Value=4;INSTITUTION IN THIS COUNTRY
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;NO ESTRANGEIRO|ABROAD
+Value=2;NOUTRO AGREGADO NA MESMA REGIÃO|IN ANOTHER HOUSEHOLD IN THE SAME REGION
+Value=3;NOUTRO AGREGADO NOUTRA REGIÃO|IN ANOTHER HOUSEHOLD IN ANOTHER REGION
+Value=4;INSTITUIÇÃO NESTE PAÍS|INSTITUTION IN THIS COUNTRY
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de ordem da mãe ou cuidador principal das crianças dos 0 aos 17 anos|Line number of mother or primary caretaker for children 0-17 years of age
@@ -1190,7 +1187,7 @@ ZeroFill=Yes
 Label=Número de ordem da mãe ou cuidador principal das crianças dos 0 aos 17 anos
 Name=HL20_VST
 Value=1:50
-Value=90;NO ONE
+Value=90;NINGUÉM|NO ONE
 
 [Record]
 Label=Educação: nível de escolaridade e frequência escolar|Education: Attainment and Attendance
@@ -1239,8 +1236,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Idade igual ou superior a 3 anos
 Name=ED3_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Alguma vez frequentou a escola ou um programa de educação pré-escolar|Ever attended school or any Early Childhood Education programme
@@ -1253,9 +1250,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Alguma vez frequentou a escola ou um programa de educação pré-escolar
 Name=ED4_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nível de ensino mais elevado frequentado|Highest level of education attended
@@ -1268,13 +1265,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nível de ensino mais elevado frequentado
 Name=ED5A_VST
-Value=0;EARLY CHILDHOOD EDUCATION
-Value=1;PRIMARY
-Value=2;LOWER SECONDARY
-Value=3;UPPER SECONDARY
-Value=4;HIGHER
-Value=8;DK
-Value=9;NO RESPONSE
+Value=0;EDUCAÇÃO PRÉ-ESCOLAR|EARLY CHILDHOOD EDUCATION
+Value=1;PRIMÁRIO|PRIMARY
+Value=2;SECUNDÁRIO INFERIOR|LOWER SECONDARY
+Value=3;SECUNDÁRIO SUPERIOR|UPPER SECONDARY
+Value=4;SUPERIOR|HIGHER
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Classe/ano mais elevado frequentado nesse nível|Highest grade attended at that level
@@ -1287,16 +1284,16 @@ ZeroFill=Yes
 [ValueSet]
 Label=Classe/ano mais elevado frequentado nesse nível
 Name=ED5B_VST
-Value=1;GRADE/YEAR 1
-Value=2;GRADE/YEAR 2
-Value=3;GRADE/YEAR 3
-Value=4;GRADE/YEAR 4
-Value=5;GRADE/YEAR 5
-Value=6;GRADE/YEAR 6
-Value=7;GRADE/YEAR 7
-Value=8;GRADE/YEAR 8
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;CLASSE/ANO 1|GRADE/YEAR 1
+Value=2;CLASSE/ANO 2|GRADE/YEAR 2
+Value=3;CLASSE/ANO 3|GRADE/YEAR 3
+Value=4;CLASSE/ANO 4|GRADE/YEAR 4
+Value=5;CLASSE/ANO 5|GRADE/YEAR 5
+Value=6;CLASSE/ANO 6|GRADE/YEAR 6
+Value=7;CLASSE/ANO 7|GRADE/YEAR 7
+Value=8;CLASSE/ANO 8|GRADE/YEAR 8
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Concluiu essa classe/ano|Ever completed that grade/year
@@ -1309,10 +1306,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Concluiu essa classe/ano
 Name=ED6_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Idade dos 3 aos 24 anos|Age 3-24
@@ -1325,8 +1322,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Idade dos 3 aos 24 anos
 Name=ED7_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Verificação: alguma vez frequentou a escola ou um programa de educação pré-escolar|Check: Ever attended school or any Early Childhood Education programme
@@ -1339,9 +1336,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Verificação: alguma vez frequentou a escola ou um programa de educação pré-escolar
 Name=ED8_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Frequentou a escola no ano letivo atual|Attended school during current school year
@@ -1354,9 +1351,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Frequentou a escola no ano letivo atual
 Name=ED9_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nível de ensino frequentado no ano letivo atual|Level of education attended during current school year
@@ -1369,13 +1366,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nível de ensino frequentado no ano letivo atual
 Name=ED10A_VST
-Value=0;EARLY CHILDHOOD EDUCATION
-Value=1;PRIMARY
-Value=2;LOWER SECONDARY
-Value=3;UPPER SECONDARY
-Value=4;HIGHER
-Value=8;DK
-Value=9;NO RESPONSE
+Value=0;EDUCAÇÃO PRÉ-ESCOLAR|EARLY CHILDHOOD EDUCATION
+Value=1;PRIMÁRIO|PRIMARY
+Value=2;SECUNDÁRIO INFERIOR|LOWER SECONDARY
+Value=3;SECUNDÁRIO SUPERIOR|UPPER SECONDARY
+Value=4;SUPERIOR|HIGHER
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Classe/ano frequentado nesse nível no ano letivo atual|Grade attended at that level during current school year
@@ -1388,16 +1385,16 @@ ZeroFill=Yes
 [ValueSet]
 Label=Classe/ano frequentado nesse nível no ano letivo atual
 Name=ED10B_VST
-Value=1;GRADE/YEAR 1
-Value=2;GRADE/YEAR 2
-Value=3;GRADE/YEAR 3
-Value=4;GRADE/YEAR 4
-Value=5;GRADE/YEAR 5
-Value=6;GRADE/YEAR 6
-Value=7;GRADE/YEAR 7
-Value=8;GRADE/YEAR 8
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;CLASSE/ANO 1|GRADE/YEAR 1
+Value=2;CLASSE/ANO 2|GRADE/YEAR 2
+Value=3;CLASSE/ANO 3|GRADE/YEAR 3
+Value=4;CLASSE/ANO 4|GRADE/YEAR 4
+Value=5;CLASSE/ANO 5|GRADE/YEAR 5
+Value=6;CLASSE/ANO 6|GRADE/YEAR 6
+Value=7;CLASSE/ANO 7|GRADE/YEAR 7
+Value=8;CLASSE/ANO 8|GRADE/YEAR 8
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Frequentou escola pública no ano letivo atual|Attended public school during current school year
@@ -1410,12 +1407,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Frequentou escola pública no ano letivo atual
 Name=ED11_VS1
-Value=1;GOVT./ PUBLIC
-Value=2;RELIGIOUS/ FAITH ORG.
-Value=3;PRIVATE
-Value=6;OTHER
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;GOVERNO / PÚBLICO|GOVT./ PUBLIC
+Value=2;ORG. RELIGIOSA|RELIGIOUS/ FAITH ORG.
+Value=3;PRIVADO|PRIVATE
+Value=6;OUTRO|OTHER
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para pagamento das propinas no ano letivo atual|School tuition support in the current school year
@@ -1428,10 +1425,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Apoio para pagamento das propinas no ano letivo atual
 Name=ED12_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para propinas foi suficiente para cobrir os custos|School tuition support was sufficient for paying the costs
@@ -1444,10 +1441,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Apoio para propinas foi suficiente para cobrir os custos
 Name=ED12A_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Entidade que concedeu o apoio para propinas|Tuition support provided
@@ -1459,12 +1456,12 @@ DataType=Alpha
 [ValueSet]
 Label=Entidade que concedeu o apoio para propinas
 Name=ED13_VS1
-Value='A     ';GOVT./ PUBLIC
-Value='B     ';RELIGIOUS/ FAITH ORG.
-Value='C     ';PRIVATE
-Value='X     ';OTHER
-Value='Z     ';DK
-Value='?     ';NO RESPONSE
+Value='A     ';GOVERNO / PÚBLICO|GOVT./ PUBLIC
+Value='B     ';ORG. RELIGIOSA|RELIGIOUS/ FAITH ORG.
+Value='C     ';PRIVADO|PRIVATE
+Value='X     ';OUTRO|OTHER
+Value='Z     ';NÃO SABE|DK
+Value='?     ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para propinas: Governo/setor público|Tuition support provided: Govt./public
@@ -1477,9 +1474,8 @@ DataType=Alpha
 [ValueSet]
 Label=Apoio para propinas: Governo/setor público
 Name=ED13A_VS1
-Value='A';GOVT./ PUBLIC
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';GOVERNO / PÚBLICO|GOVT./ PUBLIC
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para propinas: Organização religiosa|Tuition support provided: Religious/faith org.
@@ -1492,9 +1488,8 @@ DataType=Alpha
 [ValueSet]
 Label=Apoio para propinas: Organização religiosa
 Name=ED13B_VS1
-Value='B';RELIGIOUS/ FAITH ORG.
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';ORG. RELIGIOSA|RELIGIOUS/ FAITH ORG.
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para propinas: Entidade privada|Tuition support provided: Private
@@ -1507,9 +1502,8 @@ DataType=Alpha
 [ValueSet]
 Label=Apoio para propinas: Entidade privada
 Name=ED13C_VS1
-Value='C';PRIVATE
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';PRIVADO|PRIVATE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para propinas: Outra|Tuition support provided: Other
@@ -1522,8 +1516,8 @@ DataType=Alpha
 [ValueSet]
 Label=Apoio para propinas: Outra
 Name=ED13X_VS1
-Value='X';OTHER
-Value='?';NO RESPONSE
+Value='X';OUTRO|OTHER
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para propinas: Não sabe|Tuition support provided: DK
@@ -1536,8 +1530,8 @@ DataType=Alpha
 [ValueSet]
 Label=Apoio para propinas: Não sabe
 Name=ED13Z_VS1
-Value='Z';DK
-Value='?';NO RESPONSE
+Value='Z';NÃO SABE|DK
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio para propinas: Sem resposta|Tuition support provided: No response
@@ -1550,8 +1544,7 @@ DataType=Alpha
 [ValueSet]
 Label=Apoio para propinas: Sem resposta
 Name=ED13NR_VS1
-Value='?';NO RESPONSE
-Value=' '
+Value='?' ' ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio material no ano letivo atual|Material support in the current school year
@@ -1564,12 +1557,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Apoio material no ano letivo atual
 Name=ED14_VS1
-Value=1;YES, CASH ONLY
-Value=2;YES, IN KIND ONLY
-Value=3;YES, BOTH
-Value=4;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM, APENAS EM DINHEIRO|YES, CASH ONLY
+Value=2;SIM, APENAS EM ESPÉCIE|YES, IN KIND ONLY
+Value=3;SIM, AMBOS|YES, BOTH
+Value=4;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Apoio material foi suficiente|Material support was sufficient
@@ -1582,10 +1575,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Apoio material foi suficiente
 Name=ED14A_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Frequentou a escola no ano letivo anterior|Attended school during previous school year
@@ -1598,10 +1591,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Frequentou a escola no ano letivo anterior
 Name=ED15_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nível de ensino frequentado no ano letivo anterior|Level of education attended during previous school year
@@ -1614,13 +1607,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nível de ensino frequentado no ano letivo anterior
 Name=ED16A_VST
-Value=0;EARLY CHILDHOOD EDUCATION
-Value=1;PRIMARY
-Value=2;LOWER SECONDARY
-Value=3;UPPER SECONDARY
-Value=4;HIGHER
-Value=8;DK
-Value=9;NO RESPONSE
+Value=0;EDUCAÇÃO PRÉ-ESCOLAR|EARLY CHILDHOOD EDUCATION
+Value=1;PRIMÁRIO|PRIMARY
+Value=2;SECUNDÁRIO INFERIOR|LOWER SECONDARY
+Value=3;SECUNDÁRIO SUPERIOR|UPPER SECONDARY
+Value=4;SUPERIOR|HIGHER
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Classe/ano frequentado nesse nível no ano letivo anterior|Grade attended at that level during previous school year
@@ -1633,16 +1626,16 @@ ZeroFill=Yes
 [ValueSet]
 Label=Classe/ano frequentado nesse nível no ano letivo anterior
 Name=ED16B_VST
-Value=1;GRADE/YEAR 1
-Value=2;GRADE/YEAR 2
-Value=3;GRADE/YEAR 3
-Value=4;GRADE/YEAR 4
-Value=5;GRADE/YEAR 5
-Value=6;GRADE/YEAR 6
-Value=7;GRADE/YEAR 7
-Value=8;GRADE/YEAR 8
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;CLASSE/ANO 1|GRADE/YEAR 1
+Value=2;CLASSE/ANO 2|GRADE/YEAR 2
+Value=3;CLASSE/ANO 3|GRADE/YEAR 3
+Value=4;CLASSE/ANO 4|GRADE/YEAR 4
+Value=5;CLASSE/ANO 5|GRADE/YEAR 5
+Value=6;CLASSE/ANO 6|GRADE/YEAR 6
+Value=7;CLASSE/ANO 7|GRADE/YEAR 7
+Value=8;CLASSE/ANO 8|GRADE/YEAR 8
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Características do agregado familiar|Household Characteristics
@@ -1662,12 +1655,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Religião do chefe do agregado familiar
 Name=HC1A_VS1
-Value=1;RELIGION 1
-Value=2;RELIGION 2
-Value=3;RELIGION 3
-Value=6;OTHER RELIGION
-Value=7;NO RELIGION
-Value=9;NO RESPONSE
+Value=1;RELIGIÃO 1|RELIGION 1
+Value=2;RELIGIÃO 2|RELIGION 2
+Value=3;RELIGIÃO 3|RELIGION 3
+Value=6;OUTRA RELIGIÃO|OTHER RELIGION
+Value=7;SEM RELIGIÃO|NO RELIGION
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Língua do chefe do agregado familiar|Language of household head
@@ -1680,11 +1673,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua do chefe do agregado familiar
 Name=HC1B_VS1
-Value=1;LANGUAGE 1
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
-Value=6;OTHER LANGUAGE
-Value=9;NO RESPONSE
+Value=1;LÍNGUA 1|LANGUAGE 1
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
+Value=6;OUTRA LÍNGUA|OTHER LANGUAGE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Grupo étnico do chefe do agregado familiar|Ethnic group of household head
@@ -1697,11 +1690,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Grupo étnico do chefe do agregado familiar
 Name=HC2_VST
-Value=1;ETHNIC GROUP 1
-Value=2;ETHNIC GROUP 2
-Value=3;ETHNIC GROUP 3
-Value=6;OTHER
-Value=9;NO RESPONSE
+Value=1;GRUPO ÉTNICO 1|ETHNIC GROUP 1
+Value=2;GRUPO ÉTNICO 2|ETHNIC GROUP 2
+Value=3;GRUPO ÉTNICO 3|ETHNIC GROUP 3
+Value=6;OUTRO|OTHER
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de divisões utilizadas para dormir|Number of rooms used for sleeping
@@ -1715,7 +1708,7 @@ ZeroFill=Yes
 Label=Número de divisões utilizadas para dormir
 Name=HC3_VST
 Value=1:90
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Material principal do pavimento|Main material of floor
@@ -1728,16 +1721,16 @@ ZeroFill=Yes
 [ValueSet]
 Label=Material principal do pavimento
 Name=HC4_VST
-Value=11;NATURAL FLOOR: EARTH/ SAND
-Value=12;NATURAL FLOOR: DUNG
-Value=21;RUDIMENTARY FLOOR: WOOD PLANKS
-Value=22;RUDIMENTARY FLOOR: PALM / BAMBOO
-Value=31;FINISHED FLOOR: PARQUET OR POLISHED WOOD
-Value=32;FINISHED FLOOR: VINYL OR ASPHALT STRIPS
-Value=33;FINISHED FLOOR: CERAMIC TILES
-Value=34;FINISHED FLOOR: CEMENT
-Value=35;FINISHED FLOOR: CARPET
-Value=96;OTHER
+Value=11;PAVIMENTO NATURAL: TERRA / AREIA|NATURAL FLOOR: EARTH/ SAND
+Value=12;PAVIMENTO NATURAL: ESTRUME|NATURAL FLOOR: DUNG
+Value=21;PAVIMENTO RUDIMENTAR: TÁBUAS DE MADEIRA|RUDIMENTARY FLOOR: WOOD PLANKS
+Value=22;PAVIMENTO RUDIMENTAR: PALMA / BAMBU|RUDIMENTARY FLOOR: PALM / BAMBOO
+Value=31;PAVIMENTO ACABADO: PARQUÉ OU MADEIRA ENVERNIZADA|FINISHED FLOOR: PARQUET OR POLISHED WOOD
+Value=32;PAVIMENTO ACABADO: VINIL OU TIRAS DE ASFALTO|FINISHED FLOOR: VINYL OR ASPHALT STRIPS
+Value=33;PAVIMENTO ACABADO: MOSAICOS CERÂMICOS|FINISHED FLOOR: CERAMIC TILES
+Value=34;PAVIMENTO ACABADO: CIMENTO|FINISHED FLOOR: CEMENT
+Value=35;PAVIMENTO ACABADO: ALCATIFA|FINISHED FLOOR: CARPET
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=Material principal do telhado|Main material of roof
@@ -1750,20 +1743,20 @@ ZeroFill=Yes
 [ValueSet]
 Label=Material principal do telhado
 Name=HC5_VST
-Value=11;NO ROOF
-Value=12;NATURAL ROOFING: THATCH / PALM LEAF
-Value=13;NATURAL ROOFING: SOD
-Value=21;RUDIMENTARY ROOFING: RUSTIC MAT
-Value=22;RUDIMENTARY ROOFING: PALM / BAMBOO
-Value=23;RUDIMENTARY ROOFING: WOOD PLANKS
-Value=24;RUDIMENTARY ROOFING: CARDBOARD
-Value=31;FINISHED ROOFING: METAL / TIN
-Value=32;FINISHED ROOFING: WOOD
-Value=33;FINISHED ROOFING: CALAMINE / CEMENT FIBRE
-Value=34;FINISHED ROOFING: CERAMIC TILES
-Value=35;FINISHED ROOFING: CEMENT
-Value=36;FINISHED ROOFING: ROOFING SHINGLES
-Value=96;OTHER
+Value=11;SEM TELHADO|NO ROOF
+Value=12;COBERTURA NATURAL: COLMO / FOLHA DE PALMEIRA|NATURAL ROOFING: THATCH / PALM LEAF
+Value=13;COBERTURA NATURAL: TORRÕES DE TERRA|NATURAL ROOFING: SOD
+Value=21;COBERTURA RUDIMENTAR: ESTEIRA RÚSTICA|RUDIMENTARY ROOFING: RUSTIC MAT
+Value=22;COBERTURA RUDIMENTAR: PALMA / BAMBU|RUDIMENTARY ROOFING: PALM / BAMBOO
+Value=23;COBERTURA RUDIMENTAR: TÁBUAS DE MADEIRA|RUDIMENTARY ROOFING: WOOD PLANKS
+Value=24;COBERTURA RUDIMENTAR: CARTÃO|RUDIMENTARY ROOFING: CARDBOARD
+Value=31;COBERTURA ACABADA: METAL / CHAPA DE ZINCO|FINISHED ROOFING: METAL / TIN
+Value=32;COBERTURA ACABADA: MADEIRA|FINISHED ROOFING: WOOD
+Value=33;COBERTURA ACABADA: CALAMINA / FIBROCIMENTO|FINISHED ROOFING: CALAMINE / CEMENT FIBRE
+Value=34;COBERTURA ACABADA: TELHAS CERÂMICAS|FINISHED ROOFING: CERAMIC TILES
+Value=35;COBERTURA ACABADA: CIMENTO|FINISHED ROOFING: CEMENT
+Value=36;COBERTURA ACABADA: TELHAS ASFÁLTICAS|FINISHED ROOFING: ROOFING SHINGLES
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=Material principal das paredes exteriores|Main material of exterior wall
@@ -1776,22 +1769,22 @@ ZeroFill=Yes
 [ValueSet]
 Label=Material principal das paredes exteriores
 Name=HC6_VST
-Value=11;NO WALLS
-Value=12;NATURAL WALLS: CANE / PALM / TRUNKS
-Value=13;NATURAL WALLS: DIRT
-Value=21;RUDIMENTARY WALLS: BAMBOO WITH MUD
-Value=22;RUDIMENTARY WALLS: STONE WITH MUD
-Value=23;RUDIMENTARY WALLS: UNCOVERED ADOBE
-Value=24;RUDIMENTARY WALLS: PLYWOOD
-Value=25;RUDIMENTARY WALLS: CARDBOARD
-Value=26;RUDIMENTARY WALLS: REUSED WOOD
-Value=31;FINISHED WALLS: CEMENT
-Value=32;FINISHED WALLS: STONE WITH LIME / CEMENT
-Value=33;FINISHED WALLS: BRICKS
-Value=34;FINISHED WALLS: CEMENT BLOCKS
-Value=35;FINISHED WALLS: COVERED ADOBE
-Value=36;FINISHED WALLS: WOOD PLANKS / SHINGLES
-Value=96;OTHER
+Value=11;SEM PAREDES|NO WALLS
+Value=12;PAREDES NATURAIS: CANA / PALMA / TRONCOS|NATURAL WALLS: CANE / PALM / TRUNKS
+Value=13;PAREDES NATURAIS: TERRA|NATURAL WALLS: DIRT
+Value=21;PAREDES RUDIMENTARES: BAMBU COM LAMA|RUDIMENTARY WALLS: BAMBOO WITH MUD
+Value=22;PAREDES RUDIMENTARES: PEDRA COM LAMA|RUDIMENTARY WALLS: STONE WITH MUD
+Value=23;PAREDES RUDIMENTARES: ADOBE SEM REBOCO|RUDIMENTARY WALLS: UNCOVERED ADOBE
+Value=24;PAREDES RUDIMENTARES: CONTRAPLACADO|RUDIMENTARY WALLS: PLYWOOD
+Value=25;PAREDES RUDIMENTARES: CARTÃO|RUDIMENTARY WALLS: CARDBOARD
+Value=26;PAREDES RUDIMENTARES: MADEIRA REUTILIZADA|RUDIMENTARY WALLS: REUSED WOOD
+Value=31;PAREDES ACABADAS: CIMENTO|FINISHED WALLS: CEMENT
+Value=32;PAREDES ACABADAS: PEDRA COM CAL / CIMENTO|FINISHED WALLS: STONE WITH LIME / CEMENT
+Value=33;PAREDES ACABADAS: TIJOLOS|FINISHED WALLS: BRICKS
+Value=34;PAREDES ACABADAS: BLOCOS DE CIMENTO|FINISHED WALLS: CEMENT BLOCKS
+Value=35;PAREDES ACABADAS: ADOBE REBOCADO|FINISHED WALLS: COVERED ADOBE
+Value=36;PAREDES ACABADAS: TÁBUAS / RIPAS DE MADEIRA|FINISHED WALLS: WOOD PLANKS / SHINGLES
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=O agregado familiar possui: Telefone fixo|Household have: Fixed telephone line
@@ -1804,9 +1797,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui: Telefone fixo
 Name=HC7A_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar possui: Rádio|Household have: Radio
@@ -1819,9 +1812,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui: Rádio
 Name=HC7B_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar possui: Artigos específicos do país que não utilizam eletricidade|Household have: Country Specific Items That Do Not Run On Electricity
@@ -1834,9 +1827,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui: Artigos específicos do país que não utilizam eletricidade
 Name=HC7C_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar tem eletricidade|Household have electricity
@@ -1849,9 +1842,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar tem eletricidade
 Name=HC8_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade do agregado familiar|Source of electricity for the household
@@ -1863,16 +1856,16 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade do agregado familiar
 Name=HC8A_VS1
-Value='A         ';NATIONAL / INTERCONNECTED GRID
-Value='B         ';LOCAL MINI GRID
-Value='C         ';SOLAR HOME SYSTEM
-Value='D         ';SOLAR LANTERN
-Value='E         ';ELECTRIC GENERATOR
-Value='F         ';RECHARGEABLE BATTERY
-Value='G         ';DRY CELL BATTERY / TORCH
-Value='X         ';OTHER
-Value='Z         ';DK
-Value='?         ';NO RESPONSE
+Value='A         ';REDE NACIONAL / INTERLIGADA|NATIONAL / INTERCONNECTED GRID
+Value='B         ';MINIRREDE LOCAL|LOCAL MINI GRID
+Value='C         ';SISTEMA SOLAR DOMÉSTICO|SOLAR HOME SYSTEM
+Value='D         ';LANTERNA SOLAR|SOLAR LANTERN
+Value='E         ';GERADOR ELÉTRICO|ELECTRIC GENERATOR
+Value='F         ';BATERIA RECARREGÁVEL|RECHARGEABLE BATTERY
+Value='G         ';PILHA SECA / LANTERNA|DRY CELL BATTERY / TORCH
+Value='X         ';OUTRO|OTHER
+Value='Z         ';NÃO SABE|DK
+Value='?         ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Rede nacional/interligada|Source of electricity for the household: National / Interconnected grid
@@ -1885,9 +1878,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Rede nacional/interligada
 Name=HC8AA_VS1
-Value='A';NATIONAL / INTERCONNECTED GRID
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';REDE NACIONAL / INTERLIGADA|NATIONAL / INTERCONNECTED GRID
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Minirrede local|Source of electricity for the household: Local mini grid
@@ -1900,9 +1892,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Minirrede local
 Name=HC8AB_VS1
-Value='B';LOCAL MINI GRID
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';MINIRREDE LOCAL|LOCAL MINI GRID
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Sistema solar doméstico|Source of electricity for the household: Solar home system
@@ -1915,9 +1906,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Sistema solar doméstico
 Name=HC8AC_VS1
-Value='C';SOLAR HOME SYSTEM
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';SISTEMA SOLAR DOMÉSTICO|SOLAR HOME SYSTEM
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Candeeiro solar|Source of electricity for the household: Solar lantern
@@ -1930,9 +1920,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Candeeiro solar
 Name=HC8AD_VS1
-Value='D';SOLAR LANTERN
-Value=' '
-Value='?';NO RESPONSE
+Value='D' ' ';LANTERNA SOLAR|SOLAR LANTERN
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Gerador elétrico|Source of electricity for the household: Electric generator
@@ -1945,9 +1934,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Gerador elétrico
 Name=HC8AE_VS1
-Value='E';ELECTRIC GENERATOR
-Value=' '
-Value='?';NO RESPONSE
+Value='E' ' ';GERADOR ELÉTRICO|ELECTRIC GENERATOR
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Bateria recarregável|Source of electricity for the household: Rechargeable battery
@@ -1960,9 +1948,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Bateria recarregável
 Name=HC8AF_VS1
-Value='F';RECHARGEABLE BATTERY
-Value=' '
-Value='?';NO RESPONSE
+Value='F' ' ';BATERIA RECARREGÁVEL|RECHARGEABLE BATTERY
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Pilhas/lanterna|Source of electricity for the household: Dry cell battery / torch
@@ -1975,9 +1962,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Pilhas/lanterna
 Name=HC8AG_VS1
-Value='G';DRY CELL BATTERY / TORCH
-Value=' '
-Value='?';NO RESPONSE
+Value='G' ' ';PILHA SECA / LANTERNA|DRY CELL BATTERY / TORCH
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Outra|Source of electricity for the household: Other
@@ -1990,9 +1976,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Outra
 Name=HC8AX_VS1
-Value='X';OTHER
-Value=' '
-Value='?';NO RESPONSE
+Value='X' ' ';OUTRO|OTHER
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Não sabe|Source of electricity for the household: DK
@@ -2005,9 +1990,8 @@ DataType=Alpha
 [ValueSet]
 Label=Fonte de eletricidade: Não sabe
 Name=HC8AZ_VS1
-Value='Z';DK
-Value=' '
-Value='?';NO RESPONSE
+Value='Z' ' ';NÃO SABE|DK
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade: Sem resposta|Source of electricity for the household: No response
@@ -2021,7 +2005,7 @@ DataType=Alpha
 Label=Fonte de eletricidade: Sem resposta
 Name=HC8ANR_VS1
 Value=' '
-Value='?';NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de eletricidade mais utilizada|Most used source of electricity
@@ -2034,16 +2018,16 @@ ZeroFill=Yes
 [ValueSet]
 Label=Fonte de eletricidade mais utilizada
 Name=HC8B_VS1
-Value=11;NATIONAL / INTERCONNECTED GRID
-Value=21;LOCAL MINI GRID
-Value=31;SOLAR HOME SYSTEM
-Value=32;SOLAR LANTERN
-Value=41;ELECTRIC GENERATOR
-Value=51;RECHARGEABLE BATTERY
-Value=52;DRY CELL BATTERY / TORCH
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=11;REDE NACIONAL / INTERLIGADA|NATIONAL / INTERCONNECTED GRID
+Value=21;MINIRREDE LOCAL|LOCAL MINI GRID
+Value=31;SISTEMA SOLAR DOMÉSTICO|SOLAR HOME SYSTEM
+Value=32;LANTERNA SOLAR|SOLAR LANTERN
+Value=41;GERADOR ELÉTRICO|ELECTRIC GENERATOR
+Value=51;BATERIA RECARREGÁVEL|RECHARGEABLE BATTERY
+Value=52;PILHA SECA / LANTERNA|DRY CELL BATTERY / TORCH
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar possui: Televisão|Household have: Television
@@ -2056,9 +2040,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui: Televisão
 Name=HC9A_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar possui: Frigorífico|Household have: Refrigerator
@@ -2071,9 +2055,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui: Frigorífico
 Name=HC9B_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar possui: Artigos específicos do país que utilizam eletricidade|Household have: Country Specific Items That Run On Electricity
@@ -2086,9 +2070,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui: Artigos específicos do país que utilizam eletricidade
 Name=HC9C_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui: Relógio de pulso|Any member of household own: Wristwatch
@@ -2101,9 +2085,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui: Relógio de pulso
 Name=HC10A_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui: Bicicleta|Any member of household own: Bicycle
@@ -2116,9 +2100,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui: Bicicleta
 Name=HC10B_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui: Motociclo ou motorizada|Any member of household own: Motorcycle or scooter
@@ -2131,9 +2115,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui: Motociclo ou motorizada
 Name=HC10C_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui: Carroça de tração animal|Any member of household own: Animal-drawn cart
@@ -2146,9 +2130,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui: Carroça de tração animal
 Name=HC10D_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui: Automóvel, camião ou carrinha|Any member of household own: Car, truck or van
@@ -2161,9 +2145,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui: Automóvel, camião ou carrinha
 Name=HC10E_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui: Barco a motor|Any member of household own: Boat with motor
@@ -2176,9 +2160,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui: Barco a motor
 Name=HC10F_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui: Artigos específicos do país|Any member of household own: Country Specific Items
@@ -2191,9 +2175,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui: Artigos específicos do país
 Name=HC10G_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui computador|Any member have a computer
@@ -2206,9 +2190,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui computador
 Name=HC11_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui telemóvel|Any member have a mobile telephone
@@ -2221,9 +2205,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui telemóvel
 Name=HC12_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui smartphone|Any member have a smart telephone
@@ -2236,9 +2220,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui smartphone
 Name=HC12A_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Acesso à Internet em casa|Internet access at home
@@ -2251,9 +2235,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Acesso à Internet em casa
 Name=HC13_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Acesso à Internet através de smartphone|Internet access via smart phone
@@ -2266,10 +2250,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Acesso à Internet através de smartphone
 Name=HC13B_VS1
-Value=1;YES, SMART PHONE CAN ACCESS INTERNET AT HOME
-Value=2;NO, SMARTPHONE CANNOT ACCESS INTERNET AT HOME
-Value=8;DK IF SMARTPHONE CAN ACCESS INTERNET AT HOME
-Value=9;NO RESPONSE
+Value=1;SIM, O SMARTPHONE PODE ACEDER À INTERNET EM CASA|YES, SMART PHONE CAN ACCESS INTERNET AT HOME
+Value=2;NÃO, O SMARTPHONE NÃO PODE ACEDER À INTERNET EM CASA|NO, SMARTPHONE CANNOT ACCESS INTERNET AT HOME
+Value=8;NÃO SABE SE O SMARTPHONE PODE ACEDER À INTERNET EM CASA|DK IF SMARTPHONE CAN ACCESS INTERNET AT HOME
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar é proprietário da habitação|Household owns the dwelling
@@ -2282,10 +2266,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar é proprietário da habitação
 Name=HC14_VST
-Value=1;OWN
-Value=2;RENT
-Value=6;OTHER
-Value=9;NO RESPONSE
+Value=1;PRÓPRIO|OWN
+Value=2;ARRENDADO|RENT
+Value=6;OUTRO|OTHER
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro possui terras para uso agrícola|Any household member own land that can be used for agriculture
@@ -2298,9 +2282,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro possui terras para uso agrícola
 Name=HC15_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Hectares de terras agrícolas pertencentes aos membros do agregado familiar|Hectares of agricultural land members of household owns
@@ -2315,8 +2299,8 @@ Label=Hectares de terras agrícolas pertencentes aos membros do agregado familia
 Name=HC16_VST
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar possui animais|Household own any animals
@@ -2329,9 +2313,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui animais
 Name=HC17_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Vacas leiteiras ou touros|Milk cows or bulls
@@ -2346,8 +2330,8 @@ Label=Vacas leiteiras ou touros
 Name=HC18A_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outros bovinos|Other cattle
@@ -2362,8 +2346,8 @@ Label=Outros bovinos
 Name=HC18B_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Cavalos, burros ou mulas|Horses, donkeys or mules
@@ -2378,8 +2362,8 @@ Label=Cavalos, burros ou mulas
 Name=HC18C_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Cabras|Goats
@@ -2394,8 +2378,8 @@ Label=Cabras
 Name=HC18D_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ovelhas|Sheep
@@ -2410,8 +2394,8 @@ Label=Ovelhas
 Name=HC18E_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Galinhas|Chickens
@@ -2426,8 +2410,8 @@ Label=Galinhas
 Name=HC18F_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Porcos|Pigs
@@ -2442,8 +2426,8 @@ Label=Porcos
 Name=HC18G_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outros animais específicos do país|Country Specific Additions
@@ -2458,8 +2442,8 @@ Label=Outros animais específicos do país
 Name=HC18H_VS1
 Value=0:94
 Value=95;95+
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro do agregado familiar possui conta bancária|Any household member own bank account
@@ -2472,9 +2456,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro do agregado familiar possui conta bancária
 Name=HC19_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Algum membro realiza transações financeiras por telemóvel|Any household member makes financial transactions via mobile phone
@@ -2487,9 +2471,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Algum membro realiza transações financeiras por telemóvel
 Name=HC20_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Utilização de energia no agregado familiar|Household Energy Use
@@ -2509,19 +2493,19 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de fogão mais utilizado para cozinhar
 Name=EU1_VS1
-Value=1;SOLAR COOKER (THERMAL ENERGY, NOT SOLAR PANELS)
-Value=2;ELECTRIC STOVE
-Value=3;PIPED NATURAL GAS STOVE
-Value=4;BIOGAS STOVE
-Value=5;LIQUEFIED PETROLEUM GAS (LPG)/ COOKING GAS STOVE
-Value=6;MANUFACTURED SOLID FUEL STOVE
-Value=7;TRADITIONAL SOLID FUEL STOVE (NON-MANUFACTURED)
-Value=8;LIQUID FUEL STOVE
-Value=9;MOVEABLE FIREPAN
-Value=10;THREE STONE STOVE / OPEN FIRE
-Value=96;OTHER
-Value=97;NO FOOD COOKED IN HOUSEHOLD
-Value=99;NO RESPONSE
+Value=1;FOGÃO SOLAR (ENERGIA TÉRMICA, NÃO PAINÉIS SOLARES)|SOLAR COOKER (THERMAL ENERGY, NOT SOLAR PANELS)
+Value=2;FOGÃO ELÉTRICO|ELECTRIC STOVE
+Value=3;FOGÃO A GÁS NATURAL CANALIZADO|PIPED NATURAL GAS STOVE
+Value=4;FOGÃO A BIOGÁS|BIOGAS STOVE
+Value=5;FOGÃO A GÁS DE PETRÓLEO LIQUEFEITO (GPL) / GÁS DE COZINHA|LIQUEFIED PETROLEUM GAS (LPG)/ COOKING GAS STOVE
+Value=6;FOGÃO A COMBUSTÍVEL SÓLIDO DE FABRICO INDUSTRIAL|MANUFACTURED SOLID FUEL STOVE
+Value=7;FOGÃO TRADICIONAL A COMBUSTÍVEL SÓLIDO (NÃO INDUSTRIAL)|TRADITIONAL SOLID FUEL STOVE (NON-MANUFACTURED)
+Value=8;FOGÃO A COMBUSTÍVEL LÍQUIDO|LIQUID FUEL STOVE
+Value=9;BRASEIRO MÓVEL|MOVEABLE FIREPAN
+Value=10;FOGÃO DE TRÊS PEDRAS / FOGO ABERTO|THREE STONE STOVE / OPEN FIRE
+Value=96;OUTRO|OTHER
+Value=97;NÃO SE COZINHA NO AGREGADO|NO FOOD COOKED IN HOUSEHOLD
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Marca do fogão|Name of the stove brand
@@ -2534,12 +2518,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Marca do fogão
 Name=EU1A_VS1
-Value=1;NAME/BRAND 1
-Value=2;NAME/BRAND 2
-Value=3;NAME/BRAND 3
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;NOME/MARCA 1|NAME/BRAND 1
+Value=2;NOME/MARCA 2|NAME/BRAND 2
+Value=3;NOME/MARCA 3|NAME/BRAND 3
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tipo de fonte de energia utilizada para cozinhar|Type of energy source for cookstove
@@ -2552,22 +2536,22 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de fonte de energia utilizada para cozinhar
 Name=EU4_VS1
-Value=1;ALCOHOL / ETHANOL
-Value=2;GASOLINE / DIESEL (NOT IN GENERATOR)
-Value=3;KEROSENE / PARAFFIN
-Value=4;COAL / LIGNITE UNPROCESSED
-Value=5;COAL / LIGNITE BRIQUETTES / PELLETS
-Value=6;CHARCOAL UNPROCESSED
-Value=7;CHARCOAL BRIQUETTES / PELLETS
-Value=8;WOOD
-Value=9;AGRICULTURAL OR CROP RESIDUE / 	GRASS / STRAW / SHRUBS / CORN COBS
-Value=10;ANIMAL DUNG / WASTE
-Value=11;PROCESSED BIOMASS PELLETS / BRIQUETTES
-Value=12;WOODCHIPS
-Value=13;GARBAGE / PLASTIC
-Value=14;SAWDUST
-Value=96;OTHER
-Value=99;NO RESPONSE
+Value=1;ÁLCOOL / ETANOL|ALCOHOL / ETHANOL
+Value=2;GASOLINA / GASÓLEO (NÃO EM GERADOR)|GASOLINE / DIESEL (NOT IN GENERATOR)
+Value=3;QUEROSENE / PARAFINA|KEROSENE / PARAFFIN
+Value=4;CARVÃO MINERAL / LENHITE NÃO PROCESSADO|COAL / LIGNITE UNPROCESSED
+Value=5;BRIQUETES / PELLETS DE CARVÃO MINERAL / LENHITE|COAL / LIGNITE BRIQUETTES / PELLETS
+Value=6;CARVÃO VEGETAL NÃO PROCESSADO|CHARCOAL UNPROCESSED
+Value=7;BRIQUETES / PELLETS DE CARVÃO VEGETAL|CHARCOAL BRIQUETTES / PELLETS
+Value=8;LENHA|WOOD
+Value=0;RESÍDUOS AGRÍCOLAS OU DE COLHEITAS / |GRASS / STRAW / SHRUBS / CORN COBS
+Value=10;ESTRUME / DEJETOS ANIMAIS|ANIMAL DUNG / WASTE
+Value=11;PELLETS / BRIQUETES DE BIOMASSA PROCESSADA|PROCESSED BIOMASS PELLETS / BRIQUETTES
+Value=12;APARAS DE MADEIRA|WOODCHIPS
+Value=13;LIXO / PLÁSTICO|GARBAGE / PLASTIC
+Value=14;SERRADURA|SAWDUST
+Value=96;OUTRO|OTHER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tipo de aquecimento da habitação|Type of space heating in household
@@ -2580,18 +2564,18 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de aquecimento da habitação
 Name=EU6_VS1
-Value=0;SPACE HEATING NEVER NEEDED
-Value=1;CENTRAL HEATING
-Value=2;MANUFACTURED SPACE HEATER
-Value=3;TRADITIONAL SPACE HEATER
-Value=4;MANUFACTURED COOKSTOVE
-Value=5;TRADITIONAL COOKSTOVE (NON-MANUFACTURED)
-Value=6;MOVEABLE HEATING PAN
-Value=7;OPEN FIRE / THREE STONE STOVE
-Value=8;HEAT PUMP
-Value=96;OTHER
-Value=97;NO SPACE HEATING IN HOUSEHOLD
-Value=99;NO RESPONSE
+Value=0;AQUECIMENTO NUNCA NECESSÁRIO|SPACE HEATING NEVER NEEDED
+Value=1;AQUECIMENTO CENTRAL|CENTRAL HEATING
+Value=2;AQUECEDOR DE FABRICO INDUSTRIAL|MANUFACTURED SPACE HEATER
+Value=3;AQUECEDOR TRADICIONAL|TRADITIONAL SPACE HEATER
+Value=4;FOGÃO DE FABRICO INDUSTRIAL|MANUFACTURED COOKSTOVE
+Value=5;FOGÃO TRADICIONAL (NÃO INDUSTRIAL)|TRADITIONAL COOKSTOVE (NON-MANUFACTURED)
+Value=6;BRASEIRA MÓVEL|MOVEABLE HEATING PAN
+Value=7;FOGO ABERTO / FOGÃO DE TRÊS PEDRAS|OPEN FIRE / THREE STONE STOVE
+Value=8;BOMBA DE CALOR|HEAT PUMP
+Value=96;OUTRO|OTHER
+Value=97;SEM AQUECIMENTO NO AGREGADO|NO SPACE HEATING IN HOUSEHOLD
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Marca do aquecedor|Name of the space heater brand
@@ -2604,12 +2588,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Marca do aquecedor
 Name=EU6A_VS1
-Value=1;NAME/BRAND 1
-Value=2;NAME/BRAND 2
-Value=3;NAME/BRAND 3
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;NOME/MARCA 1|NAME/BRAND 1
+Value=2;NOME/MARCA 2|NAME/BRAND 2
+Value=3;NOME/MARCA 3|NAME/BRAND 3
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tipo de fonte de energia utilizada para aquecimento|Type of energy source for heater
@@ -2622,27 +2606,27 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de fonte de energia utilizada para aquecimento
 Name=EU8_VS1
-Value=1;ELECTRICITY (INCLUDING SOLAR PANELS)
-Value=2;PIPED NATURAL GAS
-Value=3;LIQUEFIED PETROLEUM GAS (LPG) / COOKING GAS
-Value=4;BIOGAS
-Value=5;ALCOHOL / ETHANOL
-Value=6;GASOLINE / DIESEL (NOT IN GENERATOR)
-Value=7;KEROSENE / PARAFFIN
-Value=8;COAL / LIGNITE UNPROCESSED
-Value=9;COAL / LIGNITE BRIQUETTES / PELLETS
-Value=10;CHARCOAL UNPROCESSED
-Value=11;CHARCOAL BRIQUETTES / PELLETS
-Value=12;WOOD
-Value=13;AGRICULTURAL OR CROP RESIDUE / 	GRASS / STRAW / SHRUBS / CORN COBS
-Value=14;ANIMAL WASTE / DUNG
-Value=15;PROCESSED BIOMASS PELLETS / BRIQUETTES
-Value=16;WOODCHIPS
-Value=17;GARBAGE / PLASTIC
-Value=18;SAWDUST
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;ELETRICIDADE (INCLUINDO PAINÉIS SOLARES)|ELECTRICITY (INCLUDING SOLAR PANELS)
+Value=2;GÁS NATURAL CANALIZADO|PIPED NATURAL GAS
+Value=3;GÁS DE PETRÓLEO LIQUEFEITO (GPL) / GÁS DE COZINHA|LIQUEFIED PETROLEUM GAS (LPG) / COOKING GAS
+Value=4;BIOGÁS|BIOGAS
+Value=5;ÁLCOOL / ETANOL|ALCOHOL / ETHANOL
+Value=6;GASOLINA / GASÓLEO (NÃO EM GERADOR)|GASOLINE / DIESEL (NOT IN GENERATOR)
+Value=7;QUEROSENE / PARAFINA|KEROSENE / PARAFFIN
+Value=8;CARVÃO MINERAL / LENHITE NÃO PROCESSADO|COAL / LIGNITE UNPROCESSED
+Value=9;BRIQUETES / PELLETS DE CARVÃO MINERAL / LENHITE|COAL / LIGNITE BRIQUETTES / PELLETS
+Value=10;CARVÃO VEGETAL NÃO PROCESSADO|CHARCOAL UNPROCESSED
+Value=11;BRIQUETES / PELLETS DE CARVÃO VEGETAL|CHARCOAL BRIQUETTES / PELLETS
+Value=12;LENHA|WOOD
+Value=0;RESÍDUOS AGRÍCOLAS OU DE COLHEITAS / |GRASS / STRAW / SHRUBS / CORN COBS
+Value=14;DEJETOS ANIMAIS / ESTRUME|ANIMAL WASTE / DUNG
+Value=15;PELLETS / BRIQUETES DE BIOMASSA PROCESSADA|PROCESSED BIOMASS PELLETS / BRIQUETTES
+Value=16;APARAS DE MADEIRA|WOODCHIPS
+Value=17;LIXO / PLÁSTICO|GARBAGE / PLASTIC
+Value=18;SERRADURA|SAWDUST
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tipo de iluminação do agregado familiar|Type of lighting in household
@@ -2655,20 +2639,20 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de iluminação do agregado familiar
 Name=EU9_VS1
-Value=1;ELECTRICITY (INCLUDING SOLAR PANELS)
-Value=2;SOLAR-POWERED LANTERN OR FLASHLIGHT
-Value=3;RECHARGEABLE FLASHLIGHT, MOBILE, 	TORCH OR LANTERN
-Value=4;BATTERY POWERED FLASHLIGHT, TORCH OR LANTERN
-Value=5;BIOGAS LAMP
-Value=6;LIQUEFIED PETROLEUM GAS (LPG) LAMP
-Value=7;GASOLINE LAMP
-Value=8;KEROSENE / PARAFFIN LAMP
-Value=9;OIL LAMP
-Value=10;CANDLE
-Value=11;OPEN FIRE
-Value=96;OTHER
-Value=97;NO LIGHTING IN HOUSEHOLD
-Value=99;NO RESPONSE
+Value=1;ELETRICIDADE (INCLUINDO PAINÉIS SOLARES)|ELECTRICITY (INCLUDING SOLAR PANELS)
+Value=2;LANTERNA SOLAR|SOLAR-POWERED LANTERN OR FLASHLIGHT
+Value=0;LANTERNA RECARREGÁVEL, TELEMÓVEL, |TORCH OR LANTERN
+Value=4;LANTERNA A PILHAS|BATTERY POWERED FLASHLIGHT, TORCH OR LANTERN
+Value=5;CANDEEIRO A BIOGÁS|BIOGAS LAMP
+Value=6;CANDEEIRO A GPL|LIQUEFIED PETROLEUM GAS (LPG) LAMP
+Value=7;CANDEEIRO A GASOLINA|GASOLINE LAMP
+Value=8;CANDEEIRO A QUEROSENE / PARAFINA|KEROSENE / PARAFFIN LAMP
+Value=9;CANDEEIRO A ÓLEO|OIL LAMP
+Value=10;VELA|CANDLE
+Value=11;FOGO ABERTO|OPEN FIRE
+Value=96;OUTRO|OTHER
+Value=97;SEM ILUMINAÇÃO NO AGREGADO|NO LIGHTING IN HOUSEHOLD
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=O agregado familiar possui redes mosquiteiras|Household has mosquito nets
@@ -2681,9 +2665,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=O agregado familiar possui redes mosquiteiras
 Name=TN1_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de redes mosquiteiras|Number of mosquito nets
@@ -2730,8 +2714,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Rede mosquiteira observada
 Name=TN3_VST
-Value=1;OBSERVED
-Value=2;NOT OBSERVED
+Value=1;OBSERVADO|OBSERVED
+Value=2;NÃO OBSERVADO|NOT OBSERVED
 
 [Item]
 Label=Há quantos meses foi obtida a rede mosquiteira|Months ago net obtained
@@ -2745,9 +2729,9 @@ ZeroFill=Yes
 Label=Há quantos meses foi obtida a rede mosquiteira
 Name=TN4_VST
 Value=0:36
-Value=95;MORE THAN 36 MONTHS AGO
-Value=98;DK / NOT SURE
-Value=99;NO RESPONSE
+Value=95;HÁ MAIS DE 36 MESES|MORE THAN 36 MONTHS AGO
+Value=98;NÃO SABE / NÃO TEM CERTEZA|DK / NOT SURE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Marca/tipo da rede mosquiteira observada|Brand/type of observed net
@@ -2760,13 +2744,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Marca/tipo da rede mosquiteira observada
 Name=TN5_VST
-Value=11;LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND A
-Value=12;LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND B
-Value=13;LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND C
-Value=16;LONG-LASTING INSECTICIDE TREATED NETS (LLIN): OTHER / DK BRAND
-Value=36;OTHER TYPE (NOT LLIN)
-Value=98;DK TYPE
-Value=99;NO RESPONSE
+Value=11;REDES TRATADAS COM INSETICIDA DE LONGA DURAÇÃO (MTILD): MARCA A|LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND A
+Value=12;REDES TRATADAS COM INSETICIDA DE LONGA DURAÇÃO (MTILD): MARCA B|LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND B
+Value=13;REDES TRATADAS COM INSETICIDA DE LONGA DURAÇÃO (MTILD): MARCA C|LONG-LASTING INSECTICIDE TREATED NETS (LLIN): BRAND C
+Value=16;REDES TRATADAS COM INSETICIDA DE LONGA DURAÇÃO (MTILD): OUTRA MARCA / NÃO SABE A MARCA|LONG-LASTING INSECTICIDE TREATED NETS (LLIN): OTHER / DK BRAND
+Value=36;OUTRO TIPO (NÃO MTILD)|OTHER TYPE (NOT LLIN)
+Value=98;NÃO SABE O TIPO|DK TYPE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Forma de obtenção da rede mosquiteira|Way net was obtained
@@ -2779,12 +2763,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Forma de obtenção da rede mosquiteira
 Name=TN10_VST
-Value=1;YES, NAME OF CAMPAIGN
-Value=2;YES, ANC
-Value=3;YES, IMMUNIZATION
-Value=4;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM, NOME DA CAMPANHA|YES, NAME OF CAMPAIGN
+Value=2;SIM, CONSULTA PRÉ-NATAL|YES, ANC
+Value=3;SIM, VACINAÇÃO|YES, IMMUNIZATION
+Value=4;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Local de obtenção da rede mosquiteira|Place where net was obtained
@@ -2797,17 +2781,17 @@ ZeroFill=Yes
 [ValueSet]
 Label=Local de obtenção da rede mosquiteira
 Name=TN12_VST
-Value=11;GOVERNMENT HEALTH FACILITY
-Value=12;COMMUNITY HEALTH WORKER
-Value=21;PRIVATE HEALTH FACILITY
-Value=22;PHARMACY
-Value=31;NGO HEALTH FACILITY
-Value=61;SHOP / MARKET /	STREET
-Value=62;RELIGIOUS INSTITUTION
-Value=63;SCHOOL
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=11;UNIDADE DE SAÚDE PÚBLICA|GOVERNMENT HEALTH FACILITY
+Value=12;AGENTE DE SAÚDE COMUNITÁRIO|COMMUNITY HEALTH WORKER
+Value=21;UNIDADE DE SAÚDE PRIVADA|PRIVATE HEALTH FACILITY
+Value=22;FARMÁCIA|PHARMACY
+Value=31;UNIDADE DE SAÚDE DE ONG|NGO HEALTH FACILITY
+Value=0;LOJA / MERCADO /|STREET
+Value=62;INSTITUIÇÃO RELIGIOSA|RELIGIOUS INSTITUTION
+Value=63;ESCOLA|SCHOOL
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoas que dormiram sob a rede mosquiteira na noite anterior|Persons slept under mosquito net last night
@@ -2820,10 +2804,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pessoas que dormiram sob a rede mosquiteira na noite anterior
 Name=TN13_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Principal motivo pelo qual a rede não foi utilizada na noite anterior|Main reason this net was not used last night
@@ -2836,17 +2820,17 @@ ZeroFill=Yes
 [ValueSet]
 Label=Principal motivo pelo qual a rede não foi utilizada na noite anterior
 Name=TN14A_VS1
-Value=1;TOO HOT
-Value=2;DON’T LIKE NET SHAPE / COLOUR / SIZE
-Value=3;DON’T LIKE SMELL
-Value=4;UNABLE TO HANG THE NET
-Value=5;SLEPT OUTDOORS
-Value=6;USUAL USER DIDN’T SLEEP HERE LAST NIGHT
-Value=7;NO MOSQUITOES / NO MALARIA
-Value=8;EXTRA NET / SAVING IT FOR LATER
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;DEMASIADO CALOR|TOO HOT
+Value=2;NÃO GOSTA DA FORMA / COR / TAMANHO DA REDE|DON’T LIKE NET SHAPE / COLOUR / SIZE
+Value=3;NÃO GOSTA DO CHEIRO|DON’T LIKE SMELL
+Value=4;NÃO CONSEGUE PENDURAR A REDE|UNABLE TO HANG THE NET
+Value=5;DORMIU AO AR LIVRE|SLEPT OUTDOORS
+Value=6;O UTILIZADOR HABITUAL NÃO DORMIU AQUI ONTEM À NOITE|USUAL USER DIDN’T SLEEP HERE LAST NIGHT
+Value=7;SEM MOSQUITOS / SEM MALÁRIA|NO MOSQUITOES / NO MALARIA
+Value=8;REDE EXTRA / GUARDADA PARA MAIS TARDE|EXTRA NET / SAVING IT FOR LATER
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa 1 que dormiu sob a rede|Person 1 who slept under net
@@ -2859,8 +2843,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pessoa 1 que dormiu sob a rede
 Name=TN15_1_VST
-Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
-Value=1:50
+Value=0 1:50;PESSOA QUE DORMIU SOB A REDE NÃO CONSTA DA LISTA DO AGREGADO|PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
 
 [Item]
 Label=Pessoa 2 que dormiu sob a rede|Person 2 who slept under net
@@ -2873,9 +2856,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pessoa 2 que dormiu sob a rede
 Name=TN15_2_VST
-Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
-Value=1:50
-Value=90;NO ONE ELSE
+Value=0 1:50;PESSOA QUE DORMIU SOB A REDE NÃO CONSTA DA LISTA DO AGREGADO|PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
+Value=90;MAIS NINGUÉM|NO ONE ELSE
 
 [Item]
 Label=Pessoa 3 que dormiu sob a rede|Person 3 who slept under net
@@ -2888,9 +2870,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pessoa 3 que dormiu sob a rede
 Name=TN15_3_VST
-Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
-Value=1:50
-Value=90;NO ONE ELSE
+Value=0 1:50;PESSOA QUE DORMIU SOB A REDE NÃO CONSTA DA LISTA DO AGREGADO|PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
+Value=90;MAIS NINGUÉM|NO ONE ELSE
 
 [Item]
 Label=Pessoa 4 que dormiu sob a rede|Person 4 who slept under net
@@ -2903,9 +2884,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pessoa 4 que dormiu sob a rede
 Name=TN15_4_VST
-Value=0;PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
-Value=1:50
-Value=90;NO ONE ELSE
+Value=0 1:50;PESSOA QUE DORMIU SOB A REDE NÃO CONSTA DA LISTA DO AGREGADO|PERSON WHO SLEPT UNDER NET NOT IN HH LISTING
+Value=90;MAIS NINGUÉM|NO ONE ELSE
 
 [Record]
 Label=Transferências sociais|Social Transfers
@@ -2926,9 +2906,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Conhece o (nome do programa)
 Name=ST2_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Recebeu assistência através do (nome do programa)|Received assistance through (name of programme)
@@ -2941,10 +2921,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Recebeu assistência através do (nome do programa)
 Name=ST3_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoas a quem se destinava a assistência|Assistance intended for
@@ -2956,9 +2936,9 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoas a quem se destinava a assistência
 Name=ST4_VS1
-Value='95                                                                                                  ';ALL MEMBERS
-Value='98                                                                                                  ';DK
-Value='99                                                                                                  ';NO RESPONSE
+Value='95                                                                                                  ';TODOS OS MEMBROS|ALL MEMBERS
+Value='98                                                                                                  ';NÃO SABE|DK
+Value='99                                                                                                  ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)|Person 1 (needed to force CSPRO put 0 at beginning)
@@ -2972,9 +2952,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)
 Name=ST4_1_VS1
-Value=95;ALL MEMBERS
-Value=98;DK
-Value=99;NO RESPONSE
+Value=95;TODOS OS MEMBROS|ALL MEMBERS
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa 2 (necessário para obrigar o CSPro a colocar 0 no início)|Person 2 (needed to force CSPRO put 0 at beginning)
@@ -3058,10 +3038,10 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa autorizada a receber ou levantar a assistência
 Name=ST5_VS1
-Value='00                                                                                                  ';NO ONE IN THIS HOUSEHOLD
-Value='95                                                                                                  ';ALL MEMBERS
-Value='98                                                                                                  ';DK
-Value='99                                                                                                  ';NO RESPONSE
+Value='0                                                                                                   ';NINGUÉM NESTE AGREGADO|NO ONE IN THIS HOUSEHOLD
+Value='95                                                                                                  ';TODOS OS MEMBROS|ALL MEMBERS
+Value='98                                                                                                  ';NÃO SABE|DK
+Value='99                                                                                                  ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)|Person 1 (needed to force CSPRO put 0 at beginning)
@@ -3075,10 +3055,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pessoa 1 (necessário para obrigar o CSPro a colocar 0 no início)
 Name=ST5_1_VS1
-Value=0;NO ONE IN THIS HOUSEHOLD
-Value=95;ALL MEMBERS
-Value=98;DK
-Value=99;NO RESPONSE
+Value=0;NINGUÉM NESTE AGREGADO|NO ONE IN THIS HOUSEHOLD
+Value=95;TODOS OS MEMBROS|ALL MEMBERS
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa 2 (necessário para obrigar o CSPro a colocar 0 no início)|Person 2 (needed to force CSPRO put 0 at beginning)
@@ -3163,9 +3143,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Última vez que recebeu assistência (unidade)
 Name=ST6U_VS1
-Value=1;MONTHS AGO
-Value=2;YEARS AGO
-Value=9;DK / NO RESPONSE
+Value=1;MESES ATRÁS|MONTHS AGO
+Value=2;ANOS ATRÁS|YEARS AGO
+Value=9;NÃO SABE / SEM RESPOSTA|DK / NO RESPONSE
 
 [Item]
 Label=Última vez que recebeu assistência (número)|Last time assistance was received (number)
@@ -3179,8 +3159,8 @@ ZeroFill=Yes
 Label=Última vez que recebeu assistência (número)
 Name=ST6N_VS1
 Value=0:90
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Água e saneamento|Water and Sanitation
@@ -3200,25 +3180,25 @@ ZeroFill=Yes
 [ValueSet]
 Label=Principal fonte de água para beber
 Name=WS1_VS1
-Value=11;PIPED WATER: PIPED INTO DWELLING
-Value=12;PIPED WATER: PIPED TO YARD / PLOT
-Value=13;PIPED WATER: PIPED TO NEIGHBOUR
-Value=14;PIPED WATER: PUBLIC TAP / STANDPIPE
-Value=21;TUBE WELL / BOREHOLE
-Value=31;DUG WELL: PROTECTED WELL
-Value=32;DUG WELL: UNPROTECTED WELL
-Value=41;SPRING: PROTECTED SPRING
-Value=42;SPRING: UNPROTECTED SPRING
-Value=51;RAINWATER
-Value=61;TANKER-TRUCK
-Value=71;CART WITH SMALL TANK
-Value=72;WATER KIOSK
-Value=81;SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
-Value=91;PACKAGED WATER: BOTTLED WATER
-Value=92;PACKAGED WATER: SACHET WATER
-Value=93;LARGE BOTTLE / DISPENSER REFILL
-Value=96;OTHER
-Value=99;NO RESPONSE
+Value=11;ÁGUA CANALIZADA: DENTRO DO ALOJAMENTO|PIPED WATER: PIPED INTO DWELLING
+Value=12;ÁGUA CANALIZADA: NO QUINTAL / TERRENO|PIPED WATER: PIPED TO YARD / PLOT
+Value=13;ÁGUA CANALIZADA: NO VIZINHO|PIPED WATER: PIPED TO NEIGHBOUR
+Value=14;ÁGUA CANALIZADA: TORNEIRA PÚBLICA / FONTANÁRIO|PIPED WATER: PUBLIC TAP / STANDPIPE
+Value=21;POÇO TUBULAR / FURO|TUBE WELL / BOREHOLE
+Value=31;POÇO ESCAVADO: POÇO PROTEGIDO|DUG WELL: PROTECTED WELL
+Value=32;POÇO ESCAVADO: POÇO NÃO PROTEGIDO|DUG WELL: UNPROTECTED WELL
+Value=41;NASCENTE: NASCENTE PROTEGIDA|SPRING: PROTECTED SPRING
+Value=42;NASCENTE: NASCENTE NÃO PROTEGIDA|SPRING: UNPROTECTED SPRING
+Value=51;ÁGUA DA CHUVA|RAINWATER
+Value=61;CAMIÃO-CISTERNA|TANKER-TRUCK
+Value=71;CARRINHO COM PEQUENO TANQUE|CART WITH SMALL TANK
+Value=72;QUIOSQUE DE ÁGUA|WATER KIOSK
+Value=81;ÁGUA DE SUPERFÍCIE (RIO, BARRAGEM, LAGO, CHARCO, RIBEIRO, CANAL, CANAL DE IRRIGAÇÃO)|SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
+Value=91;ÁGUA EMBALADA: ÁGUA ENGARRAFADA|PACKAGED WATER: BOTTLED WATER
+Value=92;ÁGUA EMBALADA: ÁGUA EM SAQUETA|PACKAGED WATER: SACHET WATER
+Value=93;GARRAFÃO / RECARGA DE DISPENSADOR|LARGE BOTTLE / DISPENSER REFILL
+Value=96;OUTRO|OTHER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Principal fonte de água para outros fins (se utilizar água engarrafada para beber)|Main source of water used for other purposes (if bottled water used for drinking)
@@ -3231,22 +3211,22 @@ ZeroFill=Yes
 [ValueSet]
 Label=Principal fonte de água para outros fins (se utilizar água engarrafada para beber)
 Name=WS2_VS1
-Value=11;PIPED WATER: PIPED INTO DWELLING
-Value=12;PIPED WATER: PIPED TO YARD / PLOT
-Value=13;PIPED WATER: PIPED TO NEIGHBOUR
-Value=14;PIPED WATER: PUBLIC TAP / STANDPIPE
-Value=21;TUBE WELL / BOREHOLE
-Value=31;DUG WELL: PROTECTED WELL
-Value=32;DUG WELL: UNPROTECTED WELL
-Value=41;SPRING: PROTECTED SPRING
-Value=42;SPRING: UNPROTECTED SPRING
-Value=51;RAINWATER
-Value=61;TANKER-TRUCK
-Value=71;CART WITH SMALL TANK
-Value=72;WATER KIOSK
-Value=81;SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
-Value=96;OTHER
-Value=99;NO RESPONSE
+Value=11;ÁGUA CANALIZADA: DENTRO DO ALOJAMENTO|PIPED WATER: PIPED INTO DWELLING
+Value=12;ÁGUA CANALIZADA: NO QUINTAL / TERRENO|PIPED WATER: PIPED TO YARD / PLOT
+Value=13;ÁGUA CANALIZADA: NO VIZINHO|PIPED WATER: PIPED TO NEIGHBOUR
+Value=14;ÁGUA CANALIZADA: TORNEIRA PÚBLICA / FONTANÁRIO|PIPED WATER: PUBLIC TAP / STANDPIPE
+Value=21;POÇO TUBULAR / FURO|TUBE WELL / BOREHOLE
+Value=31;POÇO ESCAVADO: POÇO PROTEGIDO|DUG WELL: PROTECTED WELL
+Value=32;POÇO ESCAVADO: POÇO NÃO PROTEGIDO|DUG WELL: UNPROTECTED WELL
+Value=41;NASCENTE: NASCENTE PROTEGIDA|SPRING: PROTECTED SPRING
+Value=42;NASCENTE: NASCENTE NÃO PROTEGIDA|SPRING: UNPROTECTED SPRING
+Value=51;ÁGUA DA CHUVA|RAINWATER
+Value=61;CAMIÃO-CISTERNA|TANKER-TRUCK
+Value=71;CARRINHO COM PEQUENO TANQUE|CART WITH SMALL TANK
+Value=72;QUIOSQUE DE ÁGUA|WATER KIOSK
+Value=81;ÁGUA DE SUPERFÍCIE (RIO, BARRAGEM, LAGO, CHARCO, RIBEIRO, CANAL, CANAL DE IRRIGAÇÃO)|SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
+Value=96;OUTRO|OTHER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Localização da fonte de água|Location of the water source
@@ -3259,10 +3239,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Localização da fonte de água
 Name=WS3_VS1
-Value=1;IN OWN DWELLING
-Value=2;IN OWN YARD / PLOT
-Value=3;ELSEWHERE
-Value=9;NO RESPONSE
+Value=1;NO PRÓPRIO ALOJAMENTO|IN OWN DWELLING
+Value=2;NO PRÓPRIO QUINTAL / TERRENO|IN OWN YARD / PLOT
+Value=3;NOUTRO LOCAL|ELSEWHERE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tempo (em minutos) para ir buscar água e regressar|Time (in minutes) to get water and come back
@@ -3275,10 +3255,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tempo (em minutos) para ir buscar água e regressar
 Name=WS4_VS1
-Value=0;MEMBERS DO NOT COLLECT
-Value=1:990
-Value=998;DK
-Value=999;NO RESPONSE
+Value=0 1:990;OS MEMBROS NÃO RECOLHEM|MEMBERS DO NOT COLLECT
+Value=998;NÃO SABE|DK
+Value=999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa responsável pela recolha de água|Person collecting water
@@ -3292,7 +3271,7 @@ ZeroFill=Yes
 Label=Pessoa responsável pela recolha de água
 Name=WS5_VS1
 Value=1:50
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de vezes que a pessoa recolheu água nos últimos sete dias|Number of times person collected water in the last seven days
@@ -3306,8 +3285,8 @@ ZeroFill=Yes
 Label=Número de vezes que a pessoa recolheu água nos últimos sete dias
 Name=WS6_VS1
 Value=0:90
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Houve algum período no último mês sem água suficiente|There been any time in the last month without sufficient water
@@ -3320,10 +3299,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Houve algum período no último mês sem água suficiente
 Name=WS7_VS1
-Value=1;YES, AT LEAST ONCE
-Value=2;NO, ALWAYS SUFFICIENT
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM, PELO MENOS UMA VEZ|YES, AT LEAST ONCE
+Value=2;NÃO, SEMPRE SUFICIENTE|NO, ALWAYS SUFFICIENT
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Houve algum período nos últimos 12 meses sem água suficiente|There been any time in the last 12 months without sufficient water
@@ -3336,10 +3315,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Houve algum período nos últimos 12 meses sem água suficiente
 Name=WS7A_VS1
-Value=1;YES, AT LEAST ONCE
-Value=2;NO, ALWAYS SUFFICIENT
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM, PELO MENOS UMA VEZ|YES, AT LEAST ONCE
+Value=2;NÃO, SEMPRE SUFICIENTE|NO, ALWAYS SUFFICIENT
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Principal motivo da falta de água suficiente|Main reason without sufficient water
@@ -3352,13 +3331,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Principal motivo da falta de água suficiente
 Name=WS8_VS1
-Value=1;WATER SOURCE NOT FUNCTIONAL
-Value=2;WATER NOT AVAILABLE
-Value=3;WATER TOO EXPENSIVE
-Value=4;WATER SOURCE NOT ACCESSIBLE
-Value=6;OTHER
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;FONTE DE ÁGUA NÃO FUNCIONAL|WATER SOURCE NOT FUNCTIONAL
+Value=2;ÁGUA NÃO DISPONÍVEL|WATER NOT AVAILABLE
+Value=3;ÁGUA DEMASIADO CARA|WATER TOO EXPENSIVE
+Value=4;FONTE DE ÁGUA NÃO ACESSÍVEL|WATER SOURCE NOT ACCESSIBLE
+Value=6;OUTRO|OTHER
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água para a tornar mais segura para beber|Treat water to make safer for drinking
@@ -3371,10 +3350,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tratamento da água para a tornar mais segura para beber
 Name=WS9_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água|Water treatment
@@ -3386,15 +3365,15 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água
 Name=WS10_VS1
-Value='A        ';BOIL
-Value='B        ';ADD BLEACH / CHLORINE
-Value='C        ';STRAIN IT THROUGH A CLOTH
-Value='D        ';USE WATER FILTER (CERAMIC, SAND, COMPOSITE, ETC.)
-Value='E        ';SOLAR DISINFECTION
-Value='F        ';LET IT STAND AND SETTLE
-Value='X        ';OTHER
-Value='Z        ';DK
-Value='?        ';NO RESPONSE
+Value='A        ';FERVER|BOIL
+Value='B        ';ADICIONAR LIXÍVIA / CLORO|ADD BLEACH / CHLORINE
+Value='C        ';COAR ATRAVÉS DE UM PANO|STRAIN IT THROUGH A CLOTH
+Value='D        ';USAR FILTRO DE ÁGUA (CERÂMICA, AREIA, COMPÓSITO, ETC.)|USE WATER FILTER (CERAMIC, SAND, COMPOSITE, ETC.)
+Value='E        ';DESINFEÇÃO SOLAR|SOLAR DISINFECTION
+Value='F        ';DEIXAR REPOUSAR E DECANTAR|LET IT STAND AND SETTLE
+Value='X        ';OUTRO|OTHER
+Value='Z        ';NÃO SABE|DK
+Value='?        ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Fervura|Water treatment: Boil
@@ -3407,9 +3386,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Fervura
 Name=WS10A_VS1
-Value='A';BOIL
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';FERVER|BOIL
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Adição de lixívia/cloro|Water treatment: Add bleach/chlorine
@@ -3422,9 +3400,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Adição de lixívia/cloro
 Name=WS10B_VS1
-Value='B';ADD BLEACH / CHLORINE
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';ADICIONAR LIXÍVIA / CLORO|ADD BLEACH / CHLORINE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Filtração através de um pano|Water treatment: Strain it through a cloth
@@ -3437,9 +3414,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Filtração através de um pano
 Name=WS10C_VS1
-Value='C';STRAIN IT THROUGH A CLOTH
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';COAR ATRAVÉS DE UM PANO|STRAIN IT THROUGH A CLOTH
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Utilização de filtro de água|Water treatment: Use water filter
@@ -3452,9 +3428,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Utilização de filtro de água
 Name=WS10D_VS1
-Value='D';USE WATER FILTER (CERAMIC, SAND, COMPOSITE, ETC.)
-Value=' '
-Value='?';NO RESPONSE
+Value='D' ' ';USAR FILTRO DE ÁGUA (CERÂMICA, AREIA, COMPÓSITO, ETC.)|USE WATER FILTER (CERAMIC, SAND, COMPOSITE, ETC.)
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Desinfeção solar|Water treatment: Solar disinfection
@@ -3467,9 +3442,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Desinfeção solar
 Name=WS10E_VS1
-Value='E';SOLAR DISINFECTION
-Value=' '
-Value='?';NO RESPONSE
+Value='E' ' ';DESINFEÇÃO SOLAR|SOLAR DISINFECTION
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Deixar repousar e decantar|Water treatment: Let it stand and settle
@@ -3482,9 +3456,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Deixar repousar e decantar
 Name=WS10F_VS1
-Value='F';LET IT STAND AND SETTLE
-Value=' '
-Value='?';NO RESPONSE
+Value='F' ' ';DEIXAR REPOUSAR E DECANTAR|LET IT STAND AND SETTLE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Outro|Water treatment: Other
@@ -3497,9 +3470,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Outro
 Name=WS10X_VS1
-Value='X';OTHER
-Value=' '
-Value='?';NO RESPONSE
+Value='X' ' ';OUTRO|OTHER
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Não sabe|Water treatment: DK
@@ -3512,9 +3484,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Não sabe
 Name=WS10Z_VS1
-Value='Z';DK
-Value=' '
-Value='?';NO RESPONSE
+Value='Z' ' ';NÃO SABE|DK
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Sem resposta|Water treatment: No response
@@ -3527,8 +3498,7 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Sem resposta
 Name=WS10NR_VS1
-Value='?';NO RESPONSE
-Value=' '
+Value='?' ' ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Entidade gestora do abastecimento de água|Water supply management entity
@@ -3541,11 +3511,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Entidade gestora do abastecimento de água
 Name=WS10AA_VS1
-Value=1;OWN HOUSEHOLD
-Value=2;LOCAL OR COMMUNITY ORGANISATION
-Value=3;A PUBLIC OR PRIVATE UTILITY
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;PRÓPRIO AGREGADO|OWN HOUSEHOLD
+Value=2;ORGANIZAÇÃO LOCAL OU COMUNITÁRIA|LOCAL OR COMMUNITY ORGANISATION
+Value=3;UMA EMPRESA PÚBLICA OU PRIVADA DE SERVIÇOS|A PUBLIC OR PRIVATE UTILITY
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Regularidade da principal fonte de água para beber na estação das chuvas|Consistency of main drinking water source in wet season
@@ -3558,10 +3528,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Regularidade da principal fonte de água para beber na estação das chuvas
 Name=WS10BB_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Principal fonte de água para beber na estação das chuvas|Main drinking water source in wet season
@@ -3574,25 +3544,25 @@ ZeroFill=Yes
 [ValueSet]
 Label=Principal fonte de água para beber na estação das chuvas
 Name=WS10CC_VS1
-Value=11;PIPED WATER: PIPED INTO DWELLING
-Value=12;PIPED WATER: PIPED TO YARD / PLOT
-Value=13;PIPED WATER: PIPED TO NEIGHBOUR
-Value=14;PIPED WATER: PUBLIC TAP / STANDPIPE
-Value=21;TUBE WELL / BOREHOLE
-Value=31;DUG WELL: PROTECTED WELL
-Value=32;DUG WELL: UNPROTECTED WELL
-Value=41;SPRING: PROTECTED SPRING
-Value=42;SPRING: UNPROTECTED SPRING
-Value=51;RAINWATER
-Value=61;TANKER-TRUCK
-Value=71;CART WITH SMALL TANK
-Value=72;WATER KIOSK
-Value=81;SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
-Value=91;PACKAGED WATER: BOTTLED WATER
-Value=92;PACKAGED WATER: SACHET WATER
-Value=93;LARGE BOTTLE / DISPENSER REFILL
-Value=96;OTHER
-Value=99;NO RESPONSE
+Value=11;ÁGUA CANALIZADA: DENTRO DO ALOJAMENTO|PIPED WATER: PIPED INTO DWELLING
+Value=12;ÁGUA CANALIZADA: NO QUINTAL / TERRENO|PIPED WATER: PIPED TO YARD / PLOT
+Value=13;ÁGUA CANALIZADA: NO VIZINHO|PIPED WATER: PIPED TO NEIGHBOUR
+Value=14;ÁGUA CANALIZADA: TORNEIRA PÚBLICA / FONTANÁRIO|PIPED WATER: PUBLIC TAP / STANDPIPE
+Value=21;POÇO TUBULAR / FURO|TUBE WELL / BOREHOLE
+Value=31;POÇO ESCAVADO: POÇO PROTEGIDO|DUG WELL: PROTECTED WELL
+Value=32;POÇO ESCAVADO: POÇO NÃO PROTEGIDO|DUG WELL: UNPROTECTED WELL
+Value=41;NASCENTE: NASCENTE PROTEGIDA|SPRING: PROTECTED SPRING
+Value=42;NASCENTE: NASCENTE NÃO PROTEGIDA|SPRING: UNPROTECTED SPRING
+Value=51;ÁGUA DA CHUVA|RAINWATER
+Value=61;CAMIÃO-CISTERNA|TANKER-TRUCK
+Value=71;CARRINHO COM PEQUENO TANQUE|CART WITH SMALL TANK
+Value=72;QUIOSQUE DE ÁGUA|WATER KIOSK
+Value=81;ÁGUA DE SUPERFÍCIE (RIO, BARRAGEM, LAGO, CHARCO, RIBEIRO, CANAL, CANAL DE IRRIGAÇÃO)|SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
+Value=91;ÁGUA EMBALADA: ÁGUA ENGARRAFADA|PACKAGED WATER: BOTTLED WATER
+Value=92;ÁGUA EMBALADA: ÁGUA EM SAQUETA|PACKAGED WATER: SACHET WATER
+Value=93;GARRAFÃO / RECARGA DE DISPENSADOR|LARGE BOTTLE / DISPENSER REFILL
+Value=96;OUTRO|OTHER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Localização da fonte de água utilizada na estação das chuvas|Location of the water source that is used during wet season
@@ -3605,10 +3575,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Localização da fonte de água utilizada na estação das chuvas
 Name=WS10DD_VS1
-Value=1;IN OWN DWELLING
-Value=2;IN OWN YARD / PLOT
-Value=3;ELSEWHERE
-Value=9;NO RESPONSE
+Value=1;NO PRÓPRIO ALOJAMENTO|IN OWN DWELLING
+Value=2;NO PRÓPRIO QUINTAL / TERRENO|IN OWN YARD / PLOT
+Value=3;NOUTRO LOCAL|ELSEWHERE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tempo (em minutos) para ir buscar água e regressar da fonte utilizada na estação das chuvas|Time (in minutes) to get water and come back from the water source that is used during wet season
@@ -3621,10 +3591,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tempo (em minutos) para ir buscar água e regressar da fonte utilizada na estação das chuvas
 Name=WS10EE_VS1
-Value=0;MEMBERS DO NOT COLLECT
-Value=1:990
-Value=998;DK
-Value=999;NO RESPONSE
+Value=0 1:990;OS MEMBROS NÃO RECOLHEM|MEMBERS DO NOT COLLECT
+Value=998;NÃO SABE|DK
+Value=999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tipo de instalação sanitária|Type of toilet facility
@@ -3637,22 +3606,22 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de instalação sanitária
 Name=WS11_VS1
-Value=11;FLUSH / POUR FLUSH: PIPED SEWER SYSTEM
-Value=12;FLUSH / POUR FLUSH: SEPTIC TANK
-Value=13;FLUSH / POUR FLUSH: PIT / CESSPOOL
-Value=14;FLUSH / POUR FLUSH: OPEN DRAIN
-Value=18;FLUSH / POUR FLUSH: DK WHERE
-Value=21;PIT LATRINE: VENTILATED IMPROVED PIT LATRINE (WITH SLAB)
-Value=22;PIT LATRINE: SINGLE PIT LATRINE WITH SLAB
-Value=24;PIT LATRINE: TWIN PIT LATRINE WITH SLAB
-Value=23;PIT LATRINE: PIT LATRINE WITHOUT SLAB / OPEN PIT
-Value=31;COMPOSTING TOILET
-Value=32;CONTAINER BASED SANITATION
-Value=41;BUCKET
-Value=51;HANGING TOILET / HANGING LATRINE
-Value=95;NO FACILITY / BUSH / FIELD
-Value=96;OTHER
-Value=99;NO RESPONSE
+Value=11;AUTOCLISMO / DESCARGA MANUAL: REDE DE ESGOTOS|FLUSH / POUR FLUSH: PIPED SEWER SYSTEM
+Value=12;AUTOCLISMO / DESCARGA MANUAL: FOSSA SÉTICA|FLUSH / POUR FLUSH: SEPTIC TANK
+Value=13;AUTOCLISMO / DESCARGA MANUAL: FOSSA / POÇO NEGRO|FLUSH / POUR FLUSH: PIT / CESSPOOL
+Value=14;AUTOCLISMO / DESCARGA MANUAL: VALA A CÉU ABERTO|FLUSH / POUR FLUSH: OPEN DRAIN
+Value=18;AUTOCLISMO / DESCARGA MANUAL: NÃO SABE PARA ONDE|FLUSH / POUR FLUSH: DK WHERE
+Value=21;LATRINA DE FOSSA: LATRINA MELHORADA VENTILADA (COM LAJE)|PIT LATRINE: VENTILATED IMPROVED PIT LATRINE (WITH SLAB)
+Value=22;LATRINA DE FOSSA: LATRINA DE FOSSA SIMPLES COM LAJE|PIT LATRINE: SINGLE PIT LATRINE WITH SLAB
+Value=24;LATRINA DE FOSSA: LATRINA DE FOSSA DUPLA COM LAJE|PIT LATRINE: TWIN PIT LATRINE WITH SLAB
+Value=23;LATRINA DE FOSSA: LATRINA SEM LAJE / FOSSA ABERTA|PIT LATRINE: PIT LATRINE WITHOUT SLAB / OPEN PIT
+Value=31;SANITA DE COMPOSTAGEM|COMPOSTING TOILET
+Value=32;SANEAMENTO BASEADO EM CONTENTORES|CONTAINER BASED SANITATION
+Value=41;BALDE|BUCKET
+Value=51;SANITA SUSPENSA / LATRINA SUSPENSA|HANGING TOILET / HANGING LATRINE
+Value=95;SEM INSTALAÇÃO / MATO / CAMPO|NO FACILITY / BUSH / FIELD
+Value=96;OUTRO|OTHER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tubo de saída de águas residuais líquidas|Outlet pipe for liquid waste
@@ -3665,10 +3634,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tubo de saída de águas residuais líquidas
 Name=WS11B_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Destino do tubo de saída de águas residuais líquidas|Destination of outlet pipe for liquid waste
@@ -3681,15 +3650,15 @@ ZeroFill=Yes
 [ValueSet]
 Label=Destino do tubo de saída de águas residuais líquidas
 Name=WS11C_VS1
-Value=11;TO A LEACH FIELD, SOAK PIT
-Value=21;TO A SEWER / CLOSED DRAIN THAT LEADS TO: A WASTEWATER TREATMENT PLANT (WWTP)
-Value=22;TO A SEWER / CLOSED DRAIN THAT LEADS TO: A WATERBODY (NOT CONNECTED TO WWTP)
-Value=23;TO A SEWER / CLOSED DRAIN THAT LEADS TO: DK WHERE
-Value=31;TO AN OPEN DRAIN
-Value=32;TO A WATERBODY / SURFACE
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=11;PARA UM CAMPO DE INFILTRAÇÃO, POÇO ABSORVENTE|TO A LEACH FIELD, SOAK PIT
+Value=21;PARA UM ESGOTO / CONDUTA FECHADA QUE VAI PARA: UMA ESTAÇÃO DE TRATAMENTO DE ÁGUAS RESIDUAIS (ETAR)|TO A SEWER / CLOSED DRAIN THAT LEADS TO: A WASTEWATER TREATMENT PLANT (WWTP)
+Value=22;PARA UM ESGOTO / CONDUTA FECHADA QUE VAI PARA: UM CURSO DE ÁGUA (NÃO LIGADO A ETAR)|TO A SEWER / CLOSED DRAIN THAT LEADS TO: A WATERBODY (NOT CONNECTED TO WWTP)
+Value=23;PARA UM ESGOTO / CONDUTA FECHADA QUE VAI PARA: NÃO SABE ONDE|TO A SEWER / CLOSED DRAIN THAT LEADS TO: DK WHERE
+Value=31;PARA UMA VALA A CÉU ABERTO|TO AN OPEN DRAIN
+Value=32;PARA UM CURSO DE ÁGUA / SUPERFÍCIE|TO A WATERBODY / SURFACE
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ocorrências de libertação de excrementos: Transbordamento|Excreta release events from water source: Overflowed
@@ -3702,10 +3671,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Ocorrências de libertação de excrementos: Transbordamento
 Name=WS11DA_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ocorrências de libertação de excrementos: Inundação|Excreta release events from water source: Flooded
@@ -3718,10 +3687,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Ocorrências de libertação de excrementos: Inundação
 Name=WS11DB_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ocorrências de libertação de excrementos: Colapso da estrutura de contenção|Excreta release events from water source: Containment collapsed
@@ -3734,10 +3703,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Ocorrências de libertação de excrementos: Colapso da estrutura de contenção
 Name=WS11DC_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ocorrências de libertação de excrementos: Outra ocorrência|Excreta release events from water source: Other event
@@ -3750,10 +3719,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Ocorrências de libertação de excrementos: Outra ocorrência
 Name=WS11DD_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fossa ou tanque séptico alguma vez esvaziado|Pit latrine or septic tank ever been emptied
@@ -3766,11 +3735,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Fossa ou tanque séptico alguma vez esvaziado
 Name=WS12_VS1
-Value=1;YES, EMPTIED
-Value=4;NO, NEVER EMPTIED
-Value=5;NO, NOT EMPTIED BUT COVERED AND LEFT UNDISTURBED WHEN FULL
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM, ESVAZIADA|YES, EMPTIED
+Value=4;NÃO, NUNCA ESVAZIADA|NO, NEVER EMPTIED
+Value=5;NÃO, NÃO ESVAZIADA MAS TAPADA E DEIXADA INTACTA QUANDO CHEIA|NO, NOT EMPTIED BUT COVERED AND LEFT UNDISTURBED WHEN FULL
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Entidade responsável pelo último esvaziamento da fossa/tanque|Entity responsible for the last emptying of water source
@@ -3783,14 +3752,14 @@ ZeroFill=Yes
 [ValueSet]
 Label=Entidade responsável pelo último esvaziamento da fossa/tanque
 Name=WS12A_VS1
-Value=11;SERVICE PROVIDER: PUBLIC / MUNICIPALITY / GOVERNMENT
-Value=12;SERVICE PROVIDER: PRIVATE COMPANY / NGO
-Value=13;SERVICE PROVIDER: INFORMAL EMPTIER (E.G., UNLICENSED)
-Value=21;NOT SERVICE PROVIDER: SELF EMPTIED
-Value=22;NOT SERVICE PROVIDER: NEIGHBOUR, FAMILY MEMBER, FRIEND
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=11;PRESTADOR DE SERVIÇOS: PÚBLICO / MUNICÍPIO / GOVERNO|SERVICE PROVIDER: PUBLIC / MUNICIPALITY / GOVERNMENT
+Value=12;PRESTADOR DE SERVIÇOS: EMPRESA PRIVADA / ONG|SERVICE PROVIDER: PRIVATE COMPANY / NGO
+Value=13;PRESTADOR DE SERVIÇOS: ESVAZIADOR INFORMAL (EX.: SEM LICENÇA)|SERVICE PROVIDER: INFORMAL EMPTIER (E.G., UNLICENSED)
+Value=21;NÃO PRESTADOR DE SERVIÇOS: ESVAZIADA PELO PRÓPRIO|NOT SERVICE PROVIDER: SELF EMPTIED
+Value=22;NÃO PRESTADOR DE SERVIÇOS: VIZINHO, FAMILIAR, AMIGO|NOT SERVICE PROVIDER: NEIGHBOUR, FAMILY MEMBER, FRIEND
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Local onde o conteúdo foi descarregado|Place the contents were emptied
@@ -3803,14 +3772,14 @@ ZeroFill=Yes
 [ValueSet]
 Label=Local onde o conteúdo foi descarregado
 Name=WS13_VS1
-Value=1;REMOVED OFF-SITE (TO TREATMENT / UNKNOWN)
-Value=2;REMOVED TO A WATERBODY, OPEN 	GROUND, FIELD OR ELSEWHERE
-Value=3;BURIED IN A COVERED PIT AT OR NEAR HOUSEHOLD (IN-SITU)
-Value=4;BURIED IN A COVERED PIT / TRENCH ELSEWHERE (OFF-SITE)
-Value=5;EMPTIED INTO AN UNCOVERED PIT
-Value=6;OTHER
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;REMOVIDO PARA FORA DO LOCAL (PARA TRATAMENTO / DESCONHECIDO)|REMOVED OFF-SITE (TO TREATMENT / UNKNOWN)
+Value=0;REMOVIDO PARA UM CURSO DE ÁGUA, ABERTO |GROUND, FIELD OR ELSEWHERE
+Value=3;ENTERRADO NUMA FOSSA TAPADA NO AGREGADO OU PERTO (IN SITU)|BURIED IN A COVERED PIT AT OR NEAR HOUSEHOLD (IN-SITU)
+Value=4;ENTERRADO NUMA FOSSA / VALA TAPADA NOUTRO LOCAL (FORA DO LOCAL)|BURIED IN A COVERED PIT / TRENCH ELSEWHERE (OFF-SITE)
+Value=5;DESPEJADO NUMA FOSSA DESTAPADA|EMPTIED INTO AN UNCOVERED PIT
+Value=6;OUTRO|OTHER
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Localização da instalação sanitária|Location of the toilet faciltity
@@ -3823,10 +3792,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Localização da instalação sanitária
 Name=WS14_VS1
-Value=1;IN OWN DWELLING
-Value=2;IN OWN YARD / PLOT
-Value=3;ELSEWHERE
-Value=9;NO RESPONSE
+Value=1;NO PRÓPRIO ALOJAMENTO|IN OWN DWELLING
+Value=2;NO PRÓPRIO QUINTAL / TERRENO|IN OWN YARD / PLOT
+Value=3;NOUTRO LOCAL|ELSEWHERE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Instalação sanitária partilhada|Toilet facility shared
@@ -3839,9 +3808,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Instalação sanitária partilhada
 Name=WS15_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Instalação sanitária partilhada com outros agregados ou com o público em geral|Toilet shared with other household or with general public
@@ -3854,9 +3823,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Instalação sanitária partilhada com outros agregados ou com o público em geral
 Name=WS16_VS1
-Value=1;SHARED WITH KNOWN HOUSEHOLDS (NOT PUBLIC)
-Value=2;SHARED WITH GENERAL PUBLIC
-Value=9;NO RESPONSE
+Value=1;PARTILHADA COM AGREGADOS CONHECIDOS (NÃO PÚBLICA)|SHARED WITH KNOWN HOUSEHOLDS (NOT PUBLIC)
+Value=2;PARTILHADA COM O PÚBLICO EM GERAL|SHARED WITH GENERAL PUBLIC
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de agregados familiares que utilizam esta instalação sanitária|Households using this toilet facility
@@ -3869,17 +3838,17 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de agregados familiares que utilizam esta instalação sanitária
 Name=WS17_VS1
-Value=2;TWO
-Value=3;THREE
-Value=4;FOUR
-Value=5;FIVE
-Value=6;SIX
-Value=7;SEVEN
-Value=8;EIGHT
-Value=9;NINE
-Value=10;TEN OR MORE HOUSEHOLDS
-Value=98;DK
-Value=99;NO RESPONSE
+Value=2;DOIS|TWO
+Value=3;TRÊS|THREE
+Value=4;QUATRO|FOUR
+Value=5;CINCO|FIVE
+Value=6;SEIS|SIX
+Value=7;SETE|SEVEN
+Value=8;OITO|EIGHT
+Value=9;NOVE|NINE
+Value=10;DEZ OU MAIS AGREGADOS|TEN OR MORE HOUSEHOLDS
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Higiene|Hygiene
@@ -3899,12 +3868,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Local onde os membros do agregado familiar lavam habitualmente as mãos
 Name=HW1_VST
-Value=1;OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN DWELLING
-Value=2;OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN YARD /PLOT
-Value=3;OBSERVED: MOBILE OBJECT (BUCKET / JUG / KETTLE)
-Value=4;NOT OBSERVED: NO HANDWASHING PLACE IN DWELLING / YARD / PLOT
-Value=5;NOT OBSERVED: NO PERMISSION TO SEE
-Value=6;OTHER REASON
+Value=1;OBSERVADO: INSTALAÇÃO FIXA OBSERVADA (LAVATÓRIO / TORNEIRA) NO ALOJAMENTO|OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN DWELLING
+Value=2;OBSERVADO: INSTALAÇÃO FIXA OBSERVADA (LAVATÓRIO / TORNEIRA) NO QUINTAL / TERRENO|OBSERVED: FIXED FACILITY OBSERVED (SINK / TAP) IN YARD /PLOT
+Value=3;OBSERVADO: OBJETO MÓVEL (BALDE / JARRO / CHALEIRA)|OBSERVED: MOBILE OBJECT (BUCKET / JUG / KETTLE)
+Value=4;NÃO OBSERVADO: SEM LOCAL PARA LAVAR AS MÃOS NO ALOJAMENTO / QUINTAL / TERRENO|NOT OBSERVED: NO HANDWASHING PLACE IN DWELLING / YARD / PLOT
+Value=5;NÃO OBSERVADO: SEM PERMISSÃO PARA VER|NOT OBSERVED: NO PERMISSION TO SEE
+Value=6;OUTRA RAZÃO|OTHER REASON
 
 [Item]
 Label=Água disponível no local de lavagem das mãos|Water available at the place for handwashing
@@ -3917,8 +3886,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Água disponível no local de lavagem das mãos
 Name=HW2_VST
-Value=1;WATER IS AVAILABLE
-Value=2;WATER IS NOT AVAILABLE
+Value=1;HÁ ÁGUA DISPONÍVEL|WATER IS AVAILABLE
+Value=2;NÃO HÁ ÁGUA DISPONÍVEL|WATER IS NOT AVAILABLE
 
 [Item]
 Label=Sabão/outro material disponível no local de lavagem das mãos|Soap/other material present at the place for hand washing
@@ -3930,11 +3899,11 @@ DataType=Alpha
 [ValueSet]
 Label=Sabão/outro material disponível no local de lavagem das mãos
 Name=HW3_VS1
-Value='A    ';BAR OR LIQUID SOAP
-Value='B    ';DETERGENT (POWDER / LIQUID / PASTE)
-Value='C    ';ASH
-Value='D    ';MUD / SAND
-Value='Y    ';NONE OF THESE PRESENT
+Value='A    ';SABÃO EM BARRA OU LÍQUIDO|BAR OR LIQUID SOAP
+Value='B    ';DETERGENTE (PÓ / LÍQUIDO / PASTA)|DETERGENT (POWDER / LIQUID / PASTE)
+Value='C    ';CINZA|ASH
+Value='D    ';LAMA / AREIA|MUD / SAND
+Value='Y    ';NENHUM DESTES PRESENTE|NONE OF THESE PRESENT
 
 [Item]
 Label=Sabão em barra|Bar soap
@@ -3947,8 +3916,7 @@ DataType=Alpha
 [ValueSet]
 Label=Sabão em barra
 Name=HW3A_VS1
-Value='A';BAR OR LIQUID SOAP
-Value=' '
+Value='A' ' ';SABÃO EM BARRA OU LÍQUIDO|BAR OR LIQUID SOAP
 
 [Item]
 Label=Detergente (pó/líquido/pasta)|Detergent (Powder / Liquid / Paste)
@@ -3961,8 +3929,7 @@ DataType=Alpha
 [ValueSet]
 Label=Detergente (pó/líquido/pasta)
 Name=HW3B_VS1
-Value='B';DETERGENT (POWDER / LIQUID / PASTE)
-Value=' '
+Value='B' ' ';DETERGENTE (PÓ / LÍQUIDO / PASTA)|DETERGENT (POWDER / LIQUID / PASTE)
 
 [Item]
 Label=Cinza/lama/areia|Ash / Mud / Sand
@@ -3975,8 +3942,7 @@ DataType=Alpha
 [ValueSet]
 Label=Cinza/lama/areia
 Name=HW3C_VS1
-Value='C';ASH
-Value=' '
+Value='C' ' ';CINZA|ASH
 
 [Item]
 Label=Lama/areia|Mud / Sand
@@ -3989,8 +3955,7 @@ DataType=Alpha
 [ValueSet]
 Label=Lama/areia
 Name=HW3D_VS1
-Value='D';MUD / SAND
-Value=' '
+Value='D' ' ';LAMA / AREIA|MUD / SAND
 
 [Item]
 Label=Nenhum destes materiais presente|None of these present
@@ -4003,8 +3968,7 @@ DataType=Alpha
 [ValueSet]
 Label=Nenhum destes materiais presente
 Name=HW3Y_VS1
-Value='Y';NONE OF THESE PRESENT
-Value=' '
+Value='Y' ' ';NENHUM DESTES PRESENTE|NONE OF THESE PRESENT
 
 [Item]
 Label=A casa ou quintal dispõe de banheira ou chuveiro|House or yard have a bathtub, shower
@@ -4017,11 +3981,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A casa ou quintal dispõe de banheira ou chuveiro
 Name=HW4A_VS1
-Value=1;YES, IN THE DWELLING
-Value=2;YES, IN THE YARD OR PLOT
-Value=3;NO,  ELSEWHERE
-Value=4;NO, NONE
-Value=9;NO RESPONSE
+Value=1;SIM, NO ALOJAMENTO|YES, IN THE DWELLING
+Value=2;SIM, NO QUINTAL OU TERRENO|YES, IN THE YARD OR PLOT
+Value=3;NÃO, NOUTRO LOCAL|NO,  ELSEWHERE
+Value=4;NÃO, NENHUM|NO, NONE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Água disponível para banho de banheira ou duche|Water available for a bathtub or a shower
@@ -4034,9 +3998,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Água disponível para banho de banheira ou duche
 Name=HW5A_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Consentimento MICS Plus|MICS Plus Consent
@@ -4064,8 +4028,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Confirmação do número partilhado
 Name=HH44H_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Outro número de telefone pessoal ou partilhado através do qual possa ser contactado|Another personal or shared phone number where can be reached
@@ -4078,8 +4042,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outro número de telefone pessoal ou partilhado através do qual possa ser contactado
 Name=HH44I_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Record]
 Label=Teste da qualidade da água|Water quality testing
@@ -4154,18 +4118,18 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mês do teste da qualidade da água
 Name=WQ5M_VST
-Value=1;JANUARY
-Value=2;FEBRUARY
-Value=3;MARCH
-Value=4;APRIL
-Value=5;MAY
-Value=6;JUNE
-Value=7;JULY
-Value=8;AUGUST
-Value=9;SEPTEMBER
-Value=10;OCTOBER
-Value=11;NOVEMBER
-Value=12;DECEMBER
+Value=1;JANEIRO|JANUARY
+Value=2;FEVEREIRO|FEBRUARY
+Value=3;MARÇO|MARCH
+Value=4;ABRIL|APRIL
+Value=5;MAIO|MAY
+Value=6;JUNHO|JUNE
+Value=7;JULHO|JULY
+Value=8;AGOSTO|AUGUST
+Value=9;SETEMBRO|SEPTEMBER
+Value=10;OUTUBRO|OCTOBER
+Value=11;NOVEMBRO|NOVEMBER
+Value=12;DEZEMBRO|DECEMBER
 
 [Item]
 Label=Ano do teste da qualidade da água|Year of water quality test
@@ -4192,8 +4156,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Agregado familiar selecionado para teste em branco
 Name=WQ6_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Respondente ao questionário de teste da qualidade da água|Respondent to WQT questionnaire
@@ -4219,8 +4183,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento para o teste da qualidade da água
 Name=WQ8_VST
-Value=1;YES, PERMISSION IS GIVEN
-Value=2;NO, PERMISSION IS NOT GIVEN
+Value=1;SIM, PERMISSÃO CONCEDIDA|YES, PERMISSION IS GIVEN
+Value=2;NÃO, PERMISSÃO NÃO CONCEDIDA|NO, PERMISSION IS NOT GIVEN
 
 [Item]
 Label=Resultado do teste da qualidade da água|Result of water quality test
@@ -4233,11 +4197,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Resultado do teste da qualidade da água
 Name=WQ31_VST
-Value=1;COMPLETED
-Value=2;PERMISSION NOT GIVEN
-Value=3;GLASS OF WATER NOT GIVEN
-Value=4;PARTLY COMPLETED
-Value=96;OTHER
+Value=1;CONCLUÍDO|COMPLETED
+Value=2;PERMISSÃO NÃO CONCEDIDA|PERMISSION NOT GIVEN
+Value=3;COPO DE ÁGUA NÃO FORNECIDO|GLASS OF WATER NOT GIVEN
+Value=4;PARCIALMENTE CONCLUÍDO|PARTLY COMPLETED
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=Hora de início do teste da qualidade da água|Time of start of water quality test
@@ -4322,9 +4286,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi fornecido um copo de água habitualmente consumida pelos membros do agregado
 Name=WQ11_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Foi observada a fonte de onde a água foi recolhida|Observed the source from where water was collected
@@ -4337,10 +4301,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi observada a fonte de onde a água foi recolhida
 Name=WQ12_VST
-Value=1;DIRECT FROM SOURCE
-Value=2;COVERED CONTAINER
-Value=3;UNCOVERED CONTAINER
-Value=8;UNABLE TO OBSERVE
+Value=1;DIRETAMENTE DA FONTE|DIRECT FROM SOURCE
+Value=2;RECIPIENTE TAPADO|COVERED CONTAINER
+Value=3;RECIPIENTE DESTAPADO|UNCOVERED CONTAINER
+Value=8;NÃO FOI POSSÍVEL OBSERVAR|UNABLE TO OBSERVE
 
 [Item]
 Label=Local de onde a água foi vertida|From where water was poured
@@ -4353,9 +4317,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Local de onde a água foi vertida
 Name=WQ12A_VS1
-Value=1;DIRECT FROM SOURCE
-Value=2;COVERED CONTAINER
-Value=3;UNCOVERED CONTAINER
+Value=1;DIRETAMENTE DA FONTE|DIRECT FROM SOURCE
+Value=2;RECIPIENTE TAPADO|COVERED CONTAINER
+Value=3;RECIPIENTE DESTAPADO|UNCOVERED CONTAINER
 
 [Item]
 Label=Foi efetuado algum tratamento da água para a tornar mais segura para beber|Done anything to the water to make it safer to drink
@@ -4368,10 +4332,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi efetuado algum tratamento da água para a tornar mais segura para beber
 Name=WQ14_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água para a tornar mais segura para beber|Water treatment to make it safer to drink
@@ -4383,15 +4347,15 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água para a tornar mais segura para beber
 Name=WQ15_VST
-Value='A        ';BOIL
-Value='B        ';ADD BLEACH / CHLORINE
-Value='C        ';STRAIN IT THROUGH A CLOTH
-Value='D        ';USE A WATER FILTER (CERAMIC, SAND, COMPOSITE, OR MEMBRANE FILTRATION)
-Value='E        ';SOLAR DISINFECTION
-Value='F        ';LET IT STAND AND SETTLE
-Value='X        ';OTHER
-Value='Z        ';DK
-Value='?        ';NO RESPONSE
+Value='A        ';FERVER|BOIL
+Value='B        ';ADICIONAR LIXÍVIA / CLORO|ADD BLEACH / CHLORINE
+Value='C        ';COAR ATRAVÉS DE UM PANO|STRAIN IT THROUGH A CLOTH
+Value='D        ';USAR UM FILTRO DE ÁGUA (CERÂMICA, AREIA, COMPÓSITO OU FILTRAÇÃO POR MEMBRANA)|USE A WATER FILTER (CERAMIC, SAND, COMPOSITE, OR MEMBRANE FILTRATION)
+Value='E        ';DESINFEÇÃO SOLAR|SOLAR DISINFECTION
+Value='F        ';DEIXAR REPOUSAR E DECANTAR|LET IT STAND AND SETTLE
+Value='X        ';OUTRO|OTHER
+Value='Z        ';NÃO SABE|DK
+Value='?        ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Fervura|Water treatment: Boil
@@ -4404,9 +4368,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Fervura
 Name=WQ15A_VST
-Value='A';BOIL
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';FERVER|BOIL
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Adição de lixívia/cloro|Water treatment: Add bleach/chlorine
@@ -4419,9 +4382,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Adição de lixívia/cloro
 Name=WQ15B_VST
-Value='B';ADD BLEACH / CHLORINE
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';ADICIONAR LIXÍVIA / CLORO|ADD BLEACH / CHLORINE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Filtração através de um pano|Water treatment: Strain it through a cloth
@@ -4434,9 +4396,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Filtração através de um pano
 Name=WQ15C_VST
-Value='C';STRAIN IT THROUGH A CLOTH
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';COAR ATRAVÉS DE UM PANO|STRAIN IT THROUGH A CLOTH
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Utilização de filtro de água|Water treatment: Use water filter
@@ -4449,9 +4410,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Utilização de filtro de água
 Name=WQ15D_VST
-Value='D';USE A WATER FILTER (CERAMIC, SAND, COMPOSITE, OR MEMBRANE FILTRATION)
-Value=' '
-Value='?';NO RESPONSE
+Value='D' ' ';USAR UM FILTRO DE ÁGUA (CERÂMICA, AREIA, COMPÓSITO OU FILTRAÇÃO POR MEMBRANA)|USE A WATER FILTER (CERAMIC, SAND, COMPOSITE, OR MEMBRANE FILTRATION)
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Desinfeção solar|Water treatment: Solar disinfection
@@ -4464,9 +4424,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Desinfeção solar
 Name=WQ15E_VST
-Value='E';SOLAR DISINFECTION
-Value=' '
-Value='?';NO RESPONSE
+Value='E' ' ';DESINFEÇÃO SOLAR|SOLAR DISINFECTION
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Deixar repousar e decantar|Water treatment: Let it stand and settle
@@ -4479,9 +4438,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Deixar repousar e decantar
 Name=WQ15F_VST
-Value='F';LET IT STAND AND SETTLE
-Value=' '
-Value='?';NO RESPONSE
+Value='F' ' ';DEIXAR REPOUSAR E DECANTAR|LET IT STAND AND SETTLE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Outro|Water treatment: Other
@@ -4494,9 +4452,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Outro
 Name=WQ15X_VST
-Value='X';OTHER
-Value=' '
-Value='?';NO RESPONSE
+Value='X' ' ';OUTRO|OTHER
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Não sabe|Water treatment: DK
@@ -4509,9 +4466,8 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Não sabe
 Name=WQ15Z_VST
-Value='Z';DK
-Value=' '
-Value='?';NO RESPONSE
+Value='Z' ' ';NÃO SABE|DK
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tratamento da água: Sem resposta|Water treatment: No response
@@ -4524,8 +4480,7 @@ DataType=Alpha
 [ValueSet]
 Label=Tratamento da água: Sem resposta
 Name=WQ15NR_VST
-Value='?';NO RESPONSE
-Value=' '
+Value='?' ' ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Fonte de água de onde foi recolhido o copo de água|Source of water where the glass of water was collected
@@ -4538,25 +4493,25 @@ ZeroFill=Yes
 [ValueSet]
 Label=Fonte de água de onde foi recolhido o copo de água
 Name=WQ17_VST
-Value=11;PIPED WATER: PIPED INTO DWELLING
-Value=12;PIPED WATER: PIPED TO YARD / PLOT
-Value=13;PIPED WATER: PIPED TO NEIGHBOUR
-Value=14;PIPED WATER: PUBLIC TAP / STANDPIPE
-Value=21;TUBE WELL / BOREHOLE
-Value=31;DUG WELL: PROTECTED WELL
-Value=32;DUG WELL: UNPROTECTED WELL
-Value=41;SPRING: PROTECTED SPRING
-Value=42;SPRING: UNPROTECTED SPRING
-Value=51;RAINWATER
-Value=61;TANKER-TRUCK
-Value=71;CART WITH SMALL TANK
-Value=72;WATER KIOSK
-Value=81;SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
-Value=91;PACKAGED WATER: BOTTLED WATER
-Value=92;PACKAGED WATER: SACHET WATER
-Value=93;LARGE BOTTLE / DISPENSER REFILL
-Value=96;OTHER
-Value=99;NO RESPONSE
+Value=11;ÁGUA CANALIZADA: DENTRO DO ALOJAMENTO|PIPED WATER: PIPED INTO DWELLING
+Value=12;ÁGUA CANALIZADA: NO QUINTAL / TERRENO|PIPED WATER: PIPED TO YARD / PLOT
+Value=13;ÁGUA CANALIZADA: NO VIZINHO|PIPED WATER: PIPED TO NEIGHBOUR
+Value=14;ÁGUA CANALIZADA: TORNEIRA PÚBLICA / FONTANÁRIO|PIPED WATER: PUBLIC TAP / STANDPIPE
+Value=21;POÇO TUBULAR / FURO|TUBE WELL / BOREHOLE
+Value=31;POÇO ESCAVADO: POÇO PROTEGIDO|DUG WELL: PROTECTED WELL
+Value=32;POÇO ESCAVADO: POÇO NÃO PROTEGIDO|DUG WELL: UNPROTECTED WELL
+Value=41;NASCENTE: NASCENTE PROTEGIDA|SPRING: PROTECTED SPRING
+Value=42;NASCENTE: NASCENTE NÃO PROTEGIDA|SPRING: UNPROTECTED SPRING
+Value=51;ÁGUA DA CHUVA|RAINWATER
+Value=61;CAMIÃO-CISTERNA|TANKER-TRUCK
+Value=71;CARRINHO COM PEQUENO TANQUE|CART WITH SMALL TANK
+Value=72;QUIOSQUE DE ÁGUA|WATER KIOSK
+Value=81;ÁGUA DE SUPERFÍCIE (RIO, BARRAGEM, LAGO, CHARCO, RIBEIRO, CANAL, CANAL DE IRRIGAÇÃO)|SURFACE WATER (RIVER, DAM, LAKE, POND, STREAM, CANAL, IRRIGATION CHANNEL)
+Value=91;ÁGUA EMBALADA: ÁGUA ENGARRAFADA|PACKAGED WATER: BOTTLED WATER
+Value=92;ÁGUA EMBALADA: ÁGUA EM SAQUETA|PACKAGED WATER: SACHET WATER
+Value=93;GARRAFÃO / RECARGA DE DISPENSADOR|LARGE BOTTLE / DISPENSER REFILL
+Value=96;OUTRO|OTHER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Foi apresentada a principal fonte de água|Main source of water was shown
@@ -4569,9 +4524,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi apresentada a principal fonte de água
 Name=WQ18_VST
-Value=1;YES, SHOWN OR TOLD
-Value=2;NO, UNABLE TO SHOW OR TELL
-Value=9;NO RESPONSE
+Value=1;SIM, MOSTROU OU DISSE|YES, SHOWN OR TOLD
+Value=2;NÃO, NÃO CONSEGUIU MOSTRAR NEM DIZER|NO, UNABLE TO SHOW OR TELL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Amostra de água da fonte recolhida|Source water sample collected
@@ -4584,11 +4539,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Amostra de água da fonte recolhida
 Name=WQ19_VST
-Value=1;SOURCE WATER COLLECTED
-Value=2;SOURCE WATER NOT COLLECTED: NO WATER AVAILABLE AT SOURCE
-Value=3;SOURCE WATER NOT COLLECTED: WATER SOURCE TOO FAR
-Value=4;SOURCE WATER NOT COLLECTED: UNABLE TO ACCESS SOURCE
-Value=5;SOURCE WATER NOT COLLECTED: PERMISSION NOT GIVEN TO COLLECT SAMPLE
+Value=1;ÁGUA DA FONTE RECOLHIDA|SOURCE WATER COLLECTED
+Value=2;ÁGUA DA FONTE NÃO RECOLHIDA: SEM ÁGUA DISPONÍVEL NA FONTE|SOURCE WATER NOT COLLECTED: NO WATER AVAILABLE AT SOURCE
+Value=3;ÁGUA DA FONTE NÃO RECOLHIDA: FONTE DE ÁGUA DEMASIADO LONGE|SOURCE WATER NOT COLLECTED: WATER SOURCE TOO FAR
+Value=4;ÁGUA DA FONTE NÃO RECOLHIDA: NÃO FOI POSSÍVEL ACEDER À FONTE|SOURCE WATER NOT COLLECTED: UNABLE TO ACCESS SOURCE
+Value=5;ÁGUA DA FONTE NÃO RECOLHIDA: PERMISSÃO NÃO CONCEDIDA PARA RECOLHER AMOSTRA|SOURCE WATER NOT COLLECTED: PERMISSION NOT GIVEN TO COLLECT SAMPLE
 
 [Item]
 Label=Agregado familiar selecionado para teste em branco|HH selected for blank testing
@@ -4601,8 +4556,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Agregado familiar selecionado para teste em branco
 Name=WQ20_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Teste de água em branco disponível|Blank water test available
@@ -4615,9 +4570,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Teste de água em branco disponível
 Name=WQ21_VST
-Value=1;BLANK WATER SAMPLE AVAILABLE
-Value=2;BLANK WATER SAMPLE NOT AVAILABLE
-Value=9;NO RESPONSE
+Value=1;AMOSTRA DE ÁGUA EM BRANCO DISPONÍVEL|BLANK WATER SAMPLE AVAILABLE
+Value=2;AMOSTRA DE ÁGUA EM BRANCO NÃO DISPONÍVEL|BLANK WATER SAMPLE NOT AVAILABLE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Data de registo dos resultados do teste|Date of recording test results
@@ -4653,18 +4608,18 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mês de registo dos resultados do teste
 Name=WQ24M_VST
-Value=1;JANUARY
-Value=2;FEBRUARY
-Value=3;MARCH
-Value=4;APRIL
-Value=5;MAY
-Value=6;JUNE
-Value=7;JULY
-Value=8;AUGUST
-Value=9;SEPTEMBER
-Value=10;OCTOBER
-Value=11;NOVEMBER
-Value=12;DECEMBER
+Value=1;JANEIRO|JANUARY
+Value=2;FEVEREIRO|FEBRUARY
+Value=3;MARÇO|MARCH
+Value=4;ABRIL|APRIL
+Value=5;MAIO|MAY
+Value=6;JUNHO|JUNE
+Value=7;JULHO|JULY
+Value=8;AGOSTO|AUGUST
+Value=9;SETEMBRO|SEPTEMBER
+Value=10;OUTUBRO|OCTOBER
+Value=11;NOVEMBRO|NOVEMBER
+Value=12;DEZEMBRO|DECEMBER
 
 [Item]
 Label=Ano de registo dos resultados do teste|Year of recording test results
@@ -4728,9 +4683,9 @@ ZeroFill=Yes
 Label=Teste da água do agregado familiar (100 ml)
 Name=WQ26_VST
 Value=0:100
-Value=101;MORE THAN 100
-Value=991;NOT POSSIBLE TO READ THE RESULTS
-Value=992;THE RESULTS HAVE BEEN LOST
+Value=101;MAIS DE 100|MORE THAN 100
+Value=991;NÃO É POSSÍVEL LER OS RESULTADOS|NOT POSSIBLE TO READ THE RESULTS
+Value=992;OS RESULTADOS PERDERAM-SE|THE RESULTS HAVE BEEN LOST
 
 [Item]
 Label=Teste da água da fonte (100 ml)|Source water test (100ml)
@@ -4744,9 +4699,9 @@ ZeroFill=Yes
 Label=Teste da água da fonte (100 ml)
 Name=WQ27_VST
 Value=0:100
-Value=101;MORE THAN 100
-Value=991;NOT POSSIBLE TO READ THE RESULTS
-Value=992;THE RESULTS HAVE BEEN LOST
+Value=101;MAIS DE 100|MORE THAN 100
+Value=991;NÃO É POSSÍVEL LER OS RESULTADOS|NOT POSSIBLE TO READ THE RESULTS
+Value=992;OS RESULTADOS PERDERAM-SE|THE RESULTS HAVE BEEN LOST
 
 [Item]
 Label=Teste de água em branco (100 ml)|Blank water test (100ml)
@@ -4760,9 +4715,9 @@ ZeroFill=Yes
 Label=Teste de água em branco (100 ml)
 Name=WQ29_VST
 Value=0:100
-Value=101;MORE THAN 100
-Value=991;NOT POSSIBLE TO READ THE RESULTS
-Value=992;THE RESULTS HAVE BEEN LOST
+Value=101;MAIS DE 100|MORE THAN 100
+Value=991;NÃO É POSSÍVEL LER OS RESULTADOS|NOT POSSIBLE TO READ THE RESULTS
+Value=992;OS RESULTADOS PERDERAM-SE|THE RESULTS HAVE BEEN LOST
 
 [Record]
 Label=Registos de hora dos módulos do questionário do agregado familiar|Time Stamps of the HH Questionnaire Modules

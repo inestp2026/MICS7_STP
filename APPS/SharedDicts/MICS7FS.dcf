@@ -87,8 +87,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de linha da mãe / pessoa responsável
 Name=FS4_VST
-Value=1:50
-Value=90
+Value=1:50 90
 
 [Item]
 Label=Número do entrevistador|Interviewer number
@@ -167,8 +166,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Respondente de outro questionário
 Name=FS9_VST
-Value=1;YES, INTERVIEWED ALREADY
-Value=2;NO, FIRST INTERVIEW
+Value=1;SIM, JÁ ENTREVISTADO|YES, INTERVIEWED ALREADY
+Value=2;NÃO, PRIMEIRA ENTREVISTA|NO, FIRST INTERVIEW
 
 [Item]
 Label=Consentimento|Consent
@@ -181,8 +180,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento
 Name=FS10_VST
-Value=1;YES
-Value=2;NO / NOT ASKED
+Value=1;SIM|YES
+Value=2;NÃO / NÃO PERGUNTADO|NO / NOT ASKED
 
 [Item]
 Label=Resultado da entrevista sobre crianças e adolescentes dos 5 aos 17 anos|Result of interview for children and adolescents age 5-17
@@ -195,13 +194,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Resultado da entrevista sobre crianças e adolescentes dos 5 aos 17 anos
 Name=FS17_VST
-Value=1;COMPLETED
-Value=2;NOT AT HOME
-Value=3;REFUSED
-Value=4;PARTLY COMPLETED
-Value=5;INCAPACITATED
-Value=6;NO ADULT CONSENT FOR MOTHER / CAREGIVER AGE 15-17
-Value=96;OTHER
+Value=1;CONCLUÍDO|COMPLETED
+Value=2;NÃO ESTÁ EM CASA|NOT AT HOME
+Value=3;RECUSOU|REFUSED
+Value=4;PARCIALMENTE CONCLUÍDO|PARTLY COMPLETED
+Value=5;INCAPACITADO|INCAPACITATED
+Value=6;SEM CONSENTIMENTO DE ADULTO PARA MÃE / PESSOA RESPONSÁVEL DOS 15-17 ANOS|NO ADULT CONSENT FOR MOTHER / CAREGIVER AGE 15-17
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=Hora de início da entrevista|Time of start of interview
@@ -286,9 +285,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua do questionário
 Name=FS12_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
 
 [Item]
 Label=Língua da entrevista|Language of the interview
@@ -301,10 +300,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua da entrevista
 Name=FS13_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
-Value=6;OTHER LANGUAGE
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
+Value=6;OUTRA LÍNGUA|OTHER LANGUAGE
 
 [Item]
 Label=Língua materna do respondente|Native language of the respondent
@@ -317,10 +316,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua materna do respondente
 Name=FS14_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
-Value=6;OTHER LANGUAGE
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
+Value=6;OUTRA LÍNGUA|OTHER LANGUAGE
 
 [Item]
 Label=Foi utilizado um tradutor|Translator used
@@ -333,9 +332,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi utilizado um tradutor
 Name=FS15_VST
-Value=1;YES, ENTIRE QUESTIONNAIRE
-Value=2;YES, PART OF QUESTIONNAIRE
-Value=3;NO, NOT USED
+Value=1;SIM, QUESTIONÁRIO COMPLETO|YES, ENTIRE QUESTIONNAIRE
+Value=2;SIM, PARTE DO QUESTIONÁRIO|YES, PART OF QUESTIONNAIRE
+Value=3;NÃO, NÃO UTILIZADO|NO, NOT USED
 
 [Item]
 Label=Foi entrevistado para algum questionário individual|Has been interviewed for any individual questionnaires
@@ -348,8 +347,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi entrevistado para algum questionário individual
 Name=FS15C_VS1
-Value=1;YES, ALREADY INTERVIEWED
-Value=2;NO, NOT ALREADY INTERVIEWED
+Value=1;SIM, JÁ ENTREVISTADO|YES, ALREADY INTERVIEWED
+Value=2;NÃO, AINDA NÃO ENTREVISTADO|NO, NOT ALREADY INTERVIEWED
 
 [Item]
 Label=Consentimento para inquérito telefónico|Consent for phone survey
@@ -362,8 +361,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento para inquérito telefónico
 Name=FS15EF_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Possui número de telefone pessoal ou do agregado familiar|Have personal phone number or phone number for the household
@@ -376,8 +375,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Possui número de telefone pessoal ou do agregado familiar
 Name=FS15GH_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Nota sobre a partilha do número de telefone do agregado familiar|Note on sharing phone number for the household
@@ -390,7 +389,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nota sobre a partilha do número de telefone do agregado familiar
 Name=FS15I_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Entrevistador do agregado familiar|Household interviewer
@@ -411,9 +410,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Fim
 Name=FSFIN_VST
-Value=1;REVIEW QUESTIONNAIRE
-Value=2;ADD NOTES
-Value=3;SAVE QUESTIONNAIRE AND FINISH
+Value=1;REVER QUESTIONÁRIO|REVIEW QUESTIONNAIRE
+Value=2;ADICIONAR NOTAS|ADD NOTES
+Value=3;GUARDAR QUESTIONÁRIO E TERMINAR|SAVE QUESTIONNAIRE AND FINISH
 
 [Record]
 Label=Antecedentes da criança|Child's Background
@@ -433,10 +432,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mãe/pai biológico da criança
 Name=CB0A_VS1
-Value=1;BIOLOGICAL MOTHER
-Value=2;BIOLOGICAL FATHER
-Value=3;CHILD IS RESPONDENT
-Value=6;OTHER
+Value=1;MÃE BIOLÓGICA|BIOLOGICAL MOTHER
+Value=2;PAI BIOLÓGICO|BIOLOGICAL FATHER
+Value=3;A CRIANÇA É A INQUIRIDA|CHILD IS RESPONDENT
+Value=6;OUTRO|OTHER
 
 [Item]
 Label=Relação de parentesco da pessoa responsável com a criança|Relationship of caregiver to child
@@ -449,17 +448,17 @@ ZeroFill=Yes
 [ValueSet]
 Label=Relação de parentesco da pessoa responsável com a criança
 Name=CB0B_VS1
-Value=1;GRANDPARENT
-Value=2;AUNT/UNCLE
-Value=3;BROTHER/SISTER
-Value=6;OTHER RELATIVE OF CHILD
-Value=11;STEPMOTHER/FATHER
-Value=12;STEPSISTER/BROTHER
-Value=16;OTHER RELATIVE OF STEPPARENT
-Value=21;FORMAL FOSTER/ADOPTED PARENT
-Value=31;FRIEND
-Value=96;OTHER
-Value=99;NO RESPONSE
+Value=1;AVÔ / AVÓ|GRANDPARENT
+Value=2;TIA/TIO|AUNT/UNCLE
+Value=3;IRMÃO/IRMÃ|BROTHER/SISTER
+Value=6;OUTRO FAMILIAR DA CRIANÇA|OTHER RELATIVE OF CHILD
+Value=11;MADRASTA/PADRASTO|STEPMOTHER/FATHER
+Value=12;MEIA-IRMÃ/MEIO-IRMÃO|STEPSISTER/BROTHER
+Value=16;OUTRO FAMILIAR DO PADRASTO/MADRASTA|OTHER RELATIVE OF STEPPARENT
+Value=21;PAI/MÃE DE ACOLHIMENTO FORMAL / ADOTIVO(A)|FORMAL FOSTER/ADOPTED PARENT
+Value=31;AMIGO|FRIEND
+Value=96;OUTRO|OTHER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Data de nascimento da criança|Date of birth of child
@@ -482,8 +481,8 @@ ZeroFill=Yes
 Label=Dia de nascimento da criança
 Name=CB2D_VS1
 Value=1:31
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Mês de nascimento da criança|Month of birth of child
@@ -497,19 +496,19 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mês de nascimento da criança
 Name=CB2M_VST
-Value=1;JANUARY
-Value=2;FEBRUARY
-Value=3;MARCH
-Value=4;APRIL
-Value=5;MAY
-Value=6;JUNE
-Value=7;JULY
-Value=8;AUGUST
-Value=9;SEPTEMBER
-Value=10;OCTOBER
-Value=11;NOVEMBER
-Value=12;DECEMBER
-Value=99;NO RESPONSE
+Value=1;JANEIRO|JANUARY
+Value=2;FEVEREIRO|FEBRUARY
+Value=3;MARÇO|MARCH
+Value=4;ABRIL|APRIL
+Value=5;MAIO|MAY
+Value=6;JUNHO|JUNE
+Value=7;JULHO|JULY
+Value=8;AGOSTO|AUGUST
+Value=9;SETEMBRO|SEPTEMBER
+Value=10;OUTUBRO|OCTOBER
+Value=11;NOVEMBRO|NOVEMBER
+Value=12;DEZEMBRO|DECEMBER
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ano de nascimento da criança|Year of birth of child
@@ -537,7 +536,7 @@ Value=2017;2017
 Value=2018;2018
 Value=2019;2019
 Value=2020;2020
-Value=9999;NO RESPONSE
+Value=9999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Idade da criança|Age of child
@@ -550,19 +549,19 @@ ZeroFill=Yes
 [ValueSet]
 Label=Idade da criança
 Name=CB3_VST
-Value=5;5 years old
-Value=6;6 years old
-Value=7;7 years old
-Value=8;8 years old
-Value=9;9 years old
-Value=10;10 years old
-Value=11;11 years old
-Value=12;12 years old
-Value=13;13 years old
-Value=14;14 years old
-Value=15;15 years old
-Value=16;16 years old
-Value=17;17 years old
+Value=5;5 anos|5 years old
+Value=6;6 anos|6 years old
+Value=7;7 anos|7 years old
+Value=8;8 anos|8 years old
+Value=9;9 anos|9 years old
+Value=10;10 anos|10 years old
+Value=11;11 anos|11 years old
+Value=12;12 anos|12 years old
+Value=13;13 anos|13 years old
+Value=14;14 anos|14 years old
+Value=15;15 anos|15 years old
+Value=16;16 anos|16 years old
+Value=17;17 anos|17 years old
 
 [Item]
 Label=Alguma vez frequentou um programa de educação pré-escolar|Ever attended early childhood education programme
@@ -575,10 +574,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Alguma vez frequentou um programa de educação pré-escolar
 Name=CB5_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Trabalho infantil|Child Labour
@@ -598,9 +597,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Trabalhou ou ajudou numa horta na última semana
 Name=CL1A_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ajudou num negócio familiar na última semana|Helped in family business in past week
@@ -613,9 +612,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Ajudou num negócio familiar na última semana
 Name=CL1B_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Produziu ou vendeu artigos na última semana|Produced or sold articles in past week
@@ -628,9 +627,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Produziu ou vendeu artigos na última semana
 Name=CL1C_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Realizou outra atividade para obter rendimento na última semana|Engaged in any other activity for income in past week
@@ -643,9 +642,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Realizou outra atividade para obter rendimento na última semana
 Name=CL1X_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Horas trabalhadas na última semana|Hours worked in past week
@@ -659,7 +658,7 @@ ZeroFill=Yes
 Label=Horas trabalhadas na última semana
 Name=CL3_VST
 Value=0:80
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=As atividades exigiram transportar cargas pesadas|Activities required carrying heavy loads
@@ -672,9 +671,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=As atividades exigiram transportar cargas pesadas
 Name=CL4_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=As atividades exigiram trabalhar com ferramentas perigosas ou maquinaria pesada|Activities required working with dangerous tools or heavy machinery
@@ -687,9 +686,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=As atividades exigiram trabalhar com ferramentas perigosas ou maquinaria pesada
 Name=CL5_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Descrição do trabalho: exposição a poeiras, fumos ou gases|Description of work:  exposed to dust, fumes, or gas
@@ -702,9 +701,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Descrição do trabalho: exposição a poeiras, fumos ou gases
 Name=CL6A_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Descrição do trabalho: exposição a temperaturas extremas ou humidade|Description of work:  exposed to extreme temperatures or humidity
@@ -717,9 +716,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Descrição do trabalho: exposição a temperaturas extremas ou humidade
 Name=CL6B_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Descrição do trabalho: exposição a ruído intenso ou vibrações|Description of work:  exposed to loud noise or vibration
@@ -732,9 +731,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Descrição do trabalho: exposição a ruído intenso ou vibrações
 Name=CL6C_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Descrição do trabalho: necessidade de trabalhar em altura|Description of work:  required to work at heights
@@ -747,9 +746,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Descrição do trabalho: necessidade de trabalhar em altura
 Name=CL6D_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Descrição do trabalho: necessidade de trabalhar com produtos químicos|Description of work:  required to work with chemicals
@@ -762,9 +761,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Descrição do trabalho: necessidade de trabalhar com produtos químicos
 Name=CL6E_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Descrição do trabalho: exposição a outros fatores prejudiciais à saúde ou segurança|Description of work:  exposed to other bad for health/safety
@@ -777,9 +776,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Descrição do trabalho: exposição a outros fatores prejudiciais à saúde ou segurança
 Name=CL6X_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Foi buscar água na última semana|Fetched water in past week
@@ -792,9 +791,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi buscar água na última semana
 Name=CL7_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Horas despendidas a buscar água na última semana|Hours spent fetching water  in past week
@@ -808,7 +807,7 @@ ZeroFill=Yes
 Label=Horas despendidas a buscar água na última semana
 Name=CL8_VST
 Value=0:80
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Recolheu lenha na última semana|Collected firewood  in past week
@@ -821,9 +820,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Recolheu lenha na última semana
 Name=CL9_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Horas despendidas a recolher lenha na última semana|Hours spent collecting firewood  in past week
@@ -837,7 +836,7 @@ ZeroFill=Yes
 Label=Horas despendidas a recolher lenha na última semana
 Name=CL10_VST
 Value=0:80
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tarefas domésticas na última semana: compras|Household chores in past week:  shopping
@@ -850,9 +849,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tarefas domésticas na última semana: compras
 Name=CL11A_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tarefas domésticas na última semana: cozinhar|Household chores in past week:  cooking
@@ -865,9 +864,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tarefas domésticas na última semana: cozinhar
 Name=CL11B_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tarefas domésticas na última semana: lavar a loiça ou limpar a casa|Household chores in past week:  washing dishes  or cleaning around the house
@@ -880,9 +879,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tarefas domésticas na última semana: lavar a loiça ou limpar a casa
 Name=CL11C_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tarefas domésticas na última semana: lavar roupa|Household chores in past week:  washing clothes
@@ -895,9 +894,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tarefas domésticas na última semana: lavar roupa
 Name=CL11D_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tarefas domésticas na última semana: cuidar de crianças|Household chores in past week:  caring for children
@@ -910,9 +909,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tarefas domésticas na última semana: cuidar de crianças
 Name=CL11E_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tarefas domésticas na última semana: cuidar de idosos ou doentes|Household chores in past week:  caring for old or sick
@@ -925,9 +924,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tarefas domésticas na última semana: cuidar de idosos ou doentes
 Name=CL11F_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tarefas domésticas na última semana: outras tarefas domésticas|Household chores in past week:  other household tasks
@@ -940,9 +939,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tarefas domésticas na última semana: outras tarefas domésticas
 Name=CL11X_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de horas dedicadas na última semana|Number of hours engaged in past week
@@ -956,7 +955,7 @@ ZeroFill=Yes
 Label=Número de horas dedicadas na última semana
 Name=CL13_VST
 Value=0:80
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Disciplina infantil|Child Discipline
@@ -976,9 +975,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Retirou privilégios à criança
 Name=FCD2A_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Explicou à criança por que motivo o comportamento estava errado|Explained to child why behaviour was wrong
@@ -991,9 +990,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Explicou à criança por que motivo o comportamento estava errado
 Name=FCD2B_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Abanou a criança|Shook child
@@ -1006,9 +1005,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Abanou a criança
 Name=FCD2C_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Gritou com a criança|Shouted, yelled or screamed at child
@@ -1021,9 +1020,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Gritou com a criança
 Name=FCD2D_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Deu à criança outra atividade para fazer|Gave child something else to do
@@ -1036,9 +1035,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Deu à criança outra atividade para fazer
 Name=FCD2E_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Deu palmadas ou bateu nas nádegas da criança com a mão|Spanked, hit or slapped child on bottom with bare hand
@@ -1051,9 +1050,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Deu palmadas ou bateu nas nádegas da criança com a mão
 Name=FCD2F_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Bateu nas nádegas ou noutra parte do corpo da criança com cinto, escova, pau, etc.|Hit child on the bottom or elsewhere with belt, brush, stick, etc.
@@ -1066,9 +1065,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Bateu nas nádegas ou noutra parte do corpo da criança com cinto, escova, pau, etc.
 Name=FCD2G_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Chamou à criança burra, preguiçosa ou outro nome ofensivo|Called child dumb, lazy or another name
@@ -1081,9 +1080,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Chamou à criança burra, preguiçosa ou outro nome ofensivo
 Name=FCD2H_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Bateu ou deu bofetadas na cara, cabeça ou orelhas da criança|Hit or slapped child on the face, head or ears
@@ -1096,9 +1095,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Bateu ou deu bofetadas na cara, cabeça ou orelhas da criança
 Name=FCD2I_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Bateu ou deu palmadas na mão, braço ou perna da criança|Hit or slapped child on the hand, arm or leg
@@ -1111,9 +1110,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Bateu ou deu palmadas na mão, braço ou perna da criança
 Name=FCD2J_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Espancou a criança com toda a força|Beat child up as hard as one could
@@ -1126,9 +1125,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Espancou a criança com toda a força
 Name=FCD2K_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Mãe / pessoa responsável por outra criança com menos de 5 anos|Mother / Caregiver of another child age under 5
@@ -1141,8 +1140,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mãe / pessoa responsável por outra criança com menos de 5 anos
 Name=FCD3_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Já respondeu à pergunta UCD5|Already responded to question UCD5
@@ -1155,8 +1154,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Já respondeu à pergunta UCD5
 Name=FCD4_VST
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=É necessário castigar fisicamente a criança para a educar corretamente|Child needs to be physically punished to be brought up properly
@@ -1169,10 +1168,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=É necessário castigar fisicamente a criança para a educar corretamente
 Name=FCD5_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK / NO OPINION
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE / SEM OPINIÃO|DK / NO OPINION
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Funcionalidade da criança|Child Functioning
@@ -1192,9 +1191,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança usa óculos ou lentes de contacto
 Name=FCF1_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança usa aparelho auditivo|Child uses hearing aid
@@ -1207,9 +1206,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança usa aparelho auditivo
 Name=FCF2_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança utiliza algum equipamento ou recebe ajuda para andar|Child uses any equipment or receive assistance for walking
@@ -1222,9 +1221,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança utiliza algum equipamento ou recebe ajuda para andar
 Name=FCF3_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em ver|Child has difficulty seeing
@@ -1237,11 +1236,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em ver
 Name=FCF6_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT SEE AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE VER DE TODO|CANNOT SEE AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em ouvir sons como vozes ou música|Child has difficulty hearing sounds like people voices or music
@@ -1254,11 +1253,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em ouvir sons como vozes ou música
 Name=FCF8_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT HEAR AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE OUVIR DE TODO|CANNOT HEAR AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sem equipamento ou ajuda, a criança tem dificuldade em andar 100 jardas (cerca de 91 metros)|Without using equipment or assistance child has difficulty walking 100 yards
@@ -1271,10 +1270,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sem equipamento ou ajuda, a criança tem dificuldade em andar 100 jardas (cerca de 91 metros)
 Name=FCF10_VST
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT WALK 100 M/Y AT ALL
-Value=9;NO RESPONSE
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE ANDAR 100 M/JARDAS DE TODO|CANNOT WALK 100 M/Y AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sem equipamento ou ajuda, a criança tem dificuldade em andar 500 jardas (cerca de 457 metros)|Without using equipment or assistance child has difficulty walking 500 yards
@@ -1287,10 +1286,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sem equipamento ou ajuda, a criança tem dificuldade em andar 500 jardas (cerca de 457 metros)
 Name=FCF11_VST
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT WALK 500 M/Y AT ALL
-Value=9;NO RESPONSE
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE ANDAR 500 M/JARDAS DE TODO|CANNOT WALK 500 M/Y AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com equipamento ou ajuda, a criança tem dificuldade em andar 100 jardas (cerca de 91 metros)|When using equipment or assistance child has difficulty walking 100 yards
@@ -1303,11 +1302,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Com equipamento ou ajuda, a criança tem dificuldade em andar 100 jardas (cerca de 91 metros)
 Name=FCF12_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT WALK 100 M/Y AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE ANDAR 100 M/JARDAS DE TODO|CANNOT WALK 100 M/Y AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com equipamento ou ajuda, a criança tem dificuldade em andar 500 jardas (cerca de 457 metros)|When using equipment or assistance child has difficulty walking 500 yards
@@ -1320,11 +1319,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Com equipamento ou ajuda, a criança tem dificuldade em andar 500 jardas (cerca de 457 metros)
 Name=FCF13_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT WALK 500 M/Y AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE ANDAR 500 M/JARDAS DE TODO|CANNOT WALK 500 M/Y AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em andar 100 jardas (cerca de 91 metros)|Compared with children of the same age, child has difficulty walking 100 yards
@@ -1337,11 +1336,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em andar 100 jardas (cerca de 91 metros)
 Name=FCF14_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT WALK 100 M/Y AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE ANDAR 100 M/JARDAS DE TODO|CANNOT WALK 100 M/Y AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em andar 500 jardas (cerca de 457 metros)|Compared with children of the same age, child has difficulty walking 500 yards
@@ -1354,11 +1353,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em andar 500 jardas (cerca de 457 metros)
 Name=FCF15_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT WALK 500 M/Y AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE ANDAR 500 M/JARDAS DE TODO|CANNOT WALK 500 M/Y AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em cuidar de si própria, por exemplo, alimentar-se ou vestir-se|Child has difficulty with self-care such as feeding or dressing
@@ -1371,11 +1370,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em cuidar de si própria, por exemplo, alimentar-se ou vestir-se
 Name=FCF16_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT CARE FOR SELF AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE CUIDAR DE SI DE TODO|CANNOT CARE FOR SELF AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em fazer-se compreender pelas pessoas do agregado familiar|Child has difficulty being understood by people inside of this household
@@ -1388,11 +1387,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em fazer-se compreender pelas pessoas do agregado familiar
 Name=FCF17_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT BE UNDERSTOOD AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE SER COMPREENDIDO DE TODO|CANNOT BE UNDERSTOOD AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em fazer-se compreender por pessoas fora do agregado familiar|Child has difficulty being understood by people outside of this household
@@ -1405,11 +1404,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em fazer-se compreender por pessoas fora do agregado familiar
 Name=FCF18_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT BE UNDERSTOOD AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE SER COMPREENDIDO DE TODO|CANNOT BE UNDERSTOOD AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em aprender|Compared with children of the same age, child has difficulty learning things
@@ -1422,11 +1421,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em aprender
 Name=FCF19_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT LEARN THINGS AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE APRENDER COISAS DE TODO|CANNOT LEARN THINGS AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em recordar-se de coisas|Compared with children of the same age, child has difficulty remembering things
@@ -1439,11 +1438,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em recordar-se de coisas
 Name=FCF20_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT REMEMBER THINGS AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE LEMBRAR-SE DE COISAS DE TODO|CANNOT REMEMBER THINGS AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em concentrar-se numa atividade de que gosta|Child has difficulty concentrating on an activity that he/she enjoys
@@ -1456,11 +1455,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em concentrar-se numa atividade de que gosta
 Name=FCF21_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT CONCENTRATE AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE CONCENTRAR-SE DE TODO|CANNOT CONCENTRATE AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em aceitar alterações na sua rotina|Child has difficulty accepting changes in his/her routine
@@ -1473,11 +1472,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em aceitar alterações na sua rotina
 Name=FCF22_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT ACCEPT CHANGES AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE ACEITAR MUDANÇAS DE TODO|CANNOT ACCEPT CHANGES AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em controlar o seu comportamento|Compared with children of the same age, child have difficulty controlling his/her behaviour
@@ -1490,11 +1489,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Comparativamente a crianças da mesma idade, tem dificuldade em controlar o seu comportamento
 Name=FCF23_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT CONTROL BEHAVIOUR AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE CONTROLAR O COMPORTAMENTO DE TODO|CANNOT CONTROL BEHAVIOUR AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança tem dificuldade em fazer amigos|Child has difficulty making friends
@@ -1507,11 +1506,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança tem dificuldade em fazer amigos
 Name=FCF24_VST
-Value=1;NO DIFFICULTY
-Value=2;SOME DIFFICULTY
-Value=3;A LOT OF DIFFICULTY
-Value=4;CANNOT MAKE FRIENDS AT ALL
-Value=9;NO RESPONSE
+Value=1;NENHUMA DIFICULDADE|NO DIFFICULTY
+Value=2;ALGUMA DIFICULDADE|SOME DIFFICULTY
+Value=3;MUITA DIFICULDADE|A LOT OF DIFFICULTY
+Value=4;NÃO CONSEGUE FAZER AMIGOS DE TODO|CANNOT MAKE FRIENDS AT ALL
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com que frequência a criança parece muito ansiosa, nervosa ou preocupada|How often child seems very anxious, nervous or worried
@@ -1524,12 +1523,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Com que frequência a criança parece muito ansiosa, nervosa ou preocupada
 Name=FCF25_VST
-Value=1;DAILY
-Value=2;WEEKLY
-Value=3;MONTHLY
-Value=4;A FEW TIMES A YEAR
-Value=5;NEVER
-Value=9;NO RESPONSE
+Value=1;DIARIAMENTE|DAILY
+Value=2;SEMANALMENTE|WEEKLY
+Value=3;MENSALMENTE|MONTHLY
+Value=4;ALGUMAS VEZES POR ANO|A FEW TIMES A YEAR
+Value=5;NUNCA|NEVER
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com que frequência a criança parece muito triste ou deprimida|How often child seems very sad or depressed
@@ -1542,12 +1541,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Com que frequência a criança parece muito triste ou deprimida
 Name=FCF26_VST
-Value=1;DAILY
-Value=2;WEEKLY
-Value=3;MONTHLY
-Value=4;A FEW TIMES A YEAR
-Value=5;NEVER
-Value=9;NO RESPONSE
+Value=1;DIARIAMENTE|DAILY
+Value=2;SEMANALMENTE|WEEKLY
+Value=3;MENSALMENTE|MONTHLY
+Value=4;ALGUMAS VEZES POR ANO|A FEW TIMES A YEAR
+Value=5;NUNCA|NEVER
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Uso do tempo|Time Use
@@ -1567,7 +1566,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução
 Name=FTU3_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Hora a que acordou ontem|Time woke up yesterday
@@ -1591,9 +1590,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Hora a que acordou ontem - Horas
 Name=FTU4H_VS1
-Value=0:23
-Value='  '
-Name=NOTAPPL,Special
+Value=0:23 ''
 
 [Item]
 Label=Hora a que acordou ontem - Decimal|Time woke up yesterday - Decimal
@@ -1615,9 +1612,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Hora a que acordou ontem - Minutos
 Name=FTU4M_VS1
-Value=0:59
-Value='  '
-Name=NOTAPPL,Special
+Value=0:59 ''
 
 [Item]
 Label=Hora a que foi dormir ontem|Time went to sleep yesterday
@@ -1641,9 +1636,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Hora a que foi dormir ontem - Horas
 Name=FTU5H_VS1
-Value=0:23
-Value='  '
-Name=NOTAPPL,Special
+Value=0:23 ''
 
 [Item]
 Label=Hora a que foi dormir ontem - Decimal|Time went to sleep yesterday - Decimal
@@ -1665,9 +1658,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Hora a que foi dormir ontem - Minutos
 Name=FTU5M_VS1
-Value=0:59
-Value='  '
-Name=NOTAPPL,Special
+Value=0:59 ''
 
 [Item]
 Label=Fez alguma outra atividade além das mencionadas|Did anything else other than mentioned
@@ -1680,9 +1671,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Fez alguma outra atividade além das mencionadas
 Name=FTU18_VS1
-Value=0;Show list of activities to read them
-Value=1;YES
-Value=2;NO
+Value=0;Mostrar a lista de atividades para as ler|Show list of activities to read them
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Record]
 Label=Atividades de uso do tempo|Time Use Activities
@@ -1711,26 +1702,26 @@ ZeroFill=Yes
 [ValueSet]
 Label=Código da atividade
 Name=FTU7_VS1
-Value=10;SLEEPING
-Value=20;EATING AND DRINKING
-Value=30;TAKING CARE OF PERSONAL HYGIENE AND HEALTH CARE
-Value=41;SCHOOL ATTENDANCE (IN PERSON) - FORMAL EDUCATION
-Value=42;SCHOOL ATTENDANCE (REMOTE) - FORMAL EDUCATION
-Value=43;HOMEWORK AND STUDYING AFTER SCHOOL HOURS - FORMAL EDUCATION
-Value=44;TRAVEL TO / FROM SCHOOL - FORMAL EDUCATION
-Value=51;SOCIAL RELATIONSHIPS - IN-PERSON, FACE-TO-FACE
-Value=52;SOCIAL RELATIONSHIPS - USING SOCIAL MEDIA AND CHAT-BASED PLATFORMS
-Value=60;WORK ACTIVITIES AND CHORES
-Value=70;PLAYING (EXCLUDING GAMING)
-Value=80;GAMING
-Value=90;WATCHING TV SHOWS OR MOVIES AS ENTERTAINMENT
-Value=100;SOCIAL MEDIA AS ENTERTAINMENT
-Value=110;FOLLOWING THE NEWS
-Value=120;CIVIC ENGAGEMENT ACTIVITIES
-Value=130;ARTS, CRAFTS, AND OTHER CREATIVE ACTIVITIES
-Value=140;PLAYING SPORTS, EXERCISING AND PHYSICAL ACTIVITY
-Value=150;READING FOR LEISURE
-Value=996;OTHER  ACTIVITIES NOT CAPTURED ELSEWHERE
+Value=10;DORMIR|SLEEPING
+Value=20;COMER E BEBER|EATING AND DRINKING
+Value=30;CUIDAR DA HIGIENE PESSOAL E DA SAÚDE|TAKING CARE OF PERSONAL HYGIENE AND HEALTH CARE
+Value=41;FREQUÊNCIA ESCOLAR (PRESENCIAL) - ENSINO FORMAL|SCHOOL ATTENDANCE (IN PERSON) - FORMAL EDUCATION
+Value=42;FREQUÊNCIA ESCOLAR (À DISTÂNCIA) - ENSINO FORMAL|SCHOOL ATTENDANCE (REMOTE) - FORMAL EDUCATION
+Value=43;TRABALHOS DE CASA E ESTUDO DEPOIS DAS AULAS - ENSINO FORMAL|HOMEWORK AND STUDYING AFTER SCHOOL HOURS - FORMAL EDUCATION
+Value=44;DESLOCAÇÃO DE / PARA A ESCOLA - ENSINO FORMAL|TRAVEL TO / FROM SCHOOL - FORMAL EDUCATION
+Value=51;RELAÇÕES SOCIAIS - PRESENCIAIS, CARA A CARA|SOCIAL RELATIONSHIPS - IN-PERSON, FACE-TO-FACE
+Value=52;RELAÇÕES SOCIAIS - ATRAVÉS DE REDES SOCIAIS E PLATAFORMAS DE CONVERSAÇÃO|SOCIAL RELATIONSHIPS - USING SOCIAL MEDIA AND CHAT-BASED PLATFORMS
+Value=60;ATIVIDADES DE TRABALHO E TAREFAS DOMÉSTICAS|WORK ACTIVITIES AND CHORES
+Value=70;BRINCAR (EXCLUINDO VIDEOJOGOS)|PLAYING (EXCLUDING GAMING)
+Value=80;VIDEOJOGOS|GAMING
+Value=90;VER PROGRAMAS DE TV OU FILMES COMO ENTRETENIMENTO|WATCHING TV SHOWS OR MOVIES AS ENTERTAINMENT
+Value=100;REDES SOCIAIS COMO ENTRETENIMENTO|SOCIAL MEDIA AS ENTERTAINMENT
+Value=110;ACOMPANHAR AS NOTÍCIAS|FOLLOWING THE NEWS
+Value=120;ATIVIDADES DE PARTICIPAÇÃO CÍVICA|CIVIC ENGAGEMENT ACTIVITIES
+Value=130;ARTES, ARTESANATO E OUTRAS ATIVIDADES CRIATIVAS|ARTS, CRAFTS, AND OTHER CREATIVE ACTIVITIES
+Value=140;PRATICAR DESPORTO, EXERCÍCIO E ATIVIDADE FÍSICA|PLAYING SPORTS, EXERCISING AND PHYSICAL ACTIVITY
+Value=150;LEITURA POR LAZER|READING FOR LEISURE
+Value=996;OUTRAS ATIVIDADES NÃO REGISTADAS NOUTRO LOCAL|OTHER  ACTIVITIES NOT CAPTURED ELSEWHERE
 
 [Item]
 Label=Descrição da atividade|Activity label
@@ -1752,9 +1743,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Hora de início da atividade
 Name=FTU8_VS1
-Value=0,00:23,59
-Value='     '
-Name=NOTAPPL,Special
+Value=0:'23.00' ''
 
 [Item]
 Label=Início da atividade - Horas|Activity start time - Hour
@@ -1768,9 +1757,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Início da atividade - Horas
 Name=FTU8H_VS1
-Value=0:23
-Value='  '
-Name=NOTAPPL,Special
+Value=0:23 ''
 
 [Item]
 Label=Início da atividade - Decimal|Activity start time - Decimal
@@ -1792,9 +1779,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Início da atividade - Minutos
 Name=FTU8M_VS1
-Value=0:59
-Value='  '
-Name=NOTAPPL,Special
+Value=0:59 ''
 
 [Item]
 Label=Duração e hora de fim|Duration and End Time
@@ -1807,8 +1792,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Duração e hora de fim
 Name=FTU9X_VS1
-Value=1;DURATION
-Value=2;END TIME
+Value=1;DURAÇÃO|DURATION
+Value=2;HORA DE FIM|END TIME
 
 [Item]
 Label=Duração da atividade|Duration of activity
@@ -1832,9 +1817,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Duração da atividade - Horas
 Name=FTU9H_VS1
-Value=0:23
-Value='  '
-Name=NOTAPPL,Special
+Value=0:23 ''
 
 [Item]
 Label=Duração da atividade - Decimal|Duration of activity - Decimal
@@ -1856,9 +1839,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Duração da atividade - Minutos
 Name=FTU9M_VS1
-Value=0:59
-Value='  '
-Name=NOTAPPL,Special
+Value=0:59 ''
 
 [Item]
 Label=Hora de fim da atividade|Activity end time
@@ -1882,9 +1863,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Fim da atividade - Horas
 Name=FTU10H_VS1
-Value=0:23
-Value='  '
-Name=NOTAPPL,Special
+Value=0:23 ''
 
 [Item]
 Label=Fim da atividade - Decimal|Activity end time - Decimal
@@ -1906,9 +1885,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Fim da atividade - Minutos
 Name=FTU10M_VS1
-Value=0:59
-Value='  '
-Name=NOTAPPL,Special
+Value=0:59 ''
 
 [Item]
 Label=Brincou ou jogou online|Played online
@@ -1921,9 +1898,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Brincou ou jogou online
 Name=FTU12_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com quem brincou ou jogou|Played with whom
@@ -1935,11 +1912,11 @@ DataType=Alpha
 [ValueSet]
 Label=Com quem brincou ou jogou
 Name=FTU13_VS1
-Value='A    ';ALONE (ONLINE / OFFLINE)
-Value='B    ';WITH FRIENDS IN PERSON (ONLINE / OFFLINE)
-Value='C    ';WITH FRIENDS ONLINE
-Value='D    ';WITH OTHERS ONLINE
-Value='?    ';NO RESPONSE
+Value='A    ';SOZINHO (ONLINE / OFFLINE)|ALONE (ONLINE / OFFLINE)
+Value='B    ';COM AMIGOS PRESENCIALMENTE (ONLINE / OFFLINE)|WITH FRIENDS IN PERSON (ONLINE / OFFLINE)
+Value='C    ';COM AMIGOS ONLINE|WITH FRIENDS ONLINE
+Value='D    ';COM OUTRAS PESSOAS ONLINE|WITH OTHERS ONLINE
+Value='?    ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com quem brincou ou jogou - Sozinho(a)|Played with whom - Alone
@@ -1952,9 +1929,8 @@ DataType=Alpha
 [ValueSet]
 Label=Com quem brincou ou jogou - Sozinho(a)
 Name=FTU13A_VS1
-Value='A';ALONE (ONLINE / OFFLINE)
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';SOZINHO (ONLINE / OFFLINE)|ALONE (ONLINE / OFFLINE)
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com quem brincou ou jogou - Com amigos presencialmente|Played with whom - With friends in person
@@ -1967,9 +1943,8 @@ DataType=Alpha
 [ValueSet]
 Label=Com quem brincou ou jogou - Com amigos presencialmente
 Name=FTU13B_VS1
-Value='B';WITH FRIENDS IN PERSON (ONLINE / OFFLINE)
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';COM AMIGOS PRESENCIALMENTE (ONLINE / OFFLINE)|WITH FRIENDS IN PERSON (ONLINE / OFFLINE)
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com quem brincou ou jogou - Com amigos online|Played with whom - With friends online
@@ -1982,9 +1957,8 @@ DataType=Alpha
 [ValueSet]
 Label=Com quem brincou ou jogou - Com amigos online
 Name=FTU13C_VS1
-Value='C';WITH FRIENDS ONLINE
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';COM AMIGOS ONLINE|WITH FRIENDS ONLINE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com quem brincou ou jogou - Com outras pessoas online|Played with whom - With others online
@@ -1997,9 +1971,8 @@ DataType=Alpha
 [ValueSet]
 Label=Com quem brincou ou jogou - Com outras pessoas online
 Name=FTU13D_VS1
-Value='D';WITH OTHERS ONLINE
-Value=' '
-Value='?';NO RESPONSE
+Value='D' ' ';COM OUTRAS PESSOAS ONLINE|WITH OTHERS ONLINE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Com quem brincou ou jogou - Sem resposta|Played with whom - No response
@@ -2013,7 +1986,7 @@ DataType=Alpha
 Label=Com quem brincou ou jogou - Sem resposta
 Name=FTU13NR_VS1
 Value=' '
-Value='?';NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Viu conteúdos online|Watched online
@@ -2026,9 +1999,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Viu conteúdos online
 Name=FTU14_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Consultou notícias online|Got the news online
@@ -2041,9 +2014,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consultou notícias online
 Name=FTU15_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Participou em atividades cívicas online|Engaged in the civic activities online
@@ -2056,9 +2029,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Participou em atividades cívicas online
 Name=FTU16_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade de realização das aulas|How lessons delivered
@@ -2070,13 +2043,13 @@ DataType=Alpha
 [ValueSet]
 Label=Modalidade de realização das aulas
 Name=FTU17_VS1
-Value='A      ';SELF-STUDY WITH MATERIALS PROVIDED BY SCHOOL / TEACHERS
-Value='B      ';RADIO-BASED LESSON
-Value='C      ';TV-BASED LESSON
-Value='D      ';INTERNET-BASED LESSON
-Value='E      ';FACE-TO-FACE LESSON (AT CHILD’S HOME OR OUTSIDE SCHOOL)
-Value='X      ';OTHER
-Value='?      ';NO RESPONSE
+Value='A      ';ESTUDO AUTÓNOMO COM MATERIAIS FORNECIDOS PELA ESCOLA / PROFESSORES|SELF-STUDY WITH MATERIALS PROVIDED BY SCHOOL / TEACHERS
+Value='B      ';AULA VIA RÁDIO|RADIO-BASED LESSON
+Value='C      ';AULA VIA TELEVISÃO|TV-BASED LESSON
+Value='D      ';AULA VIA INTERNET|INTERNET-BASED LESSON
+Value='E      ';AULA PRESENCIAL (EM CASA DA CRIANÇA OU FORA DA ESCOLA)|FACE-TO-FACE LESSON (AT CHILD’S HOME OR OUTSIDE SCHOOL)
+Value='X      ';OUTRO|OTHER
+Value='?      ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade das aulas - Estudo autónomo|How lessons delivered - Self study
@@ -2089,9 +2062,8 @@ DataType=Alpha
 [ValueSet]
 Label=Modalidade das aulas - Estudo autónomo
 Name=FTU17A_VS1
-Value='A';SELF-STUDY WITH MATERIALS PROVIDED BY SCHOOL / TEACHERS
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';ESTUDO AUTÓNOMO COM MATERIAIS FORNECIDOS PELA ESCOLA / PROFESSORES|SELF-STUDY WITH MATERIALS PROVIDED BY SCHOOL / TEACHERS
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade das aulas - Aulas pela rádio|How lessons delivered - Radio-based lesson
@@ -2104,9 +2076,8 @@ DataType=Alpha
 [ValueSet]
 Label=Modalidade das aulas - Aulas pela rádio
 Name=FTU17B_VS1
-Value='B';RADIO-BASED LESSON
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';AULA VIA RÁDIO|RADIO-BASED LESSON
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade das aulas - Aulas pela televisão|How lessons delivered - TV-based lesson
@@ -2119,9 +2090,8 @@ DataType=Alpha
 [ValueSet]
 Label=Modalidade das aulas - Aulas pela televisão
 Name=FTU17C_VS1
-Value='C';TV-BASED LESSON
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';AULA VIA TELEVISÃO|TV-BASED LESSON
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade das aulas - Aulas pela Internet|How lessons delivered - Internet-based lesson
@@ -2134,9 +2104,8 @@ DataType=Alpha
 [ValueSet]
 Label=Modalidade das aulas - Aulas pela Internet
 Name=FTU17D_VS1
-Value='D';INTERNET-BASED LESSON
-Value=' '
-Value='?';NO RESPONSE
+Value='D' ' ';AULA VIA INTERNET|INTERNET-BASED LESSON
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade das aulas - Aulas presenciais|How lessons delivered - Face-to-face lesson
@@ -2149,9 +2118,8 @@ DataType=Alpha
 [ValueSet]
 Label=Modalidade das aulas - Aulas presenciais
 Name=FTU17E_VS1
-Value='E';FACE-TO-FACE LESSON (AT CHILD’S HOME OR OUTSIDE SCHOOL)
-Value=' '
-Value='?';NO RESPONSE
+Value='E' ' ';AULA PRESENCIAL (EM CASA DA CRIANÇA OU FORA DA ESCOLA)|FACE-TO-FACE LESSON (AT CHILD’S HOME OR OUTSIDE SCHOOL)
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade das aulas - Outra|How lessons delivered - Other
@@ -2164,9 +2132,8 @@ DataType=Alpha
 [ValueSet]
 Label=Modalidade das aulas - Outra
 Name=FTU17X_VS1
-Value='X';OTHER
-Value=' '
-Value='?';NO RESPONSE
+Value='X' ' ';OUTRO|OTHER
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Modalidade das aulas - Sem resposta|How lessons delivered - No response
@@ -2180,7 +2147,7 @@ DataType=Alpha
 Label=Modalidade das aulas - Sem resposta
 Name=FTU17NR_VS1
 Value=' '
-Value='?';NO RESPONSE
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Envolvimento do agregado familiar na educação|Household Involvement in Education
@@ -2200,18 +2167,18 @@ ZeroFill=Yes
 [ValueSet]
 Label=Número de livros disponíveis para a criança ler em casa, excluindo manuais escolares e livros religiosos
 Name=PR3_VST
-Value=0;NONE
-Value=1;ONE
-Value=2;TWO
-Value=3;THREE
-Value=4;FOUR
-Value=5;FIVE
-Value=6;SIX
-Value=7;SEVEN
-Value=8;EIGHT
-Value=9;NINE
-Value=10;TEN OR MORE BOOKS
-Value=99;NO RESPONSE
+Value=0;NENHUM|NONE
+Value=1;UM|ONE
+Value=2;DOIS|TWO
+Value=3;TRÊS|THREE
+Value=4;QUATRO|FOUR
+Value=5;CINCO|FIVE
+Value=6;SEIS|SIX
+Value=7;SETE|SEVEN
+Value=8;OITO|EIGHT
+Value=9;NOVE|NINE
+Value=10;DEZ OU MAIS LIVROS|TEN OR MORE BOOKS
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança já teve trabalhos de casa|Child ever had homework
@@ -2224,10 +2191,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança já teve trabalhos de casa
 Name=PR5_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Alguém ajuda a criança nos trabalhos de casa|Anyone helps child with homework
@@ -2240,10 +2207,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Alguém ajuda a criança nos trabalhos de casa
 Name=PR6_VST
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 12 meses - Recebeu a ficha de avaliação escolar da criança|In the last 12 months - received student report card for child
@@ -2256,10 +2223,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 12 meses - Recebeu a ficha de avaliação escolar da criança
 Name=PR7_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 12 meses - Conversou com os professores sobre o progresso escolar da criança|In the last 12 months - discussed child's progress with child's teachers
@@ -2272,10 +2239,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 12 meses - Conversou com os professores sobre o progresso escolar da criança
 Name=PR8_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A escola da criança tem um órgão de gestão em que os pais podem participar|Child's school has a School Governing Body in which parents can participate
@@ -2288,10 +2255,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=A escola da criança tem um órgão de gestão em que os pais podem participar
 Name=PR9_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 12 meses - Participou numa reunião convocada pelo órgão de gestão da escola|In the last 12 months - attended meeting called by school governing body
@@ -2304,10 +2271,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 12 meses - Participou numa reunião convocada pelo órgão de gestão da escola
 Name=PR10_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A escola da criança publica relatórios de desempenho escolar|Child's school publishes school report cards
@@ -2320,10 +2287,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=A escola da criança publica relatórios de desempenho escolar
 Name=PR11_VS1
-Value=1;YES
-Value=2;NO
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Competências básicas de aprendizagem|Foundational Learning Skills
@@ -2343,8 +2310,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento da mãe / pessoa responsável
 Name=FL1_VST
-Value=1;YES, CONSENT IS GIVEN
-Value=2;NO, CONSENT IS NOT GIVEN
+Value=1;SIM, CONSENTIMENTO DADO|YES, CONSENT IS GIVEN
+Value=2;NÃO, CONSENTIMENTO NÃO DADO|NO, CONSENT IS NOT GIVEN
 
 [Item]
 Label=Hora de início da entrevista com a criança|Time of start of interview with child
@@ -2393,8 +2360,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento da criança
 Name=FL3_VST
-Value=1;YES
-Value=2;NO / NOT ASKED
+Value=1;SIM|YES
+Value=2;NÃO / NÃO PERGUNTADO|NO / NOT ASKED
 
 [Item]
 Label=Antes de iniciar as atividades de leitura e numeracia, assinale cada caixa|Before starting reading and number activities, tick each box
@@ -2406,10 +2373,10 @@ DataType=Alpha
 [ValueSet]
 Label=Antes de iniciar as atividades de leitura e numeracia, assinale cada caixa
 Name=FL4_VST
-Value='A  ';You are not alone with the child unless he/she is at least visible to an adult known to the child
-Value='B  ';You have engaged the child in conversation and built rapport, e.g. using  and icebreaker
-Value='C  ';The child is sat comfortably, able to use the READING & NUMBERS book without difficulty while you can see which page is open
-Value='?  ';NO RESPONSE
+Value='A  ';Não está a sós com a criança, a menos que ela esteja, pelo menos, à vista de um adulto que a criança conheça|You are not alone with the child unless he/she is at least visible to an adult known to the child
+Value='B  ';Conversou com a criança e criou uma relação de confiança, por exemplo, usando um quebra-gelo|You have engaged the child in conversation and built rapport, e.g. using  and icebreaker
+Value='C  ';A criança está sentada confortavelmente, consegue usar o livro de LEITURA E NÚMEROS sem dificuldade e o entrevistador consegue ver que página está aberta|The child is sat comfortably, able to use the READING & NUMBERS book without difficulty while you can see which page is open
+Value='?  ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Não está sozinho(a) com a criança, a menos que esteja pelo menos à vista de um adulto conhecido da criança|You are not alone with the child unless they are at least visible to an adult known to the child
@@ -2422,9 +2389,8 @@ DataType=Alpha
 [ValueSet]
 Label=Não está sozinho(a) com a criança, a menos que esteja pelo menos à vista de um adulto conhecido da criança
 Name=FL4A_VST
-Value='A';You are not alone with the child unless he/she is at least visible to an adult known to the child
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';Não está a sós com a criança, a menos que ela esteja, pelo menos, à vista de um adulto que a criança conheça|You are not alone with the child unless he/she is at least visible to an adult known to the child
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Conversou com a criança e estabeleceu uma relação de confiança, por exemplo, através de uma atividade de quebra-gelo|You have engaged the child in conversation and built rapport e.g. using an Icebreaker
@@ -2437,9 +2403,8 @@ DataType=Alpha
 [ValueSet]
 Label=Conversou com a criança e estabeleceu uma relação de confiança, por exemplo, através de uma atividade de quebra-gelo
 Name=FL4B_VST
-Value='B';You have engaged the child in conversation and built rapport, e.g. using  and icebreaker
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';Conversou com a criança e criou uma relação de confiança, por exemplo, usando um quebra-gelo|You have engaged the child in conversation and built rapport, e.g. using  and icebreaker
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança está sentada confortavelmente, consegue utilizar o Livro de Leitura e Números sem dificuldade e é possível ver a página aberta|The child is sat comfortably, able to use the Reading & Numbers Book without difficulty while you can see which page is open
@@ -2452,9 +2417,8 @@ DataType=Alpha
 [ValueSet]
 Label=A criança está sentada confortavelmente, consegue utilizar o Livro de Leitura e Números sem dificuldade e é possível ver a página aberta
 Name=FL4C_VST
-Value='C';The child is sat comfortably, able to use the READING & NUMBERS book without difficulty while you can see which page is open
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';A criança está sentada confortavelmente, consegue usar o livro de LEITURA E NÚMEROS sem dificuldade e o entrevistador consegue ver que página está aberta|The child is sat comfortably, able to use the READING & NUMBERS book without difficulty while you can see which page is open
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança lê livros em casa|Child read books at home
@@ -2467,9 +2431,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança lê livros em casa
 Name=FL6A_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Alguém lê livros à criança em casa|Someone read books to child at home
@@ -2482,9 +2446,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Alguém lê livros à criança em casa
 Name=FL6B_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Língua que a criança fala habitualmente em casa|Language child speaks most of the time at home
@@ -2497,13 +2461,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua que a criança fala habitualmente em casa
 Name=FL7_VST
-Value=11;READING TEST AVAILABLE: ENGLISH
-Value=12;READING TEST AVAILABLE: FRENCH
-Value=13;READING TEST AVAILABLE: SPANISH
-Value=21;READING TEST NOT AVAILABLE: LANGUAGE
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=11;TESTE DE LEITURA DISPONÍVEL: INGLÊS|READING TEST AVAILABLE: ENGLISH
+Value=12;TESTE DE LEITURA DISPONÍVEL: FRANCÊS|READING TEST AVAILABLE: FRENCH
+Value=13;TESTE DE LEITURA DISPONÍVEL: ESPANHOL|READING TEST AVAILABLE: SPANISH
+Value=21;TESTE DE LEITURA NÃO DISPONÍVEL: LÍNGUA|READING TEST NOT AVAILABLE: LANGUAGE
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Língua que os professores utilizam habitualmente nas aulas|Language teachers use most of the time when teaching child in class
@@ -2516,13 +2480,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua que os professores utilizam habitualmente nas aulas
 Name=FL9_VS1
-Value=11;READING TEST AVAILABLE: ENGLISH
-Value=12;READING TEST AVAILABLE: FRENCH
-Value=13;READING TEST AVAILABLE: SPANISH
-Value=21;READING TEST NOT AVAILABLE: LANGUAGE
-Value=96;OTHER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=11;TESTE DE LEITURA DISPONÍVEL: INGLÊS|READING TEST AVAILABLE: ENGLISH
+Value=12;TESTE DE LEITURA DISPONÍVEL: FRANCÊS|READING TEST AVAILABLE: FRENCH
+Value=13;TESTE DE LEITURA DISPONÍVEL: ESPANHOL|READING TEST AVAILABLE: SPANISH
+Value=21;TESTE DE LEITURA NÃO DISPONÍVEL: LÍNGUA|READING TEST NOT AVAILABLE: LANGUAGE
+Value=96;OUTRO|OTHER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Gostaria de ler uma história|Like to read story
@@ -2535,9 +2499,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Gostaria de ler uma história
 Name=FL10_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Gostaria de ler uma história|Like to read story
@@ -2550,11 +2514,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Gostaria de ler uma história
 Name=FL10C_VS1
-Value=11;ENGLISH
-Value=12;FRENCH
-Value=13;SPANISH
-Value=95;DOES NOT WANT TO TRY
-Value=99;NO RESPONSE
+Value=11;INGLÊS|ENGLISH
+Value=12;FRANCÊS|FRENCH
+Value=13;ESPANHOL|SPANISH
+Value=95;NÃO QUER TENTAR|DOES NOT WANT TO TRY
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Entrega do livro à criança - Introdução do manual|Giving the Child book - Manual introduction
@@ -2567,7 +2531,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Entrega do livro à criança - Introdução do manual
 Name=FL13_VST
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=A criança leu corretamente todas as palavras do exercício de treino|Child read every word in the practice correctly
@@ -2580,9 +2544,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança leu corretamente todas as palavras do exercício de treino
 Name=FL14_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Leitura concluída:|Reading done:
@@ -2595,10 +2559,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Leitura concluída:
 Name=FL15_VST
-Value=1;CORRECT
-Value=2;OTHER ANSWERS
-Value=3;NO ANSWER AFTER 5 SECONDS
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;OUTRAS RESPOSTAS|OTHER ANSWERS
+Value=3;SEM RESPOSTA APÓS 5 SEGUNDOS|NO ANSWER AFTER 5 SECONDS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=FL16. Dizer:|FL16. Say:
@@ -2611,7 +2575,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL16. Dizer:
 Name=FL16_VST
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Outra pergunta:|Another question:
@@ -2624,10 +2588,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outra pergunta:
 Name=FL17_VST
-Value=1;CORRECT
-Value=2;OTHER ANSWERS
-Value=3;NO ANSWER AFTER 5 SECONDS
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;OUTRAS RESPOSTAS|OTHER ANSWERS
+Value=3;SEM RESPOSTA APÓS 5 SEGUNDOS|NO ANSWER AFTER 5 SECONDS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=FL18. Dizer|FL18. Say
@@ -2640,7 +2604,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL18. Dizer
 Name=FL18_VST
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=FL19. INTRODUÇÃO|FL19. INTRO
@@ -2653,7 +2617,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL19. INTRODUÇÃO
 Name=FL19INTRO_VST
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Palavra 1|Word1
@@ -2665,9 +2629,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 1
 Name=FL19W1_VST
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 2|Word2
@@ -2679,9 +2643,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 2
 Name=FL19W2_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 3|Word3
@@ -2693,9 +2657,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 3
 Name=FL19W3_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 4|Word4
@@ -2707,9 +2671,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 4
 Name=FL19W4_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 5|Word5
@@ -2721,9 +2685,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 5
 Name=FL19W5_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 6|Word6
@@ -2735,9 +2699,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 6
 Name=FL19W6_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 7|Word7
@@ -2749,9 +2713,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 7
 Name=FL19W7_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 8|Word8
@@ -2763,9 +2727,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 8
 Name=FL19W8_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 9|Word9
@@ -2777,9 +2741,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 9
 Name=FL19W9_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 10|Word10
@@ -2791,9 +2755,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 10
 Name=FL19W10_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 11|Word11
@@ -2805,9 +2769,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 11
 Name=FL19W11_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 12|Word12
@@ -2819,9 +2783,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 12
 Name=FL19W12_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 13|Word13
@@ -2833,9 +2797,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 13
 Name=FL19W13_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 14|Word14
@@ -2847,9 +2811,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 14
 Name=FL19W14_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 15|Word15
@@ -2861,9 +2825,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 15
 Name=FL19W15_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 16|Word16
@@ -2875,9 +2839,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 16
 Name=FL19W16_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 17|Word17
@@ -2889,9 +2853,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 17
 Name=FL19W17_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 18|Word18
@@ -2903,9 +2867,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 18
 Name=FL19W18_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 19|Word19
@@ -2917,9 +2881,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 19
 Name=FL19W19_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 20|Word20
@@ -2931,9 +2895,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 20
 Name=FL19W20_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 21|Word21
@@ -2945,9 +2909,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 21
 Name=FL19W21_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 22|Word22
@@ -2959,9 +2923,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 22
 Name=FL19W22_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 23|Word23
@@ -2973,9 +2937,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 23
 Name=FL19W23_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 24|Word24
@@ -2987,9 +2951,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 24
 Name=FL19W24_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 25|Word25
@@ -3001,9 +2965,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 25
 Name=FL19W25_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 26|Word26
@@ -3015,9 +2979,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 26
 Name=FL19W26_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 27|Word27
@@ -3029,9 +2993,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 27
 Name=FL19W27_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 28|Word28
@@ -3043,9 +3007,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 28
 Name=FL19W28_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 29|Word29
@@ -3057,9 +3021,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 29
 Name=FL19W29_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 30|Word30
@@ -3071,9 +3035,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 30
 Name=FL19W30_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 31|Word31
@@ -3085,9 +3049,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 31
 Name=FL19W31_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 32|Word32
@@ -3099,9 +3063,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 32
 Name=FL19W32_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 33|Word33
@@ -3113,9 +3077,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 33
 Name=FL19W33_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 34|Word34
@@ -3127,9 +3091,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 34
 Name=FL19W34_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 35|Word35
@@ -3141,9 +3105,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 35
 Name=FL19W35_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 36|Word36
@@ -3155,9 +3119,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 36
 Name=FL19W36_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 37|Word37
@@ -3169,9 +3133,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 37
 Name=FL19W37_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 38|Word38
@@ -3183,9 +3147,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 38
 Name=FL19W38_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 39|Word39
@@ -3197,9 +3161,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 39
 Name=FL19W39_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 40|Word40
@@ -3211,9 +3175,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 40
 Name=FL19W40_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 41|Word41
@@ -3225,9 +3189,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 41
 Name=FL19W41_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 42|Word42
@@ -3239,9 +3203,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 42
 Name=FL19W42_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 43|Word43
@@ -3253,9 +3217,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 43
 Name=FL19W43_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 44|Word44
@@ -3267,9 +3231,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 44
 Name=FL19W44_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 45|Word45
@@ -3281,9 +3245,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 45
 Name=FL19W45_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 46|Word46
@@ -3295,9 +3259,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 46
 Name=FL19W46_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 47|Word47
@@ -3309,9 +3273,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 47
 Name=FL19W47_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 48|Word48
@@ -3323,9 +3287,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 48
 Name=FL19W48_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 49|Word49
@@ -3337,9 +3301,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 49
 Name=FL19W49_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 50|Word50
@@ -3351,9 +3315,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 50
 Name=FL19W50_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 51|Word51
@@ -3365,9 +3329,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 51
 Name=FL19W51_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 52|Word52
@@ -3379,9 +3343,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 52
 Name=FL19W52_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 53|Word53
@@ -3393,9 +3357,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 53
 Name=FL19W53_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 54|Word54
@@ -3407,9 +3371,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 54
 Name=FL19W54_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 55|Word55
@@ -3421,9 +3385,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 55
 Name=FL19W55_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 56|Word56
@@ -3435,9 +3399,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 56
 Name=FL19W56_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 57|Word57
@@ -3449,9 +3413,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 57
 Name=FL19W57_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 58|Word58
@@ -3463,9 +3427,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 58
 Name=FL19W58_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 59|Word59
@@ -3477,9 +3441,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 59
 Name=FL19W59_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 60|Word60
@@ -3491,9 +3455,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 60
 Name=FL19W60_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 61|Word61
@@ -3505,9 +3469,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 61
 Name=FL19W61_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 62|Word62
@@ -3519,9 +3483,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 62
 Name=FL19W62_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 63|Word63
@@ -3533,9 +3497,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 63
 Name=FL19W63_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 64|Word64
@@ -3547,9 +3511,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 64
 Name=FL19W64_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 65|Word65
@@ -3561,9 +3525,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 65
 Name=FL19W65_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 66|Word66
@@ -3575,9 +3539,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 66
 Name=FL19W66_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 67|Word67
@@ -3589,9 +3553,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 67
 Name=FL19W67_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 68|Word68
@@ -3603,9 +3567,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 68
 Name=FL19W68_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 69|Word69
@@ -3617,9 +3581,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 69
 Name=FL19W69_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 70|Word70
@@ -3631,9 +3595,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 70
 Name=FL19W70_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 71|Word71
@@ -3645,9 +3609,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 71
 Name=FL19W71_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 72|Word72
@@ -3659,9 +3623,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 72
 Name=FL19W72_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 73|Word73
@@ -3673,9 +3637,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 73
 Name=FL19W73_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 74|Word74
@@ -3687,9 +3651,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 74
 Name=FL19W74_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 75|Word75
@@ -3701,9 +3665,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 75
 Name=FL19W75_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 76|Word76
@@ -3715,9 +3679,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 76
 Name=FL19W76_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 77|Word77
@@ -3729,9 +3693,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 77
 Name=FL19W77_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 78|Word78
@@ -3743,9 +3707,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 78
 Name=FL19W78_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 79|Word79
@@ -3757,9 +3721,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 79
 Name=FL19W79_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 80|Word80
@@ -3771,9 +3735,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 80
 Name=FL19W80_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 81|Word81
@@ -3785,9 +3749,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 81
 Name=FL19W81_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 82|Word82
@@ -3799,9 +3763,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 82
 Name=FL19W82_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 83|Word83
@@ -3813,9 +3777,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 83
 Name=FL19W83_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 84|Word84
@@ -3827,9 +3791,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 84
 Name=FL19W84_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 85|Word85
@@ -3841,9 +3805,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 85
 Name=FL19W85_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 86|Word86
@@ -3855,9 +3819,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 86
 Name=FL19W86_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=FL19. FIM|FL19. END
@@ -3870,7 +3834,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL19. FIM
 Name=FL19END_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Número total de palavras que tentou ler|Total number of words attempted
@@ -3884,7 +3848,7 @@ ZeroFill=Yes
 Label=Número total de palavras que tentou ler
 Name=FL20A_VST
 Value=0:86
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número total de palavras lidas incorretamente ou omitidas|Total number of words incorrect or missed
@@ -3898,7 +3862,7 @@ ZeroFill=Yes
 Label=Número total de palavras lidas incorretamente ou omitidas
 Name=FL20B_VST
 Value=0:86
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 1|Story comprehension: 1
@@ -3911,10 +3875,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 1
 Name=FL21BA_VS1
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 2|Story comprehension: 2
@@ -3927,10 +3891,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 2
 Name=FL21BB_VS1
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 3|Story comprehension: 3
@@ -3943,10 +3907,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 3
 Name=FL21BC_VS1
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 4|Story comprehension: 4
@@ -3959,10 +3923,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 4
 Name=FL21BD_VS1
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 5|Story comprehension: 5
@@ -3975,10 +3939,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 5
 Name=FL21BE_VS1
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Gostaria de ler uma história noutra língua|Like to read story in other language
@@ -3991,11 +3955,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Gostaria de ler uma história noutra língua
 Name=FL21D_VS1
-Value=11;ENGLISH
-Value=12;FRENCH
-Value=13;SPANISH
-Value=95;DOES NOT WANT TO TRY
-Value=99;NO RESPONSE
+Value=11;INGLÊS|ENGLISH
+Value=12;FRANCÊS|FRENCH
+Value=13;ESPANHOL|SPANISH
+Value=95;NÃO QUER TENTAR|DOES NOT WANT TO TRY
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Entrega do livro à criança - Introdução do manual|Giving the Child book - Manual introduction
@@ -4008,7 +3972,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Entrega do livro à criança - Introdução do manual
 Name=FL21G_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=A criança leu corretamente todas as palavras do exercício de treino|Child read every word in the practice correctly
@@ -4021,9 +3985,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança leu corretamente todas as palavras do exercício de treino
 Name=FL21H_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Leitura concluída:|Reading done:
@@ -4036,10 +4000,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Leitura concluída:
 Name=FL21I_VS1
-Value=1;CORRECT
-Value=2;OTHER ANSWERS
-Value=3;NO ANSWER AFTER 5 SECONDS
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;OUTRAS RESPOSTAS|OTHER ANSWERS
+Value=3;SEM RESPOSTA APÓS 5 SEGUNDOS|NO ANSWER AFTER 5 SECONDS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=FL21J. Dizer:|FL21J. Say:
@@ -4052,7 +4016,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL21J. Dizer:
 Name=FL21J_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Outra pergunta:|Another question:
@@ -4065,10 +4029,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outra pergunta:
 Name=FL21K_VS1
-Value=1;CORRECT
-Value=2;OTHER ANSWERS
-Value=3;NO ANSWER AFTER 5 SECONDS
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;OUTRAS RESPOSTAS|OTHER ANSWERS
+Value=3;SEM RESPOSTA APÓS 5 SEGUNDOS|NO ANSWER AFTER 5 SECONDS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=FL21. Dizer:|FL21. Say:
@@ -4081,7 +4045,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL21. Dizer:
 Name=FL21L_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=FL21O. INTRODUÇÃO|FL21O. INTRO
@@ -4094,7 +4058,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL21O. INTRODUÇÃO
 Name=FL21OINTRO_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Palavra 1|Word1
@@ -4106,9 +4070,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 1
 Name=FL21OW1_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 2|Word2
@@ -4120,9 +4084,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 2
 Name=FL21OW2_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 3|Word3
@@ -4134,9 +4098,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 3
 Name=FL21OW3_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 4|Word4
@@ -4148,9 +4112,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 4
 Name=FL21OW4_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 5|Word5
@@ -4162,9 +4126,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 5
 Name=FL21OW5_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 6|Word6
@@ -4176,9 +4140,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 6
 Name=FL21OW6_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 7|Word7
@@ -4190,9 +4154,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 7
 Name=FL21OW7_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 8|Word8
@@ -4204,9 +4168,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 8
 Name=FL21OW8_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 9|Word9
@@ -4218,9 +4182,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 9
 Name=FL21OW9_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 10|Word10
@@ -4232,9 +4196,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 10
 Name=FL21OW10_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 11|Word11
@@ -4246,9 +4210,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 11
 Name=FL21OW11_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 12|Word12
@@ -4260,9 +4224,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 12
 Name=FL21OW12_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 13|Word13
@@ -4274,9 +4238,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 13
 Name=FL21OW13_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 14|Word14
@@ -4288,9 +4252,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 14
 Name=FL21OW14_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 15|Word15
@@ -4302,9 +4266,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 15
 Name=FL21OW15_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 16|Word16
@@ -4316,9 +4280,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 16
 Name=FL21OW16_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 17|Word17
@@ -4330,9 +4294,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 17
 Name=FL21OW17_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 18|Word18
@@ -4344,9 +4308,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 18
 Name=FL21OW18_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 19|Word19
@@ -4358,9 +4322,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 19
 Name=FL21OW19_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 20|Word20
@@ -4372,9 +4336,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 20
 Name=FL21OW20_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 21|Word21
@@ -4386,9 +4350,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 21
 Name=FL21OW21_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 22|Word22
@@ -4400,9 +4364,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 22
 Name=FL21OW22_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 23|Word23
@@ -4414,9 +4378,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 23
 Name=FL21OW23_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 24|Word24
@@ -4428,9 +4392,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 24
 Name=FL21OW24_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 25|Word25
@@ -4442,9 +4406,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 25
 Name=FL21OW25_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 26|Word26
@@ -4456,9 +4420,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 26
 Name=FL21OW26_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 27|Word27
@@ -4470,9 +4434,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 27
 Name=FL21OW27_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 28|Word28
@@ -4484,9 +4448,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 28
 Name=FL21OW28_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 29|Word29
@@ -4498,9 +4462,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 29
 Name=FL21OW29_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 30|Word30
@@ -4512,9 +4476,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 30
 Name=FL21OW30_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 31|Word31
@@ -4526,9 +4490,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 31
 Name=FL21OW31_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 32|Word32
@@ -4540,9 +4504,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 32
 Name=FL21OW32_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 33|Word33
@@ -4554,9 +4518,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 33
 Name=FL21OW33_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 34|Word34
@@ -4568,9 +4532,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 34
 Name=FL21OW34_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 35|Word35
@@ -4582,9 +4546,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 35
 Name=FL21OW35_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 36|Word36
@@ -4596,9 +4560,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 36
 Name=FL21OW36_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 37|Word37
@@ -4610,9 +4574,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 37
 Name=FL21OW37_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 38|Word38
@@ -4624,9 +4588,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 38
 Name=FL21OW38_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 39|Word39
@@ -4638,9 +4602,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 39
 Name=FL21OW39_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 40|Word40
@@ -4652,9 +4616,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 40
 Name=FL21OW40_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 41|Word41
@@ -4666,9 +4630,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 41
 Name=FL21OW41_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 42|Word42
@@ -4680,9 +4644,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 42
 Name=FL21OW42_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 43|Word43
@@ -4694,9 +4658,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 43
 Name=FL21OW43_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 44|Word44
@@ -4708,9 +4672,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 44
 Name=FL21OW44_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 45|Word45
@@ -4722,9 +4686,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 45
 Name=FL21OW45_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 46|Word46
@@ -4736,9 +4700,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 46
 Name=FL21OW46_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 47|Word47
@@ -4750,9 +4714,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 47
 Name=FL21OW47_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 48|Word48
@@ -4764,9 +4728,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 48
 Name=FL21OW48_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 49|Word49
@@ -4778,9 +4742,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 49
 Name=FL21OW49_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 50|Word50
@@ -4792,9 +4756,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 50
 Name=FL21OW50_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 51|Word51
@@ -4806,9 +4770,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 51
 Name=FL21OW51_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 52|Word52
@@ -4820,9 +4784,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 52
 Name=FL21OW52_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 53|Word53
@@ -4834,9 +4798,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 53
 Name=FL21OW53_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 54|Word54
@@ -4848,9 +4812,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 54
 Name=FL21OW54_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 55|Word55
@@ -4862,9 +4826,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 55
 Name=FL21OW55_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 56|Word56
@@ -4876,9 +4840,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 56
 Name=FL21OW56_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 57|Word57
@@ -4890,9 +4854,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 57
 Name=FL21OW57_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 58|Word58
@@ -4904,9 +4868,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 58
 Name=FL21OW58_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 59|Word59
@@ -4918,9 +4882,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 59
 Name=FL21OW59_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 60|Word60
@@ -4932,9 +4896,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 60
 Name=FL21OW60_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 61|Word61
@@ -4946,9 +4910,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 61
 Name=FL21OW61_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 62|Word62
@@ -4960,9 +4924,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 62
 Name=FL21OW62_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 63|Word63
@@ -4974,9 +4938,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 63
 Name=FL21OW63_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 64|Word64
@@ -4988,9 +4952,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 64
 Name=FL21OW64_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 65|Word65
@@ -5002,9 +4966,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 65
 Name=FL21OW65_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 66|Word66
@@ -5016,9 +4980,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 66
 Name=FL21OW66_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 67|Word67
@@ -5030,9 +4994,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 67
 Name=FL21OW67_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=Palavra 68|Word68
@@ -5044,9 +5008,9 @@ DataType=Alpha
 [ValueSet]
 Label=Palavra 68
 Name=FL21OW68_VS1
-Value=' ';CORRECT
-Value=1;INCORRECT
-Value='!';NOT REACHED
+Value=' ';CORRETO|CORRECT
+Value=1;INCORRETO|INCORRECT
+Value='!';NÃO ALCANÇADO|NOT REACHED
 
 [Item]
 Label=FL21O. FIM|FL21O. END
@@ -5059,7 +5023,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=FL21O. FIM
 Name=FL21OEND_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Número total de palavras que tentou ler|Total number of words attempted
@@ -5073,7 +5037,7 @@ ZeroFill=Yes
 Label=Número total de palavras que tentou ler
 Name=FL21PA_VS1
 Value=0:68
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número total de palavras lidas incorretamente ou omitidas|Total number of words incorrect or missed
@@ -5087,7 +5051,7 @@ ZeroFill=Yes
 Label=Número total de palavras lidas incorretamente ou omitidas
 Name=FL21PB_VS1
 Value=0:68
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 1|Story comprehension: 1
@@ -5100,10 +5064,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 1
 Name=FL22A_VST
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 2|Story comprehension: 2
@@ -5116,10 +5080,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 2
 Name=FL22B_VST
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 3|Story comprehension: 3
@@ -5132,10 +5096,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 3
 Name=FL22C_VST
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 4|Story comprehension: 4
@@ -5148,10 +5112,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 4
 Name=FL22D_VST
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Compreensão da história: 5|Story comprehension: 5
@@ -5164,10 +5128,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Compreensão da história: 5
 Name=FL22E_VST
-Value=1;CORRECT
-Value=2;INCORRECT
-Value=3;NO RESPONSE / SAYS "I DON'T KNOW"
-Value=9;NO RESPONSE
+Value=1;CORRETO|CORRECT
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM RESPOSTA / DIZ "NÃO SEI"|NO RESPONSE / SAYS "I DON'T KNOW"
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=A criança reconhece o símbolo numérico: 9|Child recognizes symbol: 9
@@ -5180,9 +5144,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança reconhece o símbolo numérico: 9
 Name=FL23A_VST
-Value=1;CORRECT (9)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (9)|CORRECT (9)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança reconhece o símbolo numérico: 12|Child recognizes symbol: 12
@@ -5195,9 +5159,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança reconhece o símbolo numérico: 12
 Name=FL23B_VST
-Value=1;CORRECT (12)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (12)|CORRECT (12)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança reconhece o símbolo numérico: 30|Child recognizes symbol: 30
@@ -5210,9 +5174,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança reconhece o símbolo numérico: 30
 Name=FL23C_VST
-Value=1;CORRECT (30)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (30)|CORRECT (30)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança reconhece o símbolo numérico: 48|Child recognizes symbol: 48
@@ -5225,9 +5189,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança reconhece o símbolo numérico: 48
 Name=FL23D_VST
-Value=1;CORRECT (48)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (48)|CORRECT (48)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança reconhece o símbolo numérico: 74|Child recognizes symbol: 74
@@ -5240,9 +5204,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança reconhece o símbolo numérico: 74
 Name=FL23E_VST
-Value=1;CORRECT (74)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (74)|CORRECT (74)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança reconhece o símbolo numérico: 731|Child recognizes symbol: 731
@@ -5255,9 +5219,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança reconhece o símbolo numérico: 731
 Name=FL23F_VST
-Value=1;CORRECT (731)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (731)|CORRECT (731)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o maior de dois números: 7-5|Child identities bigger of two numbers: 7-5
@@ -5270,9 +5234,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o maior de dois números: 7-5
 Name=FL24A_VST
-Value=1;CORRECT (7)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (7)|CORRECT (7)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o maior de dois números: 11-24|Child identities bigger of two numbers: 11-24
@@ -5285,9 +5249,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o maior de dois números: 11-24
 Name=FL24B_VST
-Value=1;CORRECT (24)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (24)|CORRECT (24)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o maior de dois números: 58-49|Child identities bigger of two numbers: 58-49
@@ -5300,9 +5264,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o maior de dois números: 58-49
 Name=FL24C_VST
-Value=1;CORRECT (58)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (58)|CORRECT (58)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o maior de dois números: 65-67|Child identities bigger of two numbers: 65-67
@@ -5315,9 +5279,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o maior de dois números: 65-67
 Name=FL24D_VST
-Value=1;CORRECT (67)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (67)|CORRECT (67)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o maior de dois números: 146-154|Child identities bigger of two numbers: 146-154
@@ -5330,9 +5294,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o maior de dois números: 146-154
 Name=FL24E_VST
-Value=1;CORRECT (154)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (154)|CORRECT (154)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança soma corretamente os números: 3+2|Child adds numbers correctly: 3+2
@@ -5345,9 +5309,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança soma corretamente os números: 3+2
 Name=FL25A_VST
-Value=1;CORRECT (5)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (5)|CORRECT (5)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança soma corretamente os números: 8+6|Child adds numbers correctly: 8+6
@@ -5360,9 +5324,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança soma corretamente os números: 8+6
 Name=FL25B_VST
-Value=1;CORRECT (14)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (14)|CORRECT (14)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança soma corretamente os números: 7+3|Child adds numbers correctly: 7+3
@@ -5375,9 +5339,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança soma corretamente os números: 7+3
 Name=FL25C_VST
-Value=1;CORRECT (10)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (10)|CORRECT (10)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança soma corretamente os números: 13+6|Child adds numbers correctly: 13+6
@@ -5390,9 +5354,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança soma corretamente os números: 13+6
 Name=FL25D_VST
-Value=1;CORRECT (19)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (19)|CORRECT (19)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança soma corretamente os números: 12+24|Child adds numbers correctly: 12+24
@@ -5405,9 +5369,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança soma corretamente os números: 12+24
 Name=FL25E_VST
-Value=1;CORRECT (36)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (36)|CORRECT (36)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=Introdução do manual|Manual intro
@@ -5420,9 +5384,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução do manual
 Name=FL26_VST
-Value=1;CORRECT (3)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (3)|CORRECT (3)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=Introdução do manual|Manual intro
@@ -5435,7 +5399,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução do manual
 Name=FL26A_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Introdução do manual|Manual intro
@@ -5448,7 +5412,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução do manual
 Name=FL26B_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Introdução do manual|Manual intro
@@ -5461,9 +5425,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução do manual
 Name=FL26C_VS1
-Value=1;CORRECT (20)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (20)|CORRECT (20)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=Introdução do manual|Manual intro
@@ -5476,7 +5440,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução do manual
 Name=FL26D_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Introdução do manual|Manual intro
@@ -5489,7 +5453,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução do manual
 Name=FL26E_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=A criança identifica o número seguinte: 5-6-7-X|Child identifies next number: 5-6-7-X
@@ -5502,9 +5466,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o número seguinte: 5-6-7-X
 Name=FL27A_VST
-Value=1;CORRECT (8)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (8)|CORRECT (8)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o número seguinte: 14-15-X-17|Child identifies next number: 14-15-X-17
@@ -5517,9 +5481,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o número seguinte: 14-15-X-17
 Name=FL27B_VST
-Value=1;CORRECT (16)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (16)|CORRECT (16)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o número seguinte: 20-X-40-50|Child identifies next number: 20-X-40-50
@@ -5532,9 +5496,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o número seguinte: 20-X-40-50
 Name=FL27C_VST
-Value=1;CORRECT (30)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (30)|CORRECT (30)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o número seguinte: 2-4-6-X|Child identifies next number: 2-4-6-X
@@ -5547,9 +5511,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o número seguinte: 2-4-6-X
 Name=FL27D_VST
-Value=1;CORRECT (8)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (8)|CORRECT (8)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=A criança identifica o número seguinte: 5-8-11-X|Child identifies next number: 5-8-11-X
@@ -5562,9 +5526,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=A criança identifica o número seguinte: 5-8-11-X
 Name=FL27E_VST
-Value=1;CORRECT (14)
-Value=2;INCORRECT
-Value=3;NO ATTEMPT
+Value=1;CORRETO (14)|CORRECT (14)
+Value=2;INCORRETO|INCORRECT
+Value=3;SEM TENTATIVA|NO ATTEMPT
 
 [Item]
 Label=Resultado da entrevista com a criança|Result of interview with child
@@ -5577,13 +5541,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Resultado da entrevista com a criança
 Name=FL28_VST
-Value=1;COMPLETED
-Value=2;NOT AT HOME
-Value=3;MOTHER / CAREGIVER REFUSED
-Value=4;CHILD REFUSED
-Value=5;PARTLY COMPLETED
-Value=6;INCAPACITATED
-Value=96;OTHER
+Value=1;CONCLUÍDO|COMPLETED
+Value=2;NÃO ESTÁ EM CASA|NOT AT HOME
+Value=3;MÃE / PESSOA RESPONSÁVEL RECUSOU|MOTHER / CAREGIVER REFUSED
+Value=4;A CRIANÇA RECUSOU|CHILD REFUSED
+Value=5;PARCIALMENTE CONCLUÍDO|PARTLY COMPLETED
+Value=6;INCAPACITADO|INCAPACITATED
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=História 1 lida pela criança - Língua|Story 1 that child has read - Language
@@ -5596,11 +5560,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=História 1 lida pela criança - Língua
 Name=ST1LANG_VS1
-Value=0;WAS NOT NECESSARY TO OFFER
-Value=11;ENGLISH
-Value=12;FRENCH
-Value=13;SPANISH
-Value=95;DOES NOT WANT TO TRY
+Value=0;NÃO FOI NECESSÁRIO OFERECER|WAS NOT NECESSARY TO OFFER
+Value=11;INGLÊS|ENGLISH
+Value=12;FRANCÊS|FRENCH
+Value=13;ESPANHOL|SPANISH
+Value=95;NÃO QUER TENTAR|DOES NOT WANT TO TRY
 
 [Item]
 Label=História 1 lida pela criança - Número previsto de palavras|Story 1 that child has read - Target number of words
@@ -5621,11 +5585,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=História 2 lida pela criança - Língua
 Name=ST2LANG_VS1
-Value=0;WAS NOT NECESSARY TO OFFER
-Value=11;ENGLISH
-Value=12;FRENCH
-Value=13;SPANISH
-Value=95;DOES NOT WANT TO TRY
+Value=0;NÃO FOI NECESSÁRIO OFERECER|WAS NOT NECESSARY TO OFFER
+Value=11;INGLÊS|ENGLISH
+Value=12;FRANCÊS|FRENCH
+Value=13;ESPANHOL|SPANISH
+Value=95;NÃO QUER TENTAR|DOES NOT WANT TO TRY
 
 [Item]
 Label=História 2 lida pela criança - Número previsto de palavras|Story 2 that child has read - Target number of words
@@ -5662,8 +5626,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Confirmar o número de telefone partilhado
 Name=FS15K_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Outro número de telefone pessoal ou partilhado através do qual possa ser contactado(a)|Another personal or shared phone number where can be reached
@@ -5676,8 +5640,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outro número de telefone pessoal ou partilhado através do qual possa ser contactado(a)
 Name=FS15L_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Record]
 Label=Registos de hora - Módulos do questionário dos 5 aos 17 anos|Time Stamps - Five-Seventeen Questionnaire Modules

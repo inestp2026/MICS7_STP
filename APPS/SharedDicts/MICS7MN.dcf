@@ -119,18 +119,18 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mês da entrevista
 Name=MWM6M_VST
-Value=1;JANUARY
-Value=2;FEBRUARY
-Value=3;MARCH
-Value=4;APRIL
-Value=5;MAY
-Value=6;JUNE
-Value=7;JULY
-Value=8;AUGUST
-Value=9;SEPTEMBER
-Value=10;OCTOBER
-Value=11;NOVEMBER
-Value=12;DECEMBER
+Value=1;JANEIRO|JANUARY
+Value=2;FEVEREIRO|FEBRUARY
+Value=3;MARÇO|MARCH
+Value=4;ABRIL|APRIL
+Value=5;MAIO|MAY
+Value=6;JUNHO|JUNE
+Value=7;JULHO|JULY
+Value=8;AGOSTO|AUGUST
+Value=9;SETEMBRO|SEPTEMBER
+Value=10;OUTUBRO|OCTOBER
+Value=11;NOVEMBRO|NOVEMBER
+Value=12;DEZEMBRO|DECEMBER
 
 [Item]
 Label=Ano da entrevista|Year of interview
@@ -157,8 +157,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Respondente de outro questionário
 Name=MWM8_VST
-Value=1;YES, INTERVIEWED ALREADY
-Value=2;NO, FIRST INTERVIEW
+Value=1;SIM, JÁ ENTREVISTADO|YES, INTERVIEWED ALREADY
+Value=2;NÃO, PRIMEIRA ENTREVISTA|NO, FIRST INTERVIEW
 
 [Item]
 Label=Consentimento|Consent
@@ -171,8 +171,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento
 Name=MWM9_VST
-Value=1;YES
-Value=2;NO / NOT ASKED
+Value=1;SIM|YES
+Value=2;NÃO / NÃO PERGUNTADO|NO / NOT ASKED
 
 [Item]
 Label=Resultado da entrevista ao homem|Result of man's interview
@@ -185,13 +185,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Resultado da entrevista ao homem
 Name=MWM17_VST
-Value=1;COMPLETED
-Value=2;NOT AT HOME
-Value=3;REFUSED
-Value=4;PARTLY COMPLETED
-Value=5;INCAPACITATED
-Value=6;NO ADULT CONSENT FOR RESPONDENT AGE 15-17
-Value=96;OTHER
+Value=1;CONCLUÍDO|COMPLETED
+Value=2;NÃO ESTÁ EM CASA|NOT AT HOME
+Value=3;RECUSOU|REFUSED
+Value=4;PARCIALMENTE CONCLUÍDO|PARTLY COMPLETED
+Value=5;INCAPACITADO|INCAPACITATED
+Value=6;SEM CONSENTIMENTO DE ADULTO PARA INQUIRIDO DOS 15-17 ANOS|NO ADULT CONSENT FOR RESPONDENT AGE 15-17
+Value=96;OUTRO|OTHER
 
 [Item]
 Label=Hora de início da entrevista|Time of start of interview
@@ -276,9 +276,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Entrevista realizada em privado
 Name=MWM11_VST
-Value=1;YES, THE ENTIRE INTERVIEW WAS COMPLETED IN PRIVATE
-Value=2;NO, OTHERS WERE PRESENT DURING THE ENTIRE INTERVIEW
-Value=3;NO, OTHERS WERE PRESENT DURING PART OF THE INTERVIEW
+Value=1;SIM, A ENTREVISTA FOI TODA REALIZADA EM PRIVADO|YES, THE ENTIRE INTERVIEW WAS COMPLETED IN PRIVATE
+Value=2;NÃO, OUTRAS PESSOAS ESTIVERAM PRESENTES DURANTE TODA A ENTREVISTA|NO, OTHERS WERE PRESENT DURING THE ENTIRE INTERVIEW
+Value=3;NÃO, OUTRAS PESSOAS ESTIVERAM PRESENTES DURANTE PARTE DA ENTREVISTA|NO, OTHERS WERE PRESENT DURING PART OF THE INTERVIEW
 
 [Item]
 Label=Idioma do questionário|Language of the questionnaire
@@ -291,9 +291,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Idioma do questionário
 Name=MWM12_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
 
 [Item]
 Label=Idioma da entrevista|Language of the interview
@@ -306,10 +306,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Idioma da entrevista
 Name=MWM13_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
-Value=6;OTHER LANGUAGE
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
+Value=6;OUTRA LÍNGUA|OTHER LANGUAGE
 
 [Item]
 Label=Língua materna do respondente|Native language of the respondent
@@ -322,10 +322,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Língua materna do respondente
 Name=MWM14_VST
-Value=1;ENGLISH
-Value=2;LANGUAGE 2
-Value=3;LANGUAGE 3
-Value=6;OTHER LANGUAGE
+Value=1;INGLÊS|ENGLISH
+Value=2;LÍNGUA 2|LANGUAGE 2
+Value=3;LÍNGUA 3|LANGUAGE 3
+Value=6;OUTRA LÍNGUA|OTHER LANGUAGE
 
 [Item]
 Label=Utilização de tradutor|Translator used
@@ -338,9 +338,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Utilização de tradutor
 Name=MWM15_VST
-Value=1;YES, THE ENTIRE QUESTIONNAIRE
-Value=2;YES, PARTS OF THE QUESTIONNAIRE
-Value=3;NO, NOT USED
+Value=1;SIM, O QUESTIONÁRIO COMPLETO|YES, THE ENTIRE QUESTIONNAIRE
+Value=2;SIM, PARTES DO QUESTIONÁRIO|YES, PARTS OF THE QUESTIONNAIRE
+Value=3;NÃO, NÃO UTILIZADO|NO, NOT USED
 
 [Item]
 Label=Foi entrevistado para algum questionário individual|Has been interviewed for any individual questionnaires
@@ -353,8 +353,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi entrevistado para algum questionário individual
 Name=MWM15C_VS1
-Value=1;YES, ALREADY INTERVIEWED
-Value=2;NO, NOT ALREADY INTERVIEWED
+Value=1;SIM, JÁ ENTREVISTADO|YES, ALREADY INTERVIEWED
+Value=2;NÃO, AINDA NÃO ENTREVISTADO|NO, NOT ALREADY INTERVIEWED
 
 [Item]
 Label=Consentimento para inquérito telefónico|Consent for phone survey
@@ -367,8 +367,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Consentimento para inquérito telefónico
 Name=MWM15EF_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Tem número de telefone pessoal ou do agregado familiar|Have personal phone number or phone number for the household
@@ -381,8 +381,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tem número de telefone pessoal ou do agregado familiar
 Name=MWM15GH_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Nota sobre a partilha do número de telefone do agregado familiar|Note on sharing phone number for the household
@@ -395,7 +395,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nota sobre a partilha do número de telefone do agregado familiar
 Name=MWM15I_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Entrevistador do agregado familiar|Household interviewer
@@ -416,9 +416,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Concluir
 Name=MWMFIN_VST
-Value=1;REVIEW QUESTIONNAIRE
-Value=2;ADD NOTES
-Value=3;SAVE QUESTIONNAIRE AND FINISH
+Value=1;REVER QUESTIONÁRIO|REVIEW QUESTIONNAIRE
+Value=2;ADICIONAR NOTAS|ADD NOTES
+Value=3;GUARDAR QUESTIONÁRIO E TERMINAR|SAVE QUESTIONNAIRE AND FINISH
 
 [Record]
 Label=Características do homem|Man's Background
@@ -447,20 +447,20 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mês de nascimento do homem
 Name=MWB3M_VST
-Value=1;JANUARY
-Value=2;FEBRUARY
-Value=3;MARCH
-Value=4;APRIL
-Value=5;MAY
-Value=6;JUNE
-Value=7;JULY
-Value=8;AUGUST
-Value=9;SEPTEMBER
-Value=10;OCTOBER
-Value=11;NOVEMBER
-Value=12;DECEMBER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;JANEIRO|JANUARY
+Value=2;FEVEREIRO|FEBRUARY
+Value=3;MARÇO|MARCH
+Value=4;ABRIL|APRIL
+Value=5;MAIO|MAY
+Value=6;JUNHO|JUNE
+Value=7;JULHO|JULY
+Value=8;AGOSTO|AUGUST
+Value=9;SETEMBRO|SEPTEMBER
+Value=10;OUTUBRO|OCTOBER
+Value=11;NOVEMBRO|NOVEMBER
+Value=12;DEZEMBRO|DECEMBER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ano de nascimento do homem|Year of birth of man
@@ -475,8 +475,8 @@ ZeroFill=Yes
 Label=Ano de nascimento do homem
 Name=MWB3Y_VST
 Value=1975:2010
-Value=9998;DK
-Value=9999;NO RESPONSE
+Value=9998;NÃO SABE|DK
+Value=9999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Idade do homem|Age of man
@@ -502,10 +502,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nasceu neste país ou noutro país
 Name=MWB5_VS1
-Value=1;THIS COUNTRY
-Value=2;OTHER COUNTRY
-Value=8;DK
-Value=9;NO RESPONSE
+Value=1;ESTE PAÍS|THIS COUNTRY
+Value=2;OUTRO PAÍS|OTHER COUNTRY
+Value=8;NÃO SABE|DK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Região de nascimento|Region of birth
@@ -518,13 +518,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Região de nascimento
 Name=MWB5A_VS1
-Value=1;REGION 1
-Value=2;REGION 2
-Value=3;REGION 3
-Value=4;REGION 4
-Value=5;REGION 5
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;REGIÃO 1|REGION 1
+Value=2;REGIÃO 2|REGION 2
+Value=3;REGIÃO 3|REGION 3
+Value=4;REGIÃO 4|REGION 4
+Value=5;REGIÃO 5|REGION 5
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=País de nascimento|Country of birth
@@ -537,258 +537,258 @@ ZeroFill=Yes
 [ValueSet]
 Label=País de nascimento
 Name=MWB6_VS1
-Value=4;Afghanistan
-Value=8;Albania
-Value=10;Antarctica
-Value=12;Algeria
-Value=16;American Samoa
+Value=4;Afeganistão|Afghanistan
+Value=8;Albânia|Albania
+Value=10;Antártida|Antarctica
+Value=12;Argélia|Algeria
+Value=16;Samoa Americana|American Samoa
 Value=20;Andorra
 Value=24;Angola
-Value=28;Antigua and Barbuda
-Value=31;Azerbaijan
+Value=28;Antígua e Barbuda|Antigua and Barbuda
+Value=31;Azerbaijão|Azerbaijan
 Value=32;Argentina
-Value=36;Australia
-Value=40;Austria
-Value=44;Bahamas (the)
-Value=48;Bahrain
+Value=36;Austrália|Australia
+Value=40;Áustria|Austria
+Value=44;Baamas|Bahamas (the)
+Value=48;Barém|Bahrain
 Value=50;Bangladesh
-Value=51;Armenia
+Value=51;Arménia|Armenia
 Value=52;Barbados
-Value=56;Belgium
-Value=60;Bermuda
-Value=64;Bhutan
-Value=68;Bolivia (Plurinational State of)
-Value=70;Bosnia and Herzegovina
-Value=72;Botswana
-Value=74;Bouvet Island
-Value=76;Brazil
+Value=56;Bélgica|Belgium
+Value=60;Bermudas|Bermuda
+Value=64;Butão|Bhutan
+Value=68;Bolívia (Estado Plurinacional da)|Bolivia (Plurinational State of)
+Value=70;Bósnia e Herzegovina|Bosnia and Herzegovina
+Value=72;Botsuana|Botswana
+Value=74;Ilha Bouvet|Bouvet Island
+Value=76;Brasil|Brazil
 Value=84;Belize
-Value=86;British Indian Ocean Territory (the)
-Value=90;Solomon Islands
-Value=92;Virgin Islands (British)
+Value=86;Território Britânico do Oceano Índico|British Indian Ocean Territory (the)
+Value=90;Ilhas Salomão|Solomon Islands
+Value=92;Ilhas Virgens Britânicas|Virgin Islands (British)
 Value=96;Brunei Darussalam
-Value=100;Bulgaria
+Value=100;Bulgária|Bulgaria
 Value=104;Myanmar
 Value=108;Burundi
-Value=112;Belarus
-Value=116;Cambodia
-Value=120;Cameroon
-Value=124;Canada
+Value=112;Bielorrússia|Belarus
+Value=116;Camboja|Cambodia
+Value=120;Camarões|Cameroon
+Value=124;Canadá|Canada
 Value=132;Cabo Verde
-Value=136;Cayman Islands (the)
-Value=140;Central African Republic (the)
+Value=136;Ilhas Caimão|Cayman Islands (the)
+Value=140;República Centro-Africana|Central African Republic (the)
 Value=144;Sri Lanka
-Value=148;Chad
+Value=148;Chade|Chad
 Value=152;Chile
 Value=156;China
-Value=158;Taiwan (Province of China)
-Value=162;Christmas Island
-Value=166;Cocos (Keeling) Islands (the)
-Value=170;Colombia
-Value=174;Comoros (the)
-Value=175;Mayotte
-Value=178;Congo (the)
-Value=180;Congo (the Democratic Republic of the)
-Value=184;Cook Islands (the)
+Value=158;Taiwan (Província da China)|Taiwan (Province of China)
+Value=162;Ilha do Natal|Christmas Island
+Value=166;Ilhas Cocos (Keeling)|Cocos (Keeling) Islands (the)
+Value=170;Colômbia|Colombia
+Value=174;Comores|Comoros (the)
+Value=175;Maiote|Mayotte
+Value=178;Congo|Congo (the)
+Value=180;Congo (República Democrática do)|Congo (the Democratic Republic of the)
+Value=184;Ilhas Cook|Cook Islands (the)
 Value=188;Costa Rica
-Value=191;Croatia
+Value=191;Croácia|Croatia
 Value=192;Cuba
-Value=196;Cyprus
-Value=203;Czechia
-Value=204;Benin
-Value=208;Denmark
-Value=212;Dominica
-Value=214;Dominican Republic (the)
-Value=218;Ecuador
+Value=196;Chipre|Cyprus
+Value=203;Chéquia|Czechia
+Value=204;Benim|Benin
+Value=208;Dinamarca|Denmark
+Value=212;Domínica|Dominica
+Value=214;República Dominicana|Dominican Republic (the)
+Value=218;Equador|Ecuador
 Value=222;El Salvador
-Value=226;Equatorial Guinea
-Value=231;Ethiopia
-Value=232;Eritrea
-Value=233;Estonia
-Value=234;Faroe Islands (the)
-Value=238;Falkland Islands (the) [Malvinas]
-Value=239;South Georgia and the South Sandwich Islands
+Value=226;Guiné Equatorial|Equatorial Guinea
+Value=231;Etiópia|Ethiopia
+Value=232;Eritreia|Eritrea
+Value=233;Estónia|Estonia
+Value=234;Ilhas Faroé|Faroe Islands (the)
+Value=238;Ilhas Falkland [Malvinas]|Falkland Islands (the) [Malvinas]
+Value=239;Geórgia do Sul e Ilhas Sandwich do Sul|South Georgia and the South Sandwich Islands
 Value=242;Fiji
-Value=246;Finland
-Value=248;Åland Islands
-Value=250;France
-Value=254;French Guiana
-Value=258;French Polynesia
-Value=260;French Southern Territories (the)
-Value=262;Djibouti
-Value=266;Gabon
-Value=268;Georgia
-Value=270;Gambia (the)
-Value=275;Palestine, State of
-Value=276;Germany
-Value=288;Ghana
+Value=246;Finlândia|Finland
+Value=248;Ilhas Åland|Åland Islands
+Value=250;França|France
+Value=254;Guiana Francesa|French Guiana
+Value=258;Polinésia Francesa|French Polynesia
+Value=260;Territórios Austrais Franceses|French Southern Territories (the)
+Value=262;Djibuti|Djibouti
+Value=266;Gabão|Gabon
+Value=268;Geórgia|Georgia
+Value=270;Gâmbia|Gambia (the)
+Value=275;Palestina, Estado da|Palestine, State of
+Value=276;Alemanha|Germany
+Value=288;Gana|Ghana
 Value=292;Gibraltar
-Value=296;Kiribati
-Value=300;Greece
-Value=304;Greenland
-Value=308;Grenada
-Value=312;Guadeloupe
+Value=296;Quiribáti|Kiribati
+Value=300;Grécia|Greece
+Value=304;Gronelândia|Greenland
+Value=308;Granada|Grenada
+Value=312;Guadalupe|Guadeloupe
 Value=316;Guam
 Value=320;Guatemala
-Value=324;Guinea
-Value=328;Guyana
+Value=324;Guiné|Guinea
+Value=328;Guiana|Guyana
 Value=332;Haiti
-Value=334;Heard Island and McDonald Islands
-Value=336;Holy See (the)
+Value=334;Ilha Heard e Ilhas McDonald|Heard Island and McDonald Islands
+Value=336;Santa Sé|Holy See (the)
 Value=340;Honduras
 Value=344;Hong Kong
-Value=348;Hungary
-Value=352;Iceland
-Value=356;India
-Value=360;Indonesia
-Value=364;Iran (Islamic Republic of)
-Value=368;Iraq
-Value=372;Ireland
+Value=348;Hungria|Hungary
+Value=352;Islândia|Iceland
+Value=356;Índia|India
+Value=360;Indonésia|Indonesia
+Value=364;Irão (República Islâmica do)|Iran (Islamic Republic of)
+Value=368;Iraque|Iraq
+Value=372;Irlanda|Ireland
 Value=376;Israel
-Value=380;Italy
-Value=384;Côte d'Ivoire
+Value=380;Itália|Italy
+Value=384;Costa do Marfim|Côte d'Ivoire
 Value=388;Jamaica
-Value=392;Japan
-Value=398;Kazakhstan
-Value=400;Jordan
-Value=404;Kenya
-Value=408;Korea (the Democratic People's Republic of)
-Value=410;Korea (the Republic of)
-Value=414;Kuwait
-Value=417;Kyrgyzstan
-Value=418;Lao People's Democratic Republic (the)
-Value=422;Lebanon
-Value=426;Lesotho
-Value=428;Latvia
-Value=430;Liberia
-Value=434;Libya
-Value=438;Liechtenstein
-Value=440;Lithuania
-Value=442;Luxembourg
-Value=446;Macao
-Value=450;Madagascar
-Value=454;Malawi
-Value=458;Malaysia
-Value=462;Maldives
+Value=392;Japão|Japan
+Value=398;Cazaquistão|Kazakhstan
+Value=400;Jordânia|Jordan
+Value=404;Quénia|Kenya
+Value=408;Coreia (República Popular Democrática da)|Korea (the Democratic People's Republic of)
+Value=410;Coreia (República da)|Korea (the Republic of)
+Value=414;Koweit|Kuwait
+Value=417;Quirguistão|Kyrgyzstan
+Value=418;República Democrática Popular do Laos|Lao People's Democratic Republic (the)
+Value=422;Líbano|Lebanon
+Value=426;Lesoto|Lesotho
+Value=428;Letónia|Latvia
+Value=430;Libéria|Liberia
+Value=434;Líbia|Libya
+Value=438;Listenstaine|Liechtenstein
+Value=440;Lituânia|Lithuania
+Value=442;Luxemburgo|Luxembourg
+Value=446;Macau|Macao
+Value=450;Madagáscar|Madagascar
+Value=454;Maláui|Malawi
+Value=458;Malásia|Malaysia
+Value=462;Maldivas|Maldives
 Value=466;Mali
 Value=470;Malta
-Value=474;Martinique
-Value=478;Mauritania
-Value=480;Mauritius
-Value=484;Mexico
-Value=492;Monaco
-Value=496;Mongolia
-Value=498;Moldova (the Republic of)
+Value=474;Martinica|Martinique
+Value=478;Mauritânia|Mauritania
+Value=480;Maurícia|Mauritius
+Value=484;México|Mexico
+Value=492;Mónaco|Monaco
+Value=496;Mongólia|Mongolia
+Value=498;Moldávia (República da)|Moldova (the Republic of)
 Value=499;Montenegro
-Value=500;Montserrat
-Value=504;Morocco
-Value=508;Mozambique
-Value=512;Oman
-Value=516;Namibia
+Value=500;Monserrate|Montserrat
+Value=504;Marrocos|Morocco
+Value=508;Moçambique|Mozambique
+Value=512;Omã|Oman
+Value=516;Namíbia|Namibia
 Value=520;Nauru
 Value=524;Nepal
-Value=528;Netherlands (Kingdom of the)
-Value=531;Curaçao
+Value=528;Países Baixos (Reino dos)|Netherlands (Kingdom of the)
+Value=531;Curaçau|Curaçao
 Value=533;Aruba
-Value=534;Sint Maarten (Dutch part)
-Value=535;Bonaire, Sint Eustatius and Saba
-Value=540;New Caledonia
+Value=534;São Martinho (parte neerlandesa)|Sint Maarten (Dutch part)
+Value=535;Bonaire, Santo Eustáquio e Saba|Bonaire, Sint Eustatius and Saba
+Value=540;Nova Caledónia|New Caledonia
 Value=548;Vanuatu
-Value=554;New Zealand
-Value=558;Nicaragua
-Value=562;Niger (the)
-Value=566;Nigeria
+Value=554;Nova Zelândia|New Zealand
+Value=558;Nicarágua|Nicaragua
+Value=562;Níger|Niger (the)
+Value=566;Nigéria|Nigeria
 Value=570;Niue
-Value=574;Norfolk Island
-Value=578;Norway
-Value=580;Northern Mariana Islands (the)
-Value=581;United States Minor Outlying Islands (the)
-Value=583;Micronesia (Federated States of)
-Value=584;Marshall Islands (the)
+Value=574;Ilha Norfolk|Norfolk Island
+Value=578;Noruega|Norway
+Value=580;Ilhas Marianas do Norte|Northern Mariana Islands (the)
+Value=581;Ilhas Menores Distantes dos Estados Unidos|United States Minor Outlying Islands (the)
+Value=583;Micronésia (Estados Federados da)|Micronesia (Federated States of)
+Value=584;Ilhas Marshall|Marshall Islands (the)
 Value=585;Palau
-Value=586;Pakistan
-Value=591;Panama
-Value=598;Papua New Guinea
-Value=600;Paraguay
+Value=586;Paquistão|Pakistan
+Value=591;Panamá|Panama
+Value=598;Papua-Nova Guiné|Papua New Guinea
+Value=600;Paraguai|Paraguay
 Value=604;Peru
-Value=608;Philippines (the)
+Value=608;Filipinas|Philippines (the)
 Value=612;Pitcairn
-Value=616;Poland
+Value=616;Polónia|Poland
 Value=620;Portugal
-Value=624;Guinea-Bissau
+Value=624;Guiné-Bissau|Guinea-Bissau
 Value=626;Timor-Leste
-Value=630;Puerto Rico
-Value=634;Qatar
-Value=638;Réunion
-Value=642;Romania
-Value=643;Russian Federation (the)
-Value=646;Rwanda
-Value=652;Saint Barthélemy
-Value=654;Saint Helena, Ascension and Tristan da Cunha
-Value=659;Saint Kitts and Nevis
-Value=660;Anguilla
-Value=662;Saint Lucia
-Value=663;Saint Martin (French part)
-Value=666;Saint Pierre and Miquelon
-Value=670;Saint Vincent and the Grenadines
-Value=674;San Marino
-Value=678;Sao Tome and Principe
-Value=682;Saudi Arabia
+Value=630;Porto Rico|Puerto Rico
+Value=634;Catar|Qatar
+Value=638;Reunião|Réunion
+Value=642;Roménia|Romania
+Value=643;Federação Russa|Russian Federation (the)
+Value=646;Ruanda|Rwanda
+Value=652;São Bartolomeu|Saint Barthélemy
+Value=654;Santa Helena, Ascensão e Tristão da Cunha|Saint Helena, Ascension and Tristan da Cunha
+Value=659;São Cristóvão e Neves|Saint Kitts and Nevis
+Value=660;Anguila|Anguilla
+Value=662;Santa Lúcia|Saint Lucia
+Value=663;São Martinho (parte francesa)|Saint Martin (French part)
+Value=666;São Pedro e Miquelão|Saint Pierre and Miquelon
+Value=670;São Vicente e Granadinas|Saint Vincent and the Grenadines
+Value=674;São Marinho|San Marino
+Value=678;São Tomé e Príncipe|Sao Tome and Principe
+Value=682;Arábia Saudita|Saudi Arabia
 Value=686;Senegal
-Value=688;Serbia
-Value=690;Seychelles
-Value=694;Sierra Leone
-Value=702;Singapore
-Value=703;Slovakia
-Value=704;Viet Nam
-Value=705;Slovenia
-Value=706;Somalia
-Value=710;South Africa
-Value=716;Zimbabwe
-Value=724;Spain
-Value=728;South Sudan
-Value=729;Sudan (the)
-Value=732;Western Sahara*
+Value=688;Sérvia|Serbia
+Value=690;Seicheles|Seychelles
+Value=694;Serra Leoa|Sierra Leone
+Value=702;Singapura|Singapore
+Value=703;Eslováquia|Slovakia
+Value=704;Vietname|Viet Nam
+Value=705;Eslovénia|Slovenia
+Value=706;Somália|Somalia
+Value=710;África do Sul|South Africa
+Value=716;Zimbabué|Zimbabwe
+Value=724;Espanha|Spain
+Value=728;Sudão do Sul|South Sudan
+Value=729;Sudão|Sudan (the)
+Value=732;Sara Ocidental*|Western Sahara*
 Value=740;Suriname
-Value=744;Svalbard and Jan Mayen
-Value=748;Eswatini
-Value=752;Sweden
-Value=756;Switzerland
-Value=760;Syrian Arab Republic (the)
-Value=762;Tajikistan
-Value=764;Thailand
+Value=744;Svalbard e Jan Mayen|Svalbard and Jan Mayen
+Value=748;Essuatíni|Eswatini
+Value=752;Suécia|Sweden
+Value=756;Suíça|Switzerland
+Value=760;República Árabe Síria|Syrian Arab Republic (the)
+Value=762;Tajiquistão|Tajikistan
+Value=764;Tailândia|Thailand
 Value=768;Togo
-Value=772;Tokelau
+Value=772;Toquelau|Tokelau
 Value=776;Tonga
-Value=780;Trinidad and Tobago
-Value=784;United Arab Emirates (the)
-Value=788;Tunisia
-Value=792;Türkiye
-Value=795;Turkmenistan
-Value=796;Turks and Caicos Islands (the)
+Value=780;Trindade e Tobago|Trinidad and Tobago
+Value=784;Emirados Árabes Unidos|United Arab Emirates (the)
+Value=788;Tunísia|Tunisia
+Value=792;Turquia|Türkiye
+Value=795;Turquemenistão|Turkmenistan
+Value=796;Ilhas Turcas e Caicos|Turks and Caicos Islands (the)
 Value=798;Tuvalu
 Value=800;Uganda
-Value=804;Ukraine
-Value=807;North Macedonia
-Value=818;Egypt
-Value=826;United Kingdom of Great Britain and Northern Ireland (the)
+Value=804;Ucrânia|Ukraine
+Value=807;Macedónia do Norte|North Macedonia
+Value=818;Egito|Egypt
+Value=826;Reino Unido da Grã-Bretanha e Irlanda do Norte|United Kingdom of Great Britain and Northern Ireland (the)
 Value=831;Guernsey
 Value=832;Jersey
-Value=833;Isle of Man
-Value=834;Tanzania, the United Republic of
-Value=840;United States of America (the)
-Value=850;Virgin Islands (U.S.)
-Value=854;Burkina Faso
-Value=858;Uruguay
-Value=860;Uzbekistan
-Value=862;Venezuela (Bolivarian Republic of)
-Value=876;Wallis and Futuna
+Value=833;Ilha de Man|Isle of Man
+Value=834;Tanzânia, República Unida da|Tanzania, the United Republic of
+Value=840;Estados Unidos da América|United States of America (the)
+Value=850;Ilhas Virgens Americanas|Virgin Islands (U.S.)
+Value=854;Burquina Faso|Burkina Faso
+Value=858;Uruguai|Uruguay
+Value=860;Usbequistão|Uzbekistan
+Value=862;Venezuela (República Bolivariana da)|Venezuela (Bolivarian Republic of)
+Value=876;Wallis e Futuna|Wallis and Futuna
 Value=882;Samoa
-Value=887;Yemen
-Value=894;Zambia
-Value=976;UNABLE TO DETERMINE
-Value=998;DK
-Value=999;NO RESPONSE
+Value=887;Iémen|Yemen
+Value=894;Zâmbia|Zambia
+Value=976;NÃO FOI POSSÍVEL DETERMINAR|UNABLE TO DETERMINE
+Value=998;NÃO SABE|DK
+Value=999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tem nacionalidade deste país|Have citizenship of this country
@@ -801,10 +801,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tem nacionalidade deste país
 Name=MWB7_VS1
-Value=1;YES, CITIZEN OF THIS COUNTRY
-Value=2;NO, ANOTHER COUNTRY
-Value=3;NO, NO CITIZENSHIP
-Value=9;NO RESPONSE
+Value=1;SIM, CIDADÃO DESTE PAÍS|YES, CITIZEN OF THIS COUNTRY
+Value=2;NÃO, OUTRO PAÍS|NO, ANOTHER COUNTRY
+Value=3;NÃO, SEM CIDADANIA|NO, NO CITIZENSHIP
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tem nacionalidade de outro país|Have citizenship from another country
@@ -817,9 +817,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tem nacionalidade de outro país
 Name=MWB7A_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outro país de nacionalidade 1|Another country of citizenship 1
@@ -832,257 +832,257 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outro país de nacionalidade 1
 Name=MWB7B1_VS1
-Value=4;Afghanistan
-Value=8;Albania
-Value=10;Antarctica
-Value=12;Algeria
-Value=16;American Samoa
+Value=4;Afeganistão|Afghanistan
+Value=8;Albânia|Albania
+Value=10;Antártida|Antarctica
+Value=12;Argélia|Algeria
+Value=16;Samoa Americana|American Samoa
 Value=20;Andorra
 Value=24;Angola
-Value=28;Antigua and Barbuda
-Value=31;Azerbaijan
+Value=28;Antígua e Barbuda|Antigua and Barbuda
+Value=31;Azerbaijão|Azerbaijan
 Value=32;Argentina
-Value=36;Australia
-Value=40;Austria
-Value=44;Bahamas (the)
-Value=48;Bahrain
+Value=36;Austrália|Australia
+Value=40;Áustria|Austria
+Value=44;Baamas|Bahamas (the)
+Value=48;Barém|Bahrain
 Value=50;Bangladesh
-Value=51;Armenia
+Value=51;Arménia|Armenia
 Value=52;Barbados
-Value=56;Belgium
-Value=60;Bermuda
-Value=64;Bhutan
-Value=68;Bolivia (Plurinational State of)
-Value=70;Bosnia and Herzegovina
-Value=72;Botswana
-Value=74;Bouvet Island
-Value=76;Brazil
+Value=56;Bélgica|Belgium
+Value=60;Bermudas|Bermuda
+Value=64;Butão|Bhutan
+Value=68;Bolívia (Estado Plurinacional da)|Bolivia (Plurinational State of)
+Value=70;Bósnia e Herzegovina|Bosnia and Herzegovina
+Value=72;Botsuana|Botswana
+Value=74;Ilha Bouvet|Bouvet Island
+Value=76;Brasil|Brazil
 Value=84;Belize
-Value=86;British Indian Ocean Territory (the)
-Value=90;Solomon Islands
-Value=92;Virgin Islands (British)
+Value=86;Território Britânico do Oceano Índico|British Indian Ocean Territory (the)
+Value=90;Ilhas Salomão|Solomon Islands
+Value=92;Ilhas Virgens Britânicas|Virgin Islands (British)
 Value=96;Brunei Darussalam
-Value=100;Bulgaria
+Value=100;Bulgária|Bulgaria
 Value=104;Myanmar
 Value=108;Burundi
-Value=112;Belarus
-Value=116;Cambodia
-Value=120;Cameroon
-Value=124;Canada
+Value=112;Bielorrússia|Belarus
+Value=116;Camboja|Cambodia
+Value=120;Camarões|Cameroon
+Value=124;Canadá|Canada
 Value=132;Cabo Verde
-Value=136;Cayman Islands (the)
-Value=140;Central African Republic (the)
+Value=136;Ilhas Caimão|Cayman Islands (the)
+Value=140;República Centro-Africana|Central African Republic (the)
 Value=144;Sri Lanka
-Value=148;Chad
+Value=148;Chade|Chad
 Value=152;Chile
 Value=156;China
-Value=158;Taiwan (Province of China)
-Value=162;Christmas Island
-Value=166;Cocos (Keeling) Islands (the)
-Value=170;Colombia
-Value=174;Comoros (the)
-Value=175;Mayotte
-Value=178;Congo (the)
-Value=180;Congo (the Democratic Republic of the)
-Value=184;Cook Islands (the)
+Value=158;Taiwan (Província da China)|Taiwan (Province of China)
+Value=162;Ilha do Natal|Christmas Island
+Value=166;Ilhas Cocos (Keeling)|Cocos (Keeling) Islands (the)
+Value=170;Colômbia|Colombia
+Value=174;Comores|Comoros (the)
+Value=175;Maiote|Mayotte
+Value=178;Congo|Congo (the)
+Value=180;Congo (República Democrática do)|Congo (the Democratic Republic of the)
+Value=184;Ilhas Cook|Cook Islands (the)
 Value=188;Costa Rica
-Value=191;Croatia
+Value=191;Croácia|Croatia
 Value=192;Cuba
-Value=196;Cyprus
-Value=203;Czechia
-Value=204;Benin
-Value=208;Denmark
-Value=212;Dominica
-Value=214;Dominican Republic (the)
-Value=218;Ecuador
+Value=196;Chipre|Cyprus
+Value=203;Chéquia|Czechia
+Value=204;Benim|Benin
+Value=208;Dinamarca|Denmark
+Value=212;Domínica|Dominica
+Value=214;República Dominicana|Dominican Republic (the)
+Value=218;Equador|Ecuador
 Value=222;El Salvador
-Value=226;Equatorial Guinea
-Value=231;Ethiopia
-Value=232;Eritrea
-Value=233;Estonia
-Value=234;Faroe Islands (the)
-Value=238;Falkland Islands (the) [Malvinas]
-Value=239;South Georgia and the South Sandwich Islands
+Value=226;Guiné Equatorial|Equatorial Guinea
+Value=231;Etiópia|Ethiopia
+Value=232;Eritreia|Eritrea
+Value=233;Estónia|Estonia
+Value=234;Ilhas Faroé|Faroe Islands (the)
+Value=238;Ilhas Falkland [Malvinas]|Falkland Islands (the) [Malvinas]
+Value=239;Geórgia do Sul e Ilhas Sandwich do Sul|South Georgia and the South Sandwich Islands
 Value=242;Fiji
-Value=246;Finland
-Value=248;Åland Islands
-Value=250;France
-Value=254;French Guiana
-Value=258;French Polynesia
-Value=260;French Southern Territories (the)
-Value=262;Djibouti
-Value=266;Gabon
-Value=268;Georgia
-Value=270;Gambia (the)
-Value=275;Palestine, State of
-Value=276;Germany
-Value=288;Ghana
+Value=246;Finlândia|Finland
+Value=248;Ilhas Åland|Åland Islands
+Value=250;França|France
+Value=254;Guiana Francesa|French Guiana
+Value=258;Polinésia Francesa|French Polynesia
+Value=260;Territórios Austrais Franceses|French Southern Territories (the)
+Value=262;Djibuti|Djibouti
+Value=266;Gabão|Gabon
+Value=268;Geórgia|Georgia
+Value=270;Gâmbia|Gambia (the)
+Value=275;Palestina, Estado da|Palestine, State of
+Value=276;Alemanha|Germany
+Value=288;Gana|Ghana
 Value=292;Gibraltar
-Value=296;Kiribati
-Value=300;Greece
-Value=304;Greenland
-Value=308;Grenada
-Value=312;Guadeloupe
+Value=296;Quiribáti|Kiribati
+Value=300;Grécia|Greece
+Value=304;Gronelândia|Greenland
+Value=308;Granada|Grenada
+Value=312;Guadalupe|Guadeloupe
 Value=316;Guam
 Value=320;Guatemala
-Value=324;Guinea
-Value=328;Guyana
+Value=324;Guiné|Guinea
+Value=328;Guiana|Guyana
 Value=332;Haiti
-Value=334;Heard Island and McDonald Islands
-Value=336;Holy See (the)
+Value=334;Ilha Heard e Ilhas McDonald|Heard Island and McDonald Islands
+Value=336;Santa Sé|Holy See (the)
 Value=340;Honduras
 Value=344;Hong Kong
-Value=348;Hungary
-Value=352;Iceland
-Value=356;India
-Value=360;Indonesia
-Value=364;Iran (Islamic Republic of)
-Value=368;Iraq
-Value=372;Ireland
+Value=348;Hungria|Hungary
+Value=352;Islândia|Iceland
+Value=356;Índia|India
+Value=360;Indonésia|Indonesia
+Value=364;Irão (República Islâmica do)|Iran (Islamic Republic of)
+Value=368;Iraque|Iraq
+Value=372;Irlanda|Ireland
 Value=376;Israel
-Value=380;Italy
-Value=384;Côte d'Ivoire
+Value=380;Itália|Italy
+Value=384;Costa do Marfim|Côte d'Ivoire
 Value=388;Jamaica
-Value=392;Japan
-Value=398;Kazakhstan
-Value=400;Jordan
-Value=404;Kenya
-Value=408;Korea (the Democratic People's Republic of)
-Value=410;Korea (the Republic of)
-Value=414;Kuwait
-Value=417;Kyrgyzstan
-Value=418;Lao People's Democratic Republic (the)
-Value=422;Lebanon
-Value=426;Lesotho
-Value=428;Latvia
-Value=430;Liberia
-Value=434;Libya
-Value=438;Liechtenstein
-Value=440;Lithuania
-Value=442;Luxembourg
-Value=446;Macao
-Value=450;Madagascar
-Value=454;Malawi
-Value=458;Malaysia
-Value=462;Maldives
+Value=392;Japão|Japan
+Value=398;Cazaquistão|Kazakhstan
+Value=400;Jordânia|Jordan
+Value=404;Quénia|Kenya
+Value=408;Coreia (República Popular Democrática da)|Korea (the Democratic People's Republic of)
+Value=410;Coreia (República da)|Korea (the Republic of)
+Value=414;Koweit|Kuwait
+Value=417;Quirguistão|Kyrgyzstan
+Value=418;República Democrática Popular do Laos|Lao People's Democratic Republic (the)
+Value=422;Líbano|Lebanon
+Value=426;Lesoto|Lesotho
+Value=428;Letónia|Latvia
+Value=430;Libéria|Liberia
+Value=434;Líbia|Libya
+Value=438;Listenstaine|Liechtenstein
+Value=440;Lituânia|Lithuania
+Value=442;Luxemburgo|Luxembourg
+Value=446;Macau|Macao
+Value=450;Madagáscar|Madagascar
+Value=454;Maláui|Malawi
+Value=458;Malásia|Malaysia
+Value=462;Maldivas|Maldives
 Value=466;Mali
 Value=470;Malta
-Value=474;Martinique
-Value=478;Mauritania
-Value=480;Mauritius
-Value=484;Mexico
-Value=492;Monaco
-Value=496;Mongolia
-Value=498;Moldova (the Republic of)
+Value=474;Martinica|Martinique
+Value=478;Mauritânia|Mauritania
+Value=480;Maurícia|Mauritius
+Value=484;México|Mexico
+Value=492;Mónaco|Monaco
+Value=496;Mongólia|Mongolia
+Value=498;Moldávia (República da)|Moldova (the Republic of)
 Value=499;Montenegro
-Value=500;Montserrat
-Value=504;Morocco
-Value=508;Mozambique
-Value=512;Oman
-Value=516;Namibia
+Value=500;Monserrate|Montserrat
+Value=504;Marrocos|Morocco
+Value=508;Moçambique|Mozambique
+Value=512;Omã|Oman
+Value=516;Namíbia|Namibia
 Value=520;Nauru
 Value=524;Nepal
-Value=528;Netherlands (Kingdom of the)
-Value=531;Curaçao
+Value=528;Países Baixos (Reino dos)|Netherlands (Kingdom of the)
+Value=531;Curaçau|Curaçao
 Value=533;Aruba
-Value=534;Sint Maarten (Dutch part)
-Value=535;Bonaire, Sint Eustatius and Saba
-Value=540;New Caledonia
+Value=534;São Martinho (parte neerlandesa)|Sint Maarten (Dutch part)
+Value=535;Bonaire, Santo Eustáquio e Saba|Bonaire, Sint Eustatius and Saba
+Value=540;Nova Caledónia|New Caledonia
 Value=548;Vanuatu
-Value=554;New Zealand
-Value=558;Nicaragua
-Value=562;Niger (the)
-Value=566;Nigeria
+Value=554;Nova Zelândia|New Zealand
+Value=558;Nicarágua|Nicaragua
+Value=562;Níger|Niger (the)
+Value=566;Nigéria|Nigeria
 Value=570;Niue
-Value=574;Norfolk Island
-Value=578;Norway
-Value=580;Northern Mariana Islands (the)
-Value=581;United States Minor Outlying Islands (the)
-Value=583;Micronesia (Federated States of)
-Value=584;Marshall Islands (the)
+Value=574;Ilha Norfolk|Norfolk Island
+Value=578;Noruega|Norway
+Value=580;Ilhas Marianas do Norte|Northern Mariana Islands (the)
+Value=581;Ilhas Menores Distantes dos Estados Unidos|United States Minor Outlying Islands (the)
+Value=583;Micronésia (Estados Federados da)|Micronesia (Federated States of)
+Value=584;Ilhas Marshall|Marshall Islands (the)
 Value=585;Palau
-Value=586;Pakistan
-Value=591;Panama
-Value=598;Papua New Guinea
-Value=600;Paraguay
+Value=586;Paquistão|Pakistan
+Value=591;Panamá|Panama
+Value=598;Papua-Nova Guiné|Papua New Guinea
+Value=600;Paraguai|Paraguay
 Value=604;Peru
-Value=608;Philippines (the)
+Value=608;Filipinas|Philippines (the)
 Value=612;Pitcairn
-Value=616;Poland
+Value=616;Polónia|Poland
 Value=620;Portugal
-Value=624;Guinea-Bissau
+Value=624;Guiné-Bissau|Guinea-Bissau
 Value=626;Timor-Leste
-Value=630;Puerto Rico
-Value=634;Qatar
-Value=638;Réunion
-Value=642;Romania
-Value=643;Russian Federation (the)
-Value=646;Rwanda
-Value=652;Saint Barthélemy
-Value=654;Saint Helena, Ascension and Tristan da Cunha
-Value=659;Saint Kitts and Nevis
-Value=660;Anguilla
-Value=662;Saint Lucia
-Value=663;Saint Martin (French part)
-Value=666;Saint Pierre and Miquelon
-Value=670;Saint Vincent and the Grenadines
-Value=674;San Marino
-Value=678;Sao Tome and Principe
-Value=682;Saudi Arabia
+Value=630;Porto Rico|Puerto Rico
+Value=634;Catar|Qatar
+Value=638;Reunião|Réunion
+Value=642;Roménia|Romania
+Value=643;Federação Russa|Russian Federation (the)
+Value=646;Ruanda|Rwanda
+Value=652;São Bartolomeu|Saint Barthélemy
+Value=654;Santa Helena, Ascensão e Tristão da Cunha|Saint Helena, Ascension and Tristan da Cunha
+Value=659;São Cristóvão e Neves|Saint Kitts and Nevis
+Value=660;Anguila|Anguilla
+Value=662;Santa Lúcia|Saint Lucia
+Value=663;São Martinho (parte francesa)|Saint Martin (French part)
+Value=666;São Pedro e Miquelão|Saint Pierre and Miquelon
+Value=670;São Vicente e Granadinas|Saint Vincent and the Grenadines
+Value=674;São Marinho|San Marino
+Value=678;São Tomé e Príncipe|Sao Tome and Principe
+Value=682;Arábia Saudita|Saudi Arabia
 Value=686;Senegal
-Value=688;Serbia
-Value=690;Seychelles
-Value=694;Sierra Leone
-Value=702;Singapore
-Value=703;Slovakia
-Value=704;Viet Nam
-Value=705;Slovenia
-Value=706;Somalia
-Value=710;South Africa
-Value=716;Zimbabwe
-Value=724;Spain
-Value=728;South Sudan
-Value=729;Sudan (the)
-Value=732;Western Sahara*
+Value=688;Sérvia|Serbia
+Value=690;Seicheles|Seychelles
+Value=694;Serra Leoa|Sierra Leone
+Value=702;Singapura|Singapore
+Value=703;Eslováquia|Slovakia
+Value=704;Vietname|Viet Nam
+Value=705;Eslovénia|Slovenia
+Value=706;Somália|Somalia
+Value=710;África do Sul|South Africa
+Value=716;Zimbabué|Zimbabwe
+Value=724;Espanha|Spain
+Value=728;Sudão do Sul|South Sudan
+Value=729;Sudão|Sudan (the)
+Value=732;Sara Ocidental*|Western Sahara*
 Value=740;Suriname
-Value=744;Svalbard and Jan Mayen
-Value=748;Eswatini
-Value=752;Sweden
-Value=756;Switzerland
-Value=760;Syrian Arab Republic (the)
-Value=762;Tajikistan
-Value=764;Thailand
+Value=744;Svalbard e Jan Mayen|Svalbard and Jan Mayen
+Value=748;Essuatíni|Eswatini
+Value=752;Suécia|Sweden
+Value=756;Suíça|Switzerland
+Value=760;República Árabe Síria|Syrian Arab Republic (the)
+Value=762;Tajiquistão|Tajikistan
+Value=764;Tailândia|Thailand
 Value=768;Togo
-Value=772;Tokelau
+Value=772;Toquelau|Tokelau
 Value=776;Tonga
-Value=780;Trinidad and Tobago
-Value=784;United Arab Emirates (the)
-Value=788;Tunisia
-Value=792;Türkiye
-Value=795;Turkmenistan
-Value=796;Turks and Caicos Islands (the)
+Value=780;Trindade e Tobago|Trinidad and Tobago
+Value=784;Emirados Árabes Unidos|United Arab Emirates (the)
+Value=788;Tunísia|Tunisia
+Value=792;Turquia|Türkiye
+Value=795;Turquemenistão|Turkmenistan
+Value=796;Ilhas Turcas e Caicos|Turks and Caicos Islands (the)
 Value=798;Tuvalu
 Value=800;Uganda
-Value=804;Ukraine
-Value=807;North Macedonia
-Value=818;Egypt
-Value=826;United Kingdom of Great Britain and Northern Ireland (the)
+Value=804;Ucrânia|Ukraine
+Value=807;Macedónia do Norte|North Macedonia
+Value=818;Egito|Egypt
+Value=826;Reino Unido da Grã-Bretanha e Irlanda do Norte|United Kingdom of Great Britain and Northern Ireland (the)
 Value=831;Guernsey
 Value=832;Jersey
-Value=833;Isle of Man
-Value=834;Tanzania, the United Republic of
-Value=840;United States of America (the)
-Value=850;Virgin Islands (U.S.)
-Value=854;Burkina Faso
-Value=858;Uruguay
-Value=860;Uzbekistan
-Value=862;Venezuela (Bolivarian Republic of)
-Value=876;Wallis and Futuna
+Value=833;Ilha de Man|Isle of Man
+Value=834;Tanzânia, República Unida da|Tanzania, the United Republic of
+Value=840;Estados Unidos da América|United States of America (the)
+Value=850;Ilhas Virgens Americanas|Virgin Islands (U.S.)
+Value=854;Burquina Faso|Burkina Faso
+Value=858;Uruguai|Uruguay
+Value=860;Usbequistão|Uzbekistan
+Value=862;Venezuela (República Bolivariana da)|Venezuela (Bolivarian Republic of)
+Value=876;Wallis e Futuna|Wallis and Futuna
 Value=882;Samoa
-Value=887;Yemen
-Value=894;Zambia
-Value=976;UNABLE TO DETERMINE
-Value=999;NO RESPONSE
+Value=887;Iémen|Yemen
+Value=894;Zâmbia|Zambia
+Value=976;NÃO FOI POSSÍVEL DETERMINAR|UNABLE TO DETERMINE
+Value=999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outro país de nacionalidade 2|Another country of citizenship 2
@@ -1095,258 +1095,258 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outro país de nacionalidade 2
 Name=MWB7B2_VS1
-Value=0;NO MORE COUNTRY OF CITIZENSHIP
-Value=4;Afghanistan
-Value=8;Albania
-Value=10;Antarctica
-Value=12;Algeria
-Value=16;American Samoa
+Value=0;NÃO HÁ MAIS PAÍSES DE CIDADANIA|NO MORE COUNTRY OF CITIZENSHIP
+Value=4;Afeganistão|Afghanistan
+Value=8;Albânia|Albania
+Value=10;Antártida|Antarctica
+Value=12;Argélia|Algeria
+Value=16;Samoa Americana|American Samoa
 Value=20;Andorra
 Value=24;Angola
-Value=28;Antigua and Barbuda
-Value=31;Azerbaijan
+Value=28;Antígua e Barbuda|Antigua and Barbuda
+Value=31;Azerbaijão|Azerbaijan
 Value=32;Argentina
-Value=36;Australia
-Value=40;Austria
-Value=44;Bahamas (the)
-Value=48;Bahrain
+Value=36;Austrália|Australia
+Value=40;Áustria|Austria
+Value=44;Baamas|Bahamas (the)
+Value=48;Barém|Bahrain
 Value=50;Bangladesh
-Value=51;Armenia
+Value=51;Arménia|Armenia
 Value=52;Barbados
-Value=56;Belgium
-Value=60;Bermuda
-Value=64;Bhutan
-Value=68;Bolivia (Plurinational State of)
-Value=70;Bosnia and Herzegovina
-Value=72;Botswana
-Value=74;Bouvet Island
-Value=76;Brazil
+Value=56;Bélgica|Belgium
+Value=60;Bermudas|Bermuda
+Value=64;Butão|Bhutan
+Value=68;Bolívia (Estado Plurinacional da)|Bolivia (Plurinational State of)
+Value=70;Bósnia e Herzegovina|Bosnia and Herzegovina
+Value=72;Botsuana|Botswana
+Value=74;Ilha Bouvet|Bouvet Island
+Value=76;Brasil|Brazil
 Value=84;Belize
-Value=86;British Indian Ocean Territory (the)
-Value=90;Solomon Islands
-Value=92;Virgin Islands (British)
+Value=86;Território Britânico do Oceano Índico|British Indian Ocean Territory (the)
+Value=90;Ilhas Salomão|Solomon Islands
+Value=92;Ilhas Virgens Britânicas|Virgin Islands (British)
 Value=96;Brunei Darussalam
-Value=100;Bulgaria
+Value=100;Bulgária|Bulgaria
 Value=104;Myanmar
 Value=108;Burundi
-Value=112;Belarus
-Value=116;Cambodia
-Value=120;Cameroon
-Value=124;Canada
+Value=112;Bielorrússia|Belarus
+Value=116;Camboja|Cambodia
+Value=120;Camarões|Cameroon
+Value=124;Canadá|Canada
 Value=132;Cabo Verde
-Value=136;Cayman Islands (the)
-Value=140;Central African Republic (the)
+Value=136;Ilhas Caimão|Cayman Islands (the)
+Value=140;República Centro-Africana|Central African Republic (the)
 Value=144;Sri Lanka
-Value=148;Chad
+Value=148;Chade|Chad
 Value=152;Chile
 Value=156;China
-Value=158;Taiwan (Province of China)
-Value=162;Christmas Island
-Value=166;Cocos (Keeling) Islands (the)
-Value=170;Colombia
-Value=174;Comoros (the)
-Value=175;Mayotte
-Value=178;Congo (the)
-Value=180;Congo (the Democratic Republic of the)
-Value=184;Cook Islands (the)
+Value=158;Taiwan (Província da China)|Taiwan (Province of China)
+Value=162;Ilha do Natal|Christmas Island
+Value=166;Ilhas Cocos (Keeling)|Cocos (Keeling) Islands (the)
+Value=170;Colômbia|Colombia
+Value=174;Comores|Comoros (the)
+Value=175;Maiote|Mayotte
+Value=178;Congo|Congo (the)
+Value=180;Congo (República Democrática do)|Congo (the Democratic Republic of the)
+Value=184;Ilhas Cook|Cook Islands (the)
 Value=188;Costa Rica
-Value=191;Croatia
+Value=191;Croácia|Croatia
 Value=192;Cuba
-Value=196;Cyprus
-Value=203;Czechia
-Value=204;Benin
-Value=208;Denmark
-Value=212;Dominica
-Value=214;Dominican Republic (the)
-Value=218;Ecuador
+Value=196;Chipre|Cyprus
+Value=203;Chéquia|Czechia
+Value=204;Benim|Benin
+Value=208;Dinamarca|Denmark
+Value=212;Domínica|Dominica
+Value=214;República Dominicana|Dominican Republic (the)
+Value=218;Equador|Ecuador
 Value=222;El Salvador
-Value=226;Equatorial Guinea
-Value=231;Ethiopia
-Value=232;Eritrea
-Value=233;Estonia
-Value=234;Faroe Islands (the)
-Value=238;Falkland Islands (the) [Malvinas]
-Value=239;South Georgia and the South Sandwich Islands
+Value=226;Guiné Equatorial|Equatorial Guinea
+Value=231;Etiópia|Ethiopia
+Value=232;Eritreia|Eritrea
+Value=233;Estónia|Estonia
+Value=234;Ilhas Faroé|Faroe Islands (the)
+Value=238;Ilhas Falkland [Malvinas]|Falkland Islands (the) [Malvinas]
+Value=239;Geórgia do Sul e Ilhas Sandwich do Sul|South Georgia and the South Sandwich Islands
 Value=242;Fiji
-Value=246;Finland
-Value=248;Åland Islands
-Value=250;France
-Value=254;French Guiana
-Value=258;French Polynesia
-Value=260;French Southern Territories (the)
-Value=262;Djibouti
-Value=266;Gabon
-Value=268;Georgia
-Value=270;Gambia (the)
-Value=275;Palestine, State of
-Value=276;Germany
-Value=288;Ghana
+Value=246;Finlândia|Finland
+Value=248;Ilhas Åland|Åland Islands
+Value=250;França|France
+Value=254;Guiana Francesa|French Guiana
+Value=258;Polinésia Francesa|French Polynesia
+Value=260;Territórios Austrais Franceses|French Southern Territories (the)
+Value=262;Djibuti|Djibouti
+Value=266;Gabão|Gabon
+Value=268;Geórgia|Georgia
+Value=270;Gâmbia|Gambia (the)
+Value=275;Palestina, Estado da|Palestine, State of
+Value=276;Alemanha|Germany
+Value=288;Gana|Ghana
 Value=292;Gibraltar
-Value=296;Kiribati
-Value=300;Greece
-Value=304;Greenland
-Value=308;Grenada
-Value=312;Guadeloupe
+Value=296;Quiribáti|Kiribati
+Value=300;Grécia|Greece
+Value=304;Gronelândia|Greenland
+Value=308;Granada|Grenada
+Value=312;Guadalupe|Guadeloupe
 Value=316;Guam
 Value=320;Guatemala
-Value=324;Guinea
-Value=328;Guyana
+Value=324;Guiné|Guinea
+Value=328;Guiana|Guyana
 Value=332;Haiti
-Value=334;Heard Island and McDonald Islands
-Value=336;Holy See (the)
+Value=334;Ilha Heard e Ilhas McDonald|Heard Island and McDonald Islands
+Value=336;Santa Sé|Holy See (the)
 Value=340;Honduras
 Value=344;Hong Kong
-Value=348;Hungary
-Value=352;Iceland
-Value=356;India
-Value=360;Indonesia
-Value=364;Iran (Islamic Republic of)
-Value=368;Iraq
-Value=372;Ireland
+Value=348;Hungria|Hungary
+Value=352;Islândia|Iceland
+Value=356;Índia|India
+Value=360;Indonésia|Indonesia
+Value=364;Irão (República Islâmica do)|Iran (Islamic Republic of)
+Value=368;Iraque|Iraq
+Value=372;Irlanda|Ireland
 Value=376;Israel
-Value=380;Italy
-Value=384;Côte d'Ivoire
+Value=380;Itália|Italy
+Value=384;Costa do Marfim|Côte d'Ivoire
 Value=388;Jamaica
-Value=392;Japan
-Value=398;Kazakhstan
-Value=400;Jordan
-Value=404;Kenya
-Value=408;Korea (the Democratic People's Republic of)
-Value=410;Korea (the Republic of)
-Value=414;Kuwait
-Value=417;Kyrgyzstan
-Value=418;Lao People's Democratic Republic (the)
-Value=422;Lebanon
-Value=426;Lesotho
-Value=428;Latvia
-Value=430;Liberia
-Value=434;Libya
-Value=438;Liechtenstein
-Value=440;Lithuania
-Value=442;Luxembourg
-Value=446;Macao
-Value=450;Madagascar
-Value=454;Malawi
-Value=458;Malaysia
-Value=462;Maldives
+Value=392;Japão|Japan
+Value=398;Cazaquistão|Kazakhstan
+Value=400;Jordânia|Jordan
+Value=404;Quénia|Kenya
+Value=408;Coreia (República Popular Democrática da)|Korea (the Democratic People's Republic of)
+Value=410;Coreia (República da)|Korea (the Republic of)
+Value=414;Koweit|Kuwait
+Value=417;Quirguistão|Kyrgyzstan
+Value=418;República Democrática Popular do Laos|Lao People's Democratic Republic (the)
+Value=422;Líbano|Lebanon
+Value=426;Lesoto|Lesotho
+Value=428;Letónia|Latvia
+Value=430;Libéria|Liberia
+Value=434;Líbia|Libya
+Value=438;Listenstaine|Liechtenstein
+Value=440;Lituânia|Lithuania
+Value=442;Luxemburgo|Luxembourg
+Value=446;Macau|Macao
+Value=450;Madagáscar|Madagascar
+Value=454;Maláui|Malawi
+Value=458;Malásia|Malaysia
+Value=462;Maldivas|Maldives
 Value=466;Mali
 Value=470;Malta
-Value=474;Martinique
-Value=478;Mauritania
-Value=480;Mauritius
-Value=484;Mexico
-Value=492;Monaco
-Value=496;Mongolia
-Value=498;Moldova (the Republic of)
+Value=474;Martinica|Martinique
+Value=478;Mauritânia|Mauritania
+Value=480;Maurícia|Mauritius
+Value=484;México|Mexico
+Value=492;Mónaco|Monaco
+Value=496;Mongólia|Mongolia
+Value=498;Moldávia (República da)|Moldova (the Republic of)
 Value=499;Montenegro
-Value=500;Montserrat
-Value=504;Morocco
-Value=508;Mozambique
-Value=512;Oman
-Value=516;Namibia
+Value=500;Monserrate|Montserrat
+Value=504;Marrocos|Morocco
+Value=508;Moçambique|Mozambique
+Value=512;Omã|Oman
+Value=516;Namíbia|Namibia
 Value=520;Nauru
 Value=524;Nepal
-Value=528;Netherlands (Kingdom of the)
-Value=531;Curaçao
+Value=528;Países Baixos (Reino dos)|Netherlands (Kingdom of the)
+Value=531;Curaçau|Curaçao
 Value=533;Aruba
-Value=534;Sint Maarten (Dutch part)
-Value=535;Bonaire, Sint Eustatius and Saba
-Value=540;New Caledonia
+Value=534;São Martinho (parte neerlandesa)|Sint Maarten (Dutch part)
+Value=535;Bonaire, Santo Eustáquio e Saba|Bonaire, Sint Eustatius and Saba
+Value=540;Nova Caledónia|New Caledonia
 Value=548;Vanuatu
-Value=554;New Zealand
-Value=558;Nicaragua
-Value=562;Niger (the)
-Value=566;Nigeria
+Value=554;Nova Zelândia|New Zealand
+Value=558;Nicarágua|Nicaragua
+Value=562;Níger|Niger (the)
+Value=566;Nigéria|Nigeria
 Value=570;Niue
-Value=574;Norfolk Island
-Value=578;Norway
-Value=580;Northern Mariana Islands (the)
-Value=581;United States Minor Outlying Islands (the)
-Value=583;Micronesia (Federated States of)
-Value=584;Marshall Islands (the)
+Value=574;Ilha Norfolk|Norfolk Island
+Value=578;Noruega|Norway
+Value=580;Ilhas Marianas do Norte|Northern Mariana Islands (the)
+Value=581;Ilhas Menores Distantes dos Estados Unidos|United States Minor Outlying Islands (the)
+Value=583;Micronésia (Estados Federados da)|Micronesia (Federated States of)
+Value=584;Ilhas Marshall|Marshall Islands (the)
 Value=585;Palau
-Value=586;Pakistan
-Value=591;Panama
-Value=598;Papua New Guinea
-Value=600;Paraguay
+Value=586;Paquistão|Pakistan
+Value=591;Panamá|Panama
+Value=598;Papua-Nova Guiné|Papua New Guinea
+Value=600;Paraguai|Paraguay
 Value=604;Peru
-Value=608;Philippines (the)
+Value=608;Filipinas|Philippines (the)
 Value=612;Pitcairn
-Value=616;Poland
+Value=616;Polónia|Poland
 Value=620;Portugal
-Value=624;Guinea-Bissau
+Value=624;Guiné-Bissau|Guinea-Bissau
 Value=626;Timor-Leste
-Value=630;Puerto Rico
-Value=634;Qatar
-Value=638;Réunion
-Value=642;Romania
-Value=643;Russian Federation (the)
-Value=646;Rwanda
-Value=652;Saint Barthélemy
-Value=654;Saint Helena, Ascension and Tristan da Cunha
-Value=659;Saint Kitts and Nevis
-Value=660;Anguilla
-Value=662;Saint Lucia
-Value=663;Saint Martin (French part)
-Value=666;Saint Pierre and Miquelon
-Value=670;Saint Vincent and the Grenadines
-Value=674;San Marino
-Value=678;Sao Tome and Principe
-Value=682;Saudi Arabia
+Value=630;Porto Rico|Puerto Rico
+Value=634;Catar|Qatar
+Value=638;Reunião|Réunion
+Value=642;Roménia|Romania
+Value=643;Federação Russa|Russian Federation (the)
+Value=646;Ruanda|Rwanda
+Value=652;São Bartolomeu|Saint Barthélemy
+Value=654;Santa Helena, Ascensão e Tristão da Cunha|Saint Helena, Ascension and Tristan da Cunha
+Value=659;São Cristóvão e Neves|Saint Kitts and Nevis
+Value=660;Anguila|Anguilla
+Value=662;Santa Lúcia|Saint Lucia
+Value=663;São Martinho (parte francesa)|Saint Martin (French part)
+Value=666;São Pedro e Miquelão|Saint Pierre and Miquelon
+Value=670;São Vicente e Granadinas|Saint Vincent and the Grenadines
+Value=674;São Marinho|San Marino
+Value=678;São Tomé e Príncipe|Sao Tome and Principe
+Value=682;Arábia Saudita|Saudi Arabia
 Value=686;Senegal
-Value=688;Serbia
-Value=690;Seychelles
-Value=694;Sierra Leone
-Value=702;Singapore
-Value=703;Slovakia
-Value=704;Viet Nam
-Value=705;Slovenia
-Value=706;Somalia
-Value=710;South Africa
-Value=716;Zimbabwe
-Value=724;Spain
-Value=728;South Sudan
-Value=729;Sudan (the)
-Value=732;Western Sahara*
+Value=688;Sérvia|Serbia
+Value=690;Seicheles|Seychelles
+Value=694;Serra Leoa|Sierra Leone
+Value=702;Singapura|Singapore
+Value=703;Eslováquia|Slovakia
+Value=704;Vietname|Viet Nam
+Value=705;Eslovénia|Slovenia
+Value=706;Somália|Somalia
+Value=710;África do Sul|South Africa
+Value=716;Zimbabué|Zimbabwe
+Value=724;Espanha|Spain
+Value=728;Sudão do Sul|South Sudan
+Value=729;Sudão|Sudan (the)
+Value=732;Sara Ocidental*|Western Sahara*
 Value=740;Suriname
-Value=744;Svalbard and Jan Mayen
-Value=748;Eswatini
-Value=752;Sweden
-Value=756;Switzerland
-Value=760;Syrian Arab Republic (the)
-Value=762;Tajikistan
-Value=764;Thailand
+Value=744;Svalbard e Jan Mayen|Svalbard and Jan Mayen
+Value=748;Essuatíni|Eswatini
+Value=752;Suécia|Sweden
+Value=756;Suíça|Switzerland
+Value=760;República Árabe Síria|Syrian Arab Republic (the)
+Value=762;Tajiquistão|Tajikistan
+Value=764;Tailândia|Thailand
 Value=768;Togo
-Value=772;Tokelau
+Value=772;Toquelau|Tokelau
 Value=776;Tonga
-Value=780;Trinidad and Tobago
-Value=784;United Arab Emirates (the)
-Value=788;Tunisia
-Value=792;Türkiye
-Value=795;Turkmenistan
-Value=796;Turks and Caicos Islands (the)
+Value=780;Trindade e Tobago|Trinidad and Tobago
+Value=784;Emirados Árabes Unidos|United Arab Emirates (the)
+Value=788;Tunísia|Tunisia
+Value=792;Turquia|Türkiye
+Value=795;Turquemenistão|Turkmenistan
+Value=796;Ilhas Turcas e Caicos|Turks and Caicos Islands (the)
 Value=798;Tuvalu
 Value=800;Uganda
-Value=804;Ukraine
-Value=807;North Macedonia
-Value=818;Egypt
-Value=826;United Kingdom of Great Britain and Northern Ireland (the)
+Value=804;Ucrânia|Ukraine
+Value=807;Macedónia do Norte|North Macedonia
+Value=818;Egito|Egypt
+Value=826;Reino Unido da Grã-Bretanha e Irlanda do Norte|United Kingdom of Great Britain and Northern Ireland (the)
 Value=831;Guernsey
 Value=832;Jersey
-Value=833;Isle of Man
-Value=834;Tanzania, the United Republic of
-Value=840;United States of America (the)
-Value=850;Virgin Islands (U.S.)
-Value=854;Burkina Faso
-Value=858;Uruguay
-Value=860;Uzbekistan
-Value=862;Venezuela (Bolivarian Republic of)
-Value=876;Wallis and Futuna
+Value=833;Ilha de Man|Isle of Man
+Value=834;Tanzânia, República Unida da|Tanzania, the United Republic of
+Value=840;Estados Unidos da América|United States of America (the)
+Value=850;Ilhas Virgens Americanas|Virgin Islands (U.S.)
+Value=854;Burquina Faso|Burkina Faso
+Value=858;Uruguai|Uruguay
+Value=860;Usbequistão|Uzbekistan
+Value=862;Venezuela (República Bolivariana da)|Venezuela (Bolivarian Republic of)
+Value=876;Wallis e Futuna|Wallis and Futuna
 Value=882;Samoa
-Value=887;Yemen
-Value=894;Zambia
-Value=976;UNABLE TO DETERMINE
-Value=999;NO RESPONSE
+Value=887;Iémen|Yemen
+Value=894;Zâmbia|Zambia
+Value=976;NÃO FOI POSSÍVEL DETERMINAR|UNABLE TO DETERMINE
+Value=999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outro país de nacionalidade 3|Another country of citizenship 3
@@ -1359,258 +1359,258 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outro país de nacionalidade 3
 Name=MWB7B3_VS1
-Value=0;NO MORE COUNTRY OF CITIZENSHIP
-Value=4;Afghanistan
-Value=8;Albania
-Value=10;Antarctica
-Value=12;Algeria
-Value=16;American Samoa
+Value=0;NÃO HÁ MAIS PAÍSES DE CIDADANIA|NO MORE COUNTRY OF CITIZENSHIP
+Value=4;Afeganistão|Afghanistan
+Value=8;Albânia|Albania
+Value=10;Antártida|Antarctica
+Value=12;Argélia|Algeria
+Value=16;Samoa Americana|American Samoa
 Value=20;Andorra
 Value=24;Angola
-Value=28;Antigua and Barbuda
-Value=31;Azerbaijan
+Value=28;Antígua e Barbuda|Antigua and Barbuda
+Value=31;Azerbaijão|Azerbaijan
 Value=32;Argentina
-Value=36;Australia
-Value=40;Austria
-Value=44;Bahamas (the)
-Value=48;Bahrain
+Value=36;Austrália|Australia
+Value=40;Áustria|Austria
+Value=44;Baamas|Bahamas (the)
+Value=48;Barém|Bahrain
 Value=50;Bangladesh
-Value=51;Armenia
+Value=51;Arménia|Armenia
 Value=52;Barbados
-Value=56;Belgium
-Value=60;Bermuda
-Value=64;Bhutan
-Value=68;Bolivia (Plurinational State of)
-Value=70;Bosnia and Herzegovina
-Value=72;Botswana
-Value=74;Bouvet Island
-Value=76;Brazil
+Value=56;Bélgica|Belgium
+Value=60;Bermudas|Bermuda
+Value=64;Butão|Bhutan
+Value=68;Bolívia (Estado Plurinacional da)|Bolivia (Plurinational State of)
+Value=70;Bósnia e Herzegovina|Bosnia and Herzegovina
+Value=72;Botsuana|Botswana
+Value=74;Ilha Bouvet|Bouvet Island
+Value=76;Brasil|Brazil
 Value=84;Belize
-Value=86;British Indian Ocean Territory (the)
-Value=90;Solomon Islands
-Value=92;Virgin Islands (British)
+Value=86;Território Britânico do Oceano Índico|British Indian Ocean Territory (the)
+Value=90;Ilhas Salomão|Solomon Islands
+Value=92;Ilhas Virgens Britânicas|Virgin Islands (British)
 Value=96;Brunei Darussalam
-Value=100;Bulgaria
+Value=100;Bulgária|Bulgaria
 Value=104;Myanmar
 Value=108;Burundi
-Value=112;Belarus
-Value=116;Cambodia
-Value=120;Cameroon
-Value=124;Canada
+Value=112;Bielorrússia|Belarus
+Value=116;Camboja|Cambodia
+Value=120;Camarões|Cameroon
+Value=124;Canadá|Canada
 Value=132;Cabo Verde
-Value=136;Cayman Islands (the)
-Value=140;Central African Republic (the)
+Value=136;Ilhas Caimão|Cayman Islands (the)
+Value=140;República Centro-Africana|Central African Republic (the)
 Value=144;Sri Lanka
-Value=148;Chad
+Value=148;Chade|Chad
 Value=152;Chile
 Value=156;China
-Value=158;Taiwan (Province of China)
-Value=162;Christmas Island
-Value=166;Cocos (Keeling) Islands (the)
-Value=170;Colombia
-Value=174;Comoros (the)
-Value=175;Mayotte
-Value=178;Congo (the)
-Value=180;Congo (the Democratic Republic of the)
-Value=184;Cook Islands (the)
+Value=158;Taiwan (Província da China)|Taiwan (Province of China)
+Value=162;Ilha do Natal|Christmas Island
+Value=166;Ilhas Cocos (Keeling)|Cocos (Keeling) Islands (the)
+Value=170;Colômbia|Colombia
+Value=174;Comores|Comoros (the)
+Value=175;Maiote|Mayotte
+Value=178;Congo|Congo (the)
+Value=180;Congo (República Democrática do)|Congo (the Democratic Republic of the)
+Value=184;Ilhas Cook|Cook Islands (the)
 Value=188;Costa Rica
-Value=191;Croatia
+Value=191;Croácia|Croatia
 Value=192;Cuba
-Value=196;Cyprus
-Value=203;Czechia
-Value=204;Benin
-Value=208;Denmark
-Value=212;Dominica
-Value=214;Dominican Republic (the)
-Value=218;Ecuador
+Value=196;Chipre|Cyprus
+Value=203;Chéquia|Czechia
+Value=204;Benim|Benin
+Value=208;Dinamarca|Denmark
+Value=212;Domínica|Dominica
+Value=214;República Dominicana|Dominican Republic (the)
+Value=218;Equador|Ecuador
 Value=222;El Salvador
-Value=226;Equatorial Guinea
-Value=231;Ethiopia
-Value=232;Eritrea
-Value=233;Estonia
-Value=234;Faroe Islands (the)
-Value=238;Falkland Islands (the) [Malvinas]
-Value=239;South Georgia and the South Sandwich Islands
+Value=226;Guiné Equatorial|Equatorial Guinea
+Value=231;Etiópia|Ethiopia
+Value=232;Eritreia|Eritrea
+Value=233;Estónia|Estonia
+Value=234;Ilhas Faroé|Faroe Islands (the)
+Value=238;Ilhas Falkland [Malvinas]|Falkland Islands (the) [Malvinas]
+Value=239;Geórgia do Sul e Ilhas Sandwich do Sul|South Georgia and the South Sandwich Islands
 Value=242;Fiji
-Value=246;Finland
-Value=248;Åland Islands
-Value=250;France
-Value=254;French Guiana
-Value=258;French Polynesia
-Value=260;French Southern Territories (the)
-Value=262;Djibouti
-Value=266;Gabon
-Value=268;Georgia
-Value=270;Gambia (the)
-Value=275;Palestine, State of
-Value=276;Germany
-Value=288;Ghana
+Value=246;Finlândia|Finland
+Value=248;Ilhas Åland|Åland Islands
+Value=250;França|France
+Value=254;Guiana Francesa|French Guiana
+Value=258;Polinésia Francesa|French Polynesia
+Value=260;Territórios Austrais Franceses|French Southern Territories (the)
+Value=262;Djibuti|Djibouti
+Value=266;Gabão|Gabon
+Value=268;Geórgia|Georgia
+Value=270;Gâmbia|Gambia (the)
+Value=275;Palestina, Estado da|Palestine, State of
+Value=276;Alemanha|Germany
+Value=288;Gana|Ghana
 Value=292;Gibraltar
-Value=296;Kiribati
-Value=300;Greece
-Value=304;Greenland
-Value=308;Grenada
-Value=312;Guadeloupe
+Value=296;Quiribáti|Kiribati
+Value=300;Grécia|Greece
+Value=304;Gronelândia|Greenland
+Value=308;Granada|Grenada
+Value=312;Guadalupe|Guadeloupe
 Value=316;Guam
 Value=320;Guatemala
-Value=324;Guinea
-Value=328;Guyana
+Value=324;Guiné|Guinea
+Value=328;Guiana|Guyana
 Value=332;Haiti
-Value=334;Heard Island and McDonald Islands
-Value=336;Holy See (the)
+Value=334;Ilha Heard e Ilhas McDonald|Heard Island and McDonald Islands
+Value=336;Santa Sé|Holy See (the)
 Value=340;Honduras
 Value=344;Hong Kong
-Value=348;Hungary
-Value=352;Iceland
-Value=356;India
-Value=360;Indonesia
-Value=364;Iran (Islamic Republic of)
-Value=368;Iraq
-Value=372;Ireland
+Value=348;Hungria|Hungary
+Value=352;Islândia|Iceland
+Value=356;Índia|India
+Value=360;Indonésia|Indonesia
+Value=364;Irão (República Islâmica do)|Iran (Islamic Republic of)
+Value=368;Iraque|Iraq
+Value=372;Irlanda|Ireland
 Value=376;Israel
-Value=380;Italy
-Value=384;Côte d'Ivoire
+Value=380;Itália|Italy
+Value=384;Costa do Marfim|Côte d'Ivoire
 Value=388;Jamaica
-Value=392;Japan
-Value=398;Kazakhstan
-Value=400;Jordan
-Value=404;Kenya
-Value=408;Korea (the Democratic People's Republic of)
-Value=410;Korea (the Republic of)
-Value=414;Kuwait
-Value=417;Kyrgyzstan
-Value=418;Lao People's Democratic Republic (the)
-Value=422;Lebanon
-Value=426;Lesotho
-Value=428;Latvia
-Value=430;Liberia
-Value=434;Libya
-Value=438;Liechtenstein
-Value=440;Lithuania
-Value=442;Luxembourg
-Value=446;Macao
-Value=450;Madagascar
-Value=454;Malawi
-Value=458;Malaysia
-Value=462;Maldives
+Value=392;Japão|Japan
+Value=398;Cazaquistão|Kazakhstan
+Value=400;Jordânia|Jordan
+Value=404;Quénia|Kenya
+Value=408;Coreia (República Popular Democrática da)|Korea (the Democratic People's Republic of)
+Value=410;Coreia (República da)|Korea (the Republic of)
+Value=414;Koweit|Kuwait
+Value=417;Quirguistão|Kyrgyzstan
+Value=418;República Democrática Popular do Laos|Lao People's Democratic Republic (the)
+Value=422;Líbano|Lebanon
+Value=426;Lesoto|Lesotho
+Value=428;Letónia|Latvia
+Value=430;Libéria|Liberia
+Value=434;Líbia|Libya
+Value=438;Listenstaine|Liechtenstein
+Value=440;Lituânia|Lithuania
+Value=442;Luxemburgo|Luxembourg
+Value=446;Macau|Macao
+Value=450;Madagáscar|Madagascar
+Value=454;Maláui|Malawi
+Value=458;Malásia|Malaysia
+Value=462;Maldivas|Maldives
 Value=466;Mali
 Value=470;Malta
-Value=474;Martinique
-Value=478;Mauritania
-Value=480;Mauritius
-Value=484;Mexico
-Value=492;Monaco
-Value=496;Mongolia
-Value=498;Moldova (the Republic of)
+Value=474;Martinica|Martinique
+Value=478;Mauritânia|Mauritania
+Value=480;Maurícia|Mauritius
+Value=484;México|Mexico
+Value=492;Mónaco|Monaco
+Value=496;Mongólia|Mongolia
+Value=498;Moldávia (República da)|Moldova (the Republic of)
 Value=499;Montenegro
-Value=500;Montserrat
-Value=504;Morocco
-Value=508;Mozambique
-Value=512;Oman
-Value=516;Namibia
+Value=500;Monserrate|Montserrat
+Value=504;Marrocos|Morocco
+Value=508;Moçambique|Mozambique
+Value=512;Omã|Oman
+Value=516;Namíbia|Namibia
 Value=520;Nauru
 Value=524;Nepal
-Value=528;Netherlands (Kingdom of the)
-Value=531;Curaçao
+Value=528;Países Baixos (Reino dos)|Netherlands (Kingdom of the)
+Value=531;Curaçau|Curaçao
 Value=533;Aruba
-Value=534;Sint Maarten (Dutch part)
-Value=535;Bonaire, Sint Eustatius and Saba
-Value=540;New Caledonia
+Value=534;São Martinho (parte neerlandesa)|Sint Maarten (Dutch part)
+Value=535;Bonaire, Santo Eustáquio e Saba|Bonaire, Sint Eustatius and Saba
+Value=540;Nova Caledónia|New Caledonia
 Value=548;Vanuatu
-Value=554;New Zealand
-Value=558;Nicaragua
-Value=562;Niger (the)
-Value=566;Nigeria
+Value=554;Nova Zelândia|New Zealand
+Value=558;Nicarágua|Nicaragua
+Value=562;Níger|Niger (the)
+Value=566;Nigéria|Nigeria
 Value=570;Niue
-Value=574;Norfolk Island
-Value=578;Norway
-Value=580;Northern Mariana Islands (the)
-Value=581;United States Minor Outlying Islands (the)
-Value=583;Micronesia (Federated States of)
-Value=584;Marshall Islands (the)
+Value=574;Ilha Norfolk|Norfolk Island
+Value=578;Noruega|Norway
+Value=580;Ilhas Marianas do Norte|Northern Mariana Islands (the)
+Value=581;Ilhas Menores Distantes dos Estados Unidos|United States Minor Outlying Islands (the)
+Value=583;Micronésia (Estados Federados da)|Micronesia (Federated States of)
+Value=584;Ilhas Marshall|Marshall Islands (the)
 Value=585;Palau
-Value=586;Pakistan
-Value=591;Panama
-Value=598;Papua New Guinea
-Value=600;Paraguay
+Value=586;Paquistão|Pakistan
+Value=591;Panamá|Panama
+Value=598;Papua-Nova Guiné|Papua New Guinea
+Value=600;Paraguai|Paraguay
 Value=604;Peru
-Value=608;Philippines (the)
+Value=608;Filipinas|Philippines (the)
 Value=612;Pitcairn
-Value=616;Poland
+Value=616;Polónia|Poland
 Value=620;Portugal
-Value=624;Guinea-Bissau
+Value=624;Guiné-Bissau|Guinea-Bissau
 Value=626;Timor-Leste
-Value=630;Puerto Rico
-Value=634;Qatar
-Value=638;Réunion
-Value=642;Romania
-Value=643;Russian Federation (the)
-Value=646;Rwanda
-Value=652;Saint Barthélemy
-Value=654;Saint Helena, Ascension and Tristan da Cunha
-Value=659;Saint Kitts and Nevis
-Value=660;Anguilla
-Value=662;Saint Lucia
-Value=663;Saint Martin (French part)
-Value=666;Saint Pierre and Miquelon
-Value=670;Saint Vincent and the Grenadines
-Value=674;San Marino
-Value=678;Sao Tome and Principe
-Value=682;Saudi Arabia
+Value=630;Porto Rico|Puerto Rico
+Value=634;Catar|Qatar
+Value=638;Reunião|Réunion
+Value=642;Roménia|Romania
+Value=643;Federação Russa|Russian Federation (the)
+Value=646;Ruanda|Rwanda
+Value=652;São Bartolomeu|Saint Barthélemy
+Value=654;Santa Helena, Ascensão e Tristão da Cunha|Saint Helena, Ascension and Tristan da Cunha
+Value=659;São Cristóvão e Neves|Saint Kitts and Nevis
+Value=660;Anguila|Anguilla
+Value=662;Santa Lúcia|Saint Lucia
+Value=663;São Martinho (parte francesa)|Saint Martin (French part)
+Value=666;São Pedro e Miquelão|Saint Pierre and Miquelon
+Value=670;São Vicente e Granadinas|Saint Vincent and the Grenadines
+Value=674;São Marinho|San Marino
+Value=678;São Tomé e Príncipe|Sao Tome and Principe
+Value=682;Arábia Saudita|Saudi Arabia
 Value=686;Senegal
-Value=688;Serbia
-Value=690;Seychelles
-Value=694;Sierra Leone
-Value=702;Singapore
-Value=703;Slovakia
-Value=704;Viet Nam
-Value=705;Slovenia
-Value=706;Somalia
-Value=710;South Africa
-Value=716;Zimbabwe
-Value=724;Spain
-Value=728;South Sudan
-Value=729;Sudan (the)
-Value=732;Western Sahara*
+Value=688;Sérvia|Serbia
+Value=690;Seicheles|Seychelles
+Value=694;Serra Leoa|Sierra Leone
+Value=702;Singapura|Singapore
+Value=703;Eslováquia|Slovakia
+Value=704;Vietname|Viet Nam
+Value=705;Eslovénia|Slovenia
+Value=706;Somália|Somalia
+Value=710;África do Sul|South Africa
+Value=716;Zimbabué|Zimbabwe
+Value=724;Espanha|Spain
+Value=728;Sudão do Sul|South Sudan
+Value=729;Sudão|Sudan (the)
+Value=732;Sara Ocidental*|Western Sahara*
 Value=740;Suriname
-Value=744;Svalbard and Jan Mayen
-Value=748;Eswatini
-Value=752;Sweden
-Value=756;Switzerland
-Value=760;Syrian Arab Republic (the)
-Value=762;Tajikistan
-Value=764;Thailand
+Value=744;Svalbard e Jan Mayen|Svalbard and Jan Mayen
+Value=748;Essuatíni|Eswatini
+Value=752;Suécia|Sweden
+Value=756;Suíça|Switzerland
+Value=760;República Árabe Síria|Syrian Arab Republic (the)
+Value=762;Tajiquistão|Tajikistan
+Value=764;Tailândia|Thailand
 Value=768;Togo
-Value=772;Tokelau
+Value=772;Toquelau|Tokelau
 Value=776;Tonga
-Value=780;Trinidad and Tobago
-Value=784;United Arab Emirates (the)
-Value=788;Tunisia
-Value=792;Türkiye
-Value=795;Turkmenistan
-Value=796;Turks and Caicos Islands (the)
+Value=780;Trindade e Tobago|Trinidad and Tobago
+Value=784;Emirados Árabes Unidos|United Arab Emirates (the)
+Value=788;Tunísia|Tunisia
+Value=792;Turquia|Türkiye
+Value=795;Turquemenistão|Turkmenistan
+Value=796;Ilhas Turcas e Caicos|Turks and Caicos Islands (the)
 Value=798;Tuvalu
 Value=800;Uganda
-Value=804;Ukraine
-Value=807;North Macedonia
-Value=818;Egypt
-Value=826;United Kingdom of Great Britain and Northern Ireland (the)
+Value=804;Ucrânia|Ukraine
+Value=807;Macedónia do Norte|North Macedonia
+Value=818;Egito|Egypt
+Value=826;Reino Unido da Grã-Bretanha e Irlanda do Norte|United Kingdom of Great Britain and Northern Ireland (the)
 Value=831;Guernsey
 Value=832;Jersey
-Value=833;Isle of Man
-Value=834;Tanzania, the United Republic of
-Value=840;United States of America (the)
-Value=850;Virgin Islands (U.S.)
-Value=854;Burkina Faso
-Value=858;Uruguay
-Value=860;Uzbekistan
-Value=862;Venezuela (Bolivarian Republic of)
-Value=876;Wallis and Futuna
+Value=833;Ilha de Man|Isle of Man
+Value=834;Tanzânia, República Unida da|Tanzania, the United Republic of
+Value=840;Estados Unidos da América|United States of America (the)
+Value=850;Ilhas Virgens Americanas|Virgin Islands (U.S.)
+Value=854;Burquina Faso|Burkina Faso
+Value=858;Uruguai|Uruguay
+Value=860;Usbequistão|Uzbekistan
+Value=862;Venezuela (República Bolivariana da)|Venezuela (Bolivarian Republic of)
+Value=876;Wallis e Futuna|Wallis and Futuna
 Value=882;Samoa
-Value=887;Yemen
-Value=894;Zambia
-Value=976;UNABLE TO DETERMINE
-Value=999;NO RESPONSE
+Value=887;Iémen|Yemen
+Value=894;Zâmbia|Zambia
+Value=976;NÃO FOI POSSÍVEL DETERMINAR|UNABLE TO DETERMINE
+Value=999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Data da entrevista ao homem (CMC)|Date of interview man (CMC)
@@ -1639,16 +1639,15 @@ ZeroFill=Yes
 [ValueSet]
 Label=Indicador de data para MWB3
 Name=MWB3F_VST
-Value=1;Month and year
-Value=2;Month and âge -y imp
-Value=3;Year and âge - m imp
-Value=4;Y & âge - y ignored
-Value=5;Year - a, m imp
-Value=6;Age - y, m imp
-Value=7;Month - a, y imp
-Value=8;None - all imp
-Value=' ';Not applicable
-Name=NOTAPPL,Special
+Value=1;Mês e ano|Month and year
+Value=2;Mês e idade - ano imputado|Month and âge -y imp
+Value=3;Ano e idade - mês imputado|Year and âge - m imp
+Value=4;Ano e idade - ano ignorado|Y & âge - y ignored
+Value=5;Ano - idade e mês imputados|Year - a, m imp
+Value=6;Idade - ano e mês imputados|Age - y, m imp
+Value=7;Mês - idade e ano imputados|Month - a, y imp
+Value=8;Nenhum - tudo imputado|None - all imp
+Value=0;Não aplicável|Not applicable
 
 [Item]
 Label=Idade do respondente (calculada)|Age of respondent (calculated)
@@ -1695,9 +1694,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tempo de residência na cidade, vila ou aldeia atual
 Name=MWB8_VS1
-Value=0:48;YEARS
-Value=95;ALWAYS / SINCE BIRTH
-Value=99;NO RESPONSE
+Value=0:48;ANOS|YEARS
+Value=95;SEMPRE / DESDE O NASCIMENTO|ALWAYS / SINCE BIRTH
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Tipo de local de residência antes da mudança|Type of place before move
@@ -1710,12 +1709,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de local de residência antes da mudança
 Name=MWB9_VS1
-Value=1;CITY
-Value=2;TOWN
-Value=3;RURAL AREA
-Value=5;UNABLE TO DETERMINE IF CITY/TOWN/RURAL
-Value=8;DK/ DON'T REMEMBER
-Value=9;NO RESPONSE
+Value=1;CIDADE|CITY
+Value=2;VILA|TOWN
+Value=3;ZONA RURAL|RURAL AREA
+Value=5;NÃO FOI POSSÍVEL DETERMINAR SE CIDADE/VILA/ZONA RURAL|UNABLE TO DETERMINE IF CITY/TOWN/RURAL
+Value=8;NÃO SABE / NÃO SE LEMBRA|DK/ DON'T REMEMBER
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Região de residência antes da mudança|Region lived before move
@@ -1728,13 +1727,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Região de residência antes da mudança
 Name=MWB10_VS1
-Value=1;REGION 1
-Value=2;REGION 2
-Value=3;REGION 3
-Value=4;REGION 4
-Value=5;REGION 5
-Value=96;OUTSIDE OF COUNTRY
-Value=99;NO RESPONSE
+Value=1;REGIÃO 1|REGION 1
+Value=2;REGIÃO 2|REGION 2
+Value=3;REGIÃO 3|REGION 3
+Value=4;REGIÃO 4|REGION 4
+Value=5;REGIÃO 5|REGION 5
+Value=96;FORA DO PAÍS|OUTSIDE OF COUNTRY
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Utilização das TIC|ICT Use
@@ -1754,9 +1753,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Possui um telemóvel
 Name=MIC1_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Possui um smartphone|Own a smartphone
@@ -1769,9 +1768,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Possui um smartphone
 Name=MIC2_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Utilização de telemóvel nos últimos 3 meses|Mobile phone usage in the last 3 months
@@ -1784,11 +1783,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Utilização de telemóvel nos últimos 3 meses
 Name=MIC3_VS1
-Value=0;NOT AT ALL
-Value=1;LESS THAN ONCE A WEEK
-Value=2;AT LEAST ONCE A WEEK
-Value=3;ALMOST EVERY DAY
-Value=9;NO RESPONSE
+Value=0;DE TODO|NOT AT ALL
+Value=1;MENOS DE UMA VEZ POR SEMANA|LESS THAN ONCE A WEEK
+Value=2;PELO MENOS UMA VEZ POR SEMANA|AT LEAST ONCE A WEEK
+Value=3;QUASE TODOS OS DIAS|ALMOST EVERY DAY
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Alguma vez utilizou um computador ou tablet|Ever used a computer or a tablet
@@ -1801,9 +1800,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Alguma vez utilizou um computador ou tablet
 Name=MIC4_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Utilização de computador ou tablet nos últimos 3 meses|Computer / tablet usage in the last 3 months
@@ -1816,11 +1815,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Utilização de computador ou tablet nos últimos 3 meses
 Name=MIC5_VS1
-Value=0;NOT AT ALL
-Value=1;LESS THAN ONCE A WEEK
-Value=2;AT LEAST ONCE A WEEK
-Value=3;ALMOST EVERY DAY
-Value=9;NO RESPONSE
+Value=0;DE TODO|NOT AT ALL
+Value=1;MENOS DE UMA VEZ POR SEMANA|LESS THAN ONCE A WEEK
+Value=2;PELO MENOS UMA VEZ POR SEMANA|AT LEAST ONCE A WEEK
+Value=3;QUASE TODOS OS DIAS|ALMOST EVERY DAY
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Copiou e colou conteúdo num documento|During the last 3 months: Use a copy / paste in document
@@ -1833,9 +1832,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Copiou e colou conteúdo num documento
 Name=MIC7B_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Enviou um e-mail com ficheiro anexo|During the last 3 months: Send an e-mail with attached file
@@ -1848,9 +1847,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Enviou um e-mail com ficheiro anexo
 Name=MIC7C_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Utilizou uma fórmula aritmética básica numa folha de cálculo|During the last 3 months: Use a basic arithmetic formula in a spreadsheet
@@ -1863,9 +1862,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Utilizou uma fórmula aritmética básica numa folha de cálculo
 Name=MIC7D_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Ligou e instalou um novo dispositivo|During the last 3 months: Connect and install a new device
@@ -1878,9 +1877,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Ligou e instalou um novo dispositivo
 Name=MIC7E_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Procurou, descarregou, instalou e configurou software|During the last 3 months: Find, download, install and configure software
@@ -1893,9 +1892,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Procurou, descarregou, instalou e configurou software
 Name=MIC7F_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Criou uma apresentação eletrónica|During the last 3 months: Create an electronic presentation
@@ -1908,9 +1907,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Criou uma apresentação eletrónica
 Name=MIC7G_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Transferiu um ficheiro|During the last 3 months: Transfer a file
@@ -1923,9 +1922,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Transferiu um ficheiro
 Name=MIC7H_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Configurou medidas de segurança eficazes|During the last 3 months: Set up effective security measures
@@ -1938,9 +1937,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Configurou medidas de segurança eficazes
 Name=MIC7I_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Alterou definições de privacidade|During the last 3 months: Change privacy settings
@@ -1953,9 +1952,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Alterou definições de privacidade
 Name=MIC7J_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Verificou a fiabilidade de informações encontradas na Internet|During the last 3 months: Verify the reliability of information found online
@@ -1968,9 +1967,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Verificou a fiabilidade de informações encontradas na Internet
 Name=MIC7K_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Nos últimos 3 meses: Escreveu um programa informático|During the last 3 months: Write a computer program
@@ -1983,9 +1982,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Nos últimos 3 meses: Escreveu um programa informático
 Name=MIC7L_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Alguma vez utilizou a Internet|Ever used internet
@@ -1998,9 +1997,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Alguma vez utilizou a Internet
 Name=MIC10_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Utilização da Internet nos últimos 3 meses|Internet usage in the last 3 months
@@ -2013,11 +2012,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Utilização da Internet nos últimos 3 meses
 Name=MIC11_VS1
-Value=0;NOT AT ALL
-Value=1;LESS THAN ONCE A WEEK
-Value=2;AT LEAST ONCE A WEEK
-Value=3;ALMOST EVERY DAY
-Value=9;NO RESPONSE
+Value=0;DE TODO|NOT AT ALL
+Value=1;MENOS DE UMA VEZ POR SEMANA|LESS THAN ONCE A WEEK
+Value=2;PELO MENOS UMA VEZ POR SEMANA|AT LEAST ONCE A WEEK
+Value=3;QUASE TODOS OS DIAS|ALMOST EVERY DAY
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Segurança / Discriminação|Safety / Discrimination
@@ -2037,12 +2036,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sente-se seguro ao caminhar sozinho no bairro depois de escurecer
 Name=MVT20_VST
-Value=1;VERY SAFE
-Value=2;SAFE
-Value=3;UNSAFE
-Value=4;VERY UNSAFE
-Value=7;NEVER WALK ALONE AFTER DARK
-Value=9;NO RESPONSE
+Value=1;MUITO SEGURO|VERY SAFE
+Value=2;SEGURO|SAFE
+Value=3;INSEGURO|UNSAFE
+Value=4;MUITO INSEGURO|VERY UNSAFE
+Value=7;NUNCA ANDA SOZINHO DEPOIS DE ESCURECER|NEVER WALK ALONE AFTER DARK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sente-se seguro em casa sozinho depois de escurecer|Feeling safe at home alone after dark
@@ -2055,12 +2054,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sente-se seguro em casa sozinho depois de escurecer
 Name=MVT21_VST
-Value=1;VERY SAFE
-Value=2;SAFE
-Value=3;UNSAFE
-Value=4;VERY UNSAFE
-Value=7;NEVER ALONE AFTER DARK
-Value=9;NO RESPONSE
+Value=1;MUITO SEGURO|VERY SAFE
+Value=2;SEGURO|SAFE
+Value=3;INSEGURO|UNSAFE
+Value=4;MUITO INSEGURO|VERY UNSAFE
+Value=7;NUNCA SOZINHO DEPOIS DE ESCURECER|NEVER ALONE AFTER DARK
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Record]
 Label=Casamento / União|Marriage/Union
@@ -2080,10 +2079,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Atualmente é casado ou vive em união com uma mulher
 Name=MMA1_VST
-Value=1;YES, CURRENTLY MARRIED
-Value=2;YES, LIVING WITH A PARTNER
-Value=3;NO, NOT IN UNION
-Value=9;NO RESPONSE
+Value=1;SIM, ATUALMENTE CASADO|YES, CURRENTLY MARRIED
+Value=2;SIM, VIVE COM UMA COMPANHEIRA|YES, LIVING WITH A PARTNER
+Value=3;NÃO, NÃO ESTÁ EM UNIÃO|NO, NOT IN UNION
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outras esposas ou companheiras com quem coabita|Other wifes or live-in partners
@@ -2096,9 +2095,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outras esposas ou companheiras com quem coabita
 Name=MMA3_VST
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Número de esposas ou companheiras com quem coabita|Number of wifes or live-in partners
@@ -2112,8 +2111,8 @@ ZeroFill=Yes
 Label=Número de esposas ou companheiras com quem coabita
 Name=MMA4_VST
 Value=1:19
-Value=98;DK
-Value=99;NO RESPONSE
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Alguma vez foi casado ou viveu em união com uma mulher|Ever married or lived with a woman
@@ -2126,10 +2125,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Alguma vez foi casado ou viveu em união com uma mulher
 Name=MMA5_VST
-Value=1;YES, FORMERLY MARRIED
-Value=2;YES, FORMERLY LIVED WITH A PARTNER
-Value=3;NO
-Value=9;NO RESPONSE
+Value=1;SIM, FOI CASADO|YES, FORMERLY MARRIED
+Value=2;SIM, VIVEU COM UMA COMPANHEIRA|YES, FORMERLY LIVED WITH A PARTNER
+Value=3;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Estado civil|Marital status
@@ -2142,10 +2141,10 @@ ZeroFill=Yes
 [ValueSet]
 Label=Estado civil
 Name=MMA6_VST
-Value=1;WIDOWED
-Value=2;DIVORCED
-Value=3;SEPARATED
-Value=9;NO RESPONSE
+Value=1;VIÚVO|WIDOWED
+Value=2;DIVORCIADO|DIVORCED
+Value=3;SEPARADO|SEPARATED
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Foi casado ou viveu em união com uma mulher uma ou mais vezes|Married or lived with a woman once or more than once
@@ -2158,9 +2157,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Foi casado ou viveu em união com uma mulher uma ou mais vezes
 Name=MMA7_VST
-Value=1;ONLY ONCE
-Value=2;MORE THAN ONCE
-Value=9;NO RESPONSE
+Value=1;APENAS UMA VEZ|ONLY ONCE
+Value=2;MAIS DE UMA VEZ|MORE THAN ONCE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Data da primeira união|Date of first union
@@ -2182,20 +2181,20 @@ ZeroFill=Yes
 [ValueSet]
 Label=Mês da primeira união
 Name=MMA8M_VST
-Value=1;JANUARY
-Value=2;FEBRUARY
-Value=3;MARCH
-Value=4;APRIL
-Value=5;MAY
-Value=6;JUNE
-Value=7;JULY
-Value=8;AUGUST
-Value=9;SEPTEMBER
-Value=10;OCTOBER
-Value=11;NOVEMBER
-Value=12;DECEMBER
-Value=98;DK
-Value=99;NO RESPONSE
+Value=1;JANEIRO|JANUARY
+Value=2;FEVEREIRO|FEBRUARY
+Value=3;MARÇO|MARCH
+Value=4;ABRIL|APRIL
+Value=5;MAIO|MAY
+Value=6;JUNHO|JUNE
+Value=7;JULHO|JULY
+Value=8;AGOSTO|AUGUST
+Value=9;SETEMBRO|SEPTEMBER
+Value=10;OUTUBRO|OCTOBER
+Value=11;NOVEMBRO|NOVEMBER
+Value=12;DEZEMBRO|DECEMBER
+Value=98;NÃO SABE|DK
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Ano da primeira união|Year of first union
@@ -2210,8 +2209,8 @@ ZeroFill=Yes
 Label=Ano da primeira união
 Name=MMA8Y_VST
 Value=1988:2025
-Value=9998;DK
-Value=9999;NO RESPONSE
+Value=9998;NÃO SABE|DK
+Value=9999;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Idade à primeira união|Age at first union
@@ -2225,7 +2224,7 @@ ZeroFill=Yes
 Label=Idade à primeira união
 Name=MMA11_VST
 Value=12:49
-Value=99;NO RESPONSE
+Value=99;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Data da primeira união (CMC)|Date of first union (CMC)
@@ -2246,13 +2245,13 @@ ZeroFill=Yes
 [ValueSet]
 Label=Indicador de data para MA8C
 Name=MMA8F_VST
-Value=1;Month and year
-Value=2;Month and age -y imp
-Value=3;Year and Age - M imp
-Value=5;Year - a, m imp
-Value=6;Age - y, m imp
-Value=7;Month - a, y imp
-Value=8;None - all imp
+Value=1;Mês e ano|Month and year
+Value=2;Mês e idade - ano imputado|Month and age -y imp
+Value=3;Ano e idade - mês imputado|Year and Age - M imp
+Value=5;Ano - idade e mês imputados|Year - a, m imp
+Value=6;Idade - ano e mês imputados|Age - y, m imp
+Value=7;Mês - idade e ano imputados|Month - a, y imp
+Value=8;Nenhum - tudo imputado|None - all imp
 
 [Item]
 Label=Idade à primeira união (calculada)|Age at first union (calculated)
@@ -2280,8 +2279,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Privacidade assegurada
 Name=MMH1_VS1
-Value=1;PRIVACY OBTAINED
-Value=2;PRIVACY NOT POSSIBLE
+Value=1;PRIVACIDADE OBTIDA|PRIVACY OBTAINED
+Value=2;PRIVACIDADE NÃO POSSÍVEL|PRIVACY NOT POSSIBLE
 
 [Item]
 Label=Introdução|Introduction
@@ -2294,7 +2293,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Introdução
 Name=MMH2_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Sentiu-se muito triste ou deprimida nas últimas duas semanas|Been feeling very sad or depressed during the past two weeks
@@ -2307,11 +2306,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu-se muito triste ou deprimida nas últimas duas semanas
 Name=MMH3_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu-se facilmente incomodada ou irritada com pequenas coisas nas últimas duas semanas|Felt easily annoyyed or irritable at small things during the past two weeks
@@ -2324,11 +2323,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu-se facilmente incomodada ou irritada com pequenas coisas nas últimas duas semanas
 Name=MMH4_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Deixou de sentir prazer em atividades de que antes gostava nas últimas duas semanas|Not enjoyed doing things she eused to enjoy during the past two weeks
@@ -2341,11 +2340,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Deixou de sentir prazer em atividades de que antes gostava nas últimas duas semanas
 Name=MMH5_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu falta de esperança em relação ao futuro nas últimas duas semanas|Felt hopeless about the future during the past two weeks
@@ -2358,11 +2357,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu falta de esperança em relação ao futuro nas últimas duas semanas
 Name=MMH6_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu-se nervosa, ansiosa ou inquieta nas últimas duas semanas|Felt nervous anxious or on edge during the past two weeks
@@ -2375,11 +2374,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu-se nervosa, ansiosa ou inquieta nas últimas duas semanas
 Name=MMH7_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Preocupou-se por não fazer as coisas corretamente ou por ter um mau desempenho nas últimas duas semanas|Worried not doing the things right or doing poorly during the past two weeks
@@ -2392,11 +2391,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Preocupou-se por não fazer as coisas corretamente ou por ter um mau desempenho nas últimas duas semanas
 Name=MMH8_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Preocupou-se com o que os outros pensam dela nas últimas duas semanas|Worried about what others think of her during the past two weeks
@@ -2409,11 +2408,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Preocupou-se com o que os outros pensam dela nas últimas duas semanas
 Name=MMH9_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Preocupou-se com a possibilidade de acontecer algo de mau nas últimas duas semanas|Worried something bad will happen during the past two weeks
@@ -2426,11 +2425,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Preocupou-se com a possibilidade de acontecer algo de mau nas últimas duas semanas
 Name=MMH10_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Preocupou-se excessivamente com diferentes assuntos nas últimas duas semanas|Worried too much about different things during the past two weeks
@@ -2443,11 +2442,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Preocupou-se excessivamente com diferentes assuntos nas últimas duas semanas
 Name=MMH11_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu-se incapaz de parar ou controlar as suas preocupações nas últimas duas semanas|Felt unable to stop or control your worries during the past two weeks
@@ -2460,11 +2459,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu-se incapaz de parar ou controlar as suas preocupações nas últimas duas semanas
 Name=MMH12_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Teve falta de apetite ou comeu em excesso nas últimas duas semanas|Not wanted to eat food or eaten too much during past two weeks
@@ -2477,11 +2476,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Teve falta de apetite ou comeu em excesso nas últimas duas semanas
 Name=MMH15_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Teve problemas de sono nas últimas duas semanas|Had sleeping issues during past two weeks
@@ -2494,11 +2493,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Teve problemas de sono nas últimas duas semanas
 Name=MMH16_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu-se facilmente cansada ou sem energia nas últimas duas semanas|Felt she got tired easily or did not have energy during past two weeks
@@ -2511,11 +2510,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu-se facilmente cansada ou sem energia nas últimas duas semanas
 Name=MMH17_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Teve dificuldade em concentrar-se nas últimas duas semanas|Had trouble on concentrating things during past two weeks
@@ -2528,11 +2527,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Teve dificuldade em concentrar-se nas últimas duas semanas
 Name=MMH18_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu-se sozinha nas últimas duas semanas|Felt lonely during past two weeks
@@ -2545,11 +2544,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu-se sozinha nas últimas duas semanas
 Name=MMH19_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu-se fracassada nas últimas duas semanas|Felt like a failure during past two weeks
@@ -2562,11 +2561,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu-se fracassada nas últimas duas semanas
 Name=MMH20_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pensou que seria melhor estar morta ou em magoar-se nas últimas duas semanas|Had thoughts rather be dead or hurting herself during past two weeks
@@ -2579,11 +2578,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pensou que seria melhor estar morta ou em magoar-se nas últimas duas semanas
 Name=MMH21_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outras pessoas disseram que se movimentava mais lentamente do que o habitual nas últimas duas semanas|Others said she was moving more slowly than usual during past two weeks
@@ -2596,11 +2595,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outras pessoas disseram que se movimentava mais lentamente do que o habitual nas últimas duas semanas
 Name=MMH22_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Outras pessoas disseram que estava inquieta nas últimas duas semanas|Others said she was restless during past two weeks
@@ -2613,11 +2612,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outras pessoas disseram que estava inquieta nas últimas duas semanas
 Name=MMH23_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu dificuldade em respirar nas últimas duas semanas|Felt that it was difficult to breath during past two weeks
@@ -2630,11 +2629,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu dificuldade em respirar nas últimas duas semanas
 Name=MMH24_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu tonturas ou sensação de desmaio nas últimas duas semanas|Felt dizzy or faint during past two weeks
@@ -2647,11 +2646,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu tonturas ou sensação de desmaio nas últimas duas semanas
 Name=MMH25_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu medo repentino sem motivo aparente nas últimas duas semanas|Gotten suddenly scared for no reason during past two weeks
@@ -2664,11 +2663,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu medo repentino sem motivo aparente nas últimas duas semanas
 Name=MMH27_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Teve dificuldade em relaxar ou sentir-se calma nas últimas duas semanas|Had difficulty relaxing or feeling calm during past two weeks
@@ -2681,11 +2680,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Teve dificuldade em relaxar ou sentir-se calma nas últimas duas semanas
 Name=MMH28_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Sentiu o coração a bater muito forte ou demasiado depressa nas últimas duas semanas|Felt like her heart was pounding or beating too fast during past two weeks
@@ -2698,11 +2697,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sentiu o coração a bater muito forte ou demasiado depressa nas últimas duas semanas
 Name=MMH29_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Teve dores de cabeça ou tensão muscular nas últimas duas semanas|Had headaches or muscle tension during past two weeks
@@ -2715,11 +2714,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Teve dores de cabeça ou tensão muscular nas últimas duas semanas
 Name=MMH30_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=As suas atividades diárias foram afetadas negativamente nas últimas duas semanas|Her daily activities negatively affected during past two weeks
@@ -2732,11 +2731,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=As suas atividades diárias foram afetadas negativamente nas últimas duas semanas
 Name=MMH33_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=As suas atividades escolares ou profissionais foram afetadas negativamente nas últimas duas semanas|Her school or work activities negatively affected during past two weeks
@@ -2749,12 +2748,12 @@ ZeroFill=Yes
 [ValueSet]
 Label=As suas atividades escolares ou profissionais foram afetadas negativamente nas últimas duas semanas
 Name=MMH34_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=5;NOT APPLICABLE
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=5;NÃO APLICÁVEL|NOT APPLICABLE
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=As suas relações com pessoas da mesma idade foram afetadas negativamente nas últimas duas semanas|Her relationships with peers negatively affected during past two weeks
@@ -2767,11 +2766,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=As suas relações com pessoas da mesma idade foram afetadas negativamente nas últimas duas semanas
 Name=MMH35_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Falou com alguém sobre estes sentimentos e experiências|Talking to someone else about these feelings and experiences
@@ -2784,11 +2783,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Falou com alguém sobre estes sentimentos e experiências
 Name=MMH36_VS1
-Value=0;NEVER
-Value=1;SOMETIMES
-Value=2;OFTEN
-Value=3;ALWAYS
-Value=9;NO RESPONSE
+Value=0;NUNCA|NEVER
+Value=1;ÀS VEZES|SOMETIMES
+Value=2;FREQUENTEMENTE|OFTEN
+Value=3;SEMPRE|ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Falou com alguém sobre estes sentimentos e experiências - Confirmação|Talking to someone else about these feelings and experiences - to confirm
@@ -2801,11 +2800,11 @@ ZeroFill=Yes
 [ValueSet]
 Label=Falou com alguém sobre estes sentimentos e experiências - Confirmação
 Name=MMH36A_VS1
-Value=0;NO, NEVER
-Value=1;YES, SOMETIMES
-Value=2;YES, OFTEN
-Value=3;YES, ALWAYS
-Value=9;NO RESPONSE
+Value=0;NÃO, NUNCA|NO, NEVER
+Value=1;SIM, ÀS VEZES|YES, SOMETIMES
+Value=2;SIM, FREQUENTEMENTE|YES, OFTEN
+Value=3;SIM, SEMPRE|YES, ALWAYS
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=No último mês, falou com alguém sobre estes problemas ou preocupações|In the past month talked someone about these kinds of problems or worries
@@ -2818,9 +2817,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=No último mês, falou com alguém sobre estes problemas ou preocupações
 Name=MMH37_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=No último mês, falou com alguém sobre estes problemas ou preocupações - Confirmação|In the past month talked someone about these kinds of problems or worries - to confrm
@@ -2833,9 +2832,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=No último mês, falou com alguém sobre estes problemas ou preocupações - Confirmação
 Name=MMH37A_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou|Person taked to
@@ -2847,18 +2846,18 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou
 Name=MMH38_VS1
-Value='A           ';COUNSELLOR
-Value='B           ';DOCTOR / NURSE / HEALTH AID
-Value='C           ';OTHER QUALIFIED
-Value='D           ';OTHER QUALIFIED
-Value='E           ';OTHER QUALIFIED
-Value='F           ';PARENT
-Value='G           ';OTHER RELATIVE (ADULT)
-Value='H           ';OTHER RELATIVE (<18)
-Value='I           ';TEACHER
-Value='J           ';FRIEND
-Value='X           ';OTHER
-Value='?           ';NO RESPONSE
+Value='A           ';CONSELHEIRO|COUNSELLOR
+Value='B           ';MÉDICO / ENFERMEIRO / AUXILIAR DE SAÚDE|DOCTOR / NURSE / HEALTH AID
+Value='C           ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='D           ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='E           ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='F           ';PAI / MÃE|PARENT
+Value='G           ';OUTRO FAMILIAR (ADULTO)|OTHER RELATIVE (ADULT)
+Value='H           ';OUTRO FAMILIAR (<18)|OTHER RELATIVE (<18)
+Value='I           ';PROFESSOR|TEACHER
+Value='J           ';AMIGO|FRIEND
+Value='X           ';OUTRO|OTHER
+Value='?           ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Conselheiro|Person talked to: Counsellor
@@ -2871,9 +2870,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Conselheiro
 Name=MMH38A_VS1
-Value='A';COUNSELLOR
-Value=' '
-Value='?';NO RESPONSE
+Value='A' ' ';CONSELHEIRO|COUNSELLOR
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Médico, enfermeiro ou auxiliar de saúde|Person talked to: Doctor, Nurse, Health Aid
@@ -2886,9 +2884,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Médico, enfermeiro ou auxiliar de saúde
 Name=MMH38B_VS1
-Value='B';DOCTOR / NURSE / HEALTH AID
-Value=' '
-Value='?';NO RESPONSE
+Value='B' ' ';MÉDICO / ENFERMEIRO / AUXILIAR DE SAÚDE|DOCTOR / NURSE / HEALTH AID
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Outro profissional qualificado|Person talked to: Other Qualified
@@ -2901,9 +2898,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MMH38C_VS1
-Value='C';OTHER QUALIFIED
-Value=' '
-Value='?';NO RESPONSE
+Value='C' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Outro profissional qualificado|Person talked to: Other Qualified
@@ -2916,9 +2912,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MMH38D_VS1
-Value='D';OTHER QUALIFIED
-Value=' '
-Value='?';NO RESPONSE
+Value='D' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Outro profissional qualificado|Person talked to: Other Qualified
@@ -2931,9 +2926,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro profissional qualificado
 Name=MMH38E_VS1
-Value='E';OTHER QUALIFIED
-Value=' '
-Value='?';NO RESPONSE
+Value='E' ' ';OUTRO PROFISSIONAL QUALIFICADO|OTHER QUALIFIED
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Pai ou mãe|Person talked to: Parent
@@ -2946,9 +2940,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Pai ou mãe
 Name=MMH38F_VS1
-Value='F';PARENT
-Value=' '
-Value='?';NO RESPONSE
+Value='F' ' ';PAI / MÃE|PARENT
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Outro familiar (adulto)|Person talked to: Other Relative (Adult)
@@ -2961,9 +2954,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro familiar (adulto)
 Name=MMH38G_VS1
-Value='G';OTHER RELATIVE (ADULT)
-Value=' '
-Value='?';NO RESPONSE
+Value='G' ' ';OUTRO FAMILIAR (ADULTO)|OTHER RELATIVE (ADULT)
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Outro familiar (menor de 18 anos)|Person talked to: Other Relative (<18)
@@ -2976,9 +2968,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro familiar (menor de 18 anos)
 Name=MMH38H_VS1
-Value='H';OTHER RELATIVE (<18)
-Value=' '
-Value='?';NO RESPONSE
+Value='H' ' ';OUTRO FAMILIAR (<18)|OTHER RELATIVE (<18)
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Professor|Person talked to: Teacher
@@ -2991,9 +2982,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Professor
 Name=MMH38I_VS1
-Value='I';TEACHER
-Value=' '
-Value='?';NO RESPONSE
+Value='I' ' ';PROFESSOR|TEACHER
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Amigo|Person talked to: Friend
@@ -3006,9 +2996,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Amigo
 Name=MMH38J_VS1
-Value='J';FRIEND
-Value=' '
-Value='?';NO RESPONSE
+Value='J' ' ';AMIGO|FRIEND
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Outro|Person talked to: Other
@@ -3021,9 +3010,8 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Outro
 Name=MMH38X_VS1
-Value='X';OTHER
-Value=' '
-Value='?';NO RESPONSE
+Value='X' ' ';OUTRO|OTHER
+Value='?';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pessoa com quem falou: Sem resposta|Person talked to: No response
@@ -3036,8 +3024,7 @@ DataType=Alpha
 [ValueSet]
 Label=Pessoa com quem falou: Sem resposta
 Name=MMH38NR_VS1
-Value='?';NO RESPONSE
-Value=' '
+Value='?' ' ';SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Privacidade assegurada|Privacy obtanied
@@ -3050,8 +3037,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Privacidade assegurada
 Name=MMH40_VS1
-Value=1;PRIVACY OBTAINED
-Value=2;PRIVACY NOT POSSIBLE
+Value=1;PRIVACIDADE OBTIDA|PRIVACY OBTAINED
+Value=2;PRIVACIDADE NÃO POSSÍVEL|PRIVACY NOT POSSIBLE
 
 [Item]
 Label=Tentou suicidar-se nos últimos 12 meses|Tried suicide in past 12 months
@@ -3064,9 +3051,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tentou suicidar-se nos últimos 12 meses
 Name=MMH42_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Pensou em suicidar-se nas últimas duas semanas|Thought about suicide in the past 2 weeks
@@ -3079,9 +3066,9 @@ ZeroFill=Yes
 [ValueSet]
 Label=Pensou em suicidar-se nas últimas duas semanas
 Name=MMH43_VS1
-Value=1;YES
-Value=2;NO
-Value=9;NO RESPONSE
+Value=1;SIM|YES
+Value=2;NÃO|NO
+Value=9;SEM RESPOSTA|NO RESPONSE
 
 [Item]
 Label=Protocolo de encaminhamento de emergência para risco elevado de suicídio|High Suicidal Risk Emergency Referral Protocol
@@ -3094,8 +3081,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Protocolo de encaminhamento de emergência para risco elevado de suicídio
 Name=MMH45_VS1
-Value=1;YES, PERMISSION FOR REFERRAL
-Value=2;NO PERMISSION FOR REFERRAL
+Value=1;SIM, PERMISSÃO PARA ENCAMINHAMENTO|YES, PERMISSION FOR REFERRAL
+Value=2;SEM PERMISSÃO PARA ENCAMINHAMENTO|NO PERMISSION FOR REFERRAL
 
 [Item]
 Label=Filtro MH46|MH46 filter
@@ -3124,8 +3111,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Protocolo de encaminhamento para risco baixo ou moderado
 Name=MMH48_VS1
-Value=1;YES, PERMISSION FOR REFERRAL
-Value=2;NO PERMISSION FOR REFERRAL
+Value=1;SIM, PERMISSÃO PARA ENCAMINHAMENTO|YES, PERMISSION FOR REFERRAL
+Value=2;SEM PERMISSÃO PARA ENCAMINHAMENTO|NO PERMISSION FOR REFERRAL
 
 [Item]
 Label=Texto do protocolo MH49AB|Protocol text MH49AB
@@ -3138,7 +3125,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Texto do protocolo MH49AB
 Name=MMH49AB_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Identificador do caso encaminhado (CASEID)|Referral CASEID
@@ -3159,8 +3146,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Tipo de encaminhamento
 Name=MMH49AB2_VS1
-Value=1;HIGH RISK
-Value=2;LOW/MODERATE RISK
+Value=1;RISCO ELEVADO|HIGH RISK
+Value=2;RISCO BAIXO/MODERADO|LOW/MODERATE RISK
 
 [Item]
 Label=Nome da mulher encaminhada|Referral Name of the Women
@@ -3180,8 +3167,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Sexo da pessoa encaminhada
 Name=MMH49AB4_VS1
-Value=1;MALE
-Value=2;FEMALE
+Value=1;MASCULINO|MALE
+Value=2;FEMININO|FEMALE
 
 [Item]
 Label=Idade da pessoa encaminhada|Referral Age
@@ -3206,9 +3193,9 @@ DataType=Alpha
 [ValueSet]
 Label=Forma mais adequada e segura
 Name=MMH49AB6_VS1
-Value='A  ';PHONE
-Value='B  ';IN PERSON
-Value='X  ';OTHER
+Value='A  ';TELEFONE|PHONE
+Value='B  ';PRESENCIALMENTE|IN PERSON
+Value='X  ';OUTRO|OTHER
 
 [Item]
 Label=Forma mais adequada e segura - Telefone|Best and Safest Way - Phone
@@ -3221,8 +3208,7 @@ DataType=Alpha
 [ValueSet]
 Label=Forma mais adequada e segura - Telefone
 Name=MMH49AB6A_VS1
-Value='A';PHONE
-Value=' '
+Value='A' ' ';TELEFONE|PHONE
 
 [Item]
 Label=Forma mais adequada e segura - Presencialmente|Best and Safest Way - In Person
@@ -3235,8 +3221,7 @@ DataType=Alpha
 [ValueSet]
 Label=Forma mais adequada e segura - Presencialmente
 Name=MMH49AB6B_VS1
-Value='B';IN PERSON
-Value=' '
+Value='B' ' ';PRESENCIALMENTE|IN PERSON
 
 [Item]
 Label=Forma mais adequada e segura - Outra|Best and Safest Way - Other
@@ -3249,8 +3234,7 @@ DataType=Alpha
 [ValueSet]
 Label=Forma mais adequada e segura - Outra
 Name=MMH49AB6X_VS1
-Value='X';OTHER
-Value=' '
+Value='X' ' ';OUTRO|OTHER
 
 [Item]
 Label=Telefone para encaminhamento|Referral Phone
@@ -3327,7 +3311,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Texto do protocolo MH49C
 Name=MMH49C_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Texto do protocolo MH49D|Protocol text MH49D
@@ -3340,7 +3324,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Texto do protocolo MH49D
 Name=MMH49D_VS1
-Value=1;CONTINUE
+Value=1;CONTINUAR|CONTINUE
 
 [Item]
 Label=Observações do entrevistador|Interviewer's Observations
@@ -3376,8 +3360,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Confirmar o número de telefone partilhado
 Name=MWM15K_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Item]
 Label=Outro número de telefone, pessoal ou partilhado, através do qual possa ser contactado|Another personal or shared phone number where can be reached
@@ -3390,8 +3374,8 @@ ZeroFill=Yes
 [ValueSet]
 Label=Outro número de telefone, pessoal ou partilhado, através do qual possa ser contactado
 Name=MWM15L_VS1
-Value=1;YES
-Value=2;NO
+Value=1;SIM|YES
+Value=2;NÃO|NO
 
 [Record]
 Label=Registos de data e hora dos módulos do questionário da mulher|Time Stamps of the Women Questionnaire Modules
