@@ -1,0 +1,26 @@
+﻿Application     G:\O meu disco\MICS7\MICS7capiV7.2.3\MICS7capiV7.2.3\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7capiV7.2.3\MICS7capiV7.2.3\DATA\CLUSTER00004\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7capiV7.2.3\MICS7capiV7.2.3\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 11, 2026
+Start Time      11:08:38
+End Time        11:24:01
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           6         WARNING: Out of range! Please enter a valid value for %s%s                                 
+   99990           6         Operator entered a value out of range                                                      
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+     100           1      -  D  Please confirm this household has %d rooms used for sleeping                           -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,91 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=SAMPLE Dictionary
+Name=HOUSEHOLDS
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=6524F4EC205A2B0FFF4718247BA4E6280C83E70463411F72BD6D9CCDD547B219
+
+[Level]
+Label=SAMPLE Level
+Name=SAMPLE_LEVEL
+
+[IdItems]
+
+[Item]
+Label=PSU
+Name=SAM_PSU
+Start=1
+Len=5
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Dwelling unit number
+Name=SAM_DWNO
+Start=6
+Len=2
+DataType=Numeric
+ZeroFill=Yes
+
+[Record]
+Label=SAMPLE Record
+Name=SAMPLE_REC
+RecordTypeValue=''
+RecordLen=188
+
+[Item]
+Label=Household address
+Name=SAM_ADDRESS
+Start=8
+Len=80
+DataType=Alpha
+
+[Item]
+Label=Household head name
+Name=SAM_HEAD
+Start=88
+Len=40
+DataType=Alpha
+
+[Item]
+Label=Household contact phone
+Name=SAM_PHONE
+Start=128
+Len=15
+DataType=Alpha
+
+[Item]
+Label=Assigned interviewer
+Name=INT_ASSIGNED
+Start=143
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Original household (for supervisor added households)
+Name=SAM_DWNO_ORIG
+Start=146
+Len=3
+DataType=Numeric
+ZeroFill=Yes
+
+[Item]
+Label=Status
+Name=SAM_STATUS
+Start=149
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Subsamples
+Name=SAM_SUBSAMPLE
+Start=179
+Len=1
+DataType=Numeric
+Occurrences=10
+ZeroFill=Yes
