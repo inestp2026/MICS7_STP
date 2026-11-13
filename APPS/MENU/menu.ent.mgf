@@ -1,4 +1,96 @@
-﻿Language=EN
+﻿Language=PT
+0010 A versão do CSEntry deve ser a 7.7.3, por favor instale-a; para isso deve desinstalar a versão atual, MAS PRIMEIRO FAÇA UMA CÓPIA DA PASTA DE BACKUP DO CARTÃO SD PARA OUTRO LOCAL PARA REINSTALAR OS DADOS
+1000 Problema ao copiar o ficheiro staff.csdb da pasta PUBLIC, programa cancelado
+1010 Peça ao supervisor para SINCRONIZAR com os inquiridores, precisa de receber a atribuição do CLUSTER %d
+1020 Não foi possível ligar
+1030 Nenhuma atribuição recebida
+1040 Falta o ficheiro 'syncsession.ini' no tablet do supervisor. Sincronização cancelada
+1050 Sincronização com o supervisor errado (%s). \nPor favor sincronize com o seu supervisor (%04d).\nSincronização cancelada
+1060 Cluster atual do supervisor=%s. O seu cluster atual=%05d.\nAmbos têm de estar a trabalhar no mesmo cluster. \nSincronização cancelada
+1070 Atualizações recebidas (%d) - Por favor saia do sistema e abra-o novamente
+1080 Não foram encontradas atualizações no tablet do supervisor
+1200 Erro interno ao carregar o agregado do cluster %s agregado %02d inquiridor %03d para delegar questionários ao inquiridor %03d
+1210 Não foi possível ligar ao inquiridor.\nPor favor tente novamente
+1220 Falta o ficheiro 'syncsession.ini' no tablet do inquiridor %04v. Sincronização cancelada
+1230 Deve sincronizar com o inquiridor %04d,\nmas está a sincronizar com o inquiridor %s. \nPor favor verifique
+1240 Cluster=%s no tablet do inquiridor %s. O seu cluster atual=%05d.\nAmbos têm de estar a trabalhar no mesmo cluster. \nSincronização cancelada
+1250 Questionários delegados enviados ao inquiridor %04d
+1260 Erro ao enviar o ficheiro de delegação %v ao inquiridor %04d
+1320 Como supervisor, ainda não iniciou o cluster %d.  Por favor inicie-o ou selecione outro cluster
+//1330 O cluster %d ainda não foi iniciado. Peça ao supervisor que lhe envie a sua atribuição. \nDeseja sincronizar com o supervisor para receber a atribuição ou selecionar outro cluster?
+1340 Nenhuma atribuição recebida do supervisor. Tente novamente
+1350 O supervisor a atuar como inquiridor não precisa de sincronizar com o supervisor
+1390 Diga ao inquiridor que está pronto para receber os questionários\nEle/Ela deve sincronizar com %v
+1400 Não sincronizou com o inquiridor
+1410 O cluster %v não tem problemas de estrutura
+1420 Este agregado pertence a outro inquiridor, não o pode modificar
+1430 O agregado %v não será mostrado porque não existe neste tablet, por favor receba uma cópia atualizada das atribuições do supervisor
+
+2010 O cluster %v tem %v agregados, o último número de alojamento é %v. \nO novo alojamento terá o número %v.
+2020 Alojamento número %v adicionado à UPA %v
+2030 No cluster %v o alojamento número %v já tem %v agregados. \nNão é possível adicionar mais agregados
+2040 No cluster %v o alojamento número %v tem %d agregados. \nO novo agregado terá o número %d.
+2050 O agregado número %v foi adicionado ao alojamento número %v no cluster %v
+2060 Tem a certeza de que deseja eliminar este agregado:\nAlojamento:%d \nAgregado:%d \nEndereço:%s \nChefe:%s \nTelefone:%s \nAtribuído ao inquiridor:%d
+2070 Alojamento %d - agregado %d não pode ser eliminado porque este alojamento tem o agregado %d.\nSó pode ser eliminado o último agregado de cada alojamento
+2080 Agregado %d eliminado
+2081 Agregado %d eliminado. Estava atribuído ao inquiridor %v; se a atribuição já tinha sido sincronizada com este inquiridor, por favor envie as atribuições novamente
+2110 <br><br><h3>PROBLEMAS ESTRUTURAIS</h3>
+2115 <br><h3>RESULTADO DE QUESTIONÁRIOS INDIVIDUAIS INCONSISTENTE COM A AUTORIZAÇÃO DO ADULTO</h3>
+2120 \nAGREGADOS/INDIVÍDUOS ENCONTRADOS QUE NÃO PERTENCEM AO INQUIRIDOR ATRIBUÍDO OU QUE NÃO ESTÃO NA AMOSTRA
+2130 AgregInquiridor   Chefe do agregado    Estado                        I n d i v í d u o s :
+2140 ado  Atrib. Encon.                                                 Quest.    NL Nome                 Id. Sex Estado
+2150 \nINDIVÍDUOS COM REGISTO DE %v MAS QUE NÃO EXISTEM NO AGREGADO OU NÃO CUMPREM ESTA CONDIÇÃO
+2160 Agreg - - - - - - D a d o s   d o   a g r e g a d o - - - - - -    - - - - - D a d o s   i n d i v i d u a i s - - - - - -
+2170  ado  Inquir. Chefe                Nome                 Id. Sex    Inquir. NL Nome                 Id. Sex Estado
+2180 \n\n\nINDIVÍDUOS COM QUESTIONÁRIO DE %v DUPLICADO
+2190 Agreg     - - - R E G I S T O S   E N C O N T R A D O S - - -
+2200  ado  NL  Inquir. Nome                 Estado                        
+2210 \n\n *** Total de problemas de estrutura encontrados %d ***
+2220 <h3 style="color:blue">  Não foram encontrados problemas estruturais</h3>
+2230 <br><h3>VERIFICAÇÃO DE AGREGADOS: MEMBROS ENCONTRADOS PELO SUPERVISOR VS INQUIRIDOR</h3>
+2240 <b>AGREGADO %d - Relatório do supervisor %04d:</b>
+2250 <br><b>AGREGADO %d - Relatório do inquiridor %04d:</b>
+2260 <p>(*) Pessoa entrevistada<br>*** Total de agregados verificados %d ***</p>
+2270 *** Nenhum agregado verificado ***
+2280 <br><h3>RESUMO</h3>
+2310 </pre><p>(*) Questionários concluídos referem-se aos questionários com código de conclusão=01</p><br>
+2320 <h3>O cluster %s não pode ser fechado pelas seguintes razões: </h3>
+2330 -   Existem %d questionários de agregado não iniciados
+2340 -   Existem %d questionários individuais não iniciados
+2350 -   Existem %d questionários de agregado gravados parcialmente
+2360 -   Existem %d questionários individuais gravados parcialmente
+2370 -   Existem %d erros estruturais
+2380 -   Não existem agregados com a composição dos membros verificada
+2382 -   Existem %d questionários de crianças com dados antropométricos pendentes 
+2384 -   Existem %d questionários de agregado com informação de qualidade da água pendente 
+2385 -   Existem %d questionários individuais com códigos de resultado inconsistentes com a autorização do adulto
+2390 <h3 style="color:red"> O cluster %s pode ser fechado </h3>
+2400 O cluster %v foi fechado. Lembre-se de o enviar para o escritório central
+2430  RELATÓRIO DE NOTAS DO CLUSTER:%v AGREGADO:%v 
+//2440 .  # Tipo quest. Inquir.   Lin. Pergunta        Oc.  Nota
+2450 Erro: a aplicação do Supervisor já está em execução
+2460 A função do ID=%v (%v) não é Supervisor.  Tente novamente.
+2470 Este tablet (%v) não pertence a este supervisor/inquiridor. Contacte o suporte técnico. Programa terminado.
+2520 STAFF_ID inválido. Tente novamente.
+2530 Cluster=%d não atribuído ao supervisor %04d. Tente novamente
+2540 A amostra não tem nenhum agregado para o cluster %d.  Peça ao escritório central uma amostra atualizada. Este cluster não pode ser iniciado. Por favor selecione outro cluster
+2550 O cluster %d ainda não foi iniciado, tem %d agregados. Se começar a trabalhar com ele, \na amostra deste cluster não poderá ser atualizada posteriormente pelo escritório central.\nDeseja começar a trabalhar com este cluster?
+2560 Não é possível criar a pasta %s. Sistema parado
+2570 Cluster inválido. Tente novamente.
+2580 Selecione com quem deseja sincronizar:\n -'Inquiridores' para enviar atribuições, enviar atualizações ou receber dados.\n -'Escritório Central' para receber atualizações da amostra ou enviar dados
+2590 Diga aos inquiridores que está pronto para sincronizar\nEles devem sincronizar com %v
+2600 Não sincronizou com o inquiridor
+2610 Selecione o relatório de:\n -'CLUSTER %v': estado de todas as entrevistas, problemas estruturais e pendências para fechar o cluster.\n -'Todos os clusters': ver a lista geral de todos os clusters atribuídos a esta equipa
+2620 <h2><header style="color:blue">RELATÓRIO DE ESTADO DO CLUSTER %v </h2>
+2650 Anteriormente o cluster %v estava 'Fechado', mas agora está 'No terreno'\ndevido aos problemas encontrados no relatório
+2660 Selecione:\n -'Rever entrevistas concluídas' para rever entrevistas de agregado e individuais ou verificar a composição do agregado\n -'Ver notas do inquiridor' para ver as notas do inquiridor no agregado selecionado
+2700 Não foi possível sincronizar com o escritório central - Por favor verifique a ligação à Internet
+2705 Atualizações recebidas
+2710 Erro ao receber os ficheiros da amostra
+2720 Erro ao enviar o ficheiro %s
+
+Language=EN
 0010 CSEntry version must be 7.7.3, please install it, to do that you must desinstall the current version, BUT FIRST DO A COPY OF THE BACKUP FOLDER OF THE SD CARD TO ANOTHER PLACE TO REINSTALL THE DATA
 1000 Problem copying the staff.csdb file from the PUBLIC folder, program canceled
 1010 Ask supervisor to SYNC with interviewers, you need to receive assignment for CLUSTER %d

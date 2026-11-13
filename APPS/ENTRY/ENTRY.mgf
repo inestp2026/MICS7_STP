@@ -1,4 +1,178 @@
-﻿{**************************************************NUMBERED ERROR MESSAGES*********************************************************************************************}
+﻿
+
+
+{**************************************************NUMBERED ERROR MESSAGES*********************************************************************************************}
+
+Language=PT
+{ Nível do agregado, módulo de listagem do agregado }
+ 0009 D Distrito %05d, Agregado %02d, Inquiridor %02d, # %02d
+ 0030 D Idade e data de nascimento inconsistentes
+ 0031 D A idade do membro do agregado não pode ser NS (Não sabe) ou Sem resposta
+ 0060 W Por favor confirme se o sexo do cônjuge %s (%s) é igual ao sexo de %s (%s)
+ 0061 D O(A) %s do chefe do agregado com sexo %d é superior a 1=%s na lista do agregado
+ 0071 W O cônjuge na linha %s do chefe do agregado na linha %d deve ser do sexo oposto ao do chefe %s
+ 0072 W O chefe do agregado tem menos de %02d anos a mais do que o seu filho/filha (HL1=%02d)
+ 0073 W O chefe do agregado tem menos de %02d anos a mais do que o seu neto/neta (HL1=%02d)
+ 0074 W O chefe do agregado tem menos de %02d anos a menos do que o seu pai/mãe (HL1=%02d)
+ 0075 W O chefe do agregado na linha #%d tem menos de 15 anos de idade (%d)
+ 0080 D Número de linha de %s (%s=%02d) superior ao número de membros do agregado (HH48=%02d)
+ 0081 D Número de linha de %s (%s=%02d) igual ao número de linha da criança (HL1=%02d)
+ 0082 D HL1=%02d: O sexo (HL4=%01d) ou a idade (HL6=%02d) de %s (%s=%02d) está incorreto
+ 0083 D O responsável pela criança %v (LN %v) é %v (LN %v), mas tem %v anos de idade; a idade mínima é 15, por favor verifique
+{ Nível do agregado, módulo de Educação }
+ 0091 D Nível de ensino atual (%s=%02d) superior ao nível mais alto (%s=%02d)
+ 0092 D Classe/ano de ensino atual (%s=%02d) superior à classe/ano mais alto (%s=%02d)
+ 0093 D Nível de ensino do ano anterior (%s=%02d) superior ao nível mais alto (%s=%02d)
+ 0094 D Classe/ano de ensino do ano anterior (%s=%02d) superior à classe/ano mais alto (%s=%02d)
+ 0095 D Ensino do ano anterior (%s/%s=%02d/%02d) superior ao do ano atual (%s/%s=%02d/%02d)
+ 0096 D Ensino do ano anterior (%s/%s=%02d/%02d) inferior ao do ano atual (%s/%s=%02d/%02d) menos um
+ 0097 E Nível/classe de ensino atual (%s/%s=%02d/%02d) igual à classe mais alta (%s/%s=%02d/%02d), que foi declarada como concluída (%s=%d)
+ 0098 D Nível de ensino atual (%s=%02d) inferior ao nível mais alto (%s=%02d). Por favor verifique!
+
+{ Nível do agregado, características do agregado }
+ 0100 D  Por favor confirme que este agregado tem %d divisões usadas para dormir
+ 0101 D Se o agregado possui animais (HC17=1), então uma das respostas de HC18 deve ter um valor diferente de zero
+{ Nível do agregado, Uso de energia }
+ 0102 W Resposta inconsistente com a resposta anterior: foi declarado que o agregado não tem eletricidade
+{ MTILD - redes mosquiteiras }
+ 0201 D Número de linha (TN15=%02d) do membro do agregado que dormiu sob a rede é superior ao número de membros do agregado (%d membros do agregado)
+ 0202 D Membro já registado sob esta rede
+ 0203 D A pessoa (%02d) indicada como tendo dormido sob a rede na noite passada não dormiu no agregado (HL7=%1d)
+ 0204 D Número de linha (TN15=%02d) igual ao número de linha de outra rede
+ 0205 W Resultado do número de pessoas que dormiram sob a rede inconsistente com a pergunta anterior
+{ WQ  - qualidade da água }
+ 0501 D Por favor verifique as datas, o teste da água não pode ocorrer antes do Questionário do Agregado
+ 0502 D Código de resultado = 01 (Concluído), mas a permissão em WQ8 ou HH44 foi 'Não dada' - Por favor verifique
+ 0503 D Código de resultado não é 01 (Não concluído), mas a permissão em WQ8 ou HH44 foi 'Dada' e foi fornecido um copo de água - Por favor verifique
+ 0504 D Se o copo de água não foi fornecido (WQ11 <> 1), deve voltar a WQ31 e registar 03
+ 0505 W Por favor verifique as datas, os resultados do teste da água devem ser registados 24 horas após o início da incubação
+ 0506 D A hora de fim do teste da água não pode ser anterior à hora de início do teste da água
+ 0507 D Código de resultado = %d não consistente com WQ11=2 (um copo de água Não foi dado) - Por favor verifique
+{ Mensagens de erro do questionário da mulher }
+ 1001 W A mulher é demasiado nova ou demasiado velha para ser entrevistada
+ 1002 W Idade da mulher (WB4=%02d) diferente da do agregado (HL6=%02d)
+ 1003 D Idade da mulher e a sua data de nascimento inconsistentes
+ 1004 W Mês de nascimento da mulher (WB3M=%02d) diferente do mês de nascimento no agregado (HL5M=%02d)
+ 1005 W Ano de nascimento da mulher (WB3Y=%04d) diferente do ano de nascimento no agregado (HL5Y=%04d)
+ 1011 W Frequência escolar diferente nos questionários do agregado (%s=%02d) e da mulher (%s=%02d)
+ 1012 W Nível de ensino da mulher diferente no agregado (%s=%02d) e no seu questionário (%s=%02d)
+ 1013 W Classe/ano de ensino da mulher diferente no agregado (%s=%02d) e no seu questionário (%s=%02d)
+ 1015 W Classe/ano de conclusão da mulher diferente no agregado (%s=%01d) e no seu questionário (%s=%01d)
+ 1020 W Não pode ser superior à idade atual
+ 1110 D O número de rapazes e raparigas deve ser superior a zero %s = 1
+ 1111 D Respostas CM1, CM2, CM5 e CM8 inconsistentes. A resposta em CM1 não pode ser <Sim> se todas as outras respostas forem <Não>
+ 1112 D Investigue e corrija CM2-CM10 conforme necessário
+ 1115 D Dada a data de nascimento da inquirida (%d/%d), esta data não é possível (%d/%d)
+ 1133 D De acordo com a Listagem do Agregado, a mulher é mãe biológica de pelo menos um dos membros do agregado (ex.: LN=%d)
+ 1140 D Código de nascimento múltiplo incorreto
+ 1142 D Data de nascimento da criança posterior à data da entrevista
+ 1143 D Datas de nascimento da criança e do gémeo são diferentes
+ 1144 D Datas de nascimento das crianças não estão por ordem
+ 1145 D A criança deve ser codificada como nascimento múltiplo se nasceu na mesma data que a criança anterior
+ 1146 D Idade da criança e idade do gémeo diferentes
+ 1147 E Idade da criança inconsistente com a data de nascimento
+ 1148 W A criança tem idade ou sexo diferente no agregado (HL6=%02d, BH3/BH6=%02d)
+ 1149 D Número de linha da criança no agregado inválido
+ 1150 W A criança tem mãe diferente no agregado (HL14=%02d, Linha da mulher=%02d)
+ 1151 D Número de linha da criança no agregado já utilizado
+ 1152 W A mãe tem a criança %02d listada no agregado, mas não no histórico de nascimentos
+ 1153 E Idade ao óbito inválida para unidades=9
+ 1154 D Idade ao óbito %d fora do intervalo %1d-%2d para as unidades=%s
+ 1155 W Idade ao óbito e data de nascimento inconsistentes: dc=%04d, óbito=%03d, data da entrevista=%04d
+ 1156 D %s inconsistente: %s=%02d, contagem=%02d
+ 1157 W Intervalo entre o nascimento %02d (%02d/%04d) e o nascimento %02d (%02d/%04d) demasiado curto
+ 1159 D Idade ao óbito declarada como 12 meses ou 1 ano. Investigue para determinar o número exato de meses.
+ 1160 D Inconsistência entre as perguntas BH7 e BH8, verifique os valores recodificados
+ 1301 D Respostas especiais inconsistentes
+ 1401 W De acordo com a DN (WB3=%02d/%04d) e a DU (%02d/%04d), a mulher tinha menos de %02d anos quando casou
+ 1402 D A data da primeira união (%02d/%04d) não pode ser posterior à data da entrevista
+ 1403 D Idade na primeira união %02d é inferior a %02d anos
+ 1501 D Fumou cigarros nas últimas 24 horas, mas o número de dias em que fumou é 0
+ 1601 W Mãe (idade=%02d) tem menos de %02d anos a mais do que a filha (%s=%02d)
+ 1602 W Idade na circuncisão superior à idade
+ 1603 W Idade na circuncisão (FG7=%d) superior à idade atual (WB4=%2d)
+ 1604 W Idade da filha (FG13=%d) diferente da idade encontrada no histórico de nascimentos (Linha %d. Idade=%d)
+ 1701 W Idade ao casamento (MA11=%02d) superior à idade atual da inquirida (WB4=%02d)
+ 1801 W Idade da mulher na primeira relação sexual (SB1=%02d) superior à sua idade atual (WB4=%02d)
+ 1802 W Idade máxima na última relação sexual (WB4-SB3N=%02d) inferior à idade na primeira relação sexual (SB1=%02d)
+ 1810 E Nunca teve relações sexuais, mas tem filhos ou está atualmente grávida
+ 1811 W Nunca teve relações sexuais, mas esteve em união ou viveu com um homem
+ 1812 D Teve relações sexuais pela primeira vez quando começou a viver com o marido/parceiro, mas nunca casou
+ 1813 D A relação é marido/parceiro, mas nunca casou
+ 1901 E Idade no primeiro uso de %s superior à idade atual (%d - %d)
+ 1902 W A consulta pós-natal (PN13U =%d e PN13N = %d) tem de ser posterior à saída da unidade de saúde (PN3U = %d e PN3U = %d)
+ 1903 W A consulta pós-natal (PN22U =%d e PN22N = %d) tem de ser posterior à saída da unidade de saúde (PN3U = %d e PN3U = %d)
+ 2100 D Verifique e, se necessário, corrija o número total de nascimentos e depois insira o novo nascimento
+ 2101 D O número total de filhos em CM11 não é igual ao registado na lista do Histórico de Nascimentos. Verifique e corrija o número total de nascimentos, ou altere esta resposta e insira novos nascimentos
+ 2200 D Investigue e verifique a soma em MM7 e a lista de irmãos em MM1. Faça as correções necessárias até a resposta em MM8 ser ‘Sim’
+ 2201 D Número de ordem duplicado
+ 2202 D O número de ordem não pode ser superior ao número total de irmãos
+ 2301 D A atividade ao acordar é posterior à hora de dormir - Por favor verifique
+ 2302 D O fim da atividade é posterior à hora a que foi dormir - Por favor verifique
+ 2303 D A hora de fim da atividade é anterior à hora de início - Por favor verifique
+ 2304 D Indicou na pergunta anterior que não jogou online, mas nesta pergunta foi registado que jogou online - Por favor verifique
+{ Mensagens de erro do questionário da criança }
+ 2001 W A criança é demasiado nova ou demasiado velha para ser entrevistada
+ 2002 W Idade da criança (%s =%02d) e idade no agregado (HL6=%02d) diferentes
+ 2003 W Idade da criança inconsistente com a data de nascimento
+ 2005 W Mês de nascimento da criança (%s =%02d) diferente do mês de nascimento na listagem do agregado (HL5M=%02d)
+ 2006 W Ano de nascimento da criança (%s=%04d) diferente do ano de nascimento na listagem do agregado (HL5Y=%04d)
+ 2011 W Frequência escolar diferente nos questionários do agregado (%s=%d) e da criança (%s=%d)
+ 2012 W Nível de ensino da criança diferente no agregado (%s=%02d) e no seu questionário (%s=%02d)
+ 2013 W Classe/ano de ensino da criança diferente no agregado (%s=%02d) e no seu questionário (%s=%02d)
+ 2015 W Classe/ano de conclusão da criança diferente no agregado (%s=%01d) e no seu questionário (%s=%01d)
+ 2701 W Data da vacinação %s (%02d/%02d/%04d) inválida
+ 2702 W Data da vacinação %s (%02d/%02d/%04d) posterior à data da entrevista (UF7=%02d/%02d/%04d)
+ 2703 W Data da vacinação %s (%02d/%02d/%04d) anterior à data de nascimento (UB1=%02d/%02d/%04d)
+ 2704 W Data da vacinação %s (%02d/%02d/%04d) posterior à data da vacinação %s (%02d/%02d/%04d)
+ 2901 W O número total de horas trabalhadas não pode ser tão elevado
+ 2910 W A medição / visita à unidade de saúde não pode ser anterior à entrevista
+ 2950 W Certifique-se de que as 3 condições estão assinaladas
+ 2951 W Este idioma já foi tentado. Por favor ofereça a história noutro idioma disponível
+{ Homens..}
+ 3001 W O homem é demasiado novo ou demasiado velho para ser entrevistado
+ 3002 W Idade do homem (MWB4=%02d) diferente da do agregado (HL6=%02d)
+ 3003 W Idade do homem e a sua data de nascimento inconsistentes
+ 3004 W Mês de nascimento do homem (MWB3M=%02d) diferente do mês de nascimento no agregado (HL5M=%02d)
+ 3005 W Ano de nascimento do homem (MWB3Y=%04d) diferente do ano de nascimento no agregado (HL5Y=%04d)
+ 3011 W Frequência escolar diferente nos questionários do agregado (%s=%d) e do homem (%s=%d)
+ 3012 W Nível de ensino do homem diferente no agregado (%s=%d) e no seu questionário (%s=%d)
+ 3013 W Classe/ano de ensino do homem diferente no agregado (%s=%d) e no seu questionário (%s=%d)
+ 3015 W Classe/ano de conclusão do homem diferente no agregado (%s=%01d) e no seu questionário (%s=%01d)
+ 3110 D O número de rapazes e raparigas deve ser superior a zero %s = 1
+ 3111 D Respostas MCM1, MCM2, MCM5 e MCM8 inconsistentes. A resposta em CM1 não pode ser <Sim> se todas as outras respostas forem <Não>
+ 3112 D Investigue e corrija MCM2-MCM10 conforme necessário
+ 3120 W Idade ao ter o primeiro filho (MCM17=%02d) superior à idade atual do inquirido (MWB4=%02d)
+ 3121 W Data de nascimento do último filho anterior à idade de %1d anos
+ 3122 W Data de nascimento do último filho posterior à data da entrevista
+ 3133 D De acordo com a Listagem do Agregado, o homem é pai biológico de pelo menos um dos membros do agregado (ex.: LN=%d)
+ 3134 D Não pode ser superior ao número total de nados-vivos de que é pai
+ 3135 D Dada a data de nascimento do inquirido (%d/%d), esta data não é possível (%d/%d)
+ 3401 W De acordo com a DN (MWB3=%02d/%04d) e a DU (%02d/%04d), o homem tinha menos de %02d anos quando casou
+ 3402 W A data da primeira união (%02d/%04d) não pode ser posterior à data da entrevista
+ 3501 D Fumou cigarros nas últimas 24 horas, mas o número de dias em que fumou é 0
+ 3701 W Idade ao casamento (MMA11=%02d) superior à idade atual do inquirido (MWB4=%02d)
+ 3801 W Idade do homem na primeira relação sexual (MSB1=%02d) superior à sua idade atual (MWB4=%02d)
+ 3802 W Idade máxima na última relação sexual (MWB4-MSB3N=%02d) inferior à idade na primeira relação sexual (MSB1=%02d)
+ 3810 E Nunca teve relações sexuais, mas tem filhos
+ 3811 W Nunca teve relações sexuais, mas esteve em união ou viveu com uma mulher
+ 3812 D Teve relações sexuais pela primeira vez quando começou a viver com a esposa/parceira, mas nunca casou
+ 3813 D A relação é esposa/parceira, mas nunca casou
+ 3901 E Idade no primeiro %s superior à idade atual (%d - %d)
+{ Mensagens de erro usadas em todo o questionário }
+ 9970 D Código de resultado inconsistente com a permissão
+ 9971 D O resultado é Não concluído, mas existem dados recolhidos
+ 9980 Guardar alterações?
+ 9988 D Data do tablet fora das datas do trabalho de campo (HH5Y:%d-%d), por favor verifique, entrevista interrompida
+ 9989 D Hora do tablet fora do horário de entrevista (HH11:%d-%d), por favor verifique, entrevista interrompida
+ 9991 D Registe o nome
+ 9992 D Unidade e número inconsistentes; verifique as instruções de codificação do questionário
+ 9995 D Se "Ninguém/Sem resposta" estiver assinalado, não pode selecionar outras respostas alfabéticas
+ 9996 D Resposta "Não sabe" inconsistente com as outras respostas
+ 9998 D Código indicado para a variável alfabética não aceitável
+
+{**************************************************************************************************************************************************************}
+
 
 Language=ENG
 { HH level, HH listing module }
