@@ -18,3 +18,16 @@ User numbered messages:
 
 CSPro Executor Normal End
 ------------------------------------------------------------------------------------------------------------------------
+Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryMN.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\MN0021.csdb
+External        MICS7HH=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HHall.csdb
+
+Date            Nov 14, 2026
+Start Time      11:12:06
+End Time        11:12:17
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------

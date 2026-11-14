@@ -1,26 +1,26 @@
-﻿{ Based on MICS7 Base Household Questionnaire 7.2.1
-           MICS7 ComTops - Household Energy Use 7.1.3
-		   MICS7 ComTops - Malaria - HH 7.2.1
-		   MICS7 ComTops - Social Transfers - HH 7.1.9
-		   MICS7 ComTops - Post-emergency - HH 7.1.4
-		   MICS7 ComTops - Food Insecurity Experience - HH 7.1.3
-		   MICS7 Water Quality Testing Form 7.1.4                             }
-{ v 12 May 2025 }
+{ Baseado no Questionário Base do Agregado MICS7 7.2.1
+           MICS7 ComTops - Uso de Energia no Agregado 7.1.3
+		   MICS7 ComTops - Malária - Agregado 7.2.1
+		   MICS7 ComTops - Transferências Sociais - Agregado 7.1.9
+		   MICS7 ComTops - Pós-emergência - Agregado 7.1.4
+		   MICS7 ComTops - Experiência de Insegurança Alimentar - Agregado 7.1.3
+		   MICS7 Formulário de Teste da Qualidade da Água 7.1.4                             }
+{ v 12 maio 2025 }
 { --------------------------------------------------------------------------- }
 
 PROC GLOBAL
-	{ Definitions of working variables }
-	array alpha(8) KishGrid(10);	   { Grid used for selection of child for child discipline module }
-	alpha(26) alphavar;				   { Alpha working variable used in checking alpha vars }
-	alpha(26) alphanew;                { Alpha working variable used in checking alpha vars }
-	alpha(62) alphalst;                { The alphabet }
+	{ Definições das variáveis de trabalho }
+	array alpha(8) KishGrid(10);	   { Grelha usada para selecionar a criança para o módulo de disciplina infantil }
+	alpha(26) alphavar;				   { Variável alfa de trabalho usada na verificação de variáveis alfa }
+	alpha(26) alphanew;                { Variável alfa de trabalho usada na verificação de variáveis alfa }
+	alpha(62) alphalst;                { O alfabeto }
 
-	array codes(50);                   { Array used for creating line numbers of household members sleeping under mosquito net}
-	array alpha(50) labels(50);        { Array used for creating names of household members sleeping under mosquito net} 
+	array codes(50);                   { Array usado para criar os números de linha dos membros do agregado que dormem sob a rede mosquiteira}
+	array alpha(50) labels(50);        { Array usado para criar os nomes dos membros do agregado que dormem sob a rede mosquiteira} 
 
-	alpha(40) ynamehh; 				   { List of names for questions }
+	alpha(40) ynamehh; 				   { Lista de nomes para as perguntas }
 
-	alpha(900) strnotes;               { for editnote at the end of the interview }
+	alpha(900) strnotes;               { para o editnote no fim da entrevista }
 
 	numeric addmode, 
 		maxmem, maxnet, minage, maxage, minab, mminage, mmaxage,
@@ -35,17 +35,17 @@ PROC GLOBAL
 	numeric db, comply, verific, nopartflag;
 	numeric qhMoreCount;
 
-	string worklabel;               { Alpha variable to get customize text for questions }
+	string worklabel;               { Variável alfa para obter texto personalizado para as perguntas }
 
-	valueset headrelationship,otherrelationship;  //relationships for HL3
+	valueset headrelationship,otherrelationship;  //parentescos para HL3
 	
 	numeric selection, x1;
 
-	{ User defined functions }
+	{ Funções definidas pelo utilizador }
 
-	{ help function to display household roster }
+	{ função de ajuda para mostrar a lista dos membros do agregado }
 	function showroster () 
-		show( MICS7HH.MODHL, HL1, HL2, HL3, HL4, HL6  title( tr("Ln"), tr("Name"), tr("Relation"), tr("Sex"), tr("Age") ) );
+		show( MICS7HH.MODHL, HL1, HL2, HL3, HL4, HL6  title( tr("NL"), tr("Nome"), tr("Parentesco"), tr("Sexo"), tr("Idade") ) );
 	end;
 
 	function showCalc()
@@ -54,7 +54,7 @@ PROC GLOBAL
 
 	function ensureNotBlank(string value, numeric min_length = 1)	
 		if length(strip(value)) < min_length then
-			errmsg ("You must enter text with %d+ characters for field %s", min_length, getsymbol());
+			errmsg ("Deve introduzir um texto com %d+ caracteres no campo %s", min_length, getsymbol());
 			reenter;
 		endif;
 	end;
@@ -64,22 +64,22 @@ PROC GLOBAL
     end;
 	  
 	function goto()
-		selection = accept(tr("Go to section"),
-						   tr("Household Information Panel"),
-						   tr("List of Household Members - Initial"),
-						   tr("List of Household Members"),
-						   tr("Education"),
-						   tr("Household Characteristics"),
-					       tr("Household Energy Use"),
-						   tr("Insecticide Treated Nets"),
-						   tr("Social Transfers"),
-						   //tr("Post-Emergency"),
-						   //tr("Food Insecurity Experience"),
-						   tr("Water"),
-						   tr("Sanitation"),
-						   tr("Hygiene"),
-						   tr("End of Interview"),
-						   tr("Water Quality Testing"));
+		selection = accept(tr("Ir para a secção"),
+						   tr("Painel de Informação do Agregado"),
+						   tr("Lista dos Membros do Agregado - Inicial"),
+						   tr("Lista dos Membros do Agregado"),
+						   tr("Educação"),
+						   tr("Características do Agregado"),
+					       tr("Uso de Energia no Agregado"),
+						   tr("Redes Mosquiteiras Tratadas com Inseticida"),
+						   tr("Transferências Sociais"),
+						   tr("Pós-Emergência"),
+						   tr("Experiência de Insegurança Alimentar"),
+						   tr("Água"),
+						   tr("Saneamento"),
+						   tr("Higiene"),
+						   tr("Fim da Entrevista"),
+						   tr("Teste da Qualidade da Água"));
 		
 		if selection = 1 then
 			move to FORMHH advance;
@@ -97,48 +97,48 @@ PROC GLOBAL
 			move to FORMTN advance;
 		elseif selection = 8 then    
 			move to FORMST advance;
-		{elseif selection = 9 then
-			move to FORMPE advance;
-		elseif selection = 10 then
-			move to FORMFE advance;}
 		elseif selection = 9 then
-			move to FORMWS advance;	  
+			//move to FORMPE advance;
 		elseif selection = 10 then
-			move to FORMWS2 advance;	  
+			//move to FORMFE advance;
 		elseif selection = 11 then
+			move to FORMWS advance;	  
+		elseif selection = 12 then
+			move to FORMWS2 advance;	  
+		elseif selection = 13 then
 			move to FORMHW advance;
-	    elseif selection = 12 then
+	    elseif selection = 14 then
 			move to FORMEND advance;
-	    elseif selection = 13 then
+	    elseif selection = 15 then
 			move to FORMWQ advance;
 		endif;
 	end;
 	  
-	{ setup basic user bar }
+	{ configura a barra de utilizador básica }
 	function userbase();
 		userbar( clear );
 		userbar( add button, "<",    do("PreviousField") );
 		userbar( add button, ">",    do("NextField") );
 		userbar( add button, ">>|",  do("AdvanceToEnd") );
-		userbar( add button, tr("Note"), do("EditNote") );
-		userbar( add button, tr("Lang"), do("ChangeLanguage") );
+		userbar( add button, tr("Nota"), do("EditNote") );
+		userbar( add button, tr("Idioma"), do("ChangeLanguage") );
 		userbar( add button, tr("Calc"), showCalc );
-		userbar( add button, tr("Section"), goto );
-		userbar(add button, tr("Manuals"),  showManuals );;
+		userbar( add button, tr("Secção"), goto );
+		userbar(add button, tr("Manuais"),  showManuals );;
 		userbar( add spacing, 10 );  
-		userbar( add button, tr("See HH roster"), showroster() );
+		userbar( add button, tr("Ver lista do agregado"), showroster() );
 	end;
   
 	{ valid
-	Checks that a variable has a valid value.
-	A valid value is less than 96 and not a special value e.g notappl/missing
-	Returns: 1 if valid, 0 if not valid                                        }
+	Verifica se uma variável tem um valor válido.
+	Um valor válido é inferior a 96 e não é um valor especial, p.ex. notappl/missing
+	Devolve: 1 se válido, 0 se não válido                                        }
 	function valid(xvar);
 		valid = (!special(xvar) and xvar < 96)
 	end;
 
 	{ clear_labels
-	Set value labels for certain questions where the response categories can change }
+	Define as etiquetas de valores das perguntas cujas categorias de resposta podem mudar }
 	function clean_labels();
 		do i = 1 while i <= 50 by 1
 			codes(i) = notappl;
@@ -146,13 +146,13 @@ PROC GLOBAL
 		enddo;
 	end;
 
-	{ ITN functions }
+	{ Funções MTILD (redes mosquiteiras) }
 	function setnet(alpha(8) xvarname, curnet);
 		clean_labels();
-		n = tonumber(xvarname[length(strip(xvarname)):1]);  { Gets the TN15_x number, e.g. TN15_2 returns 2 }
+		n = tonumber(xvarname[length(strip(xvarname)):1]);  { Obtém o número de TN15_x, p.ex. TN15_2 devolve 2 }
 		x = 0;
 		codes(x) = 0;
-		labels(x) = tr("Not in household list");
+		labels(x) = tr("Não está na lista do agregado");
 			
 		for i in FORMHL_ROSTER do
 			found = 0;
@@ -168,25 +168,25 @@ PROC GLOBAL
 				labels(x) = HX2(i);
 			endif;
 		enddo;
-		if n <> 1 then { First person - cannot be "90" }
+		if n <> 1 then { Primeira pessoa - não pode ser "90" }
 			x = x + 1;
 			codes(x) = 90;
-			labels(x) = tr("Nobody else");
+			labels(x) = tr("Mais ninguém");
 		endif;
 	end;
 
 	function checknet(xvar, alpha(8) xvarname, curnet);
 		e = 0;
-		n = tonumber(xvarname[length(strip(xvarname)):1]);  { Gets the TN15_x number, e.g. TN15_2 returns 2 }
+		n = tonumber(xvarname[length(strip(xvarname)):1]);  { Obtém o número de TN15_x, p.ex. TN15_2 devolve 2 }
 		if xvar = 90 then
 			if n = 1 & TN10 = 1 then
 				e=errmsg(0205);
 			endif;
 		elseif xvar < 90 then
-			if xvar > HH48 then	{ Greater than number of HH members }
+			if xvar > HH48 then	{ Superior ao número de membros do agregado }
 				e=errmsg(0201,xvar,HH48);
 			else
-				{ Is member already listed, possibly under another net }
+				{ O membro já está listado, possivelmente sob outra rede? }
 				found = 0;
 				if xvar <> 0 then
 					do net = 1 while !found & net <= curnet
@@ -199,7 +199,7 @@ PROC GLOBAL
 				if found then
 					e=errmsg(0204,xvar);
 				endif;
-				{ check if person slept in HH last night }
+				{ verifica se a pessoa dormiu no agregado na noite passada }
 				if xvar <> 0 then
 					if HL7(xvar) <> 1 then
 						e=errmsg(0203,xvar,HL7(xvar));
@@ -211,31 +211,31 @@ PROC GLOBAL
 	end;
 
 	{ endmess
-	If user is in addmode, it displays a menu with the options
-	"Review Questionnaire" and "Next Questionnaire"
-	Returns: 1 if user is in addmode or selects Next Questionnaire, 0 otherwise }
+	Se o utilizador estiver em addmode, mostra um menu com as opções
+	"Rever Questionário" e "Questionário Seguinte"
+	Devolve: 1 se o utilizador estiver em addmode ou selecionar Questionário Seguinte, 0 caso contrário }
 	function endmess();
-		{ Returns true if response is REVIEW }
-		endmess = (accept(tr("End of Questionnaire"),
-						  tr("Check Questionnaire"),
-						  tr("New Quest./Questionnaire after")) <> 2);
+		{ Devolve verdadeiro se a resposta for REVER }
+		endmess = (accept(tr("Fim do Questionário"),
+						  tr("Verificar Questionário"),
+						  tr("Novo quest./Questionário seguinte")) <> 2);
 	end;
 
-	{ Function to check entry of alpha string variables }
+	{ Função para verificar a introdução de variáveis alfa }
 	{ alphachk
-	Function to check entry of alpha string variables.
-    Requirement: preceed with the statment alphavar = $
-    Input variables:
-    alphamask - The characters allowed and the order and position of these
-    alphavar (set before calling the function) - the variable to be checked
+	Função para verificar a introdução de variáveis alfa.
+    Requisito: preceder com a instrução alphavar = $
+    Variáveis de entrada:
+    alphamask - Os caracteres permitidos, a sua ordem e posição
+    alphavar (definida antes de chamar a função) - a variável a verificar
 
-    Checks that all the characters in the alphavar variable is found in alphamask
-    and that they are in correct order. Repositions the characters before returning.
-    If ? is found in string, makes sure that no other characters are present
-    Returns: Repositioned string if valid, else 0
+    Verifica se todos os caracteres da variável alphavar existem em alphamask
+    e se estão na ordem correta. Reposiciona os caracteres antes de devolver.
+    Se encontrar ? na cadeia, garante que não existem outros caracteres
+    Devolve: a cadeia reposicionada se válida, caso contrário 0
 
-    Examples:
-    alphavar    alphamask     returns
+    Exemplos:
+    alphavar    alphamask     devolve
     "ABC"		  "ABCDEX"      "ABC   "
     "AC"		  "ABCDEX"      "A C   "
     "BEX"		  "ABCDEX"      " B  EX"
@@ -243,10 +243,10 @@ PROC GLOBAL
     "J"		  "ABCDEX"      0
      "ABQ"		  "ABCDEX"      0
     "?A"		  "ABCDEX"      0
-    "BA"		  "ABCDEX"      0 (wrong order)                 }
+    "BA"		  "ABCDEX"      0 (ordem errada)                 }
 	function alphachk(alpha(26) alphamask);
 		{  russian_convert();}
-		{ first remove all blanks, and duplicate question marks }
+		{ primeiro remove todos os espaços e os pontos de interrogação duplicados }
 		alphanew = "";
 		qmark = 0;
 		lx = 1;
@@ -259,29 +259,29 @@ PROC GLOBAL
 				endif;
 			endif;
 		enddo;
-		{ aok = 0 - string is bad, aok = 1 - string is good }
+		{ aok = 0 - cadeia inválida, aok = 1 - cadeia válida }
 		totlen = length(strip(alphamask));
-		aok = 0;           { assume string is bad - for empty string }
+		aok = 0;           { assume que a cadeia é inválida - para cadeia vazia }
 		alphsize = length(strip(alphanew));
-		if alphsize then   { not empty string }
-			{ check for "?" as only character }
+		if alphsize then   { cadeia não vazia }
+			{ verifica se "?" é o único carácter }
 			aok = (alphanew[1:1] = "?" and alphsize = 1);
-			if !aok then     { if not a single "?", check string }
-				aok = 1;       { now assume string is good until we know otherwise }
-				l = 1;         { l is position in string of acceptable values }
-				a = 1;         { a is position in input string }
-				{ loop while the string is still good and there are more letters }
+			if !aok then     { se não for um único "?", verifica a cadeia }
+				aok = 1;       { agora assume que a cadeia é válida até prova em contrário }
+				l = 1;         { l é a posição na cadeia de valores aceitáveis }
+				a = 1;         { a é a posição na cadeia de entrada }
+				{ ciclo enquanto a cadeia for válida e houver mais letras }
 				while aok and a <= alphsize do
 					aok = pos(alphanew[a:1],alphamask[l:totlen-l+1]);
-					if aok then     { letter is acceptable }
-						l = l + aok;  { increment l to position after letter in string of acceptable values }
-						a = a + 1     { increment a to next letter in input string }
+					if aok then     { a letra é aceitável }
+						l = l + aok;  { incrementa l para a posição a seguir à letra na cadeia de valores aceitáveis }
+						a = a + 1     { incrementa a para a letra seguinte da cadeia de entrada }
 					endif;
 				enddo;
 			endif;
 		endif;
-		alphachk = (!aok);    { alphachk = 0 - if string is good, = 1 - if string is bad }
-		{ now expand variables }
+		alphachk = (!aok);    { alphachk = 0 - se a cadeia for válida, = 1 - se for inválida }
+		{ agora expande as variáveis }
 		if aok then
 			do l = 1 while l <= length(strip(alphamask))
 				if pos(alphamask[l:1],alphanew) then
@@ -297,7 +297,7 @@ PROC GLOBAL
 
 	function onStop();
 		if noPartFlag | xmodcent then
-			x1 = errmsg(9980) select(tr("Yes"), continue, tr("No"), continue);
+			x1 = errmsg(9980) select(tr("Sim"), continue, tr("Não"), continue);
 			if x1 = 1 then
 				advance;
 			else
@@ -313,33 +313,33 @@ PROC GLOBAL
 
 	function setEDlabels(edlevel);
 		valueset educgrades;
-		if edlevel = 1 then         //primary
-		   educgrades.add(tr("GRADE/YEAR") + " 1",1);
-		   educgrades.add(tr("GRADE/YEAR") + " 2",2);
-		   educgrades.add(tr("GRADE/YEAR") + " 3",3);
-		   educgrades.add(tr("GRADE/YEAR") + " 4",4);
-		   educgrades.add(tr("GRADE/YEAR") + " 5",5);
-		   educgrades.add(tr("GRADE/YEAR") + " 6",6);
-		elseif edlevel = 2 then      //lower secondary
-		   educgrades.add(tr("GRADE/YEAR") + " 1",1);
-		   educgrades.add(tr("GRADE/YEAR") + " 2",2);
-		   educgrades.add(tr("GRADE/YEAR") + " 3",3);
-		elseif edlevel = 3 then      //upper secondary
-		   educgrades.add(tr("GRADE/YEAR") + " 1",1);
-		   educgrades.add(tr("GRADE/YEAR") + " 2",2);
-		   educgrades.add(tr("GRADE/YEAR") + " 3",3);
-		elseif edlevel in 4,8,9 then      //higher
-		   educgrades.add(tr("GRADE/YEAR") + " 1",1);
-		   educgrades.add(tr("GRADE/YEAR") + " 2",2);
-		   educgrades.add(tr("GRADE/YEAR") + " 3",3);
-		   educgrades.add(tr("GRADE/YEAR") + " 4",4);
-		   educgrades.add(tr("GRADE/YEAR") + " 5",5);
-		   educgrades.add(tr("GRADE/YEAR") + " 6",6);
-		   educgrades.add(tr("GRADE/YEAR") + " 7",7);	   
-		   educgrades.add(tr("GRADE/YEAR") + " 8",8);
+		if edlevel = 1 then         //primário
+		   educgrades.add(tr("CLASSE/ANO") + " 1",1);
+		   educgrades.add(tr("CLASSE/ANO") + " 2",2);
+		   educgrades.add(tr("CLASSE/ANO") + " 3",3);
+		   educgrades.add(tr("CLASSE/ANO") + " 4",4);
+		   educgrades.add(tr("CLASSE/ANO") + " 5",5);
+		   educgrades.add(tr("CLASSE/ANO") + " 6",6);
+		elseif edlevel = 2 then      //secundário inferior
+		   educgrades.add(tr("CLASSE/ANO") + " 1",1);
+		   educgrades.add(tr("CLASSE/ANO") + " 2",2);
+		   educgrades.add(tr("CLASSE/ANO") + " 3",3);
+		elseif edlevel = 3 then      //secundário superior
+		   educgrades.add(tr("CLASSE/ANO") + " 1",1);
+		   educgrades.add(tr("CLASSE/ANO") + " 2",2);
+		   educgrades.add(tr("CLASSE/ANO") + " 3",3);
+		elseif edlevel in 4,8,9 then      //superior
+		   educgrades.add(tr("CLASSE/ANO") + " 1",1);
+		   educgrades.add(tr("CLASSE/ANO") + " 2",2);
+		   educgrades.add(tr("CLASSE/ANO") + " 3",3);
+		   educgrades.add(tr("CLASSE/ANO") + " 4",4);
+		   educgrades.add(tr("CLASSE/ANO") + " 5",5);
+		   educgrades.add(tr("CLASSE/ANO") + " 6",6);
+		   educgrades.add(tr("CLASSE/ANO") + " 7",7);	   
+		   educgrades.add(tr("CLASSE/ANO") + " 8",8);
 		endif;
-		   educgrades.add(tr("DK"),98);	   
-		   educgrades.add(tr("NO RESPONSE"),99);	
+		   educgrades.add(tr("NS"),98);	   
+		   educgrades.add(tr("SEM RESPOSTA"),99);	
 		setvalueset(@getsymbol(),educgrades);
 	end
 
@@ -357,33 +357,11 @@ PROC GLOBAL
 	string daystring, daystring3;
 
 	function dayOfWeek(yyyymmdd)
-		numeric referenceDay = 20230813; // This was be a Sunday
+		numeric referenceDay = 20230813; // Este dia foi um domingo
 		numeric diff = datediff(referenceDay, yyyymmdd, "d");
 		dayOfWeek = diff % 7 + 1;
 	end;
 
-{
-PROC FORMFE
-preproc
-if visualvalue(HHFETSTMPS) = notappl then
-   HHFETSTMPS = timestamp (); 
-   endif; 
-   
-postproc
-if visualvalue(HHFETSTMPE) = notappl then
-   HHFETSTMPE = timestamp (); 
-   endif; 
-PROC FORMPE
-preproc
-if visualvalue(HHPETSTMPS) = notappl then
-   HHPETSTMPS = timestamp (); 
-   endif; 
-
-postproc
-if visualvalue(HHPETSTMPE) = notappl then
-   HHPETSTMPE = timestamp (); 
-   endif; 
-PROC PE20}
 
 PROC FL_ENTRYHH
 preproc
@@ -392,20 +370,20 @@ preproc
 	//setproperty(MICS7HH,"uppercase",yes);
   
 	setlanguage("ENG");  
-	//setlanguage("FRA");  // to set French language
-	//setlanguage("ARB");  // to set Arabic language
-	//setlanguage("SPA");  // to set Spanish language
-	//setlanguage("RUS");  // to set Russian language
-	//setlanguage("CS");  // to set Country-Specific language
+	//setlanguage("FRA");  // para definir a língua francesa
+	//setlanguage("ARB");  // para definir a língua árabe
+	//setlanguage("SPA");  // para definir a língua espanhola
+	//setlanguage("RUS");  // para definir a língua russa
+	//setlanguage("CS");  // para definir a língua específica do país
 
 	verific = 0;
-	maxmem = 50;      { maximum number of household members }
-	maxnet = 10;      { maximum number of bednets. MUST BE EQUAL TO OR LESS THAN MAX OCCUR OF MODTN }
-	minage = 15;      { minimum age of eligible women }
-	maxage = 49;      { maximum age of eligible women }
-	mminage = 15;     { minimum age of eligible men }
-	mmaxage = 49;     { maximum age of eligible men }
-	minab  = 120;     { minimum age at birth in months = 12 years }
+	maxmem = 50;      { número máximo de membros do agregado }
+	maxnet = 10;      { número máximo de redes mosquiteiras. DEVE SER IGUAL OU INFERIOR AO MAX OCCUR DE MODTN }
+	minage = 15;      { idade mínima das mulheres elegíveis }
+	maxage = 49;      { idade máxima das mulheres elegíveis }
+	mminage = 15;     { idade mínima dos homens elegíveis }
+	mmaxage = 49;     { idade máxima dos homens elegíveis }
+	minab  = 120;     { idade mínima ao ter um filho, em meses = 12 anos }
 	addmode = (demode() = ADD);
 
   xintnum = tonumber(sysparm("INTERVIEWERID"));
@@ -418,8 +396,8 @@ preproc
 
   xverif = tonumber(sysparm("VERIFY"));
 
-	{ settings for CAPI }
-	if !xmodcent then      { central office desn't have to exit after reviewing one HH }
+	{ configurações para CAPI }
+	if !xmodcent then      { o escritório central não tem de sair depois de rever um agregado }
 		set behavior() exit on;
 	else
 		set behavior() exit off;
@@ -429,23 +407,23 @@ preproc
 
     setproperty(MICS7HH, "ShowExtendedControlTitle", "No");
 
-	{ set up minimal user bar }
+	{ configura a barra de utilizador mínima }
 	userbase();
 	userbar( show );
 
-	//prepare valuesets for HL3 (Household head relationship)
+	//prepara os valuesets para HL3 (parentesco com o chefe do agregado)
 	headrelationship.clear();
-	headrelationship.add(getlabel(HX3,1),1);//create valueset for the head
-	otherrelationship=HX3_VST;              //create valueset for the others
+	headrelationship.add(getlabel(HX3,1),1);//cria o valueset para o chefe
+	otherrelationship=HX3_VST;              //cria o valueset para os restantes
 	otherrelationship.remove(1);
 
-    daystr(1)="Sunday";
-    daystr(2)="Monday";
-	daystr(3)="Tuesday";
-	daystr(4)="Wednesday";
-	daystr(5)="Thursday";
-	daystr(6)="Friday";
-	daystr(7)="Saturday";
+    daystr(1)="Domingo";
+    daystr(2)="Segunda-feira";
+	daystr(3)="Terça-feira";
+	daystr(4)="Quarta-feira";
+	daystr(5)="Quinta-feira";
+	daystr(6)="Sexta-feira";
+	daystr(7)="Sábado";
 	daystring=daystr(dayOfWeek(sysdate("YYYYMMDD"))); 
 	daystring3=daystr(dayOfWeek(dateadd(sysdate("YYYYMMDD"),-3,"d"))); 
 
@@ -454,7 +432,7 @@ preproc
 setfile(STAFF_DICT,publicfolder+"\staff.csdb");
 
 postproc
-	if !xmodcent then      { central office doesn't have to exit after reviewing one HH }
+	if !xmodcent then      { o escritório central não tem de sair depois de rever um agregado }
 		stop(-1);
 	endif;
 
@@ -474,13 +452,13 @@ if visualvalue (HHHHTSTMPS) = notappl then
    HHHHTSTMPS = timestamp (); 
    endif; 
    
-  if visualvalue(HH46)=1 then  //if questionnaire is completed, not partial flag are allowed
+  if visualvalue(HH46)=1 then  //se o questionário estiver concluído, não é permitida a gravação parcial
      noPartFlag=1;
   else
 	 noPartFlag=0;
   endif;
 
-	//Advancing to water quality questionnaire
+	//Avança para o questionário da qualidade da água
   if xentryhw then
 		advance to WQ1;
   endif;
@@ -494,7 +472,7 @@ postproc
   CLUSTER_SEL = $;
   if loadcase( CLUSTERS, cluster_sel ) then
     HH6 = zone;
-	HH7 = REGION;
+    HH7 = REGION;
   endif;
 
 
@@ -520,7 +498,7 @@ preproc;
 PROC HH5D
 preproc
    if visualvalue(HH5D)=notappl then
-		if !sysdate("YYYYMMDD") in minvalue(HH5Y_VST)*10000+0101:maxvalue(HH5Y_VST)*10000+1231 then // !!customize to dates of the fieldwork
+		if !sysdate("YYYYMMDD") in minvalue(HH5Y_VST)*10000+0101:maxvalue(HH5Y_VST)*10000+1231 then // !!personalizar com as datas do trabalho de campo
 			errmsg(9988,minvalue(HH5Y_VST),maxvalue(HH5Y_VST));
 			stop(-1);
 		endif;   
@@ -617,13 +595,13 @@ if visualvalue(HHHLTSTMPS) = notappl then
 
 PROC FORMHX_ROSTER
 for i in FORMHX_ROSTER
-	{ Check the spouse of head of household is of opposite sex }
+	{ Verifica se o cônjuge do chefe do agregado é do sexo oposto }
 	if HX3 = 2 and HX4 = HX4(1) then
-		errmsg(0071,HX2,i,HX2(1)) select (tr("Relationship of spouse/partner"),HX3,tr("Sex of household head"),HX4(1), tr("Sex of spouse/partner"), HX4); 
+		errmsg(0071,HX2,i,HX2(1)) select (tr("Parentesco do cônjuge/parceiro"),HX3,tr("Sexo do chefe do agregado"),HX4(1), tr("Sexo do cônjuge/parceiro"), HX4); 
 	endif;
 enddo;
 
-{ store household head name to use in dictionary postproc }
+{ guarda o nome do chefe do agregado para usar no postproc do dicionário }
 ynamehh = HX2(1);
 HHNAME  = HX2(1);
 
@@ -636,7 +614,7 @@ preproc
 
 PROC HX2
 preproc
-{2024.08.14. YC: Taken out after the comment from NYHQ experts
+{2024.08.14. YC: Retirado após o comentário dos especialistas da NYHQ
    if curocc(formhx_roster) = 1 and strip($)="" then
 		$ = HHNAME;
   endif;
@@ -658,7 +636,7 @@ onfocus;
 
 PROC HX4
 if HX1 > 1 & HX3 = 2 & $ = $(1) then
-	errmsg( 0060, HX2, getlabel( $, $ ), HX2(1), getlabel( $, $(1) ) ) select( tr("Sex of spouse/partner"), $, tr("Sex of household head"), $(1),  tr("Continue"), continue );
+	errmsg( 0060, HX2, getlabel( $, $ ), HX2(1), getlabel( $, $(1) ) ) select( tr("Sexo do cônjuge/parceiro"), $, tr("Sexo do chefe do agregado"), $(1),  tr("Continuar"), continue );
 	reenter;
 endif;
 rp = HX3;
@@ -696,22 +674,22 @@ preproc
 postproc
 	for i in FORMHL_ROSTER
 
-		{ Check that HH member identified by HL14 could be child's mother }
+		{ Verifica se o membro do agregado identificado em HL14 pode ser a mãe da criança }
 		if HL14 >= 1 then
 			if HL4(HL14) <> 2 or HL6(HL14) < HL6+(minab/12) then
-				errmsg(0082,i,HL4(HL14),HL6(HL14),tr("Mother"), "HL14",HL14);
+				errmsg(0082,i,HL4(HL14),HL6(HL14),tr("Mãe"), "HL14",HL14);
 				reenter HL14;
 			endif;
 		endif;
 
-		{ Check that HH member identified by HL18 could be child's father }
+		{ Verifica se o membro do agregado identificado em HL18 pode ser o pai da criança }
 		if HL18 >= 1 then
 			if HL4(HL18) <> 1 or HL6(HL18) < HL6+(minab/12) then
-				errmsg(0082,i,HL4(HL18),HL6(HL18),tr("Father"), "HL18",HL18);
+				errmsg(0082,i,HL4(HL18),HL6(HL18),tr("Pai"), "HL18",HL18);
 			endif;
 		endif;
 
-		{ Check that HH member identified by HL20 could be child's caretaker }
+		{ Verifica se o membro do agregado identificado em HL20 pode ser o responsável da criança }
 		if HL14=notappl and HL20 in 1:89 then
 			if HL6(HL20) < 15 then
 				errmsg(0083,HL2(i),i,HL2(HL20),HL20, HL6(HL20));
@@ -720,16 +698,16 @@ postproc
 			endif;
 		endif;
 	
-		{ Check the spouse of head of household is of opposite sex }
+		{ Verifica se o cônjuge do chefe do agregado é do sexo oposto }
 		if HL3 = 2 and HL4 = HL4(1) then
 			errmsg(0071,HL2,i,HL2(1));
-		{ Check children of head of household are at least 12 years younger }
+		{ Verifica se os filhos do chefe do agregado são pelo menos 12 anos mais novos }
 		elseif HL3 = 3 and HL6(1) < HL6+(minab/12) then
 			errmsg(0072,minab/12,i);
-		{ Check grandchildren of head of household are at least 24 years younger }
+		{ Verifica se os netos do chefe do agregado são pelo menos 24 anos mais novos }
 		elseif HL3 = 5 and HL6(1) < HL6+2*(minab/12) then
 			errmsg(0073,2*minab/12,i);
-		{ Check parents of head of household are at least 12 years older }
+		{ Verifica se os pais do chefe do agregado são pelo menos 12 anos mais velhos }
 		elseif HL3 = 6 and HL6(1)+(minab/12) > HL6 then
 			errmsg(0074,minab/12,i);
 		endif;
@@ -752,18 +730,18 @@ if $ = 98 or $ = 99 then
 	reenter;
 endif;
 
-{ Check the head of household is of age 15 or above }
+{ Verifica se o chefe do agregado tem 15 anos ou mais }
 if HL3 = 1 and HL6 < 15 then
 	errmsg(0075,HL1,HL6);
 	reenter;
 endif;
 
 if !(HL5M in 98,99) & !(HL5Y in 9998,9999) then
-	db = cmcode(HL5M, HL5Y);  {Century month code for date of birth}
-	di = cmcode(HH5M, HH5Y);  {Century month code for date of interview}
-	comply=int((di-db)/12); {Age in completed years, according to date of birth}
+	db = cmcode(HL5M, HL5Y);  {Código de mês do século (CMC) para a data de nascimento}
+	di = cmcode(HH5M, HH5Y);  {Código de mês do século (CMC) para a data da entrevista}
+	comply=int((di-db)/12); {Idade em anos completos, de acordo com a data de nascimento}
 	if comply > 95 then comply = 95; endif;
-	if $ <> comply & $ <> comply - (HL5M = HH5M) then {If month of interview is the same as month of birth, allowing one year less}
+	if $ <> comply & $ <> comply - (HL5M = HH5M) then {Se o mês da entrevista for igual ao mês de nascimento, permite um ano a menos}
 		errmsg(0030);
 		reenter 
 	endif;
@@ -846,10 +824,10 @@ onfocus
 postproc
 	if HL14 >= 1 then
 		if valid(HL14) and HL14 > HH48 then
-			errmsg(0080,tr("Mother's"),"HL14",HL14,HH48);
+			errmsg(0080,tr("mãe"),"HL14",HL14,HH48);
 			reenter;
 		elseif HL14 = HL1 then
-			errmsg(0081,tr("Mother's"),"HL14",HL14,HL1);
+			errmsg(0081,tr("mãe"),"HL14",HL14,HL1);
 			reenter;
 		endif;
 	endif;
@@ -882,10 +860,10 @@ onfocus
 postproc
 	if HL18 >= 1 then
 		if valid(HL18) and HL18 > HH48 then
-			errmsg(0080,tr("Father's"),"HL18",HL18,HH48);
+			errmsg(0080,tr("pai"),"HL18",HL18,HH48);
 			reenter;
 		elseif HL18 = HL1 then
-			errmsg(0081,tr("Father's"),"HL18",HL18,HL1);
+			errmsg(0081,tr("pai"),"HL18",HL18,HL1);
 			reenter;
 		endif;
 	endif;
@@ -913,7 +891,7 @@ onfocus
 		
 	if HL6 >= 15 then  
 		codes(j)  = 90;
-		labels(j) = tr("No one");
+		labels(j) = tr("Ninguém");
 		j = j + 1;
 	endif;
 	SetValueSet( @GetSymbol(), codes, labels );
@@ -1013,7 +991,7 @@ postproc
 	endif; 
 
 PROC ED5A
-//!!!needs to be customized for the country context!!!//
+//!!!deve ser personalizado para o contexto do país!!!//
 recode $ -> numeric minEducAge;
 	   0 -> 3; 
 	   1 -> 5; 
@@ -1023,7 +1001,7 @@ recode $ -> numeric minEducAge;
 	     -> 0; 	   
 endrecode;
 if ED2A < minEducAge THEN
-	errmsg(tr("Level of education (%02d) is  not consistent with age (%02d), please checke!"), $, ED2A ); 
+	errmsg(tr("O nível de ensino (%02d) não é consistente com a idade (%02d), por favor verifique!"), $, ED2A ); 
 endif;	
 		
 if $ = 0 then
@@ -1076,7 +1054,7 @@ if $ <= 4 and ED5A <= 4 and $ < ED5A then
 endif;
 
 if $ <= 4 and ED5A <= 4 and $ > ED5A then
-	errmsg(0091,"ED10A",$,"ED5A",ED5A) select( tr("Current year Level"), $, tr("Highest Level"), ED5A );
+	errmsg(0091,"ED10A",$,"ED5A",ED5A) select( tr("Nível do ano atual"), $, tr("Nível mais alto"), ED5A );
 endif;
 
 if $ = 0 then
@@ -1088,9 +1066,9 @@ onfocus;
 	setedlabels(ED10A);
 
 postproc;
-	{ Compare current Grade/Year and level to max Grade/Year and level }
+	{ Compara a classe/ano e o nível atuais com a classe/ano e o nível mais altos }
 	if (ED5A = ED10A) and valid($) and valid(ED5B) and $ > ED5B  then
-		errmsg(0092,"ED10B",$,"ED5B",ED5B) select( tr("Current year Grade"), $, tr("Highest Grade"), ED5B);
+		errmsg(0092,"ED10B",$,"ED5B",ED5B) select( tr("Classe do ano atual"), $, tr("Classe mais alta"), ED5B);
 	endif;
 
 	if ED5A = ED10A and valid($) and valid(ED5B) and $ = ED5B and ED6 = 1 then
@@ -1112,17 +1090,17 @@ if alphachk("ABCXZ?") then
 else
 	$ = alphavar;
 endif;
-{ Check "Don't Know" is only response }
+{ Verifica se "Não sabe" é a única resposta }
 if pos("Z",$) & alphsize > 1 then
 	errmsg(9996);
 	reenter
 endif;
-{ Check "Missing" is only response }
+{ Verifica se "Sem resposta" é a única resposta }
 if pos("?",$) & alphsize > 1 then
 	errmsg(9995);
 	reenter
 endif;
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if pos("X",$) and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1139,7 +1117,7 @@ endif;
 
 PROC ED16A
 if $ <= 4 and ED5A <= 4 and $ > ED5A then
-	errmsg(0093,"ED16A",$,"ED5A",ED5A) select( tr("Previous year Level"), $, tr("Highest Level"), ED5B);
+	errmsg(0093,"ED16A",$,"ED5A",ED5A) select( tr("Nível do ano anterior"), $, tr("Nível mais alto"), ED5B);
 endif;
 
 if ED16A = 0 then
@@ -1151,11 +1129,11 @@ onfocus;
 	setedlabels(ED16A);
 
 postproc;
-	{ Compare last year's grade and level to max grade and level }
+	{ Compara a classe e o nível do ano anterior com a classe e o nível mais altos }
 	if ED5A = ED16A and valid($) and valid(ED5B) and $ > ED5B  then
 		errmsg(0094,"ED16B",$,"ED5B",ED5B);
 		reenter;
-	{ Compare this year's grade and level to last year's grade and level }
+	{ Compara a classe e o nível deste ano com os do ano anterior }
 	elseif (ED10A = ED16A and valid($) and valid(ED10B) and $ > ED10B) then
 		errmsg(0095,"ED16A","ED16B",ED16A,$,"ED10A","ED10B",ED10A,ED10B);
 		reenter;
@@ -1181,21 +1159,21 @@ preproc
 	endif;
 	
 postproc
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC HC1B
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC HC2
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1211,21 +1189,21 @@ postproc;
 	endif;  
 
 PROC HC4
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC HC5
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC HC6
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1244,17 +1222,17 @@ if alphachk("ABCDEFGXZ?") then
 else
 	$ = alphavar;
 endif;
-{ Check "Don't Know" is only response }
+{ Verifica se "Não sabe" é a única resposta }
 if pos("Z",$) & alphsize > 1 then
 	errmsg(9996);
 	reenter
 endif;
-{ Check "Missing" is only response }
+{ Verifica se "Sem resposta" é a única resposta }
 if pos("?",$) & alphsize > 1 then
 	errmsg(9995);
 	reenter
 endif;
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if pos("X",$) and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1270,7 +1248,7 @@ if $ < 98 then
       $=51 and HC8AF<>"F" or
       $=52 and HC8AG<>"G" or 
       $=96 and HC8AX<>"X" then
-      errmsg("Only a source recorded in HC8A can be recorded here. Please check");
+      errmsg("Só pode registar aqui uma fonte que tenha sido registada em HC8A. Por favor verifique");
 	  reenter;
    endif;	  
 endif;
@@ -1293,7 +1271,7 @@ else
 	endif;
 endif;
 PROC HC14
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1327,7 +1305,7 @@ if visualvalue(HHEUTSTMPE) = notappl then
    endif; 
 
 PROC EU1
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1344,21 +1322,21 @@ elseif $ in 8:10,96 then
 endif;  
 
 PROC EU1A
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC EU4
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC EU6
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1373,21 +1351,21 @@ if $ = 97 or $ = 0 then
 endif;  
 
 PROC EU6A
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC EU8
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC EU9
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1432,7 +1410,7 @@ preproc
 
   
 PROC TN5
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 36 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1444,7 +1422,7 @@ if !$ in 4,8 then
 endif;	
 
 PROC TN12
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1568,19 +1546,19 @@ valueset string ST4_valuesets;
 do j=1 while j<=totocc(MODHL)
 	ST4_valuesets.add(HL2(j),edit("99",j));
 enddo;
-ST4_valuesets.add(tr("ALL MEMBERS"), "95");
-ST4_valuesets.add(tr("DK"), "98");
-ST4_valuesets.add(tr("NO RESPONSE"), "99");
+ST4_valuesets.add(tr("TODOS OS MEMBROS"), "95");
+ST4_valuesets.add(tr("NS"), "98");
+ST4_valuesets.add(tr("SEM RESPOSTA"), "99");
 setvalueset(ST4,ST4_valuesets);
 
 killfocus;
 if length(strip($))=0 then
-	errmsg(tr("Select the household members who receive/have received assistance"));
+	errmsg(tr("Selecione os membros do agregado que recebem/receberam assistência"));
 	reenter;
 endif;
 
 if ischecked("95",$) and length(strip($))>2 then
-	errmsg(tr("Do not select ALL MEMBERS or other answers at the same time"));
+	errmsg(tr("Não selecione TODOS OS MEMBROS juntamente com outras respostas"));
 	reenter;
 endif;
 if ischecked("98",$) and length(strip($))>2 then
@@ -1592,7 +1570,7 @@ if ischecked("99",$) and length(strip($))>2 then
 	reenter;
 endif;
 
-if curocc()=4 then  //********DO NOT ASK THIS QUESTION FOR PENSION RETIREMENT FOND **** BE SURE IT IS THE 5TH SOCIAL TRANSFER
+if curocc()=4 then  //********NÃO FAZER ESTA PERGUNTA PARA O FUNDO DE PENSÕES DE REFORMA **** CONFIRME QUE É A 5.ª TRANSFERÊNCIA SOCIAL
    skip to ST6U;
 endif;
 PROC ST5
@@ -1602,25 +1580,25 @@ valueset string ST5_valuesets;
 do j=1 while j<=totocc(MODHL)
 	ST5_valuesets.add(HL2(j), edit("99",j));
 enddo;
-ST5_valuesets.add(tr("NO ONE IN THIS HOUSEHOLD"), "00");
-ST5_valuesets.add(tr("ALL MEMBERS"), "95");
-ST5_valuesets.add(tr("DK"), "98");
-ST5_valuesets.add(tr("NO RESPONSE"), "99");
+ST5_valuesets.add(tr("NINGUÉM NESTE AGREGADO"), "00");
+ST5_valuesets.add(tr("TODOS OS MEMBROS"), "95");
+ST5_valuesets.add(tr("NS"), "98");
+ST5_valuesets.add(tr("SEM RESPOSTA"), "99");
 setvalueset(ST5,ST5_valuesets);
 
 killfocus;
 if length(strip($))=0 then
-	errmsg(tr("Select household members who are eligible to receive and collect assistance"));
+	errmsg(tr("Selecione os membros do agregado elegíveis para receber e levantar a assistência"));
 	reenter;
 endif;
 
 if ischecked("00",$) and length(strip($))>2 then
-	errmsg(tr("Do not select NO ONE IN THIS HOUSEHOLD and other answers at the same time"));
+	errmsg(tr("Não selecione NINGUÉM NESTE AGREGADO juntamente com outras respostas"));
 	reenter;
 endif;
 
 if ischecked("95",$) and length(strip($))>2 then
-	errmsg(tr("Do not select ALL MEMBERS and other answers at the same time"));
+	errmsg(tr("Não selecione TODOS OS MEMBROS juntamente com outras respostas"));
 	reenter;
 endif;
 if ischecked("98",$) and length(strip($))>2 then
@@ -1632,9 +1610,9 @@ if ischecked("99",$) and length(strip($))>2 then
 	reenter;
 endif;
 PROC ST6U
-if     $ = 1 then    worklabel=tr("number of months")
-elseif $ = 2 then    worklabel=tr("number of years")
-else                 worklabel="98 DK /99 NO RESPONSE"
+if     $ = 1 then    worklabel=tr("número de meses")
+elseif $ = 2 then    worklabel=tr("número de anos")
+else                 worklabel="98 NS /99 SEM RESPOSTA"
 endif;
 PROC ST6N
 recode ST6U  ::          $ -> aok;
@@ -1649,10 +1627,10 @@ if !aok then
 endif;
 PROC FORMWS
 preproc
-if visualvalue(HHWS1TSTMPS) = notappl then
+{if visualvalue(HHWS1TSTMPS) = notappl then
    HHWS1TSTMPS = timestamp (); 
    endif; 
-
+}
 postproc
 if visualvalue(HHWS1TSTMPE) = notappl then
    HHWS1TSTMPE = timestamp (); 
@@ -1664,7 +1642,7 @@ preproc
 	endif;
 
 postproc
-	{ Display the note entry dialog box for recording "Other" answer }
+	{ Mostra a caixa de notas para registar a resposta "Outro" }
 	if $ = 96 and !inadvance() then
 		string other = editnote();
 		ensureNotBlank(other);
@@ -1678,7 +1656,7 @@ postproc
 	endif;
 
 PROC WS2
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1711,7 +1689,7 @@ onfocus
 	enddo;
 	j=j+1;
 	codes(j)  = 99;
-	labels(j) = tr("NO RESPONSE");
+	labels(j) = tr("SEM RESPOSTA");
 	SetValueSet( @GetSymbol(), codes, labels );
   
 PROC WS7
@@ -1724,7 +1702,7 @@ if $ <> 1 then
 	skip to WS9;
 endif;	
 PROC WS8
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1743,17 +1721,17 @@ if alphachk("ABCDEFXZ?") then
 else
 	$ = alphavar;
 endif;
-{ Check "Don't Know" is only response }
+{ Verifica se "Não sabe" é a única resposta }
 if pos("Z",$) & alphsize > 1 then
 	errmsg(9996);
 	reenter
 endif;
-{ Check "Missing" is only response }
+{ Verifica se "Sem resposta" é a única resposta }
 if pos("?",$) & alphsize > 1 then
 	errmsg(9995);
 	reenter
 endif;
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if pos("X",$)  and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1770,7 +1748,7 @@ elseif $ in 11,12 then
 	endgroup
 endif;
 	
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1799,7 +1777,7 @@ preproc
 postproc
 worklabel=getlabel(WS11,WS11);
 
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1819,7 +1797,7 @@ if $ <> 1 then
 	skip to WS11DA;
 endif;	
 PROC WS11C
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1835,13 +1813,13 @@ if $ >= 4 then
 endif;  
 
 PROC WS12A
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 PROC WS13
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1874,7 +1852,7 @@ preproc
 	endif;
 
 postproc
-	{ Display the note entry dialog box for recording "Other" answer }
+	{ Mostra a caixa de notas para registar a resposta "Outro" }
 	if $ = 6 and !inadvance() then
 		string other = editnote();
 		ensureNotBlank(other);
@@ -1892,7 +1870,7 @@ if alphachk("ABCDY") then
 else
 	$ = alphavar;
 endif;
-{ Check "None of these present" is only response }
+{ Verifica se "Nenhum destes presente" é a única resposta }
 if pos("Y",$) & alphsize > 1 then
 	errmsg(9995);
 	reenter
@@ -1921,14 +1899,14 @@ preproc
 	endif;
 
 PROC HH15
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
 endif;
 
 PROC HH16
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 6 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -1940,7 +1918,7 @@ preproc
 		skip to HH30HA;
 	endif;
 
-	{ Kish grid }
+	{ Grelha de Kish }
 	KishGrid(0) = "12243654";
 	KishGrid(1) = "11314165";
 	KishGrid(2) = "12125276";
@@ -1980,7 +1958,7 @@ preproc
 		skip to HH39X000;
 	endif;
 
-	{ Kish grid }
+	{ Grelha de Kish }
 	KishGrid(0) = "12243654";
 	KishGrid(1) = "11314165";
 	KishGrid(2) = "12125276";
@@ -2029,11 +2007,11 @@ preproc;
 	if count(HH33X000 where HH33X <> notappl) = 0 then
 		skip to HH39X000;
 	elseif count(HH33X000 where HH33X =1) = count(HH33X000 where HH33X <> notappl) then
-		$ = 1;  // consent was given for all girls 15-17 years
+		$ = 1;  // foi dado consentimento para todas as raparigas de 15-17 anos
 	elseif count(HH33X000 where HH33X =2) = count(HH33X000 where HH33X <> notappl) then
-		$ = 2;  // consent was not given for any all girls 15-17 years
+		$ = 2;  // não foi dado consentimento para nenhuma rapariga de 15-17 anos
 	else
-		$ = 3;  // consent was given for some girls 15-17 years but not for all
+		$ = 3;  // foi dado consentimento para algumas raparigas de 15-17 anos, mas não para todas
 	endif;
 
 PROC HH39X000
@@ -2059,11 +2037,11 @@ preproc;
 	if count(HH39X000 where HH39X <> notappl) = 0 then
 		skip to HH44;
 	elseif count(HH39X000 where HH39X =1) = count(HH39X000 where HH39X <> notappl) then
-		$ = 1;  // consent was given for all boys 15-17 years
+		$ = 1;  // foi dado consentimento para todos os rapazes de 15-17 anos
 	elseif count(HH39X000 where HH39X =2) = count(HH39X000 where HH39X <> notappl) then
-		$ = 2;  // consent was not given for any all boys 15-17 years
+		$ = 2;  // não foi dado consentimento para nenhum rapaz de 15-17 anos
 	else
-		$ = 3;  // consent was given for some boys 15-17 years but not for all
+		$ = 3;  // foi dado consentimento para alguns rapazes de 15-17 anos, mas não para todos
 	endif;
 
 PROC HH44
@@ -2082,7 +2060,7 @@ if $ = 2 then
 endif;
 PROC HH44H
 if $ = 2 then
-	errmsg("Return to HH44G to correct the phone number");
+	errmsg("Volte a HH44G para corrigir o número de telefone");
 	reenter HH44G;
 endif;
 PROC HH44I
@@ -2106,7 +2084,7 @@ if $ <> 1 and visualvalue(HW1) then
 	errmsg(9971);
 endif;	
 
-{ Display the note entry dialog box for recording "Other" answer }
+{ Mostra a caixa de notas para registar a resposta "Outro" }
 if $ = 96 and !inadvance() then
 	string other = editnote();
 	ensureNotBlank(other);
@@ -2241,12 +2219,12 @@ if alphachk("ABCDEFXZ?") then
 else
 	$ = alphavar;
 endif;
-{ Check "Don't Know" is only response }
+{ Verifica se "Não sabe" é a única resposta }
 if pos("Z",$) & alphsize > 1 then
 	errmsg(9996);
 	reenter
 endif;
-{ Check "Missing" is only response }
+{ Verifica se "Sem resposta" é a única resposta }
 if pos("?",$) & alphsize > 1 then
 	errmsg(9995);
 	reenter
@@ -2293,7 +2271,7 @@ if valid(WQ23H) and valid(WQ23M) and valid(WQ10H) and valid(WQ10M) then
 endif;  
   
 PROC WQ24Y
-{Check WQ5 and WQ24 to make sure that WQ24 is at least one day ahead of WQ5 and less than 7 days}
+{Verifica WQ5 e WQ24 para garantir que WQ24 é pelo menos um dia depois de WQ5 e há menos de 7 dias}
 if datediff(WQ5Y*10000+WQ5M*100+WQ5D,WQ24Y*10000+WQ24M*100+WQ24D,"d") <= 0 or datediff(WQ5Y*10000+WQ5M*100+WQ5D,WQ24Y*10000+WQ24M*100+WQ24D,"d") > 6 then
 	errmsg (0505); 
 endif;  
