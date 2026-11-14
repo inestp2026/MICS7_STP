@@ -73,8 +73,8 @@ PROC GLOBAL
 					       tr("Household Energy Use"),
 						   tr("Insecticide Treated Nets"),
 						   tr("Social Transfers"),
-						   tr("Post-Emergency"),
-						   tr("Food Insecurity Experience"),
+						   //tr("Post-Emergency"),
+						   //tr("Food Insecurity Experience"),
 						   tr("Water"),
 						   tr("Sanitation"),
 						   tr("Hygiene"),
@@ -97,19 +97,19 @@ PROC GLOBAL
 			move to FORMTN advance;
 		elseif selection = 8 then    
 			move to FORMST advance;
-		elseif selection = 9 then
-			//move to FORMPE advance;
+		{elseif selection = 9 then
+			move to FORMPE advance;
 		elseif selection = 10 then
-			//move to FORMFE advance;
-		elseif selection = 11 then
+			move to FORMFE advance;}
+		elseif selection = 9 then
 			move to FORMWS advance;	  
-		elseif selection = 12 then
+		elseif selection = 10 then
 			move to FORMWS2 advance;	  
-		elseif selection = 13 then
+		elseif selection = 11 then
 			move to FORMHW advance;
-	    elseif selection = 14 then
+	    elseif selection = 12 then
 			move to FORMEND advance;
-	    elseif selection = 15 then
+	    elseif selection = 13 then
 			move to FORMWQ advance;
 		endif;
 	end;
@@ -362,6 +362,28 @@ PROC GLOBAL
 		dayOfWeek = diff % 7 + 1;
 	end;
 
+{
+PROC FORMFE
+preproc
+if visualvalue(HHFETSTMPS) = notappl then
+   HHFETSTMPS = timestamp (); 
+   endif; 
+   
+postproc
+if visualvalue(HHFETSTMPE) = notappl then
+   HHFETSTMPE = timestamp (); 
+   endif; 
+PROC FORMPE
+preproc
+if visualvalue(HHPETSTMPS) = notappl then
+   HHPETSTMPS = timestamp (); 
+   endif; 
+
+postproc
+if visualvalue(HHPETSTMPE) = notappl then
+   HHPETSTMPE = timestamp (); 
+   endif; 
+PROC PE20}
 
 PROC FL_ENTRYHH
 preproc
@@ -472,7 +494,7 @@ postproc
   CLUSTER_SEL = $;
   if loadcase( CLUSTERS, cluster_sel ) then
     HH6 = zone;
-    HH7 = REGION;
+	HH7 = REGION;
   endif;
 
 
@@ -1627,10 +1649,10 @@ if !aok then
 endif;
 PROC FORMWS
 preproc
-{if visualvalue(HHWS1TSTMPS) = notappl then
+if visualvalue(HHWS1TSTMPS) = notappl then
    HHWS1TSTMPS = timestamp (); 
    endif; 
-}
+
 postproc
 if visualvalue(HHWS1TSTMPE) = notappl then
    HHWS1TSTMPE = timestamp (); 

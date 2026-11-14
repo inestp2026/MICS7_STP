@@ -1,0 +1,1888 @@
+---
+fileType: Question Text
+version: CSPro 7.7
+languages:
+  - name: ENG
+    label: English
+styles:
+  - name: Qtxt
+    className: Qtxt
+    css: |
+      font-family: Courier New;font-size: 26px;color: #000000;
+  - name: Qnum
+    className: Qnum
+    css: |
+      font-family: Courier New;font-weight: bold;font-size: 26px;color: #000000;
+  - name: Itxt
+    className: Itxt
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #0000ff;
+  - name: Inum
+    className: Inum
+    css: |
+      font-family: Courier New;font-weight: bold;font-style: italic;font-size: 26px;color: #0000ff;
+  - name: QtxtC
+    className: QtxtC
+    css: |
+      font-family: Courier New;font-size: 26px;color: #ff0000;
+  - name: QnumC
+    className: QnumC
+    css: |
+      font-family: Courier New;font-weight: bold;font-size: 26px;color: #ff0000;
+  - name: ItxtC
+    className: ItxtC
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #ff0000;
+  - name: InumC
+    className: InumC
+    css: |
+      font-family: Courier New;font-weight: bold;font-style: italic;font-size: 26px;color: #ff0000;
+  - name: REF
+    className: REF
+    css: |
+      font-family: Courier New;font-style: italic;font-size: 26px;color: #000000;
+questions:
+  - name: MICS7HH.HH7
+    conditions:
+      - questionText:
+          ENG: |
+            
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH11C
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:.8pt;mso-add-space:auto;
+            text-indent:-.8pt;line-height:115%"><i><font color="#0000ff"><span class="Instructionsinparens" style="">O inquirido que representa o agregado</span><span class="Instructionsinparens" style=""><span lang="MN" style="font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"> deve ter 18 anos e </span></span><span class="Instructionsinparens" style="">conhecer </span><span class="Instructionsinparens" style=""><span lang="MN" style="font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">bem</span></span><span class="Instructionsinparens" style=""></span><span class="Instructionsinparens" style=""> </span><span class="Instructionsinparens" style="">os </span><span class="Instructionsinparens" style=""><span lang="MN" style="font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">membros do agregado. </span></span></font></i><span class="Instructionsinparens"><i><font color="#0000ff">Se não houver nenhum membro adulto no agregado, ou se todos os membros adultos estiverem incapazes de dar a entrevista, pode ser entrevistada uma criança de 15-17 anos. Uma criança com menos de 15 anos não deve ser entrevistada.&nbsp;</font></i><o:p></o:p></span></p><p></p>
+  - name: MICS7HH.HH12
+    conditions:
+      - questionText:
+          ENG: |
+            <p style="text-indent: -9.6px; "><span class="Qnum" style="font-family: &quot;Courier New&quot;;">HH12.&nbsp;</span><span style="font-family: &quot;Courier New&quot;; text-indent: -0.1in;">Olá, o meu nome é ~~STAFF_NAME~~</span><span style="text-indent: -9.6px; font-family: &quot;Courier New&quot;;">&nbsp;</span><span style="text-indent: -0.1in;"><span style="font-family: &quot;Courier New&quot;;">. Somos</span> do </span><span class="adaptationnoteChar" style="text-indent: -0.1in; font-family: &quot;Times New Roman&quot;, serif;"><span style="color: red; font-family: &quot;Times New Roman&quot;;">Instituto Nacional de Estatística</span></span><span style="text-indent: -0.1in;">. Estamos a realizar um inquérito sobre a situação das crianças, das famílias e dos agregados.&nbsp;</span></p><p><span style="text-indent: -0.2pt;">Esta entrevista demora normalmente cerca de<span style="font-family: &quot;Courier New&quot;;"> </span></span><span class="adaptationnoteChar" style="font-family: &quot;Times New Roman&quot;, serif; text-indent: -0.2pt;"><span style="color: red; font-family: &quot;Courier New&quot;;">número</span></span><span style="text-indent: -0.2pt;">
+            minutos.</span></p><p><span style="text-indent: -9pt;">A participação neste inquérito é voluntária. Não será dado qualquer pagamento ou incentivo a si nem aos membros da sua família por responderem a estas perguntas. No entanto, a informação recolhida será muito útil para o governo e para o público em geral compreenderem melhor a situação e as necessidades da população.</span></p><p><span style="text-indent: -0.1in;">Saiba que toda a informação que partilhar durante a entrevista permanecerá estritamente confidencial e anónima. Nenhuma informação sobre si ou sobre o seu agregado será tornada pública. Apenas produziremos informação sobre a população em geral.</span></p><p><span style="text-indent: -0.1in;">Se se sentir desconfortável com alguma pergunta e não quiser responder, basta dizer-me e podemos passar à pergunta seguinte. Além disso, se quiser parar a entrevista em qualquer momento, basta dizer-me.</span></p><p><span style="text-indent: -0.1in; font-size: 26px;">Se em algum momento tiver alguma reclamação ou preocupação sobre este inquérito, por favor use a informação deste cartão para contactar </span><span style="text-indent: -0.1in; color: red; font-size: 26px;">nome da organização</span><span style="text-indent: -0.1in; font-size: 26px;">.</span></p><p><span style="font-size: 26px;">Posso começar a entrevista?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HHNAME
+    conditions:
+      - questionText:
+          ENG: |
+            <p>Primeiro, por favor diga-me o nome do chefe do agregado.<br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.INTROHL
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL2. </span><span class="Qtxt">Primeiro, por favor diga-me o nome de cada pessoa que vive habitualmente aqui, começando pelo chefe do agregado.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HX2
+    conditions:
+      - logic: HX1=1
+        questionText:
+          ENG: |
+            <p><span class="Itxt">Nome do chefe do agregado</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: HX1>1
+        questionText:
+          ENG: |
+            <span style="color: rgb(0, 0, 255); font-style: italic;">Nome do membro do agregado</span><p></p>
+  - name: MICS7HH.HX3
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ENG: |
+            <span class="Qnum">HL3.&nbsp;</span><span class="Qtxt">Por favor confirme,&nbsp;<span class="REF">~~HX2~~&nbsp;</span>é o chefe deste agregado?</span><br>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() in 2:50
+        questionText:
+          ENG: |
+            <p><span class="Qnum">HL3. </span><span class="Qtxt">Qual é o parentesco de <span class="REF">~~HX2~~ </span>com <span class="REF">~~hhname~~</span>?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HX4
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL4. </span><span class="Qtxt"> <span class="REF">~~HX2~~ </span>é do sexo masculino ou feminino?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HX0
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qtxt">Há mais algum membro no agregado?</span></p>
+            <p><span class="Itxt">Investigue se há outros membros do agregado.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HHAUX
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Itxt">Certifique-se de que investiga se há outros membros: os que não estão em casa neste momento, bebés ou crianças pequenas e quaisquer outras pessoas que possam não ser da família (como empregados domésticos ou amigos), mas que vivem habitualmente no agregado.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL5M
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL5. </span><span class="Qtxt">Qual é a data de nascimento de <span class="REF">~~HL2~~</span>?</span></p>
+            <p><span class="Itxt">Registe o mês de nascimento. </span></p>
+            <p><span class="Itxt">Se 'NS', registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL5Y
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Itxt">Registe o ano de nascimento. </span></p>
+            <p><span class="Itxt">Se 'NS', registe '9998'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL6
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL6. </span><span class="Qtxt">Que idade tem <span class="REF">~~HL2~~</span>?</span></p>
+            <p><span class="Itxt">Registe em anos completos.</span></p>
+            <p><span class="Itxt">Se a idade for 95 ou mais, registe '95'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL7
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL7. </span><span class="Qtxt"> <span class="REF">~~HL2~~ </span>dormiu aqui na noite passada?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL12
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL12. </span><span class="Qtxt">A mãe biológica de <span class="REF">~~HL2~~</span> está viva?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL13
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL13. </span><span class="Qtxt">A mãe biológica de <span class="REF">~~HL2~~</span> vive neste agregado?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL14
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HL14. </span><span class="Itxt">Registe o número de linha da mãe biológica.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL15
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL15. </span><span class="Qtxt">Onde vive a mãe biológica de <span class="REF">~~HL2~~</span>?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL16
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL16. </span><span class="Qtxt">O pai biológico de <span class="REF">~~HL2~~</span> está vivo?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL17
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL17. </span><span class="Qtxt">O pai biológico de <span class="REF">~~HL2~~</span> vive neste agregado?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL18
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HL18. </span><span class="Itxt">Registe o número de linha do pai biológico.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL19
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HL19. </span><span class="Qtxt">Onde vive o pai biológico de <span class="REF">~~HL2~~</span>?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HL20
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HL20. </span><span class="Itxt">Copie o número de linha da mãe de HL14. Se estiver em branco, pergunte:</span></p>
+            <p><span class="Qtxt">Quem é o principal responsável por <span class="REF">~~HL2~~</span>?</span></p>
+            <p><span class="Itxt">Se 'Ninguém' para uma criança de 15-17 anos, registe '90'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH47
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HH47. </span><span class="Itxt">Nome e número de linha do inquirido da entrevista do Questionário do Agregado</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED4
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Courier New&quot;; font-size: 26px;">ED4. </span><span style="font-size: 26px; text-indent: 0in; font-family: &quot;Courier New&quot;;"></span><span style="font-style: italic; font-size: 26px; font-family: &quot;Courier New&quot;;">~~ED2~~</span><span style="font-size: 26px; text-indent: 0in; font-family: &quot;Courier New&quot;;">&nbsp;alguma vez frequentou a escola ou algum </span><span style="font-size: 26px; text-indent: 0in; color: red; font-family: &quot;Courier New&quot;;">programa de Educação Pré-escolar</span><span style="font-size: 26px; text-indent: 0in; font-family: &quot;Courier New&quot;;">?</span></p><p class="MsoNormal" style="margin-left:0in;mso-add-space:auto;text-indent:0in;
+            line-height:115%"><span lang="EN-GB" style="font-size:10.0pt;line-height:115%"><o:p></o:p></span></p><p><span style="font-family: &quot;Times New Roman&quot;; font-size: 26px;"><br></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED5A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Times New Roman&quot;; font-size: 26px;">ED5.<span style="font-size: 26px;">&nbsp;</span></span><span style="font-size: 26px;">Qual é o nível e a classe ou ano de escolaridade mais alto<span style="font-family: &quot;Courier New&quot;;"> que&nbsp;</span></span><span style="font-style: italic; font-size: 26px; font-family: &quot;Courier New&quot;;">~~ED2~~</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">&nbsp;alguma vez </span><u style="font-size: 10pt;"><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">frequentou</span></u><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">?</span></p><p class="MsoNormal"><span lang="EN-GB"><o:p></o:p></span></p><p><span style="font-family: &quot;Courier New&quot;; font-size: 26px;"><font color="#0000ff"><i>Registe a classe.</i></font></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED5B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED5.&nbsp;</span>Qual é o nível e a classe ou ano de escolaridade mais alto que&nbsp;<span style="font-style: italic;">~~ED2~~</span>&nbsp;alguma vez&nbsp;<u style="font-size: 10pt;"><span style="font-size: 26px;">frequentou</span></u>?<br></p><p><font color="#0000ff"><i>Registe o ano.</i></font></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED6
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-size: 26px;">ED6. </span><span style="font-size: 26px; text-indent: 0in;"></span><span style="font-style: italic; font-size: 26px;">~~ED2~~</span><span style="font-size: 26px; text-indent: 0in;">&nbsp;alguma vez </span><u style="font-size: 10pt; text-indent: 0in;"><span style="font-size: 26px;">concluiu</span></u><span style="font-size: 26px; text-indent: 0in;"> essa (classe/ano)?</span></p><p class="MsoNormal" style="margin-left:0in;mso-add-space:auto;text-indent:0in;
+            line-height:115%"><span lang="EN-GB" style="font-size:10.0pt;line-height:115%"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED9
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-size: 26px;">ED9. </span><span style="font-size: 26px; text-indent: 0in;">Em algum momento durante o ano letivo </span><span style="font-size: 26px; text-indent: 0in; color: red;">atual</span><span style="font-size: 26px; text-indent: 0in;">,&nbsp;</span><span style="font-style: italic; font-size: 26px;">~~ED2~~</span><span style="font-size: 26px; text-indent: 0in;">&nbsp;frequentou a escola ou algum </span><span style="font-size: 26px; text-indent: 0in; color: red;">programa de Educação Pré-escolar</span><span style="font-size: 26px; text-indent: 0in;">?</span></p><p class="MsoNormal" style="margin-left:0in;mso-add-space:auto;text-indent:0in;
+            line-height:115%"><span lang="EN-GB" style="font-size:9.0pt;line-height:115%"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED10A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED10<span style="font-size: 26px;">.&nbsp;</span></span><span style="font-size: 26px;">Durante o ano letivo </span><span style="font-size: 26px; color: red;">atual</span><span style="font-size: 26px;">, que nível e classe ou ano&nbsp;</span><span style="font-style: italic; font-size: 26px;">~~ED2~~</span><span style="font-size: 26px;">&nbsp;</span><u style="font-size: 9pt;"><span style="font-size: 26px;">está a frequentar</span></u><span style="font-size: 26px;">?</span></p><p><i style="color: rgb(0, 0, 255);">Registe a classe.</i><span style="font-size: 26px;"><br></span></p><p class="MsoNormal"><span lang="EN-GB"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED10B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED10.&nbsp;</span>Durante o ano letivo&nbsp;<span style="color: red;">atual</span>, que nível e classe ou ano&nbsp;<span style="font-style: italic;">~~ED2~~</span>&nbsp;<u style="font-size: 9pt;"><span style="font-size: 26px;">está a frequentar</span></u>?</p><p><span class="Qtxt"><i style="color: rgb(0, 0, 255);">Registe o ano.</i><br></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED11
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED11. </span><span class="Qtxt"> <span class="REF">~~ED2~~ </span>frequenta uma escola pública?</span></p>
+            <p><span class="Itxt">﻿Se sim, registe '1'. Se não, investigue para codificar quem controla e gere a escola.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED12
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED12. </span><span class="Qtxt">No ano letivo <span class="QtxtC">atual, </span> <span class="REF">~~ED2~~ </span>recebeu algum apoio para as propinas escolares?</span></p>
+            <p><span class="Itxt">Se sim, investigue para garantir que o apoio não foi recebido da família, de outros parentes, amigos ou vizinhos.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED12A
+    conditions:
+      - questionText:
+          ENG: |
+            <span class="Qnum">ED12A.&nbsp;</span><span style="font-size: 26px; text-indent: 0in;">Acha que este apoio é suficiente para pagar as propinas de&nbsp;</span><span style="font-style: italic;">~~ED2~~&nbsp;</span><span style="font-size: 26px; text-indent: 0in;">?</span><p class="MsoNormal" style="margin-left:0in;mso-add-space:auto;text-indent:0in;
+            line-height:normal"><span lang="EN-GB" style="font-size:9.0pt;mso-bidi-font-size:
+            10.0pt"><o:p></o:p></span></p><p></p>
+  - name: MICS7HH.ED13
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED13. </span><span class="Qtxt">Quem forneceu o apoio para as propinas?</span></p>
+            <p><span class="Itxt">Registe tudo o que for mencionado.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED14
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED14. </span><span class="Qtxt">No ano letivo <span class="QtxtC">atual, </span> <span class="REF">~~ED2~~ </span></span>recebeu algum apoio material ou dinheiro para comprar sapatos, cadernos, blocos de notas, uniformes escolares ou outro material escolar?</span></p>
+            <p><span class="Itxt">Se sim, investigue para garantir que o apoio não foi recebido da família, de outros parentes, amigos ou vizinhos.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED14A
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">ED14A.&nbsp;</span></b><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;">Acha que este </span><span lang="EN-GB" style="font-size:9.0pt;line-height:150%;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">apoio é suficiente para o material escolar de que&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px; font-style: italic;">~~ED2~~</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">&nbsp;precisava?</span></span><p></p>
+  - name: MICS7HH.ED15
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED<span style="font-size: 26px;">15. </span></span><span lang="EN-GB" style="text-indent: 0in; font-size: 9pt; line-height: 115%;"><span style="font-size: 26px;">Em algum momento durante o ano letivo </span><span style="color: red; font-size: 26px;">anterior</span><span style="font-size: 26px;">,&nbsp;</span></span><span style="font-style: italic; font-size: 26px;">~~ED2~~&nbsp;</span><span lang="EN-GB" style="text-indent: 0in; font-size: 26px; line-height: 115%;">frequentou a escola </span><span lang="EN-GB" style="text-indent: 0in; font-size: 9pt; line-height: 115%;"><span style="font-size: 26px;">ou algum </span><span style="color: red; font-size: 26px;">programa de Educação Pré-escolar</span><span style="font-size: 26px;">?</span></span></p><p class="MsoNormal" style="margin-left:0in;mso-add-space:auto;text-indent:0in;
+            line-height:115%"><span lang="EN-GB" style="font-size:9.0pt;
+            mso-bidi-font-size:10.0pt;line-height:115%"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED16A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED1<span style="font-size: 26px;">6. </span></span><span style="font-size: 26px;">Durante o ano letivo </span><span style="font-size: 26px; color: red;">anterior</span><span style="font-size: 26px;">, que nível e classe ou ano&nbsp;</span><span style="font-style: italic; font-size: 26px;">~~ED2~~</span><span style="font-size: 26px;">&nbsp;</span><u style="font-size: 9pt;"><span style="font-size: 26px;">frequentou</span></u><span style="font-size: 26px;">?</span></p><p><i style="color: rgb(0, 0, 255);">Registe a classe.</i><span style="font-size: 26px;"><br></span></p><p class="MsoNormal"><span lang="EN-GB"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ED16B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">ED16.&nbsp;</span>Durante o ano letivo&nbsp;<span style="color: red;">anterior</span>, que nível e classe ou ano&nbsp;<span style="font-style: italic;">~~ED2~~</span>&nbsp;<u style="font-size: 9pt;"><span style="font-size: 26px;">frequentou</span></u>?</p><p><i style="color: rgb(0, 0, 255);">Registe o ano.</i><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC1A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC1A. </span>Qual é a religião de&nbsp;<span style="font-style: italic;">~~hhname~~</span>?</p><p class="MsoNormal"><span lang="EN-GB"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC1B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><b><span lang="EN-GB">HC1B</span></b><span lang="EN-GB">. Qual é a <span style="color:red">língua materna/nativa</span>
+            de&nbsp;<span style="font-style: italic;">~~hhname~~</span>?</span></p><p class="MsoNormal"><span lang="EN-GB"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC2
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-size: 26px; font-family: &quot;Courier New&quot;;">HC2. </span><span lang="EN-GB" style="font-size: 12pt; line-height: 150%; font-family: &quot;Times New Roman&quot;, serif;"><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">A que grupo étnico pertence&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px; font-style: italic;">~~hhname~~</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">?</span></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC3
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC3. </span>Quantas divisões os membros deste agregado usam habitualmente para dormir?</p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC4
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HC4. </span><span class="Itxt">Material principal do chão da habitação.</span></p>
+            <p><span class="Itxt">Registe a observação.</span></p>
+            <p><span class="Itxt">Se não for possível observar, peça ao inquirido para determinar o material do chão da habitação.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC5
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HC5. </span><span class="Itxt">Material principal do telhado.</span></p>
+            <p><span class="Itxt">Registe a observação.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC6
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HC6. </span><span class="Itxt">Material principal das paredes exteriores.</span></p>
+            <p><span class="Itxt">Registe a observação.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC7A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum"><span style="font-family: &quot;Courier New&quot;;">HC7</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">.&nbsp;</span></span><span class="Qtxt" style="font-family: &quot;Courier New&quot;; font-size: 26px;">O seu agregado tem:</span></p><p><span class="Qnum" style="font-family: &quot;Courier New&quot;; font-size: 26px;">[A]&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">Uma linha de telefone fixo?</span></p><p></p>
+  - name: MICS7HH.HC7B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC7. </span><span class="Qtxt">O seu agregado tem:</span></p>
+            <p><span class="Qnum">[B] </span><span class="Qtxt">Um rádio?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC7C
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC7. </span><span class="Qtxt">O seu agregado tem:</span></p><span style="font-family: &quot;Courier New&quot;;">
+            </span><p><span class="QnumC" style="font-family: &quot;Courier New&quot;; font-size: 26px;">[C]&nbsp;</span><font color="#ff0000"><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">Artigos específicos do país que não funcionam a </span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">eletricidade (ver Diretrizes de Adaptação)</span></font></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC8
+    conditions:
+      - questionText:
+          ENG: |
+            <span class="Qnum">HC8.&nbsp;</span><span class="Qtxt">O seu agregado tem eletricidade?</span><p></p>
+  - name: MICS7HH.HC8A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum"><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">HC8A</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">.&nbsp;</span></span><span style="font-size: 26px; text-indent: -0.1in; font-family: &quot;Courier New&quot;;">Que fonte de eletricidade é usada neste agregado?</span></p><p><i style="text-indent: -0.1in;"><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;"><font color="#0000ff">Registe tudo o que for mencionado.</font></span></i></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC8B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC8B.&nbsp;</span><span style="text-indent: -0.1in;">Que fonte de eletricidade é usada <u>na maior parte</u> do tempo neste agregado?</span></p><p><i style="text-indent: -0.1in;"><span lang="EN-GB" style="line-height: 39px;"><font color="#0000ff">Só pode registar aqui uma fonte que tenha sido registada em HC8A.</font></span></i></p><p></p>
+  - name: MICS7HH.HC9A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC9.&nbsp;</span><span class="Qtxt">O seu agregado tem:</span></p><p><span class="Qnum">[A]&nbsp;</span><span class="Qtxt">Uma televisão?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC9B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC9. </span><span class="Qtxt">O seu agregado tem:</span></p>
+            <p><span class="Qnum">[B] </span><span class="Qtxt">Um frigorífico?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC9C
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC9.&nbsp;</span><span class="Qtxt">O seu agregado tem:</span></p><p><span class="QnumC">[C]&nbsp;</span><span class="QtxtC">Artigos específicos do país que funcionam a eletricidade (ver Diretrizes de Adaptação)</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC10A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC10.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado possui:</span></p><p><span class="Qnum">[A]&nbsp;</span><span class="Qtxt">Um relógio de pulso?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC10B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC10.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado possui:</span></p><p><span class="Qnum">[B]&nbsp;</span><span class="Qtxt">Uma bicicleta?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC10C
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC10.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado possui:</span></p><p><span class="Qnum">[C]&nbsp;</span><span class="Qtxt">Uma motorizada ou scooter?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC10D
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC10.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado possui:</span></p><p><span class="Qnum">[D]&nbsp;</span><span class="Qtxt">Uma carroça puxada por animais?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC10E
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC10.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado possui:</span></p><p><span class="Qnum">[E]&nbsp;</span><span class="Qtxt">Um carro, camião ou carrinha?</span></p><p class="MsoNormal" style="margin-left:.1in;mso-add-space:auto;text-indent:-.1in;
+            line-height:normal;tab-stops:25.1pt"><span lang="MN" style="font-size:10.0pt;
+            mso-ansi-language:MN"><o:p></o:p></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC10F
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC10.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado possui:</span></p><p><span class="Qnum">[F]&nbsp;</span><span class="Qtxt">Um barco a motor?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC10G
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC10.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado possui:</span></p><p><span class="QnumC">[G]&nbsp;</span><span class="QtxtC">Artigos específicos do país (ver Diretrizes de Adaptação)</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC11
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC11.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado tem um computador de secretária, portátil, tablet ou semelhante?</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC12
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC12.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado tem telemóvel?</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC12A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC12A.&nbsp;</span><span class="Qtxt">Algum membro do seu agregado tem um smartphone?</span><br></p>
+  - name: MICS7HH.HC13
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC13.&nbsp;</span><span class="Qtxt">O seu agregado tem acesso à internet em casa?</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC13B
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="MsoNormal" style="margin-left:.1in;mso-add-space:auto;text-indent:-.1in;
+            line-height:115%;tab-stops:25.1pt"><b><span lang="MN" style="font-size: 24pt; line-height: 115%; font-family: &quot;Courier New&quot;;">HC13B</span></b><span lang="MN" style="font-size: 24pt; line-height: 115%; font-family: &quot;Courier New&quot;;">.&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-size: 24pt;">Mencionou que um membro do seu agregado tem um smartphone e que não tem acesso à internet em casa. Só para confirmar, o smartphone consegue aceder à internet quando é usado em casa?</span></p><p></p>
+  - name: MICS7HH.HC14
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC14.&nbsp;</span><span class="Qtxt">O(A) senhor(a) ou alguém que vive neste agregado é proprietário desta habitação?</span></p><p><span class="Itxt">Se 'Não', pergunte:&nbsp;</span><span class="Qtxt">Arrenda esta habitação a alguém que não vive neste agregado?</span></p><p><span class="Itxt">Se 'Arrendada a outra pessoa', registe '2'. Para outras respostas, registe '6' e especifique.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC15
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC15.&nbsp;</span><span class="Qtxt">Algum membro deste agregado possui terra que possa ser usada para agricultura?</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC16
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC16.&nbsp;</span><span class="Qtxt">Quantos&nbsp;<span class="QtxtC">hectares&nbsp;</span>de terra agrícola possuem os membros deste agregado?</span></p><p><span class="Itxt">Se for menos de 1, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'</span></p><p><span class="Itxt">Se Não sabe, registe '98'</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC17
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC17.&nbsp;</span><span class="Qtxt">Este agregado possui gado, rebanhos, outros animais de quinta ou aves de capoeira?</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="Qnum">[A]&nbsp;</span><span class="Qtxt">Vacas leiteiras ou touros?</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18B
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="Qnum">[B]&nbsp;</span><span class="Qtxt">Outro gado bovino?</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18C
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="Qnum">[C]&nbsp;</span><span class="Qtxt">Cavalos, burros ou mulas?</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18D
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="Qnum">[D]&nbsp;</span><span class="Qtxt">Cabras?</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18E
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="Qnum">[E]&nbsp;</span><span class="Qtxt">Ovelhas?</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18F
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="Qnum">[F]&nbsp;</span><span class="Qtxt">Galinhas?</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18G
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="Qnum">[G]&nbsp;</span><span class="Qtxt">Porcos?</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC18H
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC18.&nbsp;</span><span class="Qtxt">Quantos dos seguintes animais tem este agregado?</span></p><p><span class="QnumC">[H]&nbsp;</span><span class="QtxtC">Adições específicas do país (ver Diretrizes de Adaptação)</span></p><p><span class="Itxt">Se nenhum, registe '00'.</span></p><p><span class="Itxt">Se 95 ou mais, registe '95'.</span></p><p><span class="Itxt">Se desconhecido, registe '98'.</span></p><p></p>
+  - name: MICS7HH.HC19
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC19.&nbsp;</span><span class="Qtxt">Algum membro deste agregado tem conta num banco ou noutra instituição financeira?</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HC20
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="MsoNormal"><b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%;">HC20</span></b><span lang="EN-GB" style="font-size:10.0pt;line-height:150%;mso-bidi-font-weight:bold"><span style="font-size: 18pt;">. Algum membro deste agregado usa </span><u><span style="font-size: 18pt;">um telemóvel</span></u><span style="font-size: 18pt;"> para fazer transações financeiras, como enviar ou receber dinheiro, pagar contas, comprar bens ou serviços, ou receber salários, através do seu banco ou de um serviço móvel, como </span><span style="color: red; font-size: 18pt;">inserir serviços móveis, p.ex., M-PESA</span><span style="font-size: 18pt;">?</span></span><span lang="EN-GB"><o:p></o:p></span></p><p></p>
+  - name: MICS7HH.EU1
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Courier New&quot;; font-size: 26px;">EU1.&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">O que usa este agregado para cozinhar </span><u style="font-family: &quot;Times New Roman&quot;, serif; font-size: 12pt;"><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">na maior parte do tempo</span></u><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">, incluindo cozinhar alimentos, fazer chá ou café, ferver água para beber?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.EU1A
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">EU1A.
+            </span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">Qual é a (</span><b><i><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">nome/marca</span></i></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">) deste fogão ou dispositivo?</span><p></p>
+  - name: MICS7HH.EU4
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Times New Roman&quot;; font-size: 26px;">EU4.&nbsp;</span><span style="font-family: &quot;Times New Roman&quot;; text-indent: -0.1in; font-size: 26px;">Que tipo de combustível ou fonte de energia é usado neste fogão?</span></p>
+            
+            <p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><span style="color: rgb(0, 0, 255); font-style: italic;">Se for mais de um, registe a principal fonte de energia deste fogão.</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.EU6
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Courier New&quot;; font-size: 26px;">EU6.&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">O que usa este agregado para aquecer a casa </span><u style="font-family: &quot;Times New Roman&quot;, serif; font-size: 12pt;"><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">quando necessário</span></u><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.EU6A
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">EU6A.
+            </span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">Qual é a (</span><b><i><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">nome/marca</span></i></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">) deste aquecedor, fogão ou dispositivo?</span><p></p>
+  - name: MICS7HH.EU8
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">EU8. </span><span class="Qtxt">Que tipo de combustível e fonte de energia é usado neste aquecedor?</span></p>
+            <p><span class="Itxt">Se for mais de um, registe a principal fonte de energia deste aquecedor.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.EU9
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum"><span style="font-family: &quot;Courier New&quot;;">EU</span><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">9.&nbsp;</span></span><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">O que usa este agregado </span><u style="font-family: &quot;Times New Roman&quot;, serif; font-size: 12pt;"><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">na maior parte do tempo</span></u><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">
+            como energia para iluminação, ou como fonte de luz?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN1
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN1. </span><span class="Qtxt">O seu agregado tem redes mosquiteiras?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN2
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN2. </span><span class="Qtxt">Quantas redes mosquiteiras tem o seu agregado?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN3
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">TN3. </span><span class="Itxt">Peça ao inquirido para lhe mostrar todas as redes do agregado.</span></p>
+            <p><span class="Itxt">Viu a rede número ~~TNLN~~</span>?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN4
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN4. </span><span class="Qtxt">Há quantos meses o seu agregado obteve a rede mosquiteira? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+            <p><span class="Itxt">Se há menos de um mês, registe '00'.</span></p>
+            <p><span class="Itxt">Se há mais de 36 meses, registe '95'.</span></p>
+            <p><span class="Itxt">Se 'NS/Não tem a certeza', registe '98'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN5
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">TN5. </span><span class="Itxt">Observe ou pergunte a marca/tipo de rede mosquiteira. [REDE ~~TNLN~~]</span></p>
+            <p><span class="Itxt">Se a marca for desconhecida e não puder observar a rede, mostre ao inquirido imagens dos tipos/marcas de redes mais comuns.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN10
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN10. </span><span class="Qtxt">Obteve a rede através de uma <span class="QtxtC">nome local da campanha de distribuição em massa</span>, durante uma consulta pré-natal ou durante uma visita de vacinação? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN12
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN12. </span><span class="Qtxt">Onde obteve a rede? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN13
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN13. </span><span class="Qtxt">Alguém dormiu sob esta rede mosquiteira na noite passada? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN14A
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">TN14A</span></b><span lang="EN-GB" style="font-size:10.0pt;line-height:150%;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">. Qual é a </span><u><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">principal</span></u><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;"> razão pela qual esta rede não foi usada na noite passada?</span></span><p></p>
+  - name: MICS7HH.TN15_1
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN15. </span><span class="Qtxt">Quem dormiu sob esta rede mosquiteira na noite passada? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+            <p><span class="Itxt">Registe o número de linha da pessoa na Lista dos Membros do Agregado.</span></p>
+            <p><span class="Itxt">Se alguém que não consta da Lista dos Membros do Agregado dormiu sob a rede mosquiteira, registe '00'.</span></p>
+            <p><span class="Itxt">'Ninguém / Mais ninguém', registe '90'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN15_2
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN15. </span><span class="Qtxt">Quem mais dormiu sob esta rede mosquiteira na noite passada? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+            <p><span class="Itxt">Registe o número de linha da pessoa na Lista dos Membros do Agregado.</span></p>
+            <p><span class="Itxt">Se alguém que não consta da Lista dos Membros do Agregado dormiu sob a rede mosquiteira, registe '00'.</span></p>
+            <p><span class="Itxt">'Ninguém / Mais ninguém', registe '90'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN15_3
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN15. </span><span class="Qtxt">Quem mais dormiu sob esta rede mosquiteira na noite passada? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+            <p><span class="Itxt">Registe o número de linha da pessoa na Lista dos Membros do Agregado.</span></p>
+            <p><span class="Itxt">Se alguém que não consta da Lista dos Membros do Agregado dormiu sob a rede mosquiteira, registe '00'.</span></p>
+            <p><span class="Itxt">'Ninguém / Mais ninguém', registe '90'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.TN15_4
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">TN15. </span><span class="Qtxt">Quem mais dormiu sob esta rede mosquiteira na noite passada? [REDE <span class="REF">~~TNLN~~</span>]</span></p>
+            <p><span class="Itxt">Registe o número de linha da pessoa na Lista dos Membros do Agregado.</span></p>
+            <p><span class="Itxt">Se alguém que não consta da Lista dos Membros do Agregado dormiu sob a rede mosquiteira, registe '00'.</span></p>
+            <p><span class="Itxt">'Ninguém / Mais ninguém', registe '90'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ST2
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ENG: |
+            <p><span class="Qnum"><span style="font-family: &quot;Courier New&quot;;">ST1.</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">&nbsp;</span></span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;">Gostaria de lhe perguntar sobre </span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;">vários programas de assistência económica externa prestados aos agregados. Por assistência externa entendo o apoio que vem do governo ou de organizações não governamentais, como organizações religiosas, de caridade ou comunitárias. Exclui-se o apoio da família, de outros parentes, amigos ou vizinhos.</span></p><span style="font-family: &quot;Courier New&quot;;">
+            </span><p><span class="Qnum" style="font-family: &quot;Courier New&quot;;">ST2. </span><span class="Qtxt"><span style="font-family: &quot;Courier New&quot;;">Conhece </span><span style="font-family: &quot;Courier New&quot;;"></span><span style="font-size: 26px; font-family: &quot;Times New Roman&quot;;"><span style="font-family: &quot;Courier New&quot;;">a</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">&nbsp;</span></span></span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;; color: red; text-transform: uppercase;">Assistência Tipo 1</span><span style="font-size: 26px; text-transform: uppercase; text-align: center; text-indent: -0.1in; font-family: &quot;Courier New&quot;;">?</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 2
+        questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Courier New&quot;;">ST2. </span><span class="Qtxt"><span style="font-family: &quot;Courier New&quot;;">Conhece a</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;"> </span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;"></span></span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;; color: red; text-transform: uppercase;">Assistência Tipo 2</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">?</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 3
+        questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Courier New&quot;;">ST2. </span><span class="Qtxt"><span style="font-family: &quot;Courier New&quot;;">Conhece</span><span style="font-family: &quot;Courier New&quot;;">&nbsp;a</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">&nbsp;</span></span><span style="color: rgb(255, 0, 0); font-family: &quot;Courier New&quot;; text-transform: uppercase;">ASSISTÊNCIA TIPO 3</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">?</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 4
+        questionText:
+          ENG: |
+            <p><span class="Qnum"><span style="font-family: &quot;Courier New&quot;;">S</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">T2. </span></span><span class="Qtxt"><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">Conhece&nbsp;</span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;; text-transform: uppercase;">alguma pensão de reforma</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">?</span></span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 5
+        questionText:
+          ENG: |
+            <p><span class="Qnum"><span style="font-family: &quot;Courier New&quot;;">ST</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">2. </span></span><span class="Qtxt"><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">Conhece&nbsp;</span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;; text-transform: uppercase;">algum outro programa de assistência externa</span><span style="font-size: 26px; font-family: &quot;Courier New&quot;;">?</span></span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ST3
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-family: &quot;Courier New&quot;; font-size: 24px;">ST3.&nbsp;</span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 150%; font-family: &quot;Courier New&quot;;">O seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;</span><span lang="EN-GB" style="line-height: 39px; color: red; text-transform: uppercase; font-family: &quot;Courier New&quot;;">ASSISTÊNCIA TIPO 1</span><span style="font-size: 24px; font-family: &quot;Courier New&quot;;">?</span></span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 2
+        questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-size: 24px;">ST3.&nbsp;</span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 36px;">O seu agregado ou alguém do seu agregado recebeu assistência através de</span><span class="Qtxt">&nbsp;</span><span lang="EN-GB" style="line-height: 39px; color: red; text-transform: uppercase;">ASSISTÊNCIA TIPO 2</span><span style="font-size: 24px;">?</span></span><br></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 3
+        questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-size: 24px;">ST3.&nbsp;</span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 36px;">O seu agregado ou alguém do seu agregado recebeu assistência através de</span><span class="Qtxt">&nbsp;</span><span lang="EN-GB" style="line-height: 39px; color: red; text-transform: uppercase;">ASSISTÊNCIA TIPO 3</span><span style="font-size: 24px;">?</span></span><br></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 4
+        questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-size: 24px;">ST3.&nbsp;</span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 36px;">O seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;</span></span><span lang="EN-GB" style="line-height: 39px; text-transform: uppercase;">QUALQUER PENSÃO DE REFORMA</span>?<br></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 5
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST3. </span><span class="Qtxt">O seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;</span><span lang="EN-GB" style="line-height: 39px; text-transform: uppercase;">QUALQUER OUTRO PROGRAMA DE ASSISTÊNCIA EXTERNA</span>?</p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ST4
+    conditions:
+      - questionText:
+          ENG: |
+            <span class="Qnum" style="font-size: 24px;">ST4.&nbsp;</span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 36px;">A quem, no seu agregado, se destina a assistência</span><span style="font-size: 24px;">?<br></span><span style="color: rgb(0, 0, 255); font-style: italic;">Investigue:&nbsp;</span><span style="font-size: 24px;">Mais alguém?</span><span style="font-size: 24px;"><br></span></span><p></p>
+  - name: MICS7HH.ST5
+    conditions:
+      - questionText:
+          ENG: |
+            <span class="Qnum" style="font-size: 24px;">ST5.&nbsp;</span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 36px;">Quem, no seu agregado, está autorizado a receber ou levantar a assistência</span><span style="font-size: 24px;">?<br></span><span style="color: rgb(0, 0, 255); font-style: italic;">Investigue:&nbsp;</span><span style="font-size: 24px;">Mais alguém?</span></span><p></p>
+  - name: MICS7HH.ST6U
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;<span class="QtxtC">Assistência Tipo 1</span>?</span></p><p><span class="Itxt">Se há menos de um mês, registe '1' e registe '00' em Meses.</span></p><p><span class="Itxt">Se há menos de 12 meses, registe '1' e registe em Meses.</span></p><p><span class="Itxt">Se há 1 ano/12 meses ou mais, registe '2' e registe em Anos.</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 2
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;<span class="QtxtC">Assistência Tipo 2</span>?</span></p><p><span class="Itxt">Se há menos de um mês, registe '1' e registe '00' em Meses.</span></p><p><span class="Itxt">Se há menos de 12 meses, registe '1' e registe em Meses.</span></p><p><span class="Itxt">Se há 1 ano/12 meses ou mais, registe '2' e registe em Anos.</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 3
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;<span class="QtxtC">Assistência Tipo 3</span>?</span></p><p><span class="Itxt">Se há menos de um mês, registe '1' e registe '00' em Meses.</span></p><p><span class="Itxt">Se há menos de 12 meses, registe '1' e registe em Meses.</span></p><p><span class="Itxt">Se há 1 ano/12 meses ou mais, registe '2' e registe em Anos.</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 4
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de QUALQUER PENSÃO DE REFORMA?</span></p><p><span class="Itxt">Se há menos de um mês, registe '1' e registe '00' em Meses.</span></p><p><span class="Itxt">Se há menos de 12 meses, registe '1' e registe em Meses.</span></p><p><span class="Itxt">Se há 1 ano/12 meses ou mais, registe '2' e registe em Anos.</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 5
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de QUALQUER OUTRO PROGRAMA DE ASSISTÊNCIA EXTERNA?</span></p><p><span class="Itxt">Se há menos de um mês, registe '1' e registe '00' em Meses.</span></p><p><span class="Itxt">Se há menos de 12 meses, registe '1' e registe em Meses.</span></p><p><span class="Itxt">Se há 1 ano/12 meses ou mais, registe '2' e registe em Anos.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.ST6N
+    conditions:
+      - logic: curocc() = 1
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;<span class="QtxtC">Assistência Tipo 1</span>?</span><br></p>
+            <p><span class="Itxt">Registe ~~worklabel~~</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 2
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;<span class="QtxtC">Assistência Tipo 2</span>?</span><br></p>
+            <p><span class="Itxt">Registe ~~worklabel~~</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 3
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de&nbsp;<span class="QtxtC">Assistência Tipo 3</span>?</span><br></p>
+            <p><span class="Itxt">Registe ~~worklabel~~</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 4
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de QUALQUER PENSÃO DE REFORMA?</span><br></p>
+            <p><span class="Itxt">Registe ~~worklabel~~</span></p>
+        helpText:
+          ENG: |
+            
+      - logic: curocc() = 5
+        questionText:
+          ENG: |
+            <p><span class="Qnum">ST6.&nbsp;</span><span class="Qtxt">Quando foi a última vez que o seu agregado ou alguém do seu agregado recebeu assistência através de QUALQUER OUTRO PROGRAMA DE ASSISTÊNCIA EXTERNA?</span><br></p>
+            <p><span class="Itxt">Registe ~~worklabel~~</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.PE1
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="MsoNormal"><b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE1</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Queremos falar consigo sobre a</span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;"> </span><span lang="EN-GB" style="font-size: 18pt; color: red; font-family: &quot;Courier New&quot;;">emergência</span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">.</span></p><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">
+            
+            </span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">Alguém que não era membro deste agregado antes da </span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;; color: red;">emergência</span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;"> veio viver para este agregado por causa da </span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;; color: red;">emergência</span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">?</span><p></p>
+  - name: MICS7HH.PE2
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE2</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Quantas pessoas vieram viver para este agregado?</span><p></p>
+  - name: MICS7HH.PE3
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="Instructionstointvw" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px;">PE3</span></b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px;">.</span><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px;"> </span><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px;">Em algum momento durante a </span><span lang="EN-GB" style="color: red; font-family: &quot;Courier New&quot;; font-size: 24px;">emergência</span><span lang="EN-GB"><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">, </span><u><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">todos os membros deste agregado</span></u><span style="font-family: &quot;Courier New&quot;; font-size: 24px;"> mudaram-se para outro lugar por causa da </span></span><span lang="EN-GB" style="color: red; font-family: &quot;Courier New&quot;; font-size: 24px;">emergência</span><span lang="EN-GB"><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">?</span></span></p><span style="font-size: 24px; font-family: &quot;Courier New&quot;;">
+            
+            </span><span lang="EN-GB" style="font-size: 24px; font-family: &quot;Courier New&quot;;"><font color="#0000ff"><i>Se ‘Não’, investigue se todos os membros do agregado passaram uma noite ou mais noutro local. Se sim, registe 1 para ‘Sim’.</i></font></span><p></p>
+  - name: MICS7HH.PE4U
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="Instructionstointvw" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span lang="EN-GB">PE4</span></b><span lang="EN-GB">. Durante quanto tempo viveram todos os membros deste agregado nesse(s) outro(s) local(is)?</span></p>
+            
+            <p class="Instructionstointvw" style="margin-left:6.75pt;mso-add-space:auto;
+            text-indent:.45pt;line-height:115%"><span lang="EN-GB"><font color="#0000ff"><i>Registe a unidade.<br>Se for menos de uma semana, registe dias.</i></font></span></p><p></p>
+  - name: MICS7HH.PE4N
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="Instructionstointvw" style="margin-left: 0.1in; text-indent: -0.1in; line-height: 29.9px;"><b><span lang="EN-GB">PE4</span></b><span lang="EN-GB">. Durante quanto tempo viveram todos os membros deste agregado nesse(s) outro(s) local(is)?</span></p><p class="Instructionstointvw" style="margin-left: 6.75pt; text-indent: 0.45pt; line-height: 29.9px;"><span lang="EN-GB"><font color="#0000ff"><i>Registe o número. Se algum membro do agregado ainda estiver noutro local, registe 995.</i></font></span></p><p></p>
+  - name: MICS7HH.PE5
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE5</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Devido à </span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;; color: red;">emergência</span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">, a sua casa foi danificada ou destruída?</span><p></p>
+  - name: MICS7HH.PE6
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE6</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. </span><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">Alguém que vivia no agregado durante a </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><b><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;"> </span></b><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">morreu como resultado direto da</span><b><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">
+            </span></b><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">?</span></span><p></p>
+  - name: MICS7HH.PE7
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE7</span></b><span lang="EN-GB" style="font-size:
+            12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">. Algum dos membros deste agregado precisou de cuidados médicos, por qualquer motivo, durante a </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">?</span></span><p></p>
+  - name: MICS7HH.PE8
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE8</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Todos os membros que precisaram de cuidados médicos receberam esses cuidados?</span><p></p>
+  - name: MICS7HH.PE9
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="Instructionstointvw" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px;">PE9</span></b><span lang="EN-GB" style="font-family: &quot;Times New Roman&quot;; font-size: 24px;"><span style="font-family: &quot;Courier New&quot;;">. Agora gostaria de lhe perguntar sob</span><span style="font-size: 24px;"><span style="font-family: &quot;Courier New&quot;;">re doenças graves causadas pela </span><font color="#ff0000"><span style="font-family: &quot;Courier New&quot;;">emergência</span></font><span style="font-family: &quot;Courier New&quot;;">. Estas podem incluir, por exemplo, </span></span></span><span lang="EN-GB" style="color: red; font-family: &quot;Courier New&quot;; font-size: 24px;">personalizar com base no tipo de emergência</span><span lang="EN-GB"><span style="font-family: &quot;Times New Roman&quot;; font-size: 24px;"><span style="font-size: 24px; font-family: &quot;Courier New&quot;;">.</span><span class="Qtxt" style="font-size: 24px; font-family: &quot;Courier New&quot;;">&nbsp;</span></span></span></p><p class="Instructionstointvw" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><span style="font-size: 24px;"><span style="font-family: &quot;Courier New&quot;;">Algum membro deste agregado ficou gravemente doente durante a </span><span class="QtxtC" style="font-family: &quot;Courier New&quot;;">emergência</span><span style="font-family: &quot;Courier New&quot;;">?</span></span></p><p></p>
+  - name: MICS7HH.PE10
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE10</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Em consequência da(s) doença(s), (esta pessoa ficou/estas pessoas ficaram) incapaz(es) de realizar as atividades diárias habituais, como ir trabalhar ou à escola, durante mais de 3 meses seguidos?</span><p></p>
+  - name: MICS7HH.PE11
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE11</span></b><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">. Alguém neste agregado ficou gravemente ferido devido à </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">?</span></span><p></p>
+  - name: MICS7HH.PE12
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="Instructionstointvw" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><span class="1IntvwqstChar1"><b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px;">PE12</span></b></span><span class="1IntvwqstChar1"><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px;">.</span></span><span lang="EN-GB" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-caps: small-caps; font-variant-alternates: normal; font-family: &quot;Courier New&quot;; font-size: 24px;"> </span><span lang="EN-GB"><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">Devido à </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 24px;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">, algum membro do agregado ficou separado do agregado, mesmo que temporariamente?</span></span></p><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">
+            
+            </span><span lang="EN-GB" style="font-size: 24px; font-family: &quot;Courier New&quot;;"><font color="#0000ff"><i>Se ‘Não’, investigue: algum membro do agregado foi viver com parentes ou vizinhos, foi detido ou se perdeu, mesmo que temporariamente? Se sim, registe 1 para ‘Sim’.</i></font></span><p></p>
+  - name: MICS7HH.PE13
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE13</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. </span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">Quantos membros ficaram separados?</span><p></p>
+  - name: MICS7HH.PE14
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-caps: small-caps; font-variant-alternates: normal;">PE14</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-caps: small-caps; font-variant-alternates: normal;">. </span><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">Algum dos membros separados tinha menos de 18 anos no momento da separação?</span><p></p>
+  - name: MICS7HH.PE15
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1Intvwqst" style="margin-left:.1in;mso-add-space:auto;text-indent:-.1in;
+            line-height:115%;mso-pagination:none"><b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">PE15</span></b><span lang="EN-GB" style="font-family: &quot;Times New Roman&quot;, serif; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">. Havia crianças de 5-17 anos a viver neste agregado durante a </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 24px;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">?</span></span></p><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">
+            
+            </span><span lang="EN-GB" style="font-size: 24px; font-family: &quot;Times New Roman&quot;;"><font color="#0000ff"><i><span style="font-family: &quot;Courier New&quot;;">Investigue:</span></i></font><span style="font-family: &quot;Courier New&quot;;"> Por favor inclua as crianças que viviam com o agregado no momento da </span><font color="#ff0000"><span style="font-family: &quot;Courier New&quot;;">emergência</span></font><span style="font-family: &quot;Courier New&quot;;">.&nbsp;</span></span><p></p>
+  - name: MICS7HH.PE16
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE16</span></b><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">. Antes da </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">, alguma destas crianças frequentava a escola?</span></span><p></p>
+  - name: MICS7HH.PE17
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE17</span></b><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">. Durante a </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">, alguma destas crianças de 5 a 17 anos deixou de frequentar a escola devido à </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">, mesmo que temporariamente?</span></span><p></p>
+  - name: MICS7HH.PE18
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE18</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. </span><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">Durante a </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Times New Roman&quot;; font-size: 18pt;"><span style="font-family: &quot;Courier New&quot;;">, a principal fonte de água para beber do agregado ficou inutilizável por causa da
+            </span><font color="#ff0000"><span style="font-family: &quot;Courier New&quot;;">emergência</span></font><span style="font-family: &quot;Courier New&quot;;">, mesmo que temporariamente?</span></span></span><p></p>
+  - name: MICS7HH.PE19
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE19</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. </span><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">Durante a </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Times New Roman&quot;; font-size: 18pt;"><span style="font-family: &quot;Courier New&quot;;">, a principal instalação sanitária do agregado ficou inutilizável devido à </span><font color="#ff0000"><span style="font-family: &quot;Courier New&quot;;">emergência</span></font><span style="font-family: &quot;Courier New&quot;;">, mesmo que temporariamente?</span></span></span><p></p>
+  - name: MICS7HH.PE20
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1Intvwqst" style="margin-left:.1in;mso-add-space:auto;text-indent:-.1in;
+            line-height:115%;mso-pagination:none"><b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">PE20</span></b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 24px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">. </span><span lang="EN-GB" style="font-family: &quot;Times New Roman&quot;, serif; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">O rendimento do agregado foi afetado pela </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 24px;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">?</span></span></p><span style="font-family: &quot;Courier New&quot;; font-size: 24px;">
+            
+            </span><i><span lang="EN-GB" style="font-size: 24px; font-family: &quot;Courier New&quot;;"><font color="#0000ff">Se ‘Sim’, investigue se o rendimento aumentou ou diminuiu.</font></span></i><p></p>
+  - name: MICS7HH.PE21
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1Intvwqst" style="margin-left:.1in;mso-add-space:auto;text-indent:-.1in;
+            line-height:115%;mso-pagination:none"><b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">PE21</span></b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">. </span><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">Porque diminuiu o rendimento do seu agregado?</span></p><p class="1Intvwqst" style="margin-left:.1in;mso-add-space:auto;text-indent:-.1in;
+            line-height:115%;mso-pagination:none"><i style="text-indent: -0.1in;"><span lang="EN-GB" style="font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><font color="#0000ff"><span style="font-family: &quot;Courier New&quot;;">Investigue:</span></font><span style="font-family: &quot;Courier New&quot;;">&nbsp;Mais alguma coisa?</span></span></i></p><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">
+            
+            </span><i><span lang="EN-GB" style="font-size: 26px; font-family: &quot;Courier New&quot;;"><font color="#0000ff">Registe tudo o que se aplica.</font></span></i><p></p>
+  - name: MICS7HH.PE22
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">PE22</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. </span><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Times New Roman&quot;,serif;
+            mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-GB;mso-fareast-language:
+            EN-US;mso-bidi-language:AR-SA"><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">Durante a </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 18pt;">emergência</span><span style="font-family: &quot;Courier New&quot;; font-size: 18pt;">, algum bem de valor da casa, da exploração agrícola ou do negócio foi danificado, destruído ou roubado?</span></span><p></p>
+  - name: MICS7HH.FE1
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">FE1</span></b><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">. Agora gostaria de lhe fazer algumas perguntas sobre alimentação. Durante o último ano, houve algum momento em que</span><span style="font-family: &quot;Times New Roman&quot;, serif; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><span style="font-family: &quot;Courier New&quot;;"> o(a) senhor(a) ou outras pessoas do seu agregado se preocuparam por não ter comida suficiente para comer por falta de dinheiro ou de outros recursos?</span><o:p></o:p></span></p>
+            
+            <p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span style="font-family: &quot;Courier New&quot;; font-size: 26px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><font color="#0000ff">&nbsp;</font></span></b><i><span lang="EN-GB" style="font-size: 26px; font-family: &quot;Times New Roman&quot;;"><font color="#0000ff"><span style="font-family: &quot;Courier New&quot;;">Investigue:</span></font><span style="font-family: &quot;Courier New&quot;;"> </span></span></i><span lang="EN-GB" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;"><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">Por falta de dinheiro ou de outros recursos, quero dizer não ter meios para obter alimentos, seja através de </span><span style="color: red; font-family: &quot;Courier New&quot;; font-size: 26px;">cultivo, compra ou troca</span><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">.</span></span></p><p></p>
+  - name: MICS7HH.FE2
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">FE2</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Ainda pensando no último ano, houve algum momento em que o(a) senhor(a) ou outras pessoas do seu agregado não puderam comer alimentos saudáveis e nutritivos por falta de dinheiro ou de outros recursos?</span><p></p>
+  - name: MICS7HH.FE3
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="MsoNormal" style="margin-left:7.45pt;mso-add-space:auto;text-indent:
+            -7.45pt;line-height:115%"><b><span lang="EN-GB" style="font-size: 18pt; line-height: 115%;">FE3</span></b><span lang="EN-GB" style="font-size:10.0pt;line-height:115%"><span style="font-size: 18pt;">. Houve algum momento em que o(a) senhor(a) ou outras pessoas do seu agregado comeram apenas poucos tipos de alimentos por falta de dinheiro ou de outros recursos?</span><o:p></o:p></span></p><p></p>
+  - name: MICS7HH.FE4
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="MsoNormal" style="margin-left:7.45pt;mso-add-space:auto;text-indent:
+            -7.1pt;line-height:115%"><b><span lang="EN-GB" style="font-size: 18pt; line-height: 115%;">FE4</span></b><span lang="EN-GB" style="font-size:10.0pt;line-height:115%"><span style="font-size: 18pt;">. Houve algum momento em que o(a) senhor(a) ou outras pessoas do seu agregado tiveram de saltar uma refeição por não haver dinheiro ou outros recursos suficientes para obter alimentos?</span><o:p></o:p></span></p><p></p>
+  - name: MICS7HH.FE5
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">FE5</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Ainda pensando no último ano, houve algum momento em que o(a) senhor(a) ou outras pessoas do seu agregado comeram menos do que achavam que deviam por falta de dinheiro ou de outros recursos?</span><p></p>
+  - name: MICS7HH.FE6
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">FE6</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Houve algum momento em que o seu agregado ficou sem comida por falta de dinheiro ou de outros recursos?</span><p></p>
+  - name: MICS7HH.FE7
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">FE7</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Houve algum momento em que o(a) senhor(a) ou outras pessoas do seu agregado tiveram fome mas não comeram por falta de dinheiro ou de outros recursos para alimentos?</span><p></p>
+  - name: MICS7HH.FE8
+    conditions:
+      - questionText:
+          ENG: |
+            <b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">FE8</span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">. Durante</span><b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;"> </span></b><span lang="EN-GB" style="font-size: 18pt; font-family: &quot;Courier New&quot;;">o último ano, houve algum momento em que o(a) senhor(a) ou outras pessoas do seu agregado passaram um dia inteiro sem comer por falta de dinheiro ou de outros recursos?</span><p></p>
+  - name: MICS7HH.WS1
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS1.&nbsp;</span><span class="Qtxt">Qual é a <u>principal</u> fonte de água para beber usada pelos membros do seu agregado?</span></p><p><span class="Itxt">Se não for claro, investigue para identificar o local onde os membros deste agregado vão buscar água para beber com mais frequência (ponto de recolha).</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS2
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS2. </span><span class="Qtxt">Qual é a <u>principal</u> fonte de água usada pelos membros do seu agregado para outros fins, como cozinhar e lavar as mãos?</span></p>
+            <p><span class="Itxt">Se não for claro, investigue para identificar o local onde os membros deste agregado vão buscar água para outros fins com mais frequência.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS3
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS3. </span><span class="Qtxt">Onde se localiza essa fonte de água?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS4
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS4. </span><span class="Qtxt">Quanto tempo demoram os membros do seu agregado a ir lá, buscar água e voltar?</span></p>
+            <p><span class="Itxt">Registe o tempo em minutos.</span></p>
+            <p><span class="Itxt">Use '000' para 'Os membros não vão buscar'</span></p>
+            <p><span class="Itxt">e '998' para 'NS'</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS5
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS5. </span><span class="Qtxt">Quem vai habitualmente a esta fonte buscar água para o seu agregado?</span></p>
+            <p><span class="Itxt">Registe o nome da pessoa e copie o número de linha desta pessoa do Módulo Lista dos Membros do Agregado.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS6
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS6. </span><span class="Qtxt">Desde </span><span class="Itxt Qtxt">~~daystring~~</span>, quantas vezes esta pessoa foi buscar água?</p>
+            <p><span class="Itxt">Registe o número de vezes.</span></p>
+            <p><span class="Itxt">Registe '98' para 'NS'.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS7
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS7. </span><span class="Qtxt">No último mês, houve algum momento em que o seu agregado não teve quantidade suficiente de água para beber?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS7A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS7A. </span><span class="Qtxt">Nos últimos 12 meses, houve algum momento em que o seu agregado não teve água suficiente para beber?</span></p>
+  - name: MICS7HH.WS8
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS8. </span><span class="Qtxt">Da última vez que isso aconteceu, qual foi a principal razão pela qual o seu agregado não conseguiu ter acesso a água para beber em quantidade suficiente?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS9
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS9. </span><span class="Qtxt">O(A) senhor(a) ou algum outro membro deste agregado faz alguma coisa à água para a tornar mais segura para beber?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS10
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS10. </span><span class="Qtxt">O que faz habitualmente para tornar a água mais segura para beber?</span></p>
+            <p><span class="Itxt">Investigue: </span><span class="Qtxt">Mais alguma coisa?</span></p>
+            <p><span class="Itxt">Registe todos os métodos mencionados.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS10AA
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b style=""><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">WS10A</span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">. O seu abastecimento de água é gerido pelo seu próprio agregado, por uma organização local ou comunitária, ou por uma empresa pública ou privada de abastecimento de água?</span><br></p><p></p>
+  - name: MICS7HH.WS10BB
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">WS10B</span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">.</span><b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;"> </span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">A sua principal fonte de água para beber é a mesma na estação </span><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;"><font color="#ff0000">chuvosa/seca</font></span><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">?</span><br></p><p></p>
+  - name: MICS7HH.WS10CC
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span lang="MN" style="font-family: &quot;Courier New&quot;; font-size: 26px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">WS10C.&nbsp;</span></b><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;">Qual é a sua principal fonte de água para beber na estação </span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;"><font color="#ff0000">chuvosa/seca</font></span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;">?</span></p><b><span lang="EN-GB" style="font-size:12.0pt;mso-bidi-font-size:10.0pt;line-height:150%;
+            font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+            mso-ansi-language:EN-GB;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"></span></b><p></p>
+  - name: MICS7HH.WS10DD
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.1in;line-height:115%"><b><span lang="MN" style="font-family: &quot;Courier New&quot;; font-size: 26px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">WS10D</span></b><span lang="MN" style="font-family: &quot;Courier New&quot;; font-size: 26px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">.&nbsp;</span><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;">&nbsp;Onde se localiza essa fonte de água?</span></p><p></p>
+  - name: MICS7HH.WS10EE
+    conditions:
+      - questionText:
+          ENG: |
+            <p><b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">WS10E</span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">. Quanto tempo demoram os membros do seu agregado a ir lá, buscar água e voltar?</span></p><p><span class="Itxt" style="font-family: &quot;Courier New&quot;;">Use '000' para 'Os membros não vão buscar'</span></p><p><span class="Itxt" style="font-family: &quot;Courier New&quot;;">e '998' para 'NS'</span></p><p><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Times New Roman&quot;;"><br></span></p><p></p><p></p>
+  - name: MICS7HH.WS11
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS11.&nbsp;</span><span class="Qtxt">Que tipo de instalação sanitária usam habitualmente os membros do seu agregado?</span></p><p><span class="Itxt">Se 'Autoclismo' ou 'Descarga manual', investigue:&nbsp;</span><span class="Qtxt">Para onde é feita a descarga?</span></p><p><span class="Itxt">Se não for possível determinar, peça autorização para observar a instalação.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS11B
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:0in;mso-add-space:auto;
+            text-indent:0in;line-height:115%"><b><span lang="MN" style="font-family: &quot;Courier New&quot;; font-size: 26px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">WS11B. </span></b><span lang="MN" style="font-family: &quot;Courier New&quot;; font-size: 26px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"></span><span lang="MN" style="font-family: &quot;Times New Roman&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important; font-size: 26px;"><span style="font-style: italic; font-family: &quot;Courier New&quot;;">~~worklabel~~&nbsp;</span><span style="font-family: &quot;Courier New&quot;;"></span><span style="font-family: &quot;Courier New&quot;;">tem&nbsp;</span></span><span style="font-family: &quot;Courier New&quot;; text-indent: 0in;">um tubo de saída para resíduos líquidos?</span></p><span style="font-family: &quot;Courier New&quot;;">
+            
+            </span><p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.2pt;line-height:115%"><i><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-size: 26px; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><font color="#0000ff">Se houver infiltração no subsolo a partir da base ou das paredes da fossa ou poço, selecione “Não”</font></span></i></p><p class="1IntvwqstChar1Char" style="margin-left:.1in;mso-add-space:auto;
+            text-indent:-.2pt;line-height:115%"><font color="#0000ff"><span style="font-family: &quot;Courier New&quot;; font-size: 26px;">
+            
+            
+            
+            </span><i><span lang="EN-GB" style="font-size: 26px; line-height: 150%; font-family: &quot;Courier New&quot;;">Se a fossa ou poço que contém os resíduos tiver um tubo que descarrega resíduos líquidos, selecione “Sim”</span></i></font><br></p><p></p>
+  - name: MICS7HH.WS11C
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="margin-left:0in;mso-add-space:auto;
+            text-indent:0in;line-height:115%"><b><span lang="MN" style="font-family: &quot;Courier New&quot;;">WS11C</span></b><b><span lang="MN" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">. </span></b><span lang="MN" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">Para onde vai este</span><span style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">&nbsp;tubo?</span></p><p></p>
+  - name: MICS7HH.WS11DA
+    conditions:
+      - questionText:
+          ENG: |
+            <p><b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">WS11D</span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 150%; font-family: &quot;Courier New&quot;;">. No último ano, os excrementos de&nbsp;</span><span lang="EN-GB" style="font-size: 26pt; line-height: 150%; font-family: &quot;Times New Roman&quot;;"><span style="font-size: 18pt; font-style: italic; font-family: &quot;Courier New&quot;;">~~worklabel~~&nbsp;</span><span style="font-size: 18pt;"><span style="font-family: &quot;Courier New&quot;;">&nbsp;foram libertados para a superfície e arredores devido a algum dos seguintes acontecimentos?</span><br></span></span><span lang="EN-GB" style="font-size: 26pt; line-height: 150%;"><span style="font-size: 18pt;"><b>[A]&nbsp;</b></span></span><span style="font-size: 18pt;">Transbordou?</span></p><p></p><p></p>
+  - name: MICS7HH.WS11DB
+    conditions:
+      - questionText:
+          ENG: |
+            <p><b><span lang="EN-GB" style="font-size: 18pt; line-height: 36px;">WS11D</span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 36px;">. No último ano, os excrementos de&nbsp;</span><span lang="EN-GB" style="font-size: 26pt; line-height: 52px;"><span style="font-size: 18pt; font-style: italic;">~~worklabel~~&nbsp;</span><span style="font-size: 18pt;">&nbsp;foram libertados para a superfície e arredores devido a algum dos seguintes acontecimentos?<br></span></span><span lang="EN-GB" style="font-size: 26pt; line-height: 52px;"><span style="font-size: 18pt;"><b>[B]&nbsp;</b></span></span><span style="font-size: 24px;">Inundou?</span></p><p></p>
+  - name: MICS7HH.WS11DC
+    conditions:
+      - questionText:
+          ENG: |
+            <p><b><span lang="EN-GB" style="font-size: 18pt; line-height: 36px;">WS11D</span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 36px;">. No último ano, os excrementos de&nbsp;</span><span lang="EN-GB" style="font-size: 26pt; line-height: 52px;"><span style="font-size: 18pt; font-style: italic;">~~worklabel~~&nbsp;</span><span style="font-size: 18pt;">&nbsp;foram libertados para a superfície e arredores devido a algum dos seguintes acontecimentos?<br></span></span><span lang="EN-GB" style="font-size: 26pt; line-height: 52px;"><span style="font-size: 18pt;"><b>[C]&nbsp;</b></span></span><span style="font-size: 18pt;">A contenção colapsou?</span></p><p></p>
+  - name: MICS7HH.WS11DD
+    conditions:
+      - questionText:
+          ENG: |
+            <p><b><span lang="EN-GB" style="font-size: 18pt; line-height: 36px;">WS11D</span></b><span lang="EN-GB" style="font-size: 18pt; line-height: 36px;">. No último ano, os excrementos de&nbsp;</span><span lang="EN-GB" style="font-size: 26pt; line-height: 52px;"><span style="font-size: 18pt; font-style: italic;">~~worklabel~~&nbsp;</span><span style="font-size: 18pt;">&nbsp;foram libertados para a superfície e arredores devido a algum dos seguintes acontecimentos?<br></span></span><span lang="EN-GB" style="font-size: 26pt; line-height: 52px;"><span style="font-size: 18pt;"><b>[D]&nbsp;</b></span></span><span style="font-size: 18pt;">Outro acontecimento que libertou excrementos para a superfície</span><span style="font-size: 18pt;">&nbsp;</span><span style="font-size: 18pt;">e arredores?</span></p><p></p>
+  - name: MICS7HH.WS12
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS12. </span><span class="Qtxt">O(A) seu/sua <span class="REF">~~worklabel~~ </span>alguma vez foi esvaziado(a)?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS12A
+    conditions:
+      - questionText:
+          ENG: |
+            <p class="1IntvwqstChar1Char" style="text-indent: -9.6px; margin-left: 0.1in; line-height: 115%;"><b style="text-indent: -7pt;"><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">W</span><span lang="EN-GB" style="font-family: &quot;Courier New&quot;; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;">S12A</span></b><span lang="EN-GB" style="text-indent: -7pt; font-family: &quot;Times New Roman&quot;, serif; font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><span style="font-family: &quot;Courier New&quot;;">. Da última vez que foi esvaziado(a), quem esvaziou&nbsp;</span><span style="font-family: &quot;Courier New&quot;; font-style: italic; text-indent: 0px;">~~worklabel~~</span><span style="font-family: &quot;Courier New&quot;;">?</span></span></p><p class="1IntvwqstChar1Char" style="margin-left:7.0pt;mso-add-space:auto;
+            text-indent:-7.0pt;line-height:115%"><span lang="EN-GB" style="font-family: &quot;Times New Roman&quot;, serif; color: rgb(0, 176, 80); font-variant-numeric: normal !important; font-variant-east-asian: normal !important; font-variant-alternates: normal !important;"><o:p></o:p></span></p><p></p>
+  - name: MICS7HH.WS13
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS13. </span><span class="Qtxt">Da última vez que foi esvaziada, para onde foi despejado o conteúdo?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS14
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS14. </span><span class="Qtxt">Onde se localiza esta instalação sanitária?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS15
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS15.&nbsp;</span><span class="Qtxt">Partilha esta instalação com outras pessoas que não são membros do seu agregado?</span><br></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS16
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS16. </span><span class="Qtxt">Partilha esta instalação apenas com membros de outros agregados que conhece, ou a instalação está aberta ao uso do público em geral?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WS17
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WS17. </span><span class="Qtxt">Quantos agregados no total usam esta instalação sanitária, incluindo o seu?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HW1
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HW1. </span><span class="Qtxt">Gostaríamos de saber onde os membros deste agregado lavam as mãos.</span></p>
+            <p><span class="Qtxt">Pode mostrar-me onde os membros do seu agregado lavam as mãos <u>com mais frequência</u>?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255); font-style: italic;">Se o inquirido indicar que não há um local fixo para lavar as mãos, investigue:&nbsp;</span>O que usam os membros do seu agregado <u>com mais frequência</u> para lavar as mãos?<br></span></p>
+            <p><span class="Itxt">Registe o resultado e a observação.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HW2
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HW2. </span><span class="Itxt">Observe a presença de água no local de lavagem das mãos.</span></p>
+            <p><span class="Itxt">Verifique a torneira/bomba, ou a bacia, balde, recipiente de água ou objetos semelhantes, para confirmar a presença de água.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HW3
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HW3.&nbsp;</span><span class="Itxt">Observe a presença de sabão, detergente, <font color="#ff0000">ou cinza/lama/areia</font> no local de lavagem das mãos.</span></p><p><span class="Itxt">Registe tudo o que se aplica.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HW4A
+    conditions:
+      - questionText:
+          ENG: |
+            <span class="Qnum" style="font-size: 24px;">HW4A. </span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 36px;">Tem banheira ou chuveiro na sua habitação, quintal ou terreno</span><span style="font-size: 24px;">?</span></span><p></p>
+  - name: MICS7HH.HW5A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum" style="font-size: 24px;">HW5A.&nbsp;</span><span class="Qtxt"><span lang="EN-GB" style="font-size: 24px; line-height: 36px;">Tem água disponível aí</span><span style="font-size: 24px;">?<br></span></span><font color="#0000ff"><i>Se houver água corrente de uma torneira ou água armazenada num tanque, balde, jarro, etc., registe 'Sim'.</i></font></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH14
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HH14. </span><span class="Itxt">Língua do Questionário</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH15
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HH15. </span><span class="Itxt">Língua da Entrevista.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH16
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HH16. </span><span class="Itxt">Língua materna do Inquirido.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH17
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HH17. </span><span class="Itxt">Foi usado um tradutor em alguma parte deste questionário?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH33X
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HH33. </span><span class="Qtxt">No âmbito do inquérito, estamos também a entrevistar mulheres de 15-49 anos. Pedimos autorização a cada pessoa que entrevistamos. Estas entrevistas são conduzidas por uma inquiridora.</span></p>
+            <p><span class="Qtxt">Para as raparigas de 15-17 anos, temos também de obter a autorização de um adulto para as entrevistar. Como mencionado anteriormente, toda a informação que obtivermos permanecerá estritamente confidencial e anónima.</span></p>
+            <p><span class="Qtxt">Podemos entrevistar <span class="REF">~~worklabel~~ </span>mais tarde?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH39X
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HH39. </span><span class="Qtxt">No âmbito do inquérito, estamos também a entrevistar homens de 15-49 anos. Pedimos autorização a cada pessoa que entrevistamos. Estas entrevistas são conduzidas por um inquiridor.</span></p>
+            <p><span class="Qtxt">Para os rapazes de 15-17 anos, temos também de obter a autorização de um adulto para os entrevistar. Como mencionado anteriormente, toda a informação que obtivermos permanecerá estritamente confidencial e anónima.</span></p>
+            <p><span class="Qtxt">Podemos entrevistar <span class="REF">~~worklabel~~ </span>mais tarde?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH44
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HH44. </span><span class="Qtxt">No âmbito do inquérito, estamos também a avaliar a qualidade da água para beber. Gostaríamos de fazer um teste simples à sua água para beber. Um colega virá recolher as amostras de água. Podemos fazer esse teste?</span></p>
+            <p><span class="Itxt">Se o inquirido pedir para conhecer os resultados, explique que os resultados não serão partilhados com cada agregado, mas serão disponibilizados às autoridades locais.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HH44BC
+    conditions:
+      - logic: HC7A<>1 and HC12<>1
+        questionText:
+          ENG: |
+            <p><span class="Qnum">HC44C.&nbsp;</span><span class="Qtxt">Obrigado pela sua participação.</span></p><p><span class="Qtxt">O&nbsp;<span class="QtxtC">Instituto Nacional de Estatística</span>&nbsp;irá realizar no futuro um inquérito de seguimento sobre a situação das crianças, das famílias e dos agregados. Poderemos contactá-lo(a) algumas vezes ao longo de alguns meses, cerca de 15 minutos de cada vez.</span></p><p><span class="Qtxt">A participação é voluntária. Se concordar em participar agora, pode desistir mais tarde. Participar não terá qualquer custo para si. Toda a informação que partilhar durante estas entrevistas não será partilhada com ninguém fora da nossa equipa.</span></p><p><span class="Qtxt">Gostaria de participar?</span></p><p></p>
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HC44B.&nbsp;</span><span class="Qtxt">Obrigado pela sua participação.</span></p><p><span class="Qtxt">O&nbsp;<span class="QtxtC">Instituto Nacional de Estatística</span>&nbsp;irá realizar no futuro um inquérito telefónico sobre a situação das crianças, das famílias e dos agregados. Poderemos ligar-lhe algumas vezes ao longo de alguns meses, cerca de 15 minutos de cada vez.</span></p><p><span class="Qtxt">A participação é voluntária. Se concordar em participar agora, pode desistir mais tarde. Participar não terá qualquer custo para si. O seu número de telefone e toda a informação que partilhar durante estas entrevistas telefónicas não serão partilhados com ninguém fora da nossa equipa.</span></p><p><span class="Qtxt">Gostaria de participar?</span></p><p></p>
+  - name: MICS7HH.HH44DE
+    conditions:
+      - logic: HC7A=2 and HC12=2
+        questionText:
+          ENG: |
+            <span class="Qnum">HH44D.&nbsp;</span><span class="Qtxt">Disse-me que não há telefones no seu agregado. Só para confirmar, tem um número de telefone pessoal ou existe um número de telefone do agregado?</span><p></p>
+      - questionText:
+          ENG: |
+            <span class="Qnum">HH44E.&nbsp;</span><span class="Qtxt">Tem um número de telefone pessoal ou existe um número de telefone do agregado?</span><p></p>
+  - name: MICS7HH.HH44F
+    conditions:
+      - questionText:
+          ENG: |
+            <span class="Qnum">HH44F.&nbsp;</span><span class="Qtxt">Pode partilhar o número do seu agregado, mas, por favor, não partilhe números de telefone pessoais que pertençam a outros membros do seu agregado ou a pessoas de fora do seu agregado. Por favor, diga-me para que número devo ligar.</span><p></p>
+  - name: MICS7HH.HH44G
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HH44G.&nbsp;</span><span class="Itxt">Peça e registe o número de telefone.</span></p><p><br></p><p></p>
+  - name: MICS7HH.HH44H
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HH44H.&nbsp;</span>Só para confirmar, o número é&nbsp;<span style="font-style: italic;">~~HH44G~~</span>?</p><p><span style="color: rgb(0, 0, 255); font-style: italic;">Se não, volte a HH44G e corrija o registo.</span></p><p></p>
+  - name: MICS7HH.HH44I
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">HH44I.&nbsp;</span>Lembre-se: pode partilhar o número do seu agregado, mas, por favor, não partilhe números de telefone pessoais que pertençam a outros membros do seu agregado ou a pessoas de fora do seu agregado. Tem outro número de telefone, pessoal ou partilhado, através do qual possa ser contactado(a)?</p><div><br></div><p></p>
+  - name: MICS7HH.HH46
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">HH46. </span><span class="Itxt">Resultado da entrevista do Questionário do Agregado:</span></p>
+            <p><span class="Itxt">Discuta com o Supervisor qualquer resultado não concluído.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HHWQ
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Itxt">Preencha o painel superior do questionário de teste da qualidade da água com as seguintes informações:</span></p>
+            <p><span class="Itxt">WQ1. Número do cluster: <span class="ItxtC">~~HH1~~</span></span></p>
+            <p><span class="Itxt">WQ2. Número do agregado: <span class="ItxtC">~~HH2~~</span></span></p>
+            <p><span class="Itxt">WQ4. Número do inquiridor: <span class="ItxtC">~~HINT~~</span></span></p>
+            <p><span class="Itxt">WQ6. O agregado foi selecionado para o teste em branco: <span class="ItxtC">~~HH10~~</span></span></p>
+            <p><span class="Itxt">WQ8. Foi dada autorização para testar a água: <span class="ItxtC">~~HH44~~</span></span></p>
+            <p><span class="Itxt">Prima 'Continuar' para continuar depois de preencher a parte superior dos formulários.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.HHFIN
+    conditions:
+      - questionText:
+          ENG: |
+            <p><font color="#0000ff"><i>Agradeça ao inquirido a sua colaboração e prossiga com a aplicação do(s) restante(s) questionário(s) individual(is) neste agregado.</i></font></p><p><i style="color: rgb(0, 0, 255);">Se não houver nenhum questionário individual nem FORMULÁRIO DE TESTE DA QUALIDADE DA ÁGUA a preencher neste agregado, agradeça ao inquirido a sua colaboração e passe ao agregado seguinte que o seu supervisor lhe atribuiu.</i><br></p><div><br></div>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ3
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ3. </span><span class="Itxt">Número do medidor</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ5D
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ5. </span><span class="Itxt">Dia / Mês / Ano do teste da qualidade da água</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ5M
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ5. </span><span class="Itxt">Dia / Mês / Ano do teste da qualidade da água</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ5Y
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ5. </span><span class="Itxt">Dia / Mês / Ano do teste da qualidade da água</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ7
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ7. </span><span class="Itxt">Nome e número de linha do inquirido da entrevista do Questionário de Teste da Qualidade da Água</span></p>
+  - name: MICS7HH.WQ10H
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ10. </span><span class="Itxt">Registe a hora de início do teste da qualidade da água</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ10M
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ10. </span><span class="Itxt">Registe a hora de início do teste da qualidade da água</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ11
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WQ11. </span><span class="Qtxt">Pode, por favor, dar-me um copo da água que os membros do seu agregado bebem habitualmente?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ12
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ12. </span><span class="Itxt">Observe e registe se a água foi recolhida diretamente da fonte ou de um recipiente de armazenamento separado.</span></p>
+            <p><span class="Itxt">Identifique a amostra como ~~worklabel~~.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ12A
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WQ12A. </span><span class="Qtxt">De onde verteu esta água?</span></p><p><span class="Qtxt"><span style="color: rgb(0, 0, 255); font-style: italic;">Investigue para perceber se foi diretamente da fonte ou de um recipiente tapado ou destapado.&nbsp;</span><br></span><p></p></p>
+  - name: MICS7HH.WQ14
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WQ14. </span><span class="Qtxt">O(A) senhor(a) ou algum outro membro deste agregado fez alguma coisa a esta água para a tornar mais segura para beber?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ15
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WQ15. </span><span class="Qtxt">O que foi feito à água para a tornar mais segura para beber?</span></p>
+            <p><span class="Itxt">Investigue: </span><span class="Qtxt">Mais alguma coisa?</span></p>
+            <p><span class="Itxt">Registe todos os itens mencionados.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ17
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WQ17. </span><span class="Qtxt">De que fonte foi recolhida esta água?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ18
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Qnum">WQ18. </span><span class="Qtxt">Pode mostrar-me ou dizer-me onde fica a fonte da água do copo?</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ19
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ19. </span><span class="Itxt">Registe se foi recolhida a amostra de água da fonte.</span></p>
+            <p><span class="Itxt">Identifique a amostra como ~~worklabel~~. </span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ21
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ21. </span><span class="Itxt">Retire a amostra de água esterilizada/mineral que recebeu do seu supervisor.</span></p>
+            <p><span class="Itxt">Identifique a amostra como ~~worklabel~~.</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ23H
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ23. </span><span class="Itxt">Registe a hora de fim do teste da qualidade da água</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ23M
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ23. </span><span class="Itxt">Registe a hora de fim do teste da qualidade da água</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ24D
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ24. </span><span class="Itxt">Dia / Mês / Ano do registo dos resultados do teste</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ24M
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ24. </span><span class="Itxt">Dia / Mês / Ano do registo dos resultados do teste</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ24Y
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ24. </span><span class="Itxt">Dia / Mês / Ano do registo dos resultados do teste</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ25H
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ25. </span><span class="Itxt">Registe a hora do registo dos resultados</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ25M
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ25. </span><span class="Itxt">Registe a hora do registo dos resultados</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ26
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ26. </span><span class="Itxt">Teste da água do agregado (100ml):</span></p>
+            <p><span class="Itxt">O resultado do teste da água deve ser registado como um número entre '0' e '100'.</span></p>
+            <p><span class="Itxt">Se forem contadas 101 ou mais colónias, registe '101'</span></p>
+            <p><span class="Itxt">Se não for possível ler os resultados, registe '991'</span></p>
+            <p><span class="Itxt">Se os resultados se perderem, registe '992'</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ27
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ27. </span><span class="Itxt">Teste da água da fonte (100ml):</span></p>
+            <p><span class="Itxt">O resultado do teste da água deve ser registado como um número entre '0' e '100'.</span></p>
+            <p><span class="Itxt">Se forem contadas 101 ou mais colónias, registe '101'</span></p>
+            <p><span class="Itxt">Se não for possível ler os resultados, registe '991'</span></p>
+            <p><span class="Itxt">Se os resultados se perderem, registe '992'</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ29
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ29. </span><span class="Itxt">Teste da água em branco (100ml):</span></p>
+            <p><span class="Itxt">O resultado do teste da água deve ser registado como um número entre '0' e '100'.</span></p>
+            <p><span class="Itxt">Se forem contadas 101 ou mais colónias, registe '101'</span></p>
+            <p><span class="Itxt">Se não for possível ler os resultados, registe '991'</span></p>
+            <p><span class="Itxt">Se os resultados se perderem, registe '992'</span></p>
+        helpText:
+          ENG: |
+            
+  - name: MICS7HH.WQ31
+    conditions:
+      - questionText:
+          ENG: |
+            <p><span class="Inum">WQ31. </span><span class="Itxt">Resultado do Questionário de Teste da Qualidade da Água.</span></p>
+            <p><span class="Itxt">Discuta com o Supervisor qualquer resultado não concluído.</span></p>
+        helpText:
+          ENG: |
+            
+...

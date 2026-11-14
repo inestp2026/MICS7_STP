@@ -71,3 +71,61 @@ End Time        17:02:20
 
 CSPro Executor Normal End
 ------------------------------------------------------------------------------------------------------------------------
+Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 14, 2026
+Start Time      10:22:27
+End Time        10:23:01
+
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+    9991           1      -  D Registe o nome                                                                          -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 14, 2026
+Start Time      10:26:28
+End Time        10:27:22
+
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
+Application     G:\O meu disco\MICS7\MICS7_2026\APPS\ENTRY\entryHH.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\DATA\CLUSTER00003\HH0021.csdb
+External        CLUSTERS=<<CSPro DB>> G:\O meu disco\MICS7\MICS7_2026\PUBLIC\CLUSTERS.csdb
+
+Date            Nov 14, 2026
+Start Time      10:42:30
+End Time        10:47:31
+
+
+System messages:
+
+  Number        Freq         Message Text                                                                               
+  ------        ----         ------------                                                                               
+   88889           2         ADVERTÊNCIA: Fora de faixa! Por favor digite um valor válido para %s%s                     
+   99990           2         O operador digitou um valor fora de faixa                                                  
+
+User numbered messages:
+
+  Number        Freq    %    Message Text                                                                          Denom
+  ------        ----  -----  ------------                                                                          -----
+      60           2      -  W Por favor confirme se o sexo do cônjuge %s (%s) é igual ao sexo de %s (%s)              -
+
+
+CSPro Executor Normal End
+------------------------------------------------------------------------------------------------------------------------
